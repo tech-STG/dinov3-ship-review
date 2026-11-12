@@ -1,8 +1,8 @@
 {
-  "count": 7,
-  "min_similarity": 0.43553078174591064,
-  "max_similarity": 0.7007153630256653,
-  "mean_similarity": 0.5596147520201546,
+  "count": 100,
+  "min_similarity": 0.25497502088546753,
+  "max_similarity": 0.7396196126937866,
+  "mean_similarity": 0.5704019460082054,
   "model_modified": false,
   "pipeline": "Same YOLO11s tiled boat detections and DINOv3 cropped ship reference as validation",
   "detector": {
@@ -31,33 +31,33 @@
   "threshold_selected": 0.39,
   "threshold_source": "user-selected",
   "accuracy": null,
-  "false_accept_count": 7,
-  "false_accept_rate": 1.0,
+  "false_accept_count": 97,
+  "false_accept_rate": 0.97,
   "note": "Exploratory negative-only test. Thresholds below are hypothetical, not calibrated; no independent labeled positives.",
   "hypothetical_false_accepts": {
     "0.6": {
-      "count": 2,
-      "total": 7
+      "count": 44,
+      "total": 100
     },
     "0.7": {
-      "count": 1,
-      "total": 7
+      "count": 5,
+      "total": 100
     },
     "0.75": {
       "count": 0,
-      "total": 7
+      "total": 100
     },
     "0.8": {
       "count": 0,
-      "total": 7
+      "total": 100
     },
     "0.85": {
       "count": 0,
-      "total": 7
+      "total": 100
     },
     "0.9": {
       "count": 0,
-      "total": 7
+      "total": 100
     }
   }
 }

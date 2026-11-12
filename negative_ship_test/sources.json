@@ -14,7 +14,12 @@
       955
     ],
     "downloaded_utc": "2026-11-12T03:39:34.394889+00:00",
-    "label_basis": "Commons identifies a non-Evergreen vessel; target IMO not supplied"
+    "label_basis": "Commons identifies a non-Evergreen vessel; target IMO not supplied",
+    "vessel_group": "vessel_group_000",
+    "dhash": "f3e300030b0b0c58",
+    "vessel_aliases": [
+      "cosco glory"
+    ]
   },
   {
     "file": "images/Calnexship.jpg",
@@ -31,7 +36,12 @@
       1094
     ],
     "downloaded_utc": "2026-11-12T03:39:35.867685+00:00",
-    "label_basis": "Commons identifies a non-Evergreen vessel; target IMO not supplied"
+    "label_basis": "Commons identifies a non-Evergreen vessel; target IMO not supplied",
+    "vessel_group": "vessel_group_001",
+    "dhash": "e000e0e0d8d8c024",
+    "vessel_aliases": [
+      "calnex"
+    ]
   },
   {
     "file": "images/Container ship MV Maersk Alabama.jpg",
@@ -48,7 +58,13 @@
       629
     ],
     "downloaded_utc": "2026-11-12T03:39:37.069190+00:00",
-    "label_basis": "Commons identifies a non-Evergreen vessel; target IMO not supplied"
+    "label_basis": "Commons identifies a non-Evergreen vessel; target IMO not supplied",
+    "vessel_group": "vessel_group_002",
+    "dhash": "f171a672730901f1",
+    "vessel_aliases": [
+      "maersk alabama",
+      "maersk mv"
+    ]
   },
   {
     "file": "images/Cosco Taicang container ship.jpg",
@@ -65,7 +81,12 @@
       790
     ],
     "downloaded_utc": "2026-11-12T03:39:38.627549+00:00",
-    "label_basis": "Commons identifies a non-Evergreen vessel; target IMO not supplied"
+    "label_basis": "Commons identifies a non-Evergreen vessel; target IMO not supplied",
+    "vessel_group": "vessel_group_003",
+    "dhash": "fbf7c71f3b389d3b",
+    "vessel_aliases": [
+      "cosco taicang"
+    ]
   },
   {
     "file": "images/Cosco Yantian.jpg",
@@ -82,7 +103,12 @@
       960
     ],
     "downloaded_utc": "2026-11-12T03:39:39.756581+00:00",
-    "label_basis": "Commons identifies a non-Evergreen vessel; target IMO not supplied"
+    "label_basis": "Commons identifies a non-Evergreen vessel; target IMO not supplied",
+    "vessel_group": "vessel_group_004",
+    "dhash": "3030392f0e3a2f8f",
+    "vessel_aliases": [
+      "cosco yantian"
+    ]
   },
   {
     "file": "images/Maersk kalamata seattle 20101127.jpg",
@@ -99,7 +125,12 @@
       417
     ],
     "downloaded_utc": "2026-11-12T03:39:40.943556+00:00",
-    "label_basis": "Commons identifies a non-Evergreen vessel; target IMO not supplied"
+    "label_basis": "Commons identifies a non-Evergreen vessel; target IMO not supplied",
+    "vessel_group": "vessel_group_005",
+    "dhash": "c0e0c201297d717f",
+    "vessel_aliases": [
+      "maersk kalamata"
+    ]
   },
   {
     "file": "images/Ship COSCO Portugal (1).jpg",
@@ -116,6 +147,2122 @@
       720
     ],
     "downloaded_utc": "2026-11-12T03:39:42.059558+00:00",
-    "label_basis": "Commons identifies a non-Evergreen vessel; target IMO not supplied"
+    "label_basis": "Commons identifies a non-Evergreen vessel; target IMO not supplied",
+    "vessel_group": "vessel_group_006",
+    "dhash": "f0f05a6770bc6198",
+    "vessel_aliases": [
+      "cosco portugal"
+    ]
+  },
+  {
+    "file": "images/commons_135538015_2017-10-07_01_MAERSK_DISPATCHER_-_IMO_9298909_in_St_John_s_NL_CAN.jpg",
+    "title": "File:2017-10-07 01 MAERSK DISPATCHER - IMO 9298909 in St. John's NL CAN.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:2017-10-07_01_MAERSK_DISPATCHER_-_IMO_9298909_in_St._John%27s_NL_CAN.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/2017-10-07_01_MAERSK_DISPATCHER_-_IMO_9298909_in_St._John%27s_NL_CAN.jpg/960px-2017-10-07_01_MAERSK_DISPATCHER_-_IMO_9298909_in_St._John%27s_NL_CAN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Gordon Leggett",
+    "description": "Offshore tug/supply (PSV AHTS) vessel, MAERSK DISPATCHER - IMO 9298909, making her way through the Narrows at St. John's Harbor, Newfoundland, Canada on October 7, 2017.",
+    "sha256": "e299424f89b91da7246531e262fa3a71c366b205bc481587f3e0a7f4b8c49dbb",
+    "dimensions": [
+      960,
+      641
+    ],
+    "downloaded_utc": "2026-11-12T07:32:22.613657+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_007",
+    "dhash": "ffcf8f0f9f9f8f1f",
+    "vessel_aliases": [
+      "imo-9298909",
+      "maersk dispatcher"
+    ]
+  },
+  {
+    "file": "images/commons_135605714_2017-10-07_03_MAERSK_DISPATCHER_-_IMO_9298909_in_St_John_s_NL_CAN.jpg",
+    "title": "File:2017-10-07 03 MAERSK DISPATCHER - IMO 9298909 in St. John's NL CAN.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:2017-10-07_03_MAERSK_DISPATCHER_-_IMO_9298909_in_St._John%27s_NL_CAN.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/2017-10-07_03_MAERSK_DISPATCHER_-_IMO_9298909_in_St._John%27s_NL_CAN.jpg/960px-2017-10-07_03_MAERSK_DISPATCHER_-_IMO_9298909_in_St._John%27s_NL_CAN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Gordon Leggett",
+    "description": "Offshore tug/supply (PSV AHTS) vessel, MAERSK DISPATCHER - IMO 9298909, making her way through the Narrows at St. John's Harbor, Newfoundland, Canada on October 7, 2017.",
+    "sha256": "f892062723c125a47338b922e8845da72ca9a4d9c1b41062702440be1dd7e52f",
+    "dimensions": [
+      960,
+      641
+    ],
+    "downloaded_utc": "2026-11-12T07:32:24.020404+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_007",
+    "dhash": "b7bd7f7f2b3b3f3f",
+    "vessel_aliases": [
+      "imo-9298909",
+      "maersk dispatcher"
+    ]
+  },
+  {
+    "file": "images/commons_135605715_2017-10-07_04_MAERSK_DISPATCHER_-_IMO_9298909_in_St_John_s_NL_CAN.jpg",
+    "title": "File:2017-10-07 04 MAERSK DISPATCHER - IMO 9298909 in St. John's NL CAN.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:2017-10-07_04_MAERSK_DISPATCHER_-_IMO_9298909_in_St._John%27s_NL_CAN.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/2017-10-07_04_MAERSK_DISPATCHER_-_IMO_9298909_in_St._John%27s_NL_CAN.jpg/960px-2017-10-07_04_MAERSK_DISPATCHER_-_IMO_9298909_in_St._John%27s_NL_CAN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Gordon Leggett",
+    "description": "Offshore tug/supply (PSV AHTS) vessel, MAERSK DISPATCHER - IMO 9298909, making her way through the Narrows at St. John's Harbor, Newfoundland, Canada on October 7, 2017.",
+    "sha256": "5918613b16a3b83b102a9015b8dce862c4857db859c2ac03909fcf55a569bd6e",
+    "dimensions": [
+      960,
+      641
+    ],
+    "downloaded_utc": "2026-11-12T07:32:25.247132+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_007",
+    "dhash": "90304c4c60362662",
+    "vessel_aliases": [
+      "imo-9298909",
+      "maersk dispatcher"
+    ]
+  },
+  {
+    "file": "images/commons_162871352_2024-09-11_01_MAERSK_TRADER_-_IMO_9388596_Ogden_Point_BC_CAN.jpg",
+    "title": "File:2024-09-11 01 MAERSK TRADER - IMO 9388596 – Ogden Point BC CAN.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:2024-09-11_01_MAERSK_TRADER_-_IMO_9388596_%E2%80%93_Ogden_Point_BC_CAN.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/2024-09-11_01_MAERSK_TRADER_-_IMO_9388596_%E2%80%93_Ogden_Point_BC_CAN.jpg/960px-2024-09-11_01_MAERSK_TRADER_-_IMO_9388596_%E2%80%93_Ogden_Point_BC_CAN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "author": "Gordon Leggett",
+    "description": "Stern view of offshore tug/supply/emergency tow (PSV AHTS ETV) vessel, MAERSK TRADER - IMO 9388596, MMSI 220584000; off Ogden Point, Victoria BC Canada on September 11, 2024. The container ship in the background is EVER STEADY - IMO 9300439.  The MAERSK TRADER is used along with the MAERSK TENDER – IMO 9388651 in the Ocean Cleanup Project.",
+    "sha256": "8c4df90d6fe54f1b63f34486884e1aa22b0d63da6fe72c5eafa451c78aa8a41f",
+    "dimensions": [
+      960,
+      639
+    ],
+    "downloaded_utc": "2026-11-12T07:32:25.992525+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_010",
+    "dhash": "e0f4c6e64e9e86c6",
+    "vessel_aliases": [
+      "imo-9388596",
+      "maersk trader"
+    ]
+  },
+  {
+    "file": "images/commons_162871371_2024-09-11_02_MAERSK_TRADER_-_IMO_9388596_Ogden_Point_BC_CAN.jpg",
+    "title": "File:2024-09-11 02 MAERSK TRADER - IMO 9388596 – Ogden Point BC CAN.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:2024-09-11_02_MAERSK_TRADER_-_IMO_9388596_%E2%80%93_Ogden_Point_BC_CAN.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/2024-09-11_02_MAERSK_TRADER_-_IMO_9388596_%E2%80%93_Ogden_Point_BC_CAN.jpg/960px-2024-09-11_02_MAERSK_TRADER_-_IMO_9388596_%E2%80%93_Ogden_Point_BC_CAN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "author": "Gordon Leggett",
+    "description": "Offshore tug/supply/emergency tow (PSV AHTS ETV) vessel, MAERSK TRADER - IMO 9388596, MMSI 220584000; off Ogden Point, Victoria BC Canada on September 11, 2024.  The MAERSK TRADER is used along with the MAERSK TENDER – IMO 9388651, in the Ocean Cleanup Project.",
+    "sha256": "b759709b9e5558b623dedf31c96bd1f480154edb2c9e5b7b6bc337473d50dbb6",
+    "dimensions": [
+      960,
+      639
+    ],
+    "downloaded_utc": "2026-11-12T07:32:27.218802+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_010",
+    "dhash": "87c772c2a8337303",
+    "vessel_aliases": [
+      "imo-9388596",
+      "maersk trader"
+    ]
+  },
+  {
+    "file": "images/commons_162871340_2024-09-11_03_MAERSK_TRADER_-_IMO_9388596_Ogden_Point_BC_CAN.jpg",
+    "title": "File:2024-09-11 03 MAERSK TRADER - IMO 9388596 – Ogden Point BC CAN.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:2024-09-11_03_MAERSK_TRADER_-_IMO_9388596_%E2%80%93_Ogden_Point_BC_CAN.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/2024-09-11_03_MAERSK_TRADER_-_IMO_9388596_%E2%80%93_Ogden_Point_BC_CAN.jpg/960px-2024-09-11_03_MAERSK_TRADER_-_IMO_9388596_%E2%80%93_Ogden_Point_BC_CAN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "author": "Gordon Leggett",
+    "description": "Offshore tug/supply/emergency tow (PSV AHTS ETV) vessel, MAERSK TRADER - IMO 9388596, MMSI 220584000; off Ogden Point, Victoria BC Canada on September 11, 2024.  The MAERSK TRADER is used along with the MAERSK TENDER – IMO 9388651, in the Ocean Cleanup Project.",
+    "sha256": "a71982710492881c63823c029b70a7356f4fd0035c4deba8e24f9a02d3a621b7",
+    "dimensions": [
+      960,
+      639
+    ],
+    "downloaded_utc": "2026-11-12T07:32:28.006286+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_010",
+    "dhash": "c00212c30f6f6f07",
+    "vessel_aliases": [
+      "imo-9388596",
+      "maersk trader"
+    ]
+  },
+  {
+    "file": "images/commons_162871367_2024-09-11_04_MAERSK_TRADER_-_IMO_9388596_Ogden_Point_BC_CAN.jpg",
+    "title": "File:2024-09-11 04 MAERSK TRADER - IMO 9388596 – Ogden Point BC CAN.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:2024-09-11_04_MAERSK_TRADER_-_IMO_9388596_%E2%80%93_Ogden_Point_BC_CAN.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/2024-09-11_04_MAERSK_TRADER_-_IMO_9388596_%E2%80%93_Ogden_Point_BC_CAN.jpg/960px-2024-09-11_04_MAERSK_TRADER_-_IMO_9388596_%E2%80%93_Ogden_Point_BC_CAN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "author": "Gordon Leggett",
+    "description": "Stern view of offshore tug/supply/emergency tow (PSV AHTS ETV) vessel, MAERSK TRADER - IMO 9388596, MMSI 220584000; off Ogden Point, Victoria BC Canada on September 11, 2024.  The MAERSK TRADER is used along with the MAERSK TENDER – IMO 9388651, in the Ocean Cleanup Project.",
+    "sha256": "02d2d2a2485223dbd2e66f81f6290918892983abd48303b10b852970eab45a17",
+    "dimensions": [
+      960,
+      639
+    ],
+    "downloaded_utc": "2026-11-12T07:32:29.215922+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_010",
+    "dhash": "f8e4e6cecc1c3e8c",
+    "vessel_aliases": [
+      "imo-9388596",
+      "maersk trader"
+    ]
+  },
+  {
+    "file": "images/commons_163261068_2024-10-31_01_MAERSK_TENDER_-_IMO_9388651_Ogden_Point_BC_CAN.jpg",
+    "title": "File:2024-10-31 01 MAERSK TENDER - IMO 9388651 – Ogden Point BC CAN.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:2024-10-31_01_MAERSK_TENDER_-_IMO_9388651_%E2%80%93_Ogden_Point_BC_CAN.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/2024-10-31_01_MAERSK_TENDER_-_IMO_9388651_%E2%80%93_Ogden_Point_BC_CAN.jpg/960px-2024-10-31_01_MAERSK_TENDER_-_IMO_9388651_%E2%80%93_Ogden_Point_BC_CAN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "author": "Gordon Leggett",
+    "description": "Offshore tug/supply/emergency tow (PSV AHTS ETV) vessel, MAERSK TENDER - IMO 9388651, MMSI 220590000, docked at Ogden Point Pier B, Victoria BC Canada on October 31, 2024.  The MAERSK TENDER is used along with the MAERSK TRADER – IMO 9388596 in the Ocean Cleanup Project.",
+    "sha256": "07313763e088ea839a6e552bdfbb496e1a0a0f64c1892e1f8af23c507b860d09",
+    "dimensions": [
+      960,
+      639
+    ],
+    "downloaded_utc": "2026-11-12T07:32:29.932670+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_014",
+    "dhash": "07071669e9f1f1b1",
+    "vessel_aliases": [
+      "imo-9388651",
+      "maersk tender"
+    ]
+  },
+  {
+    "file": "images/commons_163261069_2024-10-31_02_MAERSK_TENDER_-_IMO_9388651_Ogden_Point_BC_CAN.jpg",
+    "title": "File:2024-10-31 02 MAERSK TENDER - IMO 9388651 – Ogden Point BC CAN.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:2024-10-31_02_MAERSK_TENDER_-_IMO_9388651_%E2%80%93_Ogden_Point_BC_CAN.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/2024-10-31_02_MAERSK_TENDER_-_IMO_9388651_%E2%80%93_Ogden_Point_BC_CAN.jpg/960px-2024-10-31_02_MAERSK_TENDER_-_IMO_9388651_%E2%80%93_Ogden_Point_BC_CAN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "author": "Gordon Leggett",
+    "description": "Offshore tug/supply/emergency tow (PSV AHTS ETV) vessel, MAERSK TENDER - IMO 9388651, MMSI 220590000, docked at Ogden Point Pier B, Victoria BC Canada on October 31, 2024.  The MAERSK TENDER is used along with the MAERSK TRADER – IMO 9388596 in the Ocean Cleanup Project.",
+    "sha256": "b7b463bcc205535dd4255d1db50fb901ead925d41d31d6875319ba566251e84b",
+    "dimensions": [
+      960,
+      639
+    ],
+    "downloaded_utc": "2026-11-12T07:32:31.057325+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_014",
+    "dhash": "69687ab63c796974",
+    "vessel_aliases": [
+      "imo-9388651",
+      "maersk tender"
+    ]
+  },
+  {
+    "file": "images/commons_74524586_BOLGA_MAERSK_RESILIENT_MAERSK_HORSBURGH_VOLGA_MAERSK_31002161867_.jpg",
+    "title": "File:BOLGA , MAERSK RESILIENT , MAERSK HORSBURGH & VOLGA MAERSK (31002161867).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:BOLGA_,_MAERSK_RESILIENT_,_MAERSK_HORSBURGH_%26_VOLGA_MAERSK_(31002161867).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/BOLGA_%2C_MAERSK_RESILIENT_%2C_MAERSK_HORSBURGH_%26_VOLGA_MAERSK_%2831002161867%29.jpg/960px-BOLGA_%2C_MAERSK_RESILIENT_%2C_MAERSK_HORSBURGH_%26_VOLGA_MAERSK_%2831002161867%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "18-11-2018 APM terminals Maasvlakte 2",
+    "sha256": "3091a41d0201c056420f11fe17c18b135ca09f8704ab33f3ad4cf648b89d1510",
+    "dimensions": [
+      960,
+      509
+    ],
+    "downloaded_utc": "2026-11-12T07:32:31.860633+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_016",
+    "dhash": "8060707071e3c646",
+    "vessel_aliases": [
+      "maersk horsburgh",
+      "maersk resilient",
+      "maersk volga"
+    ]
+  },
+  {
+    "file": "images/commons_35724521_Clase_Maersk_A-02.jpg",
+    "title": "File:Clase Maersk A-02.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Clase_Maersk_A-02.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Clase_Maersk_A-02.jpg/960px-Clase_Maersk_A-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "\n\n\n\n\n\nThis file is a work by Takashi kurita.Please, credit this: Álvaro C.E.\n I would appreciate being notified (acantos30hotmail.com) if you use my work outside Wikimedia\nMore of my work can be found in my personal gallery\n\n",
+    "description": "Buque de la clase Maersk A en el puerto de Algeciras el 24 de septiembre de 2014",
+    "sha256": "48a7ae42c942e216fc32107e9564dbd996926e91f0a04ba53cb277e60c96e047",
+    "dimensions": [
+      960,
+      720
+    ],
+    "downloaded_utc": "2026-11-12T07:32:33.117878+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_017",
+    "dhash": "d880400c8c008898",
+    "vessel_aliases": [
+      "maersk a"
+    ]
+  },
+  {
+    "file": "images/commons_35724522_Clase_Maersk_A-03.jpg",
+    "title": "File:Clase Maersk A-03.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Clase_Maersk_A-03.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Clase_Maersk_A-03.jpg/960px-Clase_Maersk_A-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "\n\n\n\n\n\nThis file is a work by Takashi kurita.Please, credit this: Álvaro C.E.\n I would appreciate being notified (acantos30hotmail.com) if you use my work outside Wikimedia\nMore of my work can be found in my personal gallery\n\n",
+    "description": "Buque de la clase Maersk A en el puerto de Algeciras el 24 de septiembre de 2014",
+    "sha256": "25650b8c390cedcdb717717062ba0ef702832e697000fc1ebae27607354678c1",
+    "dimensions": [
+      960,
+      720
+    ],
+    "downloaded_utc": "2026-11-12T07:32:34.308827+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_017",
+    "dhash": "ecc0e08e0ec8c04c",
+    "vessel_aliases": [
+      "maersk a"
+    ]
+  },
+  {
+    "file": "images/commons_35724523_Clase_Maersk_A-05.jpg",
+    "title": "File:Clase Maersk A-05.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Clase_Maersk_A-05.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Clase_Maersk_A-05.jpg/960px-Clase_Maersk_A-05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "\n\n\n\n\n\nThis file is a work by Takashi kurita.Please, credit this: Álvaro C.E.\n I would appreciate being notified (acantos30hotmail.com) if you use my work outside Wikimedia\nMore of my work can be found in my personal gallery\n\n",
+    "description": "Buque de la clase Maersk A en el puerto de Algeciras el 24 de septiembre de 2014",
+    "sha256": "dd911ffb3a162547313c8bb5dac84c6f11b8164d3e98cae111f13fc290c2599c",
+    "dimensions": [
+      960,
+      720
+    ],
+    "downloaded_utc": "2026-11-12T07:32:36.419231+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_017",
+    "dhash": "32f0f89f1f383033",
+    "vessel_aliases": [
+      "maersk a"
+    ]
+  },
+  {
+    "file": "images/commons_102789949_Esbjerg_harbour_with_Maersk_Resolute.jpg",
+    "title": "File:Esbjerg harbour with Maersk Resolute.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Esbjerg_harbour_with_Maersk_Resolute.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Esbjerg_harbour_with_Maersk_Resolute.jpg/960px-Esbjerg_harbour_with_Maersk_Resolute.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Thomas Dahlstrøm Nielsen",
+    "description": "Esbjerg harbour with Maersk Resolute",
+    "sha256": "23afca60a7e1b101d46d2053aca961183c4e968ff8cf9cc8a2c9f3ee0946cb28",
+    "dimensions": [
+      960,
+      640
+    ],
+    "downloaded_utc": "2026-11-12T07:32:37.703037+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_020",
+    "dhash": "0005030303333437",
+    "vessel_aliases": [
+      "maersk resolute"
+    ]
+  },
+  {
+    "file": "images/commons_63604225_FAIRPLAY_XI_MAERSK_NORTHWOOD_MAERSK_NIENBURG_29279265506_.jpg",
+    "title": "File:FAIRPLAY XI , MAERSK NORTHWOOD & MAERSK NIENBURG (29279265506).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:FAIRPLAY_XI_,_MAERSK_NORTHWOOD_%26_MAERSK_NIENBURG_(29279265506).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/FAIRPLAY_XI_%2C_MAERSK_NORTHWOOD_%26_MAERSK_NIENBURG_%2829279265506%29.jpg/960px-FAIRPLAY_XI_%2C_MAERSK_NORTHWOOD_%26_MAERSK_NIENBURG_%2829279265506%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "FAIRPLAY XI , MAERSK NORTHWOOD &amp; MAERSK NIENBURG",
+    "sha256": "fc99f81483363085cb1fd76d75f1b92e0c168712b0031e707c1e2a4b6b99347d",
+    "dimensions": [
+      960,
+      424
+    ],
+    "downloaded_utc": "2026-11-12T07:32:38.659122+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_021",
+    "dhash": "9cd26437ee95819e",
+    "vessel_aliases": [
+      "maersk nienburg",
+      "maersk northwood"
+    ]
+  },
+  {
+    "file": "images/commons_18741424_Laust_Maersk_p06_approaching_Port_of_Rotterdam_Holland_14-Jul-2007.jpg",
+    "title": "File:Laust Maersk p06 approaching Port of Rotterdam, Holland 14-Jul-2007.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Laust_Maersk_p06_approaching_Port_of_Rotterdam,_Holland_14-Jul-2007.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Laust_Maersk_p06_approaching_Port_of_Rotterdam%2C_Holland_14-Jul-2007.jpg/960px-Laust_Maersk_p06_approaching_Port_of_Rotterdam%2C_Holland_14-Jul-2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "AlfvanBeem",
+    "description": "Laust Maersk approaching Port of Rotterdam, Holland 14-Jul-2007.",
+    "sha256": "dc23b1eda186705aa60cf4394850c2351692da3abd6b0445c0cfec5bf588714d",
+    "dimensions": [
+      960,
+      720
+    ],
+    "downloaded_utc": "2026-11-12T07:32:39.414991+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_022",
+    "dhash": "d8d4d8e862acacb0",
+    "vessel_aliases": [
+      "maersk laust"
+    ]
+  },
+  {
+    "file": "images/commons_161039120_MAERSK_CAMDEN_MAJESTIC_MAERSK_52475473496_.jpg",
+    "title": "File:MAERSK CAMDEN & MAJESTIC MAERSK (52475473496).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:MAERSK_CAMDEN_%26_MAJESTIC_MAERSK_(52475473496).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/MAERSK_CAMDEN_%26_MAJESTIC_MAERSK_%2852475473496%29.jpg/960px-MAERSK_CAMDEN_%26_MAJESTIC_MAERSK_%2852475473496%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Maasmond / Hoek van Holland 3-11-2022",
+    "sha256": "bd76c8028da05aa7cdd1c91f8b5f67c234a7f669ac38cd35ca123d4595d70d6b",
+    "dimensions": [
+      960,
+      482
+    ],
+    "downloaded_utc": "2026-11-12T07:32:40.445509+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_023",
+    "dhash": "e0e0e0d0a62371f0",
+    "vessel_aliases": [
+      "maersk camden",
+      "maersk majestic"
+    ]
+  },
+  {
+    "file": "images/commons_144715351_MAERSK_HANOI_Container_Ship_Port_Koper_SIKOP_2023_.jpg",
+    "title": "File:MAERSK HANOI Container Ship (Port Koper SIKOP, 2023).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:MAERSK_HANOI_Container_Ship_(Port_Koper_SIKOP,_2023).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/MAERSK_HANOI_Container_Ship_%28Port_Koper_SIKOP%2C_2023%29.jpg/960px-MAERSK_HANOI_Container_Ship_%28Port_Koper_SIKOP%2C_2023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Petar Milošević",
+    "description": "IMO: 9784295\nName: MAERSK HANOI\nGeneral vessel type: Cargo - Hazard A (Major) \nDetailed vessel type: Container Ship \nNavigational Status: Active \nMMSI: 563039700 \nCall sign: 9V5601 \nFlag: Singapore [SG] \nGross Tonnage: 153744 \nSummer DWT: 178257 t \nLength Overall x Breadth Extreme: 353.02 x 53.5 m \n\nYear built: 2018",
+    "sha256": "e9fbf872adf6b7dc8c0fca32e0e721507cd7cc0e0560a56bd47f84e475a570aa",
+    "dimensions": [
+      960,
+      719
+    ],
+    "downloaded_utc": "2026-11-12T07:32:41.166472+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_024",
+    "dhash": "3fdef0af633d361a",
+    "vessel_aliases": [
+      "maersk hanoi"
+    ]
+  },
+  {
+    "file": "images/commons_74524583_MAERSK_HORSBURGH_VOLGA_MAERSK_MAERSK_RESILIENT_BOLGA_31006430917_.jpg",
+    "title": "File:MAERSK HORSBURGH , VOLGA MAERSK , MAERSK RESILIENT & BOLGA (31006430917).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:MAERSK_HORSBURGH_,_VOLGA_MAERSK_,_MAERSK_RESILIENT_%26_BOLGA_(31006430917).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/MAERSK_HORSBURGH_%2C_VOLGA_MAERSK_%2C_MAERSK_RESILIENT_%26_BOLGA_%2831006430917%29.jpg/960px-MAERSK_HORSBURGH_%2C_VOLGA_MAERSK_%2C_MAERSK_RESILIENT_%26_BOLGA_%2831006430917%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "19-11-2018 Prinses Amaliahaven Maasvlakte 2",
+    "sha256": "23c429c4ec00b583e20fab3db0ba29526a7f6ff20b514b9454b23599254f7244",
+    "dimensions": [
+      960,
+      492
+    ],
+    "downloaded_utc": "2026-11-12T07:32:42.452774+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_016",
+    "dhash": "e0c664a44d4dcf99",
+    "vessel_aliases": [
+      "maersk horsburgh",
+      "maersk resilient",
+      "maersk volga"
+    ]
+  },
+  {
+    "file": "images/commons_63580180_MAERSK_NEWHAVEN_JPO_VULPECULA_MAJESTIC_MAERSK_SVEN_D_24133691965_.jpg",
+    "title": "File:MAERSK NEWHAVEN , JPO VULPECULA , MAJESTIC MAERSK & SVEN D (24133691965).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:MAERSK_NEWHAVEN_,_JPO_VULPECULA_,_MAJESTIC_MAERSK_%26_SVEN_D_(24133691965).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/MAERSK_NEWHAVEN_%2C_JPO_VULPECULA_%2C_MAJESTIC_MAERSK_%26_SVEN_D_%2824133691965%29.jpg/960px-MAERSK_NEWHAVEN_%2C_JPO_VULPECULA_%2C_MAJESTIC_MAERSK_%26_SVEN_D_%2824133691965%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Europoort 2-1-2015",
+    "sha256": "795e254884db016b5dc8ea3444e1b5e6f75e39d9c6916008e8a54c8800abb60b",
+    "dimensions": [
+      960,
+      381
+    ],
+    "downloaded_utc": "2026-11-12T07:32:43.369424+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_023",
+    "dhash": "2000000000747e30",
+    "vessel_aliases": [
+      "maersk majestic",
+      "maersk newhaven"
+    ]
+  },
+  {
+    "file": "images/commons_33222822_MAERSK_TRANSPORTER_CASTORO_SEI_MAERSK_TRACER_13933238095_.jpg",
+    "title": "File:MAERSK TRANSPORTER ,CASTORO SEI MAERSK TRACER. (13933238095).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:MAERSK_TRANSPORTER_,CASTORO_SEI_MAERSK_TRACER._(13933238095).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/MAERSK_TRANSPORTER_%2CCASTORO_SEI_MAERSK_TRACER._%2813933238095%29.jpg/960px-MAERSK_TRANSPORTER_%2CCASTORO_SEI_MAERSK_TRACER._%2813933238095%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Nieuwe Waterweg 16-4-2014",
+    "sha256": "d81eb7a5c03b5c62281454a70bb2a3299e7435a5a21fe965428416ab121edd10",
+    "dimensions": [
+      960,
+      501
+    ],
+    "downloaded_utc": "2026-11-12T07:32:44.632926+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_027",
+    "dhash": "f0e0e3e5e3e3e324",
+    "vessel_aliases": [
+      "maersk sei",
+      "maersk tracer",
+      "maersk transporter"
+    ]
+  },
+  {
+    "file": "images/commons_63512446_MAJESTIC_MAERSK_MAERSK_NEWHAVEN_SVEN_D_23758713629_.jpg",
+    "title": "File:MAJESTIC MAERSK , MAERSK NEWHAVEN & SVEN D (23758713629).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:MAJESTIC_MAERSK_,_MAERSK_NEWHAVEN_%26_SVEN_D_(23758713629).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/MAJESTIC_MAERSK_%2C_MAERSK_NEWHAVEN_%26_SVEN_D_%2823758713629%29.jpg/960px-MAJESTIC_MAERSK_%2C_MAERSK_NEWHAVEN_%26_SVEN_D_%2823758713629%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Maasmond 2-1-2016",
+    "sha256": "4a8433ca9c77561f741ce677142850acd43b9faecffa542934d06bd8054a66e0",
+    "dimensions": [
+      960,
+      412
+    ],
+    "downloaded_utc": "2026-11-12T07:32:45.597818+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_023",
+    "dhash": "00000080122e66e6",
+    "vessel_aliases": [
+      "maersk majestic",
+      "maersk newhaven"
+    ]
+  },
+  {
+    "file": "images/commons_103832415_MARSEILLE_MAERSK_OCEANIC_MAERSK_TRANSPORTER_Tog_Mor_SIRIUS_TYFOON_50301151337_.jpg",
+    "title": "File:MARSEILLE MAERSK , OCEANIC , MAERSK TRANSPORTER , Tog Mor , SIRIUS & TYFOON (50301151337).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:MARSEILLE_MAERSK_,_OCEANIC_,_MAERSK_TRANSPORTER_,_Tog_Mor_,_SIRIUS_%26_TYFOON_(50301151337).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/MARSEILLE_MAERSK_%2C_OCEANIC_%2C_MAERSK_TRANSPORTER_%2C_Tog_Mor_%2C_SIRIUS_%26_TYFOON_%2850301151337%29.jpg/960px-MARSEILLE_MAERSK_%2C_OCEANIC_%2C_MAERSK_TRANSPORTER_%2C_Tog_Mor_%2C_SIRIUS_%26_TYFOON_%2850301151337%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Hoek van Holland 3-9-2020  , bestemming van het sleeptransport de Waalhaven in Rotterdam.",
+    "sha256": "7859170f7ed320966856aa761f351613f648c87b1b256b808c5cae668795e706",
+    "dimensions": [
+      960,
+      416
+    ],
+    "downloaded_utc": "2026-11-12T07:32:46.612473+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_027",
+    "dhash": "e0e0e0f07afbebe0",
+    "vessel_aliases": [
+      "maersk marseille",
+      "maersk transporter"
+    ]
+  },
+  {
+    "file": "images/commons_63580446_MARSTAL_MAERSK_MORTEN_MAERSK_MAERSK_ROSYTH_18263325183_.jpg",
+    "title": "File:MARSTAL MAERSK , MORTEN MAERSK & MAERSK ROSYTH (18263325183).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:MARSTAL_MAERSK_,_MORTEN_MAERSK_%26_MAERSK_ROSYTH_(18263325183).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/MARSTAL_MAERSK_%2C_MORTEN_MAERSK_%26_MAERSK_ROSYTH_%2818263325183%29.jpg/960px-MARSTAL_MAERSK_%2C_MORTEN_MAERSK_%26_MAERSK_ROSYTH_%2818263325183%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "MARSTAL MAERSK , MORTEN MAERSK &amp; MAERSK ROSYTH",
+    "sha256": "cf344f8006e8478bfa5a71b520bf1bee95e3a638a08e533449a758c5dd0d2997",
+    "dimensions": [
+      960,
+      456
+    ],
+    "downloaded_utc": "2026-11-12T07:32:47.572946+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_030",
+    "dhash": "ffffffdf9f9b9fdf",
+    "vessel_aliases": [
+      "maersk marstal",
+      "maersk morten",
+      "maersk rosyth"
+    ]
+  },
+  {
+    "file": "images/commons_108239736_Maersk_Ahram_1998_.jpg",
+    "title": "File:Maersk Ahram (1998).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Maersk_Ahram_(1998).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Maersk_Ahram_%281998%29.jpg/960px-Maersk_Ahram_%281998%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Niels Johannes",
+    "description": "Containership Maersk Ahram departing from Dublin assisted by Dublin Port Company tugs Shackleton and Beaufort.",
+    "sha256": "aee01ea1aa0a7b5b63eef678dcae1b8be11306c4fc81e7a223c63464b0c758cb",
+    "dimensions": [
+      960,
+      640
+    ],
+    "downloaded_utc": "2026-11-12T07:32:48.867786+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_031",
+    "dhash": "f0304bca24464713",
+    "vessel_aliases": [
+      "maersk ahram"
+    ]
+  },
+  {
+    "file": "images/commons_4236162_2008-04-14_COSCO_America_3.jpg",
+    "title": "File:2008-04-14 COSCO America 3.JPG",
+    "source_page": "https://commons.wikimedia.org/wiki/File:2008-04-14_COSCO_America_3.JPG",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/2008-04-14_COSCO_America_3.JPG/960px-2008-04-14_COSCO_America_3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Walter Rademacher",
+    "description": "COSCO America (10.000 TEU) at River Elbe near Cuxhaven (Glameyer Stack) on 14th April 2008 draught 11,00 m (salt water)",
+    "sha256": "d3138646de883b76fe21ed5457d549fd37ae6eb96a1f4f33b1b18f0b3ac03bf6",
+    "dimensions": [
+      960,
+      640
+    ],
+    "downloaded_utc": "2026-11-12T07:32:49.503261+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_032",
+    "dhash": "c0c4e6077366cfe7",
+    "vessel_aliases": [
+      "cosco america"
+    ]
+  },
+  {
+    "file": "images/commons_103832353_BEAGLE_COSCO_UNIVERSE_50304896713_.jpg",
+    "title": "File:BEAGLE & COSCO UNIVERSE (50304896713).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:BEAGLE_%26_COSCO_UNIVERSE_(50304896713).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/BEAGLE_%26_COSCO_UNIVERSE_%2850304896713%29.jpg/960px-BEAGLE_%26_COSCO_UNIVERSE_%2850304896713%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Hoek van Holland 4-9-2020",
+    "sha256": "5b27070546d5d48298a9f25c65e388365dc2fc85c4a9a0c0b5ce216cc43331c9",
+    "dimensions": [
+      960,
+      516
+    ],
+    "downloaded_utc": "2026-11-12T07:32:50.198965+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_033",
+    "dhash": "e0e4c242e080e060",
+    "vessel_aliases": [
+      "cosco universe"
+    ]
+  },
+  {
+    "file": "images/commons_74879953_BEAGLE_COSCO_SAGITTARIUS_SD_REBEL_ROTTERDAM_46101578611_cropped_.jpg",
+    "title": "File:BEAGLE , COSCO SAGITTARIUS , SD REBEL & ROTTERDAM (46101578611) (cropped).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:BEAGLE_,_COSCO_SAGITTARIUS_,_SD_REBEL_%26_ROTTERDAM_(46101578611)_(cropped).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/BEAGLE_%2C_COSCO_SAGITTARIUS_%2C_SD_REBEL_%26_ROTTERDAM_%2846101578611%29_%28cropped%29.jpg/960px-BEAGLE_%2C_COSCO_SAGITTARIUS_%2C_SD_REBEL_%26_ROTTERDAM_%2846101578611%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "29-11-2018 eerste bezoek aan Rotterdam van de COSCO SAGITTARIUS (2018)",
+    "sha256": "c1705076728357f6c6340b5e2ca685bcb48f83996e9e4c60869858182e6932b2",
+    "dimensions": [
+      960,
+      433
+    ],
+    "downloaded_utc": "2026-11-12T07:32:51.244745+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_034",
+    "dhash": "d0e0f0da0b6163e0",
+    "vessel_aliases": [
+      "cosco sagittarius"
+    ]
+  },
+  {
+    "file": "images/commons_90988985_BORIS_VILKITSKY_PALU_LNG_SMIT_HUDSON_COSCO_CAPRICORN_ROTTERDAM_44193122401_.jpg",
+    "title": "File:BORIS VILKITSKY , PALU LNG , SMIT HUDSON , COSCO CAPRICORN & ROTTERDAM (44193122401).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:BORIS_VILKITSKY_,_PALU_LNG_,_SMIT_HUDSON_,_COSCO_CAPRICORN_%26_ROTTERDAM_(44193122401).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/BORIS_VILKITSKY_%2C_PALU_LNG_%2C_SMIT_HUDSON_%2C_COSCO_CAPRICORN_%26_ROTTERDAM_%2844193122401%29.jpg/960px-BORIS_VILKITSKY_%2C_PALU_LNG_%2C_SMIT_HUDSON_%2C_COSCO_CAPRICORN_%26_ROTTERDAM_%2844193122401%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Nijlhaven /Calandkanaal 21-8-2018",
+    "sha256": "0e6c3c5629be43672d831fd4fc08c493c8f2d928d8d35fdf2836b76554eccd4d",
+    "dimensions": [
+      960,
+      468
+    ],
+    "downloaded_utc": "2026-11-12T07:32:51.860208+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_035",
+    "dhash": "fffffffff765f7ff",
+    "vessel_aliases": [
+      "cosco capricorn"
+    ]
+  },
+  {
+    "file": "images/commons_103832373_COSCO_ARIES_COSCO_UNIVERSE_50305732612_.jpg",
+    "title": "File:COSCO ARIES & COSCO UNIVERSE (50305732612).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_ARIES_%26_COSCO_UNIVERSE_(50305732612).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/COSCO_ARIES_%26_COSCO_UNIVERSE_%2850305732612%29.jpg/960px-COSCO_ARIES_%26_COSCO_UNIVERSE_%2850305732612%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Hoek van Holland 4-9-2020",
+    "sha256": "0d45bba1f3387a0c55ab44b3f17fbc1b9e430f35c4be5c6e2796af366c29fac7",
+    "dimensions": [
+      960,
+      426
+    ],
+    "downloaded_utc": "2026-11-12T07:32:52.508685+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_033",
+    "dhash": "c8e8e0683d7579c6",
+    "vessel_aliases": [
+      "cosco aries",
+      "cosco universe"
+    ]
+  },
+  {
+    "file": "images/commons_103832376_COSCO_ARIES_50304896683_.jpg",
+    "title": "File:COSCO ARIES (50304896683).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_ARIES_(50304896683).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/COSCO_ARIES_%2850304896683%29.jpg/960px-COSCO_ARIES_%2850304896683%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Hoek van Holland 4-9-2020",
+    "sha256": "05653be083adaa53dbc334b326e43824b67d39cd6ece0b98d2407d5898a2c5c8",
+    "dimensions": [
+      960,
+      510
+    ],
+    "downloaded_utc": "2026-11-12T07:32:53.626216+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_033",
+    "dhash": "c0e0d8ae277163d8",
+    "vessel_aliases": [
+      "cosco aries"
+    ]
+  },
+  {
+    "file": "images/commons_102818157_COSCO_France_ship_2013_IMO_9516416_Yangtzehaven_Port_of_Rotterdam_pic2.jpg",
+    "title": "File:COSCO France (ship, 2013) IMO 9516416, Yangtzehaven, Port of Rotterdam pic2.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_France_(ship,_2013)_IMO_9516416,_Yangtzehaven,_Port_of_Rotterdam_pic2.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/COSCO_France_%28ship%2C_2013%29_IMO_9516416%2C_Yangtzehaven%2C_Port_of_Rotterdam_pic2.jpg/960px-COSCO_France_%28ship%2C_2013%29_IMO_9516416%2C_Yangtzehaven%2C_Port_of_Rotterdam_pic2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "Public domain",
+    "license_url": "",
+    "author": "Alf van Beem",
+    "description": "Photographed in the Port of Rotterdam.",
+    "sha256": "4a06ad8115286ec6b9850f67833978266efd5c7b06b4a7ddfe973b5590988d42",
+    "dimensions": [
+      960,
+      720
+    ],
+    "downloaded_utc": "2026-11-12T07:32:54.791012+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_038",
+    "dhash": "40402d0e567006a6",
+    "vessel_aliases": [
+      "cosco france",
+      "imo-9516416"
+    ]
+  },
+  {
+    "file": "images/commons_69550511_COSCO_GEMINI_41414039484_.jpg",
+    "title": "File:COSCO GEMINI (41414039484).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_GEMINI_(41414039484).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/COSCO_GEMINI_%2841414039484%29.jpg/960px-COSCO_GEMINI_%2841414039484%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Yangtzekanaal 15-5-2018",
+    "sha256": "35af8b34877b926cdaa5086f7857723049920100a32401dacb9395ab330dca83",
+    "dimensions": [
+      960,
+      514
+    ],
+    "downloaded_utc": "2026-11-12T07:32:56.089297+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_039",
+    "dhash": "c18fc1cc1d6d46c0",
+    "vessel_aliases": [
+      "cosco gemini"
+    ]
+  },
+  {
+    "file": "images/commons_63512411_COSCO_HARMONY_YM_WITTNESS_22138245236_.jpg",
+    "title": "File:COSCO HARMONY & YM WITTNESS (22138245236).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_HARMONY_%26_YM_WITTNESS_(22138245236).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/COSCO_HARMONY_%26_YM_WITTNESS_%2822138245236%29.jpg/960px-COSCO_HARMONY_%26_YM_WITTNESS_%2822138245236%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Euromaxterminal Yangtzehaven 14-10-2015",
+    "sha256": "d8d1fb7e5d06a9678d395f1cf82b5d32957e368703335629ef79cc2ef71cab03",
+    "dimensions": [
+      960,
+      420
+    ],
+    "downloaded_utc": "2026-11-12T07:32:58.213359+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_040",
+    "dhash": "e0e08821233191a1",
+    "vessel_aliases": [
+      "cosco harmony"
+    ]
+  },
+  {
+    "file": "images/commons_114098989_COSCO_Indonesia_IMO_9448786_C_Hamburg_01-11-2021_4_.jpg",
+    "title": "File:COSCO Indonesia IMO 9448786 C Hamburg 01-11-2021 (4).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Indonesia_IMO_9448786_C_Hamburg_01-11-2021_(4).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/COSCO_Indonesia_IMO_9448786_C_Hamburg_01-11-2021_%284%29.jpg/960px-COSCO_Indonesia_IMO_9448786_C_Hamburg_01-11-2021_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "author": "Wolfgang Fricke",
+    "description": "COSCO Indonesia 2021 in Hamburg",
+    "sha256": "df6b3823ab0401fa0e66e03e0354deb9e40734846954148f4aeb2b1c711c61b3",
+    "dimensions": [
+      960,
+      635
+    ],
+    "downloaded_utc": "2026-11-12T07:33:00.598186+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_041",
+    "dhash": "00c4051373e30404",
+    "vessel_aliases": [
+      "cosco indonesia",
+      "imo-9448786"
+    ]
+  },
+  {
+    "file": "images/commons_111473587_COSCO_Indonesia_IMO_9448786_C_Hamburg_26-08-2021_1_.jpg",
+    "title": "File:COSCO Indonesia IMO 9448786 C Hamburg 26-08-2021 (1).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Indonesia_IMO_9448786_C_Hamburg_26-08-2021_(1).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/COSCO_Indonesia_IMO_9448786_C_Hamburg_26-08-2021_%281%29.jpg/960px-COSCO_Indonesia_IMO_9448786_C_Hamburg_26-08-2021_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "author": "Wolfgang Fricke",
+    "description": "COSCO Indonesia 2021 in Hamburg",
+    "sha256": "c9817683817b4f778a5eaa1f45a93ef49cbe368963ef5abf87d6152d81f124b4",
+    "dimensions": [
+      960,
+      612
+    ],
+    "downloaded_utc": "2026-11-12T07:33:01.914975+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_041",
+    "dhash": "1462030fba7df8f4",
+    "vessel_aliases": [
+      "cosco indonesia",
+      "imo-9448786"
+    ]
+  },
+  {
+    "file": "images/commons_111473604_COSCO_Indonesia_IMO_9448786_C_Hamburg_26-08-2021_2_.jpg",
+    "title": "File:COSCO Indonesia IMO 9448786 C Hamburg 26-08-2021 (2).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Indonesia_IMO_9448786_C_Hamburg_26-08-2021_(2).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/COSCO_Indonesia_IMO_9448786_C_Hamburg_26-08-2021_%282%29.jpg/960px-COSCO_Indonesia_IMO_9448786_C_Hamburg_26-08-2021_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "author": "Wolfgang Fricke",
+    "description": "COSCO Indonesia 2021 in Hamburg",
+    "sha256": "8ede06fa0d1d2e1d65b28ff37b3c0a0d94a80da97d06bc8cf7d16ade350ea315",
+    "dimensions": [
+      960,
+      587
+    ],
+    "downloaded_utc": "2026-11-12T07:33:02.670201+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_041",
+    "dhash": "c4d70b1b7971fefe",
+    "vessel_aliases": [
+      "cosco indonesia",
+      "imo-9448786"
+    ]
+  },
+  {
+    "file": "images/commons_183378378_COSCO_Japan_IMO_9448748_C_Hamburg_15-12-2025_1_.jpg",
+    "title": "File:COSCO Japan IMO 9448748 C Hamburg 15-12-2025 (1).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Japan_IMO_9448748_C_Hamburg_15-12-2025_(1).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/COSCO_Japan_IMO_9448748_C_Hamburg_15-12-2025_%281%29.jpg/960px-COSCO_Japan_IMO_9448748_C_Hamburg_15-12-2025_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "author": "Wolfgang Fricke",
+    "description": "COSCO Japan 2025 in Hamburg",
+    "sha256": "64ea08fccca3324a19be494c7eeecb4fec55a3a01aa2a0cfd38aca2e6d86978c",
+    "dimensions": [
+      960,
+      607
+    ],
+    "downloaded_utc": "2026-11-12T07:33:03.425145+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_044",
+    "dhash": "00030707390d0dc0",
+    "vessel_aliases": [
+      "cosco japan",
+      "imo-9448748"
+    ]
+  },
+  {
+    "file": "images/commons_183474502_COSCO_Japan_IMO_9448748_C_Hamburg_15-12-2025_5_.jpg",
+    "title": "File:COSCO Japan IMO 9448748 C Hamburg 15-12-2025 (5).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Japan_IMO_9448748_C_Hamburg_15-12-2025_(5).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/COSCO_Japan_IMO_9448748_C_Hamburg_15-12-2025_%285%29.jpg/960px-COSCO_Japan_IMO_9448748_C_Hamburg_15-12-2025_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "author": "Wolfgang Fricke",
+    "description": "COSCO Japan 2025 in Hamburg",
+    "sha256": "e328826df1c175e7340a9a76f8470fba5b1dc161f64955a331b89d2970dfdeaf",
+    "dimensions": [
+      960,
+      635
+    ],
+    "downloaded_utc": "2026-11-12T07:33:04.643285+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_044",
+    "dhash": "d8b0326b6d5b59b0",
+    "vessel_aliases": [
+      "cosco japan",
+      "imo-9448748"
+    ]
+  },
+  {
+    "file": "images/commons_157115523_COSCO_Japan_IMO_9448748_C_Hamburg_19-08-2024_2_.jpg",
+    "title": "File:COSCO Japan IMO 9448748 C Hamburg 19-08-2024 (2).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Japan_IMO_9448748_C_Hamburg_19-08-2024_(2).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/COSCO_Japan_IMO_9448748_C_Hamburg_19-08-2024_%282%29.jpg/960px-COSCO_Japan_IMO_9448748_C_Hamburg_19-08-2024_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "author": "Wolfgang Fricke",
+    "description": "COSCO Japan 2024 in Hamburg",
+    "sha256": "c983a552073f3403409f37289304a4900f54c07ea3f9b2e71048e18ed297f39b",
+    "dimensions": [
+      960,
+      563
+    ],
+    "downloaded_utc": "2026-11-12T07:33:05.911911+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_044",
+    "dhash": "fffc989891919cdc",
+    "vessel_aliases": [
+      "cosco japan",
+      "imo-9448748"
+    ]
+  },
+  {
+    "file": "images/commons_82111380_COSCO_LEO_MATADOR_3_SCHELDE_48675118043_.jpg",
+    "title": "File:COSCO LEO , MATADOR 3 & SCHELDE (48675118043).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_LEO_,_MATADOR_3_%26_SCHELDE_(48675118043).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/COSCO_LEO_%2C_MATADOR_3_%26_SCHELDE_%2848675118043%29.jpg/960px-COSCO_LEO_%2C_MATADOR_3_%26_SCHELDE_%2848675118043%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Eerste bezoek aan Rotterdam van het grootste containerschip ter wereld de MSC GÜLSÜN 23.756 TUE , gezien vanaf de Nieuwe Maze 3-9-2019",
+    "sha256": "cedbaa0ee5479eda3dcbfc6ffdfec464b52a3c1f7f4901b36d0bb13c0aa5ded1",
+    "dimensions": [
+      960,
+      567
+    ],
+    "downloaded_utc": "2026-11-12T07:33:06.989434+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_047",
+    "dhash": "cbd359c9e953d353",
+    "vessel_aliases": [
+      "cosco leo"
+    ]
+  },
+  {
+    "file": "images/commons_82361529_COSCO_LIBRA_SMIT_SCHELDE_SMIT_PANTHER_Nieuwe_Maze_48758418007_.jpg",
+    "title": "File:COSCO LIBRA , SMIT SCHELDE , SMIT PANTHER & Nieuwe Maze (48758418007).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_LIBRA_,_SMIT_SCHELDE_,_SMIT_PANTHER_%26_Nieuwe_Maze_(48758418007).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/COSCO_LIBRA_%2C_SMIT_SCHELDE_%2C_SMIT_PANTHER_%26_Nieuwe_Maze_%2848758418007%29.jpg/960px-COSCO_LIBRA_%2C_SMIT_SCHELDE_%2C_SMIT_PANTHER_%26_Nieuwe_Maze_%2848758418007%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Gezien vanaf DE NIEUWE PRINS in Europoort 18-9-2019",
+    "sha256": "bc278910f65bfae217b48bbcc719e7bdabb1500b62da3bc0b68ba4b961913bad",
+    "dimensions": [
+      960,
+      476
+    ],
+    "downloaded_utc": "2026-11-12T07:33:08.265138+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_048",
+    "dhash": "f0e8701faf3d3ca4",
+    "vessel_aliases": [
+      "cosco libra"
+    ]
+  },
+  {
+    "file": "images/commons_25695147_COSCO_Ningbo_03.jpg",
+    "title": "File:COSCO Ningbo 03.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Ningbo_03.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/COSCO_Ningbo_03.jpg/960px-COSCO_Ningbo_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "author": "Huhu Uet",
+    "description": "Das Containerschiff COSCO Ningbo auf der Elbe bei Wedel",
+    "sha256": "067d485c291e345e64f48db9098647fbc642af4d22c8a1ed09478c4fc4036b40",
+    "dimensions": [
+      960,
+      450
+    ],
+    "downloaded_utc": "2026-11-12T07:33:09.298011+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_049",
+    "dhash": "f0e39c9f313f7cf0",
+    "vessel_aliases": [
+      "cosco ningbo"
+    ]
+  },
+  {
+    "file": "images/commons_103136859_COSCO_Philippines_ship_2010_IMO_9448762_Yangtzehaven_Port_of_Rotterdam_pic2.jpg",
+    "title": "File:COSCO Philippines (ship, 2010) IMO 9448762, Yangtzehaven, Port of Rotterdam pic2.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Philippines_(ship,_2010)_IMO_9448762,_Yangtzehaven,_Port_of_Rotterdam_pic2.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/COSCO_Philippines_%28ship%2C_2010%29_IMO_9448762%2C_Yangtzehaven%2C_Port_of_Rotterdam_pic2.jpg/960px-COSCO_Philippines_%28ship%2C_2010%29_IMO_9448762%2C_Yangtzehaven%2C_Port_of_Rotterdam_pic2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "Public domain",
+    "license_url": "",
+    "author": "Alf van Beem",
+    "description": "Photographed in the Port of Rotterdam.",
+    "sha256": "f6abed6c3eafcb89eb2e2ec64538c9da0c98cf8913a485f40b2b13aaf00cb7b0",
+    "dimensions": [
+      960,
+      540
+    ],
+    "downloaded_utc": "2026-11-12T07:33:10.577575+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_050",
+    "dhash": "f0e05b5b5a74f848",
+    "vessel_aliases": [
+      "cosco philippines",
+      "imo-9448762"
+    ]
+  },
+  {
+    "file": "images/commons_97708649_COSCO_SCORPIO_NEBULA_50563157757_.jpg",
+    "title": "File:COSCO SCORPIO & NEBULA (50563157757).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_SCORPIO_%26_NEBULA_(50563157757).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/COSCO_SCORPIO_%26_NEBULA_%2850563157757%29.jpg/960px-COSCO_SCORPIO_%26_NEBULA_%2850563157757%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Euromax terminal Yangtzehaven 3-11-2020   gezien vanaf DE NIEUWE PRINS",
+    "sha256": "0a8292f7261f13523e3631dcf70321462c92ac3ee1f337b3c8fc65eb2eeb223b",
+    "dimensions": [
+      960,
+      429
+    ],
+    "downloaded_utc": "2026-11-12T07:33:11.700215+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_051",
+    "dhash": "e080c58537029b90",
+    "vessel_aliases": [
+      "cosco scorpio"
+    ]
+  },
+  {
+    "file": "images/commons_63578481_COSCO_SHIPPING_HIMALAYAS_8-9-2017_36934806142_.jpg",
+    "title": "File:COSCO SHIPPING HIMALAYAS 8-9-2017 (36934806142).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_SHIPPING_HIMALAYAS_8-9-2017_(36934806142).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/COSCO_SHIPPING_HIMALAYAS_8-9-2017_%2836934806142%29.jpg/960px-COSCO_SHIPPING_HIMALAYAS_8-9-2017_%2836934806142%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "RT ADRIAAN en ROTTERDAM assisteerden het containerschip naar de Euromax terminal in de Yangtzehaven op Maasvlakte 1 , gezien vanaf de Fast Ferry DE NIEUWE PRINS van de RET.",
+    "sha256": "0c36ff2c1a93acfb6949c8299993c9f673b5082de3af1e54fc59d62eb1bede3d",
+    "dimensions": [
+      960,
+      536
+    ],
+    "downloaded_utc": "2026-11-12T07:33:12.921507+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_052",
+    "dhash": "da1c2e4e0e063434",
+    "vessel_aliases": [
+      "cosco himalayas"
+    ]
+  },
+  {
+    "file": "images/commons_69556357_COSCO_SHIPPING_LEO_2018_40642270240_.jpg",
+    "title": "File:COSCO SHIPPING LEO (2018) (40642270240).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_SHIPPING_LEO_(2018)_(40642270240).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/COSCO_SHIPPING_LEO_%282018%29_%2840642270240%29.jpg/960px-COSCO_SHIPPING_LEO_%282018%29_%2840642270240%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Euromax terminal Yangtzehaven 30-5-2018 , eerste bezoek aan Rotterdam",
+    "sha256": "0b72068ebe5a29ba4ff38103d3635580c42b6f2f8d79861a1cd505997f0ae57f",
+    "dimensions": [
+      960,
+      523
+    ],
+    "downloaded_utc": "2026-11-12T07:33:14.061034+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_047",
+    "dhash": "98863f1f3f1f0f1f",
+    "vessel_aliases": [
+      "cosco leo"
+    ]
+  },
+  {
+    "file": "images/commons_66361082_COSCO_Shanghai_Fremantle_2018_06_.jpg",
+    "title": "File:COSCO Shanghai, Fremantle, 2018 (06).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Shanghai,_Fremantle,_2018_(06).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/COSCO_Shanghai%2C_Fremantle%2C_2018_%2806%29.jpg/960px-COSCO_Shanghai%2C_Fremantle%2C_2018_%2806%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Bahnfrend",
+    "description": "Container ship COSCO Shanghai entering the inner harbour of the Port of Fremantle, Western Australia, on a liner voyage from Port Klang.  Next port: Sydney.",
+    "sha256": "f7663bfba42fc4416a1e7b96d4e0000d80e997bdc0c7049eb8360bd596898b0a",
+    "dimensions": [
+      960,
+      535
+    ],
+    "downloaded_utc": "2026-11-12T07:33:14.791708+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_054",
+    "dhash": "136c0333e3150263",
+    "vessel_aliases": [
+      "cosco shanghai"
+    ]
+  },
+  {
+    "file": "images/commons_194574692_COSCO_Shipping_Alps_IMO_9757864_C_Hamburg_12-04-2026_4_.jpg",
+    "title": "File:COSCO Shipping Alps IMO 9757864 C Hamburg 12-04-2026 (4).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Shipping_Alps_IMO_9757864_C_Hamburg_12-04-2026_(4).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/COSCO_Shipping_Alps_IMO_9757864_C_Hamburg_12-04-2026_%284%29.jpg/960px-COSCO_Shipping_Alps_IMO_9757864_C_Hamburg_12-04-2026_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "author": "Wolfgang Fricke",
+    "description": "COSCO Shipping Alps 2026 in Hamburg",
+    "sha256": "c748c6b67cc09d34171d0c0e0e87b2017a63b16580ddcd95301df8d80929d724",
+    "dimensions": [
+      960,
+      570
+    ],
+    "downloaded_utc": "2026-11-12T07:33:15.946852+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_055",
+    "dhash": "d9da3f7b791c3f1f",
+    "vessel_aliases": [
+      "cosco alps",
+      "imo-9757864"
+    ]
+  },
+  {
+    "file": "images/commons_106304772_COSCO_Shipping_Danube_ship_2016_IMO_9731913_Amazonehaven_Port_of_Rotterdam_pic12.jpg",
+    "title": "File:COSCO Shipping Danube (ship, 2016) IMO 9731913, Amazonehaven, Port of Rotterdam pic12.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Shipping_Danube_(ship,_2016)_IMO_9731913,_Amazonehaven,_Port_of_Rotterdam_pic12.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/COSCO_Shipping_Danube_%28ship%2C_2016%29_IMO_9731913%2C_Amazonehaven%2C_Port_of_Rotterdam_pic12.jpg/960px-COSCO_Shipping_Danube_%28ship%2C_2016%29_IMO_9731913%2C_Amazonehaven%2C_Port_of_Rotterdam_pic12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "Public domain",
+    "license_url": "",
+    "author": "Alf van Beem",
+    "description": "Photographed in the Port of Rotterdam.",
+    "sha256": "a201d36542083e5901dcb134681b5b8fb4784481bd491c6c8978491741acd3c8",
+    "dimensions": [
+      960,
+      719
+    ],
+    "downloaded_utc": "2026-11-12T07:33:17.244384+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_056",
+    "dhash": "80c0d09c43d9d8c8",
+    "vessel_aliases": [
+      "cosco danube",
+      "imo-9731913"
+    ]
+  },
+  {
+    "file": "images/commons_178868472_COSCO_Shipping_Galaxy_IMO_9795634_C_Hamburg_31-07-2025_1_.jpg",
+    "title": "File:COSCO Shipping Galaxy IMO 9795634 C Hamburg 31-07-2025 (1).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Shipping_Galaxy_IMO_9795634_C_Hamburg_31-07-2025_(1).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/COSCO_Shipping_Galaxy_IMO_9795634_C_Hamburg_31-07-2025_%281%29.jpg/960px-COSCO_Shipping_Galaxy_IMO_9795634_C_Hamburg_31-07-2025_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "author": "Wolfgang Fricke",
+    "description": "COSCO Shipping Galaxy 2025 in Hamburg",
+    "sha256": "fd94f11ba3bbd682e17871b9e1ac26f3acf1d133b51b23e45c1c18026a78465f",
+    "dimensions": [
+      960,
+      591
+    ],
+    "downloaded_utc": "2026-11-12T07:33:18.556857+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_057",
+    "dhash": "8a8e1f4f1d1f1fe0",
+    "vessel_aliases": [
+      "cosco galaxy",
+      "imo-9795634"
+    ]
+  },
+  {
+    "file": "images/commons_178905418_COSCO_Shipping_Galaxy_IMO_9795634_C_Hamburg_31-07-2025_4_.jpg",
+    "title": "File:COSCO Shipping Galaxy IMO 9795634 C Hamburg 31-07-2025 (4).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Shipping_Galaxy_IMO_9795634_C_Hamburg_31-07-2025_(4).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/COSCO_Shipping_Galaxy_IMO_9795634_C_Hamburg_31-07-2025_%284%29.jpg/960px-COSCO_Shipping_Galaxy_IMO_9795634_C_Hamburg_31-07-2025_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "author": "Wolfgang Fricke",
+    "description": "COSCO Shipping Galaxy 2025 in Hamburg",
+    "sha256": "f76aa9668941190854323ba2be9b642c6279edb7e71ddef0d3f2ac346ac900b1",
+    "dimensions": [
+      960,
+      562
+    ],
+    "downloaded_utc": "2026-11-12T07:33:19.691693+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_057",
+    "dhash": "e0c703014107d420",
+    "vessel_aliases": [
+      "cosco galaxy",
+      "imo-9795634"
+    ]
+  },
+  {
+    "file": "images/commons_172984232_COSCO_Shipping_Gemini_IMO_9783526_C_Hamburg_04-06-2025_1_.jpg",
+    "title": "File:COSCO Shipping Gemini IMO 9783526 C Hamburg 04-06-2025 (1).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Shipping_Gemini_IMO_9783526_C_Hamburg_04-06-2025_(1).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/COSCO_Shipping_Gemini_IMO_9783526_C_Hamburg_04-06-2025_%281%29.jpg/960px-COSCO_Shipping_Gemini_IMO_9783526_C_Hamburg_04-06-2025_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "author": "Wolfgang Fricke",
+    "description": "COSCO Shipping Gemini 2025 in Hamburg",
+    "sha256": "c147e31a9cb8bb292255bd681ca0b8749f51fef1ef9d996b29666164d1bfe76e",
+    "dimensions": [
+      960,
+      527
+    ],
+    "downloaded_utc": "2026-11-12T07:33:20.908971+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_039",
+    "dhash": "d18c0f133d3f3f20",
+    "vessel_aliases": [
+      "cosco gemini",
+      "imo-9783526"
+    ]
+  },
+  {
+    "file": "images/commons_103171512_COSCO_Shipping_Leo_ship_2018_Yangtzehaven_pic1.jpg",
+    "title": "File:COSCO Shipping Leo (ship, 2018), Yangtzehaven pic1.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Shipping_Leo_(ship,_2018),_Yangtzehaven_pic1.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/COSCO_Shipping_Leo_%28ship%2C_2018%29%2C_Yangtzehaven_pic1.jpg/960px-COSCO_Shipping_Leo_%28ship%2C_2018%29%2C_Yangtzehaven_pic1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "Public domain",
+    "license_url": "",
+    "author": "Alf van Beem",
+    "description": "Photographed in the Port of Rotterdam.",
+    "sha256": "2fcecea5c221ad6f8331ffd42a777c6ceb6f796af5f0505ce671a56f2fdf114c",
+    "dimensions": [
+      960,
+      540
+    ],
+    "downloaded_utc": "2026-11-12T07:33:22.157605+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_047",
+    "dhash": "7eeff4bc1d70bcfe",
+    "vessel_aliases": [
+      "cosco leo"
+    ]
+  },
+  {
+    "file": "images/commons_183474561_COSCO_Shipping_Seine_IMO_9731949_C_Hamburg_16-01-2026_2_.jpg",
+    "title": "File:COSCO Shipping Seine IMO 9731949 C Hamburg 16-01-2026 (2).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Shipping_Seine_IMO_9731949_C_Hamburg_16-01-2026_(2).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/COSCO_Shipping_Seine_IMO_9731949_C_Hamburg_16-01-2026_%282%29.jpg/960px-COSCO_Shipping_Seine_IMO_9731949_C_Hamburg_16-01-2026_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "author": "Wolfgang Fricke",
+    "description": "COSCO Shipping Seine 2026 in Hamburg",
+    "sha256": "d1ce3fe727a5a008f22ff27a9d7399cdc94c3f4a3efdc40d43dcb20143b661bc",
+    "dimensions": [
+      960,
+      523
+    ],
+    "downloaded_utc": "2026-11-12T07:33:23.382771+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_061",
+    "dhash": "bbbf8c19793f0f2f",
+    "vessel_aliases": [
+      "cosco seine",
+      "imo-9731949"
+    ]
+  },
+  {
+    "file": "images/commons_122754061_COSCO_Shipping_Solar_IMO_9795646_C_Hamburg_24-08-2022_1_.jpg",
+    "title": "File:COSCO Shipping Solar IMO 9795646 C Hamburg 24-08-2022 (1).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Shipping_Solar_IMO_9795646_C_Hamburg_24-08-2022_(1).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/COSCO_Shipping_Solar_IMO_9795646_C_Hamburg_24-08-2022_%281%29.jpg/960px-COSCO_Shipping_Solar_IMO_9795646_C_Hamburg_24-08-2022_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "author": "Wolfgang Fricke",
+    "description": "COSCO Shipping Solar 2022 in Hamburg",
+    "sha256": "3f68e7e371d5fde92fb3a0e273f6afa8f9a479d0cc860899cf326b5f4eb825ad",
+    "dimensions": [
+      960,
+      645
+    ],
+    "downloaded_utc": "2026-11-12T07:33:24.141969+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_062",
+    "dhash": "8c0e0f0d1f8f4f20",
+    "vessel_aliases": [
+      "cosco solar",
+      "imo-9795646"
+    ]
+  },
+  {
+    "file": "images/commons_105673649_COSCO_Shipping_Universe_ship_2018_IMO_9795610_Yangtzehaven_Port_of_Rotterdam.jpg",
+    "title": "File:COSCO Shipping Universe (ship, 2018) IMO 9795610, Yangtzehaven, Port of Rotterdam.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Shipping_Universe_(ship,_2018)_IMO_9795610,_Yangtzehaven,_Port_of_Rotterdam.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/COSCO_Shipping_Universe_%28ship%2C_2018%29_IMO_9795610%2C_Yangtzehaven%2C_Port_of_Rotterdam.jpg/960px-COSCO_Shipping_Universe_%28ship%2C_2018%29_IMO_9795610%2C_Yangtzehaven%2C_Port_of_Rotterdam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "Public domain",
+    "license_url": "",
+    "author": "Alf van Beem",
+    "description": "Photographed in the Port of Rotterdam.",
+    "sha256": "13ad33eb0dbfca3a0a56c095f403fbbc0013a6254315a7f06c52aa99bba6edec",
+    "dimensions": [
+      960,
+      540
+    ],
+    "downloaded_utc": "2026-11-12T07:33:25.432206+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_033",
+    "dhash": "fcf5f3d2667c7ce3",
+    "vessel_aliases": [
+      "cosco universe",
+      "imo-9795610"
+    ]
+  },
+  {
+    "file": "images/commons_93944875_COSCO_Singapore_Fremantle_2020_02_.jpg",
+    "title": "File:COSCO Singapore, Fremantle, 2020 (02).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Singapore,_Fremantle,_2020_(02).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/COSCO_Singapore%2C_Fremantle%2C_2020_%2802%29.jpg/960px-COSCO_Singapore%2C_Fremantle%2C_2020_%2802%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Bahnfrend",
+    "description": "Cosco container ship COSCO Singapore departing from the inner harbour of the Port of Fremantle, Western Australia, on a voyage to Singapore",
+    "sha256": "3b79215f134586f4c5800548fa63a18dd1830f94494de86eae8efde1625e8977",
+    "dimensions": [
+      960,
+      540
+    ],
+    "downloaded_utc": "2026-11-12T07:33:26.354256+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_064",
+    "dhash": "dc280d012367f9d3",
+    "vessel_aliases": [
+      "cosco singapore"
+    ]
+  },
+  {
+    "file": "images/commons_93944874_COSCO_Singapore_Fremantle_2020_03_.jpg",
+    "title": "File:COSCO Singapore, Fremantle, 2020 (03).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Singapore,_Fremantle,_2020_(03).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/COSCO_Singapore%2C_Fremantle%2C_2020_%2803%29.jpg/960px-COSCO_Singapore%2C_Fremantle%2C_2020_%2803%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Bahnfrend",
+    "description": "Cosco container ship COSCO Singapore departing from the inner harbour of the Port of Fremantle, Western Australia, on a voyage to Singapore",
+    "sha256": "098c3ff5b461cd9c2310ae642ea2c7205327b2f8c6c825ae732ee627a6e4354a",
+    "dimensions": [
+      960,
+      540
+    ],
+    "downloaded_utc": "2026-11-12T07:33:27.583070+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_064",
+    "dhash": "63d2b02323c3bbdb",
+    "vessel_aliases": [
+      "cosco singapore"
+    ]
+  },
+  {
+    "file": "images/commons_63580735_COSCO_TAICANG_PRIDE_OF_HULL_16731868362_.jpg",
+    "title": "File:COSCO TAICANG & PRIDE OF HULL (16731868362).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_TAICANG_%26_PRIDE_OF_HULL_(16731868362).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/COSCO_TAICANG_%26_PRIDE_OF_HULL_%2816731868362%29.jpg/960px-COSCO_TAICANG_%26_PRIDE_OF_HULL_%2816731868362%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Beerkanaal / Calandkanaal 5-3-2015",
+    "sha256": "f7d4397cbbb2debbfad92898550ed650c6427cf7221a7b6694dc804ed314f30c",
+    "dimensions": [
+      960,
+      507
+    ],
+    "downloaded_utc": "2026-11-12T07:33:28.779246+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_003",
+    "dhash": "82800080a1830899",
+    "vessel_aliases": [
+      "cosco taicang"
+    ]
+  },
+  {
+    "file": "images/commons_47373759_COSCO_Taicang_ship_2009_001.jpg",
+    "title": "File:COSCO Taicang (ship, 2009) 001.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Taicang_(ship,_2009)_001.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/COSCO_Taicang_%28ship%2C_2009%29_001.jpg/960px-COSCO_Taicang_%28ship%2C_2009%29_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Container ship COSCO Taicang, Maasmond - Rotterdam",
+    "sha256": "06d96de818607f12173cd0e2f96eaaf16e29ce74f526491c1ff73dd2feb3fd5d",
+    "dimensions": [
+      960,
+      533
+    ],
+    "downloaded_utc": "2026-11-12T07:33:29.819796+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_003",
+    "dhash": "000000200f23260c",
+    "vessel_aliases": [
+      "cosco taicang"
+    ]
+  },
+  {
+    "file": "images/commons_71556173_COSCO_UNIVERSE_29770827768_.jpg",
+    "title": "File:COSCO UNIVERSE (29770827768).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_UNIVERSE_(29770827768).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/COSCO_UNIVERSE_%2829770827768%29.jpg/960px-COSCO_UNIVERSE_%2829770827768%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Eerste bezoek aan Rotterdam van de COSCO UNIVERSE (2018) , assistentie verleenden de SMIT HUDSON en de SD REBEL",
+    "sha256": "857c1cf605aeff092289a8f105351d8562faaeb7a78544a791dbe4657198f98b",
+    "dimensions": [
+      960,
+      459
+    ],
+    "downloaded_utc": "2026-11-12T07:33:31.022839+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_033",
+    "dhash": "f0e0d0372b3939c8",
+    "vessel_aliases": [
+      "cosco universe"
+    ]
+  },
+  {
+    "file": "images/commons_68409484_COSCO_URANUS_COSCO_ASIA_AKERDIJK_26493482277_.jpg",
+    "title": "File:COSCO URANUS , COSCO ASIA , AKERDIJK (26493482277).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_URANUS_,_COSCO_ASIA_,_AKERDIJK_(26493482277).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/COSCO_URANUS_%2C_COSCO_ASIA_%2C_AKERDIJK_%2826493482277%29.jpg/960px-COSCO_URANUS_%2C_COSCO_ASIA_%2C_AKERDIJK_%2826493482277%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Euromax terminal 10-4-2018",
+    "sha256": "f3f3cdee274035c45f660401309cff8e7ab01625051787865099e91373a22f6d",
+    "dimensions": [
+      960,
+      454
+    ],
+    "downloaded_utc": "2026-11-12T07:33:32.145980+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_069",
+    "dhash": "e0c8f0c6263479de",
+    "vessel_aliases": [
+      "cosco asia",
+      "cosco uranus"
+    ]
+  },
+  {
+    "file": "images/commons_37867353_COSCO_Vancouver_ship_2004_002.jpg",
+    "title": "File:COSCO Vancouver (ship, 2004) 002.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Vancouver_(ship,_2004)_002.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/COSCO_Vancouver_%28ship%2C_2004%29_002.jpg/960px-COSCO_Vancouver_%28ship%2C_2004%29_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "author": "Skibuff18",
+    "description": "Container ship COSCO Vancouver",
+    "sha256": "4f4c64908ee19c7aba243b697a31d6690e2c8473b3412e9727b0d6e5360efbc9",
+    "dimensions": [
+      960,
+      519
+    ],
+    "downloaded_utc": "2026-11-12T07:33:33.358155+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_070",
+    "dhash": "c0e0d0363791e0e0",
+    "vessel_aliases": [
+      "cosco vancouver"
+    ]
+  },
+  {
+    "file": "images/commons_63512347_COSCO_YANTAIN_COSCO_HOPE_KATHARINA_SCHEPERS_MERWEDIJK_16599340989_.jpg",
+    "title": "File:COSCO YANTAIN , COSCO HOPE , KATHARINA SCHEPERS & MERWEDIJK (16599340989).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_YANTAIN_,_COSCO_HOPE_,_KATHARINA_SCHEPERS_%26_MERWEDIJK_(16599340989).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/COSCO_YANTAIN_%2C_COSCO_HOPE_%2C_KATHARINA_SCHEPERS_%26_MERWEDIJK_%2816599340989%29.jpg/960px-COSCO_YANTAIN_%2C_COSCO_HOPE_%2C_KATHARINA_SCHEPERS_%26_MERWEDIJK_%2816599340989%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Yangtzehaven 11-3-2015",
+    "sha256": "3d2e06550d02f664a9040836d7292c75461a67f447ceadd838f6048c93071ae4",
+    "dimensions": [
+      960,
+      492
+    ],
+    "downloaded_utc": "2026-11-12T07:33:34.478456+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_004",
+    "dhash": "000002131b29a360",
+    "vessel_aliases": [
+      "cosco hope",
+      "cosco yantian"
+    ]
+  },
+  {
+    "file": "images/commons_30598060_Container_ship_Cosco_Excellence_income_in_the_port_of_Hamburg_on_12_January_2014.jpg",
+    "title": "File:Container ship Cosco Excellence income in the port of Hamburg on 12 January 2014.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Container_ship_Cosco_Excellence_income_in_the_port_of_Hamburg_on_12_January_2014.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Container_ship_Cosco_Excellence_income_in_the_port_of_Hamburg_on_12_January_2014.jpg/960px-Container_ship_Cosco_Excellence_income_in_the_port_of_Hamburg_on_12_January_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Buonasera",
+    "description": "Container ship Cosco Excellence income in the port of Hamburg on 12 January 2014",
+    "sha256": "2b808e6d3b273ae90a9e6a775c7bc3bbcf20409da99a0463b7fd52086899791c",
+    "dimensions": [
+      960,
+      720
+    ],
+    "downloaded_utc": "2026-11-12T07:33:36.618445+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_072",
+    "dhash": "e0f0f02f1b3f6ee0",
+    "vessel_aliases": [
+      "cosco excellence"
+    ]
+  },
+  {
+    "file": "images/commons_28892506_Container_ship_Cosco_Fortune_in_the_port_of_Hamburg_in_October_2013.png",
+    "title": "File:Container ship Cosco Fortune in the port of Hamburg in October 2013.png",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Container_ship_Cosco_Fortune_in_the_port_of_Hamburg_in_October_2013.png",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Container_ship_Cosco_Fortune_in_the_port_of_Hamburg_in_October_2013.png/960px-Container_ship_Cosco_Fortune_in_the_port_of_Hamburg_in_October_2013.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Buonasera",
+    "description": "Container ship Cosco Fortune in the port of Hamburg in October 2013",
+    "sha256": "14aaeda109e57e5b6647ed9dafbb0ff31a280abe0d649a5a55f3cf14ce28edad",
+    "dimensions": [
+      960,
+      720
+    ],
+    "downloaded_utc": "2026-11-12T07:33:38.353675+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_073",
+    "dhash": "f0f0f02c3c30f0f8",
+    "vessel_aliases": [
+      "cosco fortune"
+    ]
+  },
+  {
+    "file": "images/commons_146961915_Cosco_Aquarius_ship_2019_in_the_port_of_Hamburg_-_b.jpg",
+    "title": "File:Cosco Aquarius (ship, 2019) in the port of Hamburg - b.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Cosco_Aquarius_(ship,_2019)_in_the_port_of_Hamburg_-_b.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Cosco_Aquarius_%28ship%2C_2019%29_in_the_port_of_Hamburg_-_b.jpg/960px-Cosco_Aquarius_%28ship%2C_2019%29_in_the_port_of_Hamburg_-_b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "author": "Thomas Dahlstrøm Nielsen",
+    "description": "Cosco Aquarius (ship, 2019) in the port of Hamburg",
+    "sha256": "33b0d6e100648565c0c68fae46cc2b912aebf738da1a70e50608c35fa9873257",
+    "dimensions": [
+      960,
+      640
+    ],
+    "downloaded_utc": "2026-11-12T07:33:39.584502+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_074",
+    "dhash": "f19199880b2343b9",
+    "vessel_aliases": [
+      "cosco aquarius"
+    ]
+  },
+  {
+    "file": "images/commons_129106992_0614_MSC_Virtuosa_at_Geiranger_Seawalk_V-P.jpg",
+    "title": "File:0614 MSC Virtuosa at Geiranger Seawalk V-P.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:0614_MSC_Virtuosa_at_Geiranger_Seawalk_V-P.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/0614_MSC_Virtuosa_at_Geiranger_Seawalk_V-P.jpg/960px-0614_MSC_Virtuosa_at_Geiranger_Seawalk_V-P.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Virtual-Pano",
+    "description": "Cruise ship MSC Virtuosa utilizing the seawalk in Geiranger on a misty and rainy day - Geiranger, Norway",
+    "sha256": "265efb7a346fc1a8a10a54918f7b31eee287cf516946bbccd6484fb653a8b420",
+    "dimensions": [
+      960,
+      960
+    ],
+    "downloaded_utc": "2026-11-12T07:33:40.909139+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_075",
+    "dhash": "e0f878e030f3c8f0",
+    "vessel_aliases": [
+      "msc virtuosa"
+    ]
+  },
+  {
+    "file": "images/commons_129106983_0615_MSC_Virtuosa_departing_from_Geiranger_Seawalk_V-P.jpg",
+    "title": "File:0615 MSC Virtuosa departing from Geiranger Seawalk V-P.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:0615_MSC_Virtuosa_departing_from_Geiranger_Seawalk_V-P.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/0615_MSC_Virtuosa_departing_from_Geiranger_Seawalk_V-P.jpg/960px-0615_MSC_Virtuosa_departing_from_Geiranger_Seawalk_V-P.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Virtual-Pano",
+    "description": "Cruise ship MSC Virtuosa departing from Geiranger - Geiranger, Norway",
+    "sha256": "e25176fd9864a25fa8dada600f3de757d8697052009c7a9707acc65f0c8c2775",
+    "dimensions": [
+      960,
+      960
+    ],
+    "downloaded_utc": "2026-11-12T07:33:42.168285+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_075",
+    "dhash": "e4c8f0aa70f2c2f0",
+    "vessel_aliases": [
+      "msc virtuosa"
+    ]
+  },
+  {
+    "file": "images/commons_129107027_0618_MSC_Virtuosa_in_Geirangerfjord_close-up_V-P.jpg",
+    "title": "File:0618 MSC Virtuosa in Geirangerfjord close-up V-P.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:0618_MSC_Virtuosa_in_Geirangerfjord_close-up_V-P.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/0618_MSC_Virtuosa_in_Geirangerfjord_close-up_V-P.jpg/960px-0618_MSC_Virtuosa_in_Geirangerfjord_close-up_V-P.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Virtual-Pano",
+    "description": "Cruise ship MSC Virtuosa in Geirangerfjord - close.up view of starboard bow - Geiranger, Norway",
+    "sha256": "a36ddaa8e92eeb14b8c757fbcbb33d301d8a0c9246e142c12b76832e36e63531",
+    "dimensions": [
+      960,
+      640
+    ],
+    "downloaded_utc": "2026-11-12T07:33:43.687749+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_075",
+    "dhash": "50d1d8f89ce4e5e4",
+    "vessel_aliases": [
+      "msc virtuosa"
+    ]
+  },
+  {
+    "file": "images/commons_129114574_0619_MSC_Virtuosa_passing_Homlung_V-P.jpg",
+    "title": "File:0619 MSC Virtuosa passing Homlung V-P.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:0619_MSC_Virtuosa_passing_Homlung_V-P.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/0619_MSC_Virtuosa_passing_Homlung_V-P.jpg/960px-0619_MSC_Virtuosa_passing_Homlung_V-P.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Virtual-Pano",
+    "description": "Cruise ship MSC Virtuosa passing Homlung in Geiranger Fjord - stern and starboard side view",
+    "sha256": "b546e5b1a218c89ed3806ebb3de5dafd553331241fcbe9febb3f095cf773d617",
+    "dimensions": [
+      960,
+      640
+    ],
+    "downloaded_utc": "2026-11-12T07:33:44.612644+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_075",
+    "dhash": "f2f0f1f4f470e8ec",
+    "vessel_aliases": [
+      "msc virtuosa"
+    ]
+  },
+  {
+    "file": "images/commons_125910096_Container_ships_MSC_Amalfi_and_MSC_Cordelia_III_at_Fremantle_Harbour_November_2022_01.jpg",
+    "title": "File:Container ships MSC Amalfi and MSC Cordelia III at Fremantle Harbour, November 2022 01.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Container_ships_MSC_Amalfi_and_MSC_Cordelia_III_at_Fremantle_Harbour,_November_2022_01.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Container_ships_MSC_Amalfi_and_MSC_Cordelia_III_at_Fremantle_Harbour%2C_November_2022_01.jpg/960px-Container_ships_MSC_Amalfi_and_MSC_Cordelia_III_at_Fremantle_Harbour%2C_November_2022_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Calistemon",
+    "description": "The container ships MSC Amalfi (left - front) and MSC Cordelia III (right - back) at Fremantle Harbour, Western Australia.",
+    "sha256": "3a6fc7fccb20e0de6a6022e3c6d6212bc850d8320efda9619fe3af65d5091f44",
+    "dimensions": [
+      960,
+      720
+    ],
+    "downloaded_utc": "2026-11-12T07:33:45.761602+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_079",
+    "dhash": "3028684f2d7f28f1",
+    "vessel_aliases": [
+      "msc amalfi",
+      "msc cordelia"
+    ]
+  },
+  {
+    "file": "images/commons_125910098_Container_ships_MSC_Amalfi_and_MSC_Cordelia_III_at_Fremantle_Harbour_November_2022_02.jpg",
+    "title": "File:Container ships MSC Amalfi and MSC Cordelia III at Fremantle Harbour, November 2022 02.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Container_ships_MSC_Amalfi_and_MSC_Cordelia_III_at_Fremantle_Harbour,_November_2022_02.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Container_ships_MSC_Amalfi_and_MSC_Cordelia_III_at_Fremantle_Harbour%2C_November_2022_02.jpg/960px-Container_ships_MSC_Amalfi_and_MSC_Cordelia_III_at_Fremantle_Harbour%2C_November_2022_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Calistemon",
+    "description": "The container ships MSC Amalfi (left - front) and MSC Cordelia III (right - back) at Fremantle Harbour, Western Australia.",
+    "sha256": "4e96dc125818e25d014e2a3c78d134e9e1ed01a6017441ee261f464bccc910ca",
+    "dimensions": [
+      960,
+      720
+    ],
+    "downloaded_utc": "2026-11-12T07:33:47.464697+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_079",
+    "dhash": "92323527133b1931",
+    "vessel_aliases": [
+      "msc amalfi",
+      "msc cordelia"
+    ]
+  },
+  {
+    "file": "images/commons_63512854_FAIRPLAY_21_MSC_MIRJAM_SMIT_CHEETAH_MSC_SVEVA_AL_MASHRAB_MSC_BRIANNA_MSC_DOMITILLE_34891931843_.jpg",
+    "title": "File:FAIRPLAY 21 , MSC MIRJAM , SMIT CHEETAH , MSC SVEVA , AL MASHRAB , MSC BRIANNA & MSC DOMITILLE (34891931843).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:FAIRPLAY_21_,_MSC_MIRJAM_,_SMIT_CHEETAH_,_MSC_SVEVA_,_AL_MASHRAB_,_MSC_BRIANNA_%26_MSC_DOMITILLE_(34891931843).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/FAIRPLAY_21_%2C_MSC_MIRJAM_%2C_SMIT_CHEETAH_%2C_MSC_SVEVA_%2C_AL_MASHRAB_%2C_MSC_BRIANNA_%26_MSC_DOMITILLE_%2834891931843%29.jpg/960px-FAIRPLAY_21_%2C_MSC_MIRJAM_%2C_SMIT_CHEETAH_%2C_MSC_SVEVA_%2C_AL_MASHRAB_%2C_MSC_BRIANNA_%26_MSC_DOMITILLE_%2834891931843%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Europoort 3-7-2017",
+    "sha256": "9c2fb13d37ff2d1b5c8c0fa8ce92a87b441a8562f9151dcbd48aafe6c337b7d2",
+    "dimensions": [
+      960,
+      433
+    ],
+    "downloaded_utc": "2026-11-12T07:33:49.982454+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_081",
+    "dhash": "fffffefffececdf0",
+    "vessel_aliases": [
+      "msc brianna",
+      "msc domitille",
+      "msc mirjam",
+      "msc sveva"
+    ]
+  },
+  {
+    "file": "images/commons_63578104_HOOGVLIET_MSC_PREZIOSA_MSC_INGRID_36739735123_.jpg",
+    "title": "File:HOOGVLIET , MSC PREZIOSA & MSC INGRID (36739735123).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:HOOGVLIET_,_MSC_PREZIOSA_%26_MSC_INGRID_(36739735123).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/HOOGVLIET_%2C_MSC_PREZIOSA_%26_MSC_INGRID_%2836739735123%29.jpg/960px-HOOGVLIET_%2C_MSC_PREZIOSA_%26_MSC_INGRID_%2836739735123%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Nieuwe Waterweg 30-9-2017",
+    "sha256": "f34983ae67f51ba6dd1a70adb003a0f4032f86a9c4a1b51325327b63e494281c",
+    "dimensions": [
+      960,
+      493
+    ],
+    "downloaded_utc": "2026-11-12T07:33:50.916268+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_082",
+    "dhash": "f6e2e3f373636c6c",
+    "vessel_aliases": [
+      "msc ingrid",
+      "msc preziosa"
+    ]
+  },
+  {
+    "file": "images/commons_63578123_HOOGVLIET_MSC_PREZIOSA_MSC_INGRID_36739736113_.jpg",
+    "title": "File:HOOGVLIET , MSC PREZIOSA & MSC INGRID (36739736113).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:HOOGVLIET_,_MSC_PREZIOSA_%26_MSC_INGRID_(36739736113).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/HOOGVLIET_%2C_MSC_PREZIOSA_%26_MSC_INGRID_%2836739736113%29.jpg/960px-HOOGVLIET_%2C_MSC_PREZIOSA_%26_MSC_INGRID_%2836739736113%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Nieuwe Waterweg 30-9-2017",
+    "sha256": "520955d7fccfced1b6123f673aa27548e74fb425498269c869f4cd764a4f613c",
+    "dimensions": [
+      960,
+      458
+    ],
+    "downloaded_utc": "2026-11-12T07:33:51.902611+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_082",
+    "dhash": "ccccccccccececf0",
+    "vessel_aliases": [
+      "msc ingrid",
+      "msc preziosa"
+    ]
+  },
+  {
+    "file": "images/commons_74879353_INNOVATION_MSC_SANTHYA_-_KRVE_34_MSC_GAYAN_31236016617_.jpg",
+    "title": "File:INNOVATION , MSC SANTHYA - KRVE 34 & MSC GAYANÉ (31236016617).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:INNOVATION_,_MSC_SANTHYA_-_KRVE_34_%26_MSC_GAYAN%C3%89_(31236016617).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/INNOVATION_%2C_MSC_SANTHYA_-_KRVE_34_%26_MSC_GAYAN%C3%89_%2831236016617%29.jpg/960px-INNOVATION_%2C_MSC_SANTHYA_-_KRVE_34_%26_MSC_GAYAN%C3%89_%2831236016617%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Europahaven 4-12-2018",
+    "sha256": "59f5d0a3b8e97fcaf527940ec29f526e9099b293090c495177b51e6c444370c2",
+    "dimensions": [
+      960,
+      490
+    ],
+    "downloaded_utc": "2026-11-12T07:33:53.099125+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_084",
+    "dhash": "7872763667333378",
+    "vessel_aliases": [
+      "msc santhya"
+    ]
+  },
+  {
+    "file": "images/commons_63512925_MSC_AGRIGENTO_MSC_LUCIANA_35692882643_.jpg",
+    "title": "File:MSC AGRIGENTO & MSC LUCIANA (35692882643).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:MSC_AGRIGENTO_%26_MSC_LUCIANA_(35692882643).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/MSC_AGRIGENTO_%26_MSC_LUCIANA_%2835692882643%29.jpg/960px-MSC_AGRIGENTO_%26_MSC_LUCIANA_%2835692882643%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Europahaven 11-8-2017",
+    "sha256": "4b9117bb726d9f0c00a6b4c88678e28465d4bd3d28102204501a62628edffbb7",
+    "dimensions": [
+      960,
+      459
+    ],
+    "downloaded_utc": "2026-11-12T07:33:54.059360+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_085",
+    "dhash": "e2f3f6b6757d3336",
+    "vessel_aliases": [
+      "msc agrigento",
+      "msc luciana"
+    ]
+  },
+  {
+    "file": "images/commons_92806755_MSC_AJACCIO_MSC_NELA_cropped_.jpg",
+    "title": "File:MSC AJACCIO & MSC NELA (cropped).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:MSC_AJACCIO_%26_MSC_NELA_(cropped).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/MSC_AJACCIO_%26_MSC_NELA_%28cropped%29.jpg/960px-MSC_AJACCIO_%26_MSC_NELA_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "16-6-2020 gezien vanaf DE NIEUWE PRINS in Europoort",
+    "sha256": "f67d929c308ec5da7048a0b29a9afaf17110d6c0e53357bb83b46031d4ab9861",
+    "dimensions": [
+      960,
+      432
+    ],
+    "downloaded_utc": "2026-11-12T07:33:54.946970+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_086",
+    "dhash": "e080b01f3b3d1db4",
+    "vessel_aliases": [
+      "msc ajaccio",
+      "msc nela"
+    ]
+  },
+  {
+    "file": "images/commons_63512358_MSC_ALTAMIRA_MSC_MARIA_SAVERIA_MSC_VEGA_17285891315_.jpg",
+    "title": "File:MSC ALTAMIRA , MSC MARIA SAVERIA & MSC VEGA (17285891315).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:MSC_ALTAMIRA_,_MSC_MARIA_SAVERIA_%26_MSC_VEGA_(17285891315).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/MSC_ALTAMIRA_%2C_MSC_MARIA_SAVERIA_%26_MSC_VEGA_%2817285891315%29.jpg/960px-MSC_ALTAMIRA_%2C_MSC_MARIA_SAVERIA_%26_MSC_VEGA_%2817285891315%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Europahaven 26-4-2015",
+    "sha256": "c12fbaae5a19d206890172db40bc1c12d99905dcb26d4f9740432b6fe70c6e0e",
+    "dimensions": [
+      960,
+      489
+    ],
+    "downloaded_utc": "2026-11-12T07:33:56.231052+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_087",
+    "dhash": "40082b393959dbc8",
+    "vessel_aliases": [
+      "msc altamira",
+      "msc maria",
+      "msc vega"
+    ]
+  },
+  {
+    "file": "images/commons_63580984_MSC_ANTALYA_HYUNDAI_SMART_MSC_FLAVIA_15439755464_.jpg",
+    "title": "File:MSC ANTALYA , HYUNDAI SMART & MSC FLAVIA (15439755464).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:MSC_ANTALYA_,_HYUNDAI_SMART_%26_MSC_FLAVIA_(15439755464).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/MSC_ANTALYA_%2C_HYUNDAI_SMART_%26_MSC_FLAVIA_%2815439755464%29.jpg/960px-MSC_ANTALYA_%2C_HYUNDAI_SMART_%26_MSC_FLAVIA_%2815439755464%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Maasmond 19-12-2014",
+    "sha256": "42cb2b70c59b7c7ff8a3872cae636649fb795ff5ce3407264463e2e43cef066b",
+    "dimensions": [
+      960,
+      609
+    ],
+    "downloaded_utc": "2026-11-12T07:33:57.331118+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_088",
+    "dhash": "fefdfbffff7676db",
+    "vessel_aliases": [
+      "msc antalya",
+      "msc flavia"
+    ]
+  },
+  {
+    "file": "images/commons_19235751_MSC_Asli_Port_of_Antwerp_19Dec2008_pic2.jpg",
+    "title": "File:MSC Asli, Port of Antwerp 19Dec2008 pic2.JPG",
+    "source_page": "https://commons.wikimedia.org/wiki/File:MSC_Asli,_Port_of_Antwerp_19Dec2008_pic2.JPG",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/MSC_Asli%2C_Port_of_Antwerp_19Dec2008_pic2.JPG/960px-MSC_Asli%2C_Port_of_Antwerp_19Dec2008_pic2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "AlfvanBeem",
+    "description": "MSC ASLI - IMO 9162631 - Callsign H3ZI",
+    "sha256": "5cd65a9e5b2df3498c915b1cd65ec8e3a637268509006bbbd615b613af9e96da",
+    "dimensions": [
+      960,
+      720
+    ],
+    "downloaded_utc": "2026-11-12T07:33:58.528870+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_089",
+    "dhash": "e1e4c89606060697",
+    "vessel_aliases": [
+      "msc asli"
+    ]
+  },
+  {
+    "file": "images/commons_37644176_MSC_Aurora_MSC_Fabienne.jpg",
+    "title": "File:MSC Aurora & MSC Fabienne.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:MSC_Aurora_%26_MSC_Fabienne.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/MSC_Aurora_%26_MSC_Fabienne.jpg/960px-MSC_Aurora_%26_MSC_Fabienne.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Container ships MSC Aurora &amp; MSC Fabienne",
+    "sha256": "2909bd953e57f704d2931c5d9c867d45c793cabf77e3ba82cf9c5d80c9a339a1",
+    "dimensions": [
+      960,
+      612
+    ],
+    "downloaded_utc": "2026-11-12T07:33:59.573500+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_082",
+    "dhash": "c080f864735b6bb4",
+    "vessel_aliases": [
+      "msc aurora",
+      "msc fabienne"
+    ]
+  },
+  {
+    "file": "images/commons_108477590_MSC_Buffalo_at_Liverpool.jpg",
+    "title": "File:MSC Buffalo at Liverpool.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:MSC_Buffalo_at_Liverpool.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/MSC_Buffalo_at_Liverpool.jpg/960px-MSC_Buffalo_at_Liverpool.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Rodhullandemu",
+    "description": "Crane barge MSC Buffalo berthed next to the Mersey Ferry Terminal.",
+    "sha256": "e4baaa093ceb8e574fc9240b2b76e25400b86597480fdb207d37e8efe2139406",
+    "dimensions": [
+      960,
+      684
+    ],
+    "downloaded_utc": "2026-11-12T07:34:00.797027+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_091",
+    "dhash": "1272f283ce031f1f",
+    "vessel_aliases": [
+      "msc buffalo"
+    ]
+  },
+  {
+    "file": "images/commons_161037908_MSC_DRAGON_VB_BEAGLE_MSC_TESSA_53240743359_.jpg",
+    "title": "File:MSC DRAGON , VB BEAGLE & MSC TESSA (53240743359).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:MSC_DRAGON_,_VB_BEAGLE_%26_MSC_TESSA_(53240743359).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/MSC_DRAGON_%2C_VB_BEAGLE_%26_MSC_TESSA_%2853240743359%29.jpg/960px-MSC_DRAGON_%2C_VB_BEAGLE_%26_MSC_TESSA_%2853240743359%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Hoek van Holland / Europoort 5-10-2023",
+    "sha256": "da5a38a56b14dab8d6ae494746a6471c55dd06acb3e161998a41cd0bd6598c3f",
+    "dimensions": [
+      960,
+      510
+    ],
+    "downloaded_utc": "2026-11-12T07:34:04.340899+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_092",
+    "dhash": "6461242662c0c0fc",
+    "vessel_aliases": [
+      "msc dragon",
+      "msc tessa"
+    ]
+  },
+  {
+    "file": "images/commons_161037862_MSC_DRAGON_VB_BEAGLE_ROTTERDAM_MSC_TESSA_MSC_CASSANDRE_MSC_REGULUS_53239503107_.jpg",
+    "title": "File:MSC DRAGON , VB BEAGLE , ROTTERDAM , MSC TESSA , MSC CASSANDRE , MSC REGULUS (53239503107).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:MSC_DRAGON_,_VB_BEAGLE_,_ROTTERDAM_,_MSC_TESSA_,_MSC_CASSANDRE_,_MSC_REGULUS_(53239503107).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/MSC_DRAGON_%2C_VB_BEAGLE_%2C_ROTTERDAM_%2C_MSC_TESSA_%2C_MSC_CASSANDRE_%2C_MSC_REGULUS_%2853239503107%29.jpg/960px-MSC_DRAGON_%2C_VB_BEAGLE_%2C_ROTTERDAM_%2C_MSC_TESSA_%2C_MSC_CASSANDRE_%2C_MSC_REGULUS_%2853239503107%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Hoek van Holland / Europoort 5-10-2023",
+    "sha256": "3446e21de5e6ec803d3942b0e31c56954e24ce16034382b1652cb4d95acca0e0",
+    "dimensions": [
+      960,
+      440
+    ],
+    "downloaded_utc": "2026-11-12T07:34:04.972641+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_092",
+    "dhash": "80f08010181c0ede",
+    "vessel_aliases": [
+      "msc cassandre",
+      "msc dragon",
+      "msc regulus",
+      "msc tessa"
+    ]
+  },
+  {
+    "file": "images/commons_89914501_MSC_EMMA_MSC_AVNI_BEAGLE_49345392441_.jpg",
+    "title": "File:MSC EMMA , MSC AVNI & BEAGLE (49345392441).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:MSC_EMMA_,_MSC_AVNI_%26_BEAGLE_(49345392441).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/MSC_EMMA_%2C_MSC_AVNI_%26_BEAGLE_%2849345392441%29.jpg/960px-MSC_EMMA_%2C_MSC_AVNI_%26_BEAGLE_%2849345392441%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Europoort 7-1-2020 gezien vanaf DE NIEUWE PRINS",
+    "sha256": "402db6b449192e6aba736cd8525ac0ca84b1889fc7ec832a6f656bc812964d9c",
+    "dimensions": [
+      960,
+      439
+    ],
+    "downloaded_utc": "2026-11-12T07:34:06.181772+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_094",
+    "dhash": "64646467377f7373",
+    "vessel_aliases": [
+      "msc avni",
+      "msc emma"
+    ]
+  },
+  {
+    "file": "images/commons_63577975_MSC_GENEVA_CMA_CGM_BLUE_WHALE_MSC_FABIENNE_MSC_PREZIOSA_37501865206_.jpg",
+    "title": "File:MSC GENEVA , CMA CGM BLUE WHALE , MSC FABIENNE & MSC PREZIOSA (37501865206).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:MSC_GENEVA_,_CMA_CGM_BLUE_WHALE_,_MSC_FABIENNE_%26_MSC_PREZIOSA_(37501865206).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/MSC_GENEVA_%2C_CMA_CGM_BLUE_WHALE_%2C_MSC_FABIENNE_%26_MSC_PREZIOSA_%2837501865206%29.jpg/960px-MSC_GENEVA_%2C_CMA_CGM_BLUE_WHALE_%2C_MSC_FABIENNE_%26_MSC_PREZIOSA_%2837501865206%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Drie MSC schepen in de Maasmond 7-10-2017",
+    "sha256": "9d31ab79e8041296b5edb266318bf01ef89f45d0edce944ec29a602d1b695612",
+    "dimensions": [
+      960,
+      481
+    ],
+    "downloaded_utc": "2026-11-12T07:35:21.309693+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_082",
+    "dhash": "e27170e0f07868b0",
+    "vessel_aliases": [
+      "cma cgm blue",
+      "msc fabienne",
+      "msc geneva",
+      "msc preziosa"
+    ]
+  },
+  {
+    "file": "images/commons_118778405_MSC_Grandiosa_leaving_Kiel_XV.jpg",
+    "title": "File:MSC Grandiosa leaving Kiel XV.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:MSC_Grandiosa_leaving_Kiel_XV.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/MSC_Grandiosa_leaving_Kiel_XV.jpg/960px-MSC_Grandiosa_leaving_Kiel_XV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "HenSti",
+    "description": "MSC Grandiosa leaving Kiel, Ostuferhafen.",
+    "sha256": "5803b7526dd0971b350ad82d5e5bc3a4e5deadbc8552f0bd5d9267f11f47a5cc",
+    "dimensions": [
+      960,
+      720
+    ],
+    "downloaded_utc": "2026-11-12T07:35:22.537572+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_096",
+    "dhash": "05060926c4c4c4c0",
+    "vessel_aliases": [
+      "msc grandiosa"
+    ]
+  },
+  {
+    "file": "images/commons_145293651_MSC_HARMONY_III_container_ship_2006_in_Port_Koper_SIKOP_2024_.jpg",
+    "title": "File:MSC HARMONY III (container ship, 2006) in Port Koper (SIKOP, 2024).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:MSC_HARMONY_III_(container_ship,_2006)_in_Port_Koper_(SIKOP,_2024).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/MSC_HARMONY_III_%28container_ship%2C_2006%29_in_Port_Koper_%28SIKOP%2C_2024%29.jpg/960px-MSC_HARMONY_III_%28container_ship%2C_2006%29_in_Port_Koper_%28SIKOP%2C_2024%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Petar Milošević",
+    "description": "MSC HARMONY III (container ship, 2006, IMO 9309411) in Port Koper (SIKOP, 2024)",
+    "sha256": "e603f83a31339edd8d781d452cdddc76215ae5a31b7f07cf8e3c34a9d485029b",
+    "dimensions": [
+      960,
+      631
+    ],
+    "downloaded_utc": "2026-11-12T07:35:23.247458+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_097",
+    "dhash": "0b0be149a9c14169",
+    "vessel_aliases": [
+      "msc harmony"
+    ]
+  },
+  {
+    "file": "images/commons_63578099_MSC_INGRID_JEANINE_PARQUI_MSC_PREZIOSA_36739736343_.jpg",
+    "title": "File:MSC INGRID , JEANINE PARQUI & MSC PREZIOSA (36739736343).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:MSC_INGRID_,_JEANINE_PARQUI_%26_MSC_PREZIOSA_(36739736343).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/MSC_INGRID_%2C_JEANINE_PARQUI_%26_MSC_PREZIOSA_%2836739736343%29.jpg/960px-MSC_INGRID_%2C_JEANINE_PARQUI_%26_MSC_PREZIOSA_%2836739736343%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "Nieuwe Waterweg 30-9-2017",
+    "sha256": "43c5947c1c60b3c0ae4660d7ea607a9bef18c059113f33f862d4df64e8006090",
+    "dimensions": [
+      960,
+      437
+    ],
+    "downloaded_utc": "2026-11-12T07:35:24.044119+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_082",
+    "dhash": "e0f2f3e7653770f8",
+    "vessel_aliases": [
+      "msc ingrid",
+      "msc preziosa"
+    ]
+  },
+  {
+    "file": "images/commons_63512990_MSC_JULIA_R_MSC_GISELLE_MSC_DITTA_37328308365_.jpg",
+    "title": "File:MSC JULIA R , MSC GISELLE , MSC DITTA. (37328308365).jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:MSC_JULIA_R_,_MSC_GISELLE_,_MSC_DITTA._(37328308365).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/MSC_JULIA_R_%2C_MSC_GISELLE_%2C_MSC_DITTA._%2837328308365%29.jpg/960px-MSC_JULIA_R_%2C_MSC_GISELLE_%2C_MSC_DITTA._%2837328308365%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "kees torn",
+    "description": "19-9-2017 Europahaven Maasvlakte 1",
+    "sha256": "6c9644bad2bf993712411e75f8c1e1914a567e1d6906b0934eb8dad73ff99604",
+    "dimensions": [
+      960,
+      486
+    ],
+    "downloaded_utc": "2026-11-12T07:35:25.289089+00:00",
+    "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+    "vessel_group": "vessel_group_099",
+    "dhash": "c1889889562f2edb",
+    "vessel_aliases": [
+      "msc ditta",
+      "msc giselle",
+      "msc julia"
+    ]
   }
 ]
