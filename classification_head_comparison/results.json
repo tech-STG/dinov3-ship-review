@@ -1,0 +1,573 @@
+{
+  "summary": {
+    "color": {
+      "validation_accepted": 15,
+      "negative_false_accepts": 7
+    },
+    "gray": {
+      "validation_accepted": 15,
+      "negative_false_accepts": 7
+    },
+    "head": {
+      "validation_accepted": 7,
+      "negative_false_accepts": 0
+    }
+  },
+  "head_threshold": 0.5,
+  "similarity_threshold": 0.39,
+  "head_training_seconds": 0.019200499998987652,
+  "seven_fold_training_seconds": 0.015253699995810166,
+  "feature_extraction_seconds": 2.7027034999991884,
+  "feature_cache_reused": false,
+  "training": {
+    "positive_originals": 1,
+    "positive_variants": 12,
+    "negative_originals_final_head": 7,
+    "negative_crops_final_head": 35,
+    "feature_dim": 768,
+    "preprocessing_positive": "training-only background removal and grayscale",
+    "preprocessing_negative_and_validation": "original RGB YOLO crops; source files unchanged",
+    "estimator": "L2 logistic regression C=1, class and negative-source balanced weights",
+    "trainable_parameters": 769,
+    "backbone_frozen": true,
+    "threshold_tuned": false
+  },
+  "folds": [
+    {
+      "held_out": "COSCO Glory (ship, 2011) 001.jpg",
+      "training_negatives": [
+        "Calnexship.jpg",
+        "Container ship MV Maersk Alabama.jpg",
+        "Cosco Taicang container ship.jpg",
+        "Cosco Yantian.jpg",
+        "Maersk kalamata seattle 20101127.jpg",
+        "Ship COSCO Portugal (1).jpg"
+      ],
+      "seconds": 0.002473100001225248
+    },
+    {
+      "held_out": "Calnexship.jpg",
+      "training_negatives": [
+        "COSCO Glory (ship, 2011) 001.jpg",
+        "Container ship MV Maersk Alabama.jpg",
+        "Cosco Taicang container ship.jpg",
+        "Cosco Yantian.jpg",
+        "Maersk kalamata seattle 20101127.jpg",
+        "Ship COSCO Portugal (1).jpg"
+      ],
+      "seconds": 0.0021246999967843294
+    },
+    {
+      "held_out": "Container ship MV Maersk Alabama.jpg",
+      "training_negatives": [
+        "COSCO Glory (ship, 2011) 001.jpg",
+        "Calnexship.jpg",
+        "Cosco Taicang container ship.jpg",
+        "Cosco Yantian.jpg",
+        "Maersk kalamata seattle 20101127.jpg",
+        "Ship COSCO Portugal (1).jpg"
+      ],
+      "seconds": 0.0024282000013045035
+    },
+    {
+      "held_out": "Cosco Taicang container ship.jpg",
+      "training_negatives": [
+        "COSCO Glory (ship, 2011) 001.jpg",
+        "Calnexship.jpg",
+        "Container ship MV Maersk Alabama.jpg",
+        "Cosco Yantian.jpg",
+        "Maersk kalamata seattle 20101127.jpg",
+        "Ship COSCO Portugal (1).jpg"
+      ],
+      "seconds": 0.0018988000010722317
+    },
+    {
+      "held_out": "Cosco Yantian.jpg",
+      "training_negatives": [
+        "COSCO Glory (ship, 2011) 001.jpg",
+        "Calnexship.jpg",
+        "Container ship MV Maersk Alabama.jpg",
+        "Cosco Taicang container ship.jpg",
+        "Maersk kalamata seattle 20101127.jpg",
+        "Ship COSCO Portugal (1).jpg"
+      ],
+      "seconds": 0.0018695999970077537
+    },
+    {
+      "held_out": "Maersk kalamata seattle 20101127.jpg",
+      "training_negatives": [
+        "COSCO Glory (ship, 2011) 001.jpg",
+        "Calnexship.jpg",
+        "Container ship MV Maersk Alabama.jpg",
+        "Cosco Taicang container ship.jpg",
+        "Cosco Yantian.jpg",
+        "Ship COSCO Portugal (1).jpg"
+      ],
+      "seconds": 0.002171499996620696
+    },
+    {
+      "held_out": "Ship COSCO Portugal (1).jpg",
+      "training_negatives": [
+        "COSCO Glory (ship, 2011) 001.jpg",
+        "Calnexship.jpg",
+        "Container ship MV Maersk Alabama.jpg",
+        "Cosco Taicang container ship.jpg",
+        "Cosco Yantian.jpg",
+        "Maersk kalamata seattle 20101127.jpg"
+      ],
+      "seconds": 0.0022878000017954037
+    }
+  ],
+  "images": [
+    {
+      "kind": "negative",
+      "file": "COSCO Glory (ship, 2011) 001.jpg",
+      "evaluation": "held-out negative (6 other originals trained)",
+      "color_similarity": 0.43553078174591064,
+      "gray_similarity": 0.42725837230682373,
+      "head_confidence": 0.3356013894081116,
+      "color_accepted": true,
+      "gray_accepted": true,
+      "head_accepted": false,
+      "head_bbox_xyxy": [
+        157,
+        782,
+        341,
+        832
+      ]
+    },
+    {
+      "kind": "negative",
+      "file": "Calnexship.jpg",
+      "evaluation": "held-out negative (6 other originals trained)",
+      "color_similarity": 0.4815139174461365,
+      "gray_similarity": 0.45460858941078186,
+      "head_confidence": 0.21161165833473206,
+      "color_accepted": true,
+      "gray_accepted": true,
+      "head_accepted": false,
+      "head_bbox_xyxy": [
+        351,
+        335,
+        747,
+        706
+      ]
+    },
+    {
+      "kind": "negative",
+      "file": "Container ship MV Maersk Alabama.jpg",
+      "evaluation": "held-out negative (6 other originals trained)",
+      "color_similarity": 0.5827138423919678,
+      "gray_similarity": 0.5329217910766602,
+      "head_confidence": 0.3003888428211212,
+      "color_accepted": true,
+      "gray_accepted": true,
+      "head_accepted": false,
+      "head_bbox_xyxy": [
+        1236,
+        334,
+        1257,
+        342
+      ]
+    },
+    {
+      "kind": "negative",
+      "file": "Cosco Taicang container ship.jpg",
+      "evaluation": "held-out negative (6 other originals trained)",
+      "color_similarity": 0.5670530796051025,
+      "gray_similarity": 0.49100396037101746,
+      "head_confidence": 0.2859455347061157,
+      "color_accepted": true,
+      "gray_accepted": true,
+      "head_accepted": false,
+      "head_bbox_xyxy": [
+        1,
+        609,
+        241,
+        668
+      ]
+    },
+    {
+      "kind": "negative",
+      "file": "Cosco Yantian.jpg",
+      "evaluation": "held-out negative (6 other originals trained)",
+      "color_similarity": 0.49403929710388184,
+      "gray_similarity": 0.4288210868835449,
+      "head_confidence": 0.30337390303611755,
+      "color_accepted": true,
+      "gray_accepted": true,
+      "head_accepted": false,
+      "head_bbox_xyxy": [
+        0,
+        617,
+        117,
+        900
+      ]
+    },
+    {
+      "kind": "negative",
+      "file": "Maersk kalamata seattle 20101127.jpg",
+      "evaluation": "held-out negative (6 other originals trained)",
+      "color_similarity": 0.6557369828224182,
+      "gray_similarity": 0.5814587473869324,
+      "head_confidence": 0.2715497314929962,
+      "color_accepted": true,
+      "gray_accepted": true,
+      "head_accepted": false,
+      "head_bbox_xyxy": [
+        37,
+        197,
+        398,
+        376
+      ]
+    },
+    {
+      "kind": "negative",
+      "file": "Ship COSCO Portugal (1).jpg",
+      "evaluation": "held-out negative (6 other originals trained)",
+      "color_similarity": 0.7007153630256653,
+      "gray_similarity": 0.5788220167160034,
+      "head_confidence": 0.29631924629211426,
+      "color_accepted": true,
+      "gray_accepted": true,
+      "head_accepted": false,
+      "head_bbox_xyxy": [
+        137,
+        213,
+        1132,
+        490
+      ]
+    },
+    {
+      "kind": "validation",
+      "file": "frame_000445.png",
+      "evaluation": "development video frame (not trained; identity labels unverified)",
+      "color_similarity": 0.5308734178543091,
+      "gray_similarity": 0.5390377640724182,
+      "head_confidence": 0.5251085758209229,
+      "color_accepted": true,
+      "gray_accepted": true,
+      "head_accepted": true,
+      "head_bbox_xyxy": [
+        497,
+        366,
+        966,
+        463
+      ]
+    },
+    {
+      "kind": "validation",
+      "file": "frame_000578.png",
+      "evaluation": "development video frame (not trained; identity labels unverified)",
+      "color_similarity": 0.5219209790229797,
+      "gray_similarity": 0.5280569791793823,
+      "head_confidence": 0.5055122375488281,
+      "color_accepted": true,
+      "gray_accepted": true,
+      "head_accepted": true,
+      "head_bbox_xyxy": [
+        274,
+        408,
+        745,
+        508
+      ]
+    },
+    {
+      "kind": "validation",
+      "file": "frame_000280.png",
+      "evaluation": "development video frame (not trained; identity labels unverified)",
+      "color_similarity": 0.44635432958602905,
+      "gray_similarity": 0.44267404079437256,
+      "head_confidence": 0.4350516200065613,
+      "color_accepted": true,
+      "gray_accepted": true,
+      "head_accepted": false,
+      "head_bbox_xyxy": [
+        577,
+        473,
+        741,
+        517
+      ]
+    },
+    {
+      "kind": "validation",
+      "file": "frame_000362.png",
+      "evaluation": "development video frame (not trained; identity labels unverified)",
+      "color_similarity": null,
+      "gray_similarity": null,
+      "head_confidence": null,
+      "color_accepted": false,
+      "gray_accepted": false,
+      "head_accepted": false,
+      "head_bbox_xyxy": null
+    },
+    {
+      "kind": "validation",
+      "file": "frame_000477.png",
+      "evaluation": "development video frame (not trained; identity labels unverified)",
+      "color_similarity": 0.5470521450042725,
+      "gray_similarity": 0.5539366006851196,
+      "head_confidence": 0.5350552797317505,
+      "color_accepted": true,
+      "gray_accepted": true,
+      "head_accepted": true,
+      "head_bbox_xyxy": [
+        712,
+        361,
+        941,
+        458
+      ]
+    },
+    {
+      "kind": "validation",
+      "file": "frame_000193.png",
+      "evaluation": "development video frame (not trained; identity labels unverified)",
+      "color_similarity": 0.49438387155532837,
+      "gray_similarity": 0.4734446108341217,
+      "head_confidence": 0.4615543782711029,
+      "color_accepted": true,
+      "gray_accepted": true,
+      "head_accepted": false,
+      "head_bbox_xyxy": [
+        586,
+        534,
+        671,
+        566
+      ]
+    },
+    {
+      "kind": "validation",
+      "file": "frame_000014.png",
+      "evaluation": "development video frame (not trained; identity labels unverified)",
+      "color_similarity": 0.32707300782203674,
+      "gray_similarity": 0.3299240171909332,
+      "head_confidence": 0.33929452300071716,
+      "color_accepted": false,
+      "gray_accepted": false,
+      "head_accepted": false,
+      "head_bbox_xyxy": [
+        396,
+        433,
+        407,
+        438
+      ]
+    },
+    {
+      "kind": "validation",
+      "file": "frame_000044.png",
+      "evaluation": "development video frame (not trained; identity labels unverified)",
+      "color_similarity": 0.3314206898212433,
+      "gray_similarity": 0.3158642053604126,
+      "head_confidence": 0.34033817052841187,
+      "color_accepted": false,
+      "gray_accepted": false,
+      "head_accepted": false,
+      "head_bbox_xyxy": [
+        401,
+        437,
+        412,
+        440
+      ]
+    },
+    {
+      "kind": "validation",
+      "file": "frame_000290.png",
+      "evaluation": "development video frame (not trained; identity labels unverified)",
+      "color_similarity": 0.45568323135375977,
+      "gray_similarity": 0.4529043138027191,
+      "head_confidence": 0.4502335786819458,
+      "color_accepted": true,
+      "gray_accepted": true,
+      "head_accepted": false,
+      "head_bbox_xyxy": [
+        594,
+        470,
+        773,
+        508
+      ]
+    },
+    {
+      "kind": "validation",
+      "file": "frame_000231.png",
+      "evaluation": "development video frame (not trained; identity labels unverified)",
+      "color_similarity": 0.541863739490509,
+      "gray_similarity": 0.5068657398223877,
+      "head_confidence": 0.45301875472068787,
+      "color_accepted": true,
+      "gray_accepted": true,
+      "head_accepted": false,
+      "head_bbox_xyxy": [
+        487,
+        506,
+        652,
+        544
+      ]
+    },
+    {
+      "kind": "validation",
+      "file": "frame_000266.png",
+      "evaluation": "development video frame (not trained; identity labels unverified)",
+      "color_similarity": 0.4521239399909973,
+      "gray_similarity": 0.4578317701816559,
+      "head_confidence": 0.4669186472892761,
+      "color_accepted": true,
+      "gray_accepted": true,
+      "head_accepted": false,
+      "head_bbox_xyxy": [
+        536,
+        482,
+        700,
+        514
+      ]
+    },
+    {
+      "kind": "validation",
+      "file": "frame_000353.png",
+      "evaluation": "development video frame (not trained; identity labels unverified)",
+      "color_similarity": 0.5906570553779602,
+      "gray_similarity": 0.5419173240661621,
+      "head_confidence": 0.4702318012714386,
+      "color_accepted": true,
+      "gray_accepted": true,
+      "head_accepted": false,
+      "head_bbox_xyxy": [
+        671,
+        476,
+        820,
+        564
+      ]
+    },
+    {
+      "kind": "validation",
+      "file": "frame_000347.png",
+      "evaluation": "development video frame (not trained; identity labels unverified)",
+      "color_similarity": 0.39448288083076477,
+      "gray_similarity": 0.41205745935440063,
+      "head_confidence": 0.4251142740249634,
+      "color_accepted": true,
+      "gray_accepted": true,
+      "head_accepted": false,
+      "head_bbox_xyxy": [
+        378,
+        487,
+        840,
+        591
+      ]
+    },
+    {
+      "kind": "validation",
+      "file": "frame_000431.png",
+      "evaluation": "development video frame (not trained; identity labels unverified)",
+      "color_similarity": 0.568627119064331,
+      "gray_similarity": 0.5344931483268738,
+      "head_confidence": 0.5228068232536316,
+      "color_accepted": true,
+      "gray_accepted": true,
+      "head_accepted": true,
+      "head_bbox_xyxy": [
+        440,
+        369,
+        911,
+        476
+      ]
+    },
+    {
+      "kind": "validation",
+      "file": "frame_000256.png",
+      "evaluation": "development video frame (not trained; identity labels unverified)",
+      "color_similarity": 0.5684443712234497,
+      "gray_similarity": 0.5619618892669678,
+      "head_confidence": 0.5347769260406494,
+      "color_accepted": true,
+      "gray_accepted": true,
+      "head_accepted": true,
+      "head_bbox_xyxy": [
+        510,
+        485,
+        675,
+        523
+      ]
+    },
+    {
+      "kind": "validation",
+      "file": "frame_000073.png",
+      "evaluation": "development video frame (not trained; identity labels unverified)",
+      "color_similarity": 0.18228253722190857,
+      "gray_similarity": 0.23999027907848358,
+      "head_confidence": 0.3366168141365051,
+      "color_accepted": false,
+      "gray_accepted": false,
+      "head_accepted": false,
+      "head_bbox_xyxy": [
+        70,
+        533,
+        94,
+        540
+      ]
+    },
+    {
+      "kind": "validation",
+      "file": "frame_000307.png",
+      "evaluation": "development video frame (not trained; identity labels unverified)",
+      "color_similarity": 0.45660626888275146,
+      "gray_similarity": 0.46798175573349,
+      "head_confidence": 0.45915302634239197,
+      "color_accepted": true,
+      "gray_accepted": true,
+      "head_accepted": false,
+      "head_bbox_xyxy": [
+        603,
+        506,
+        865,
+        566
+      ]
+    },
+    {
+      "kind": "validation",
+      "file": "frame_000260.png",
+      "evaluation": "development video frame (not trained; identity labels unverified)",
+      "color_similarity": 0.5607731938362122,
+      "gray_similarity": 0.538887619972229,
+      "head_confidence": 0.5014544725418091,
+      "color_accepted": true,
+      "gray_accepted": true,
+      "head_accepted": true,
+      "head_bbox_xyxy": [
+        520,
+        482,
+        684,
+        519
+      ]
+    },
+    {
+      "kind": "validation",
+      "file": "frame_000426.png",
+      "evaluation": "development video frame (not trained; identity labels unverified)",
+      "color_similarity": null,
+      "gray_similarity": null,
+      "head_confidence": null,
+      "color_accepted": false,
+      "gray_accepted": false,
+      "head_accepted": false,
+      "head_bbox_xyxy": null
+    },
+    {
+      "kind": "validation",
+      "file": "frame_000557.png",
+      "evaluation": "development video frame (not trained; identity labels unverified)",
+      "color_similarity": 0.6044107675552368,
+      "gray_similarity": 0.5611478686332703,
+      "head_confidence": 0.5222017168998718,
+      "color_accepted": true,
+      "gray_accepted": true,
+      "head_accepted": true,
+      "head_bbox_xyxy": [
+        530,
+        399,
+        762,
+        491
+      ]
+    }
+  ],
+  "limitations": "Only one positive original. Video identity labels unverified; acceptance is not accuracy or recall. Negative leave-one-source-out evaluates 7 different heads, not the final head on independent data. All images already used for development. Confidence is uncalibrated. No claim of generalization."
+}
