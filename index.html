@@ -9,89 +9,89 @@ body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 system-ui,"Mic
 #count{margin-left:auto;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}article{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}.photo{display:block;background:#080f18}.photo img{display:block;width:100%;height:auto}.body{padding:16px 18px}.row{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}h2{font-size:15px;margin:0;font-weight:600}.badge{font-size:11px;color:#eed39a;background:#463b25;padding:3px 8px;border-radius:5px}.badge.accepted{color:#9de4bd;background:#234535}.score{font-size:30px;font-variant-numeric:tabular-nums;color:var(--accent)}small{font-size:15px;margin-left:3px}.caption{font-size:12px;color:var(--muted);margin-left:12px}a{color:#91d0e1}.open{font-size:13px}.details{font-size:12px;color:var(--muted);margin:6px 0 0}footer{color:var(--muted);font-size:12px;margin-top:28px}[hidden]{display:none!important}#empty{padding:40px;text-align:center;color:var(--muted)}
 @media(max-width:760px){main{padding:22px 14px}.grid{grid-template-columns:1fr}.stat{min-width:100px;padding:10px 14px}.toolbar label{flex:1}input{min-width:0;width:100%}#count{width:100%;margin:0}}
 </style></head><body><main><header><div class="eyebrow">DINOv3 / IMAGE REVIEW</div><h1>船舶影像相似度檢視</h1>
-<p>每張影格僅保留分數最高的一個自動區域候選框。分數為實際模型計算的區域餘弦相似度 × 100，並非辨識機率；候選框也可能包含背景。</p></header>
-<section class="stats" aria-label="結果摘要"><div class="stat"><strong>20</strong><span>隨機選取影格</span></div><div class="stat"><strong>60%</strong><span>相似度門檻（含）</span></div><div class="stat"><strong>0 / 20</strong><span>達到目標船候選門檻</span></div></section>
+<p>每張影格只評估最高分候選：達到門檻才顯示框，低於門檻顯示 No Matching Object。下方保留最高候選的實際分數供檢視。相似度並非辨識機率；自動候選框也可能包含背景。</p></header>
+<section class="stats" aria-label="結果摘要"><div class="stat"><strong>20</strong><span>隨機選取影格</span></div><div class="stat"><strong>39%</strong><span>相似度門檻（含）</span></div><div class="stat"><strong>9 / 20</strong><span>達到目標船候選門檻</span></div></section>
 <div class="toolbar"><label>搜尋檔名<input id="search" type="search" placeholder="例如 frame_000445"></label><label>排序<select id="sort"><option value="score">相似度：高 → 低</option><option value="name">檔名順序</option><option value="order">原始抽樣順序</option></select></label><label>顯示<select id="filter"><option value="all">全部影格</option><option value="true">達到門檻</option><option value="false">低於門檻／未偵測</option></select></label><span id="count" role="status" aria-live="polite"></span></div>
-<section class="grid" id="gallery" aria-label="標註影格"><article data-name="frame_000445.png" data-score="0.5185669660568237" data-order="0" data-accepted="false">
-<a class="photo" href="frame_000445.png" target="_blank" rel="noopener" aria-label="放大 frame_000445.png"><img src="frame_000445.png" alt="frame_000445.png：低於門檻 · 未分類區域，相似度 51.86%" loading="lazy" width="1280" height="720"></a>
-<div class="body"><div class="row"><h2>frame_000445.png</h2><span class="badge ">低於門檻 · 未分類區域</span></div>
-<div class="row"><div><span class="score">51.86<small>%</small></span><span class="caption">Similarity</span></div><a class="open" href="frame_000445.png" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
-<p class="details">1280 × 720 px · 框座標 [453, 320, 1014, 507]</p></div></article><article data-name="frame_000578.png" data-score="0.48039111495018005" data-order="1" data-accepted="false">
-<a class="photo" href="frame_000578.png" target="_blank" rel="noopener" aria-label="放大 frame_000578.png"><img src="frame_000578.png" alt="frame_000578.png：低於門檻 · 未分類區域，相似度 48.04%" loading="lazy" width="1280" height="720"></a>
-<div class="body"><div class="row"><h2>frame_000578.png</h2><span class="badge ">低於門檻 · 未分類區域</span></div>
-<div class="row"><div><span class="score">48.04<small>%</small></span><span class="caption">Similarity</span></div><a class="open" href="frame_000578.png" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
+<section class="grid" id="gallery" aria-label="標註影格"><article data-name="frame_000445.png" data-score="0.5185669660568237" data-order="0" data-accepted="true">
+<a class="photo" href="frame_000445.png?v=4f325bb8f860" target="_blank" rel="noopener" aria-label="放大 frame_000445.png"><img src="frame_000445.png?v=4f325bb8f860" alt="frame_000445.png：目標船候選，相似度 51.86%" loading="lazy" width="1280" height="720"></a>
+<div class="body"><div class="row"><h2>frame_000445.png</h2><span class="badge accepted">目標船候選</span></div>
+<div class="row"><div><span class="score">51.86<small>%</small></span><span class="caption">最高候選相似度</span></div><a class="open" href="frame_000445.png?v=4f325bb8f860" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
+<p class="details">1280 × 720 px · 框座標 [453, 320, 1014, 507]</p></div></article><article data-name="frame_000578.png" data-score="0.48039111495018005" data-order="1" data-accepted="true">
+<a class="photo" href="frame_000578.png?v=b63f1000d5e1" target="_blank" rel="noopener" aria-label="放大 frame_000578.png"><img src="frame_000578.png?v=b63f1000d5e1" alt="frame_000578.png：目標船候選，相似度 48.04%" loading="lazy" width="1280" height="720"></a>
+<div class="body"><div class="row"><h2>frame_000578.png</h2><span class="badge accepted">目標船候選</span></div>
+<div class="row"><div><span class="score">48.04<small>%</small></span><span class="caption">最高候選相似度</span></div><a class="open" href="frame_000578.png?v=b63f1000d5e1" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
 <p class="details">1280 × 720 px · 框座標 [240, 373, 774, 534]</p></div></article><article data-name="frame_000280.png" data-score="0.2985789179801941" data-order="2" data-accepted="false">
-<a class="photo" href="frame_000280.png" target="_blank" rel="noopener" aria-label="放大 frame_000280.png"><img src="frame_000280.png" alt="frame_000280.png：低於門檻 · 未分類區域，相似度 29.86%" loading="lazy" width="1280" height="720"></a>
-<div class="body"><div class="row"><h2>frame_000280.png</h2><span class="badge ">低於門檻 · 未分類區域</span></div>
-<div class="row"><div><span class="score">29.86<small>%</small></span><span class="caption">Similarity</span></div><a class="open" href="frame_000280.png" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
-<p class="details">1280 × 720 px · 框座標 [320, 186, 987, 454]</p></div></article><article data-name="frame_000362.png" data-score="0.34688276052474976" data-order="3" data-accepted="false">
-<a class="photo" href="frame_000362.png" target="_blank" rel="noopener" aria-label="放大 frame_000362.png"><img src="frame_000362.png" alt="frame_000362.png：低於門檻 · 未分類區域，相似度 34.69%" loading="lazy" width="1280" height="720"></a>
-<div class="body"><div class="row"><h2>frame_000362.png</h2><span class="badge ">低於門檻 · 未分類區域</span></div>
-<div class="row"><div><span class="score">34.69<small>%</small></span><span class="caption">Similarity</span></div><a class="open" href="frame_000362.png" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
-<p class="details">1280 × 720 px · 框座標 [533, 106, 960, 400]</p></div></article><article data-name="frame_000477.png" data-score="0.5661545395851135" data-order="4" data-accepted="false">
-<a class="photo" href="frame_000477.png" target="_blank" rel="noopener" aria-label="放大 frame_000477.png"><img src="frame_000477.png" alt="frame_000477.png：低於門檻 · 未分類區域，相似度 56.62%" loading="lazy" width="1280" height="720"></a>
-<div class="body"><div class="row"><h2>frame_000477.png</h2><span class="badge ">低於門檻 · 未分類區域</span></div>
-<div class="row"><div><span class="score">56.62<small>%</small></span><span class="caption">Similarity</span></div><a class="open" href="frame_000477.png" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
+<a class="photo" href="frame_000280.png?v=1c834a52ec70" target="_blank" rel="noopener" aria-label="放大 frame_000280.png"><img src="frame_000280.png?v=1c834a52ec70" alt="frame_000280.png：No Matching Object（無符合目標），相似度 29.86%" loading="lazy" width="1280" height="720"></a>
+<div class="body"><div class="row"><h2>frame_000280.png</h2><span class="badge ">No Matching Object（無符合目標）</span></div>
+<div class="row"><div><span class="score">29.86<small>%</small></span><span class="caption">最高候選相似度</span></div><a class="open" href="frame_000280.png?v=1c834a52ec70" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
+<p class="details">1280 × 720 px · 框座標 —（未顯示框）</p></div></article><article data-name="frame_000362.png" data-score="0.34688276052474976" data-order="3" data-accepted="false">
+<a class="photo" href="frame_000362.png?v=288e2eca2f44" target="_blank" rel="noopener" aria-label="放大 frame_000362.png"><img src="frame_000362.png?v=288e2eca2f44" alt="frame_000362.png：No Matching Object（無符合目標），相似度 34.69%" loading="lazy" width="1280" height="720"></a>
+<div class="body"><div class="row"><h2>frame_000362.png</h2><span class="badge ">No Matching Object（無符合目標）</span></div>
+<div class="row"><div><span class="score">34.69<small>%</small></span><span class="caption">最高候選相似度</span></div><a class="open" href="frame_000362.png?v=288e2eca2f44" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
+<p class="details">1280 × 720 px · 框座標 —（未顯示框）</p></div></article><article data-name="frame_000477.png" data-score="0.5661545395851135" data-order="4" data-accepted="true">
+<a class="photo" href="frame_000477.png?v=3d27ce9752a2" target="_blank" rel="noopener" aria-label="放大 frame_000477.png"><img src="frame_000477.png?v=3d27ce9752a2" alt="frame_000477.png：目標船候選，相似度 56.62%" loading="lazy" width="1280" height="720"></a>
+<div class="body"><div class="row"><h2>frame_000477.png</h2><span class="badge accepted">目標船候選</span></div>
+<div class="row"><div><span class="score">56.62<small>%</small></span><span class="caption">最高候選相似度</span></div><a class="open" href="frame_000477.png?v=3d27ce9752a2" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
 <p class="details">1280 × 720 px · 框座標 [426, 320, 987, 507]</p></div></article><article data-name="frame_000193.png" data-score="0.30621254444122314" data-order="5" data-accepted="false">
-<a class="photo" href="frame_000193.png" target="_blank" rel="noopener" aria-label="放大 frame_000193.png"><img src="frame_000193.png" alt="frame_000193.png：低於門檻 · 未分類區域，相似度 30.62%" loading="lazy" width="1280" height="720"></a>
-<div class="body"><div class="row"><h2>frame_000193.png</h2><span class="badge ">低於門檻 · 未分類區域</span></div>
-<div class="row"><div><span class="score">30.62<small>%</small></span><span class="caption">Similarity</span></div><a class="open" href="frame_000193.png" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
-<p class="details">1280 × 720 px · 框座標 [293, 293, 854, 507]</p></div></article><article data-name="frame_000014.png" data-score="0.22839638590812683" data-order="6" data-accepted="false">
-<a class="photo" href="frame_000014.png" target="_blank" rel="noopener" aria-label="放大 frame_000014.png"><img src="frame_000014.png" alt="frame_000014.png：低於門檻 · 未分類區域，相似度 22.84%" loading="lazy" width="1280" height="720"></a>
-<div class="body"><div class="row"><h2>frame_000014.png</h2><span class="badge ">低於門檻 · 未分類區域</span></div>
-<div class="row"><div><span class="score">22.84<small>%</small></span><span class="caption">Similarity</span></div><a class="open" href="frame_000014.png" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
-<p class="details">1280 × 720 px · 框座標 [400, 80, 934, 347]</p></div></article><article data-name="frame_000044.png" data-score="0.21666038036346436" data-order="7" data-accepted="false">
-<a class="photo" href="frame_000044.png" target="_blank" rel="noopener" aria-label="放大 frame_000044.png"><img src="frame_000044.png" alt="frame_000044.png：低於門檻 · 未分類區域，相似度 21.67%" loading="lazy" width="1280" height="720"></a>
-<div class="body"><div class="row"><h2>frame_000044.png</h2><span class="badge ">低於門檻 · 未分類區域</span></div>
-<div class="row"><div><span class="score">21.67<small>%</small></span><span class="caption">Similarity</span></div><a class="open" href="frame_000044.png" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
-<p class="details">1280 × 720 px · 框座標 [400, 80, 960, 347]</p></div></article><article data-name="frame_000290.png" data-score="0.28067025542259216" data-order="8" data-accepted="false">
-<a class="photo" href="frame_000290.png" target="_blank" rel="noopener" aria-label="放大 frame_000290.png"><img src="frame_000290.png" alt="frame_000290.png：低於門檻 · 未分類區域，相似度 28.07%" loading="lazy" width="1280" height="720"></a>
-<div class="body"><div class="row"><h2>frame_000290.png</h2><span class="badge ">低於門檻 · 未分類區域</span></div>
-<div class="row"><div><span class="score">28.07<small>%</small></span><span class="caption">Similarity</span></div><a class="open" href="frame_000290.png" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
-<p class="details">1280 × 720 px · 框座標 [453, 186, 1014, 347]</p></div></article><article data-name="frame_000231.png" data-score="0.49931079149246216" data-order="9" data-accepted="false">
-<a class="photo" href="frame_000231.png" target="_blank" rel="noopener" aria-label="放大 frame_000231.png"><img src="frame_000231.png" alt="frame_000231.png：低於門檻 · 未分類區域，相似度 49.93%" loading="lazy" width="1280" height="720"></a>
-<div class="body"><div class="row"><h2>frame_000231.png</h2><span class="badge ">低於門檻 · 未分類區域</span></div>
-<div class="row"><div><span class="score">49.93<small>%</small></span><span class="caption">Similarity</span></div><a class="open" href="frame_000231.png" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
+<a class="photo" href="frame_000193.png?v=4c77185d99d2" target="_blank" rel="noopener" aria-label="放大 frame_000193.png"><img src="frame_000193.png?v=4c77185d99d2" alt="frame_000193.png：No Matching Object（無符合目標），相似度 30.62%" loading="lazy" width="1280" height="720"></a>
+<div class="body"><div class="row"><h2>frame_000193.png</h2><span class="badge ">No Matching Object（無符合目標）</span></div>
+<div class="row"><div><span class="score">30.62<small>%</small></span><span class="caption">最高候選相似度</span></div><a class="open" href="frame_000193.png?v=4c77185d99d2" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
+<p class="details">1280 × 720 px · 框座標 —（未顯示框）</p></div></article><article data-name="frame_000014.png" data-score="0.22839638590812683" data-order="6" data-accepted="false">
+<a class="photo" href="frame_000014.png?v=cbd5854fa77f" target="_blank" rel="noopener" aria-label="放大 frame_000014.png"><img src="frame_000014.png?v=cbd5854fa77f" alt="frame_000014.png：No Matching Object（無符合目標），相似度 22.84%" loading="lazy" width="1280" height="720"></a>
+<div class="body"><div class="row"><h2>frame_000014.png</h2><span class="badge ">No Matching Object（無符合目標）</span></div>
+<div class="row"><div><span class="score">22.84<small>%</small></span><span class="caption">最高候選相似度</span></div><a class="open" href="frame_000014.png?v=cbd5854fa77f" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
+<p class="details">1280 × 720 px · 框座標 —（未顯示框）</p></div></article><article data-name="frame_000044.png" data-score="0.21666038036346436" data-order="7" data-accepted="false">
+<a class="photo" href="frame_000044.png?v=a2d63955e45f" target="_blank" rel="noopener" aria-label="放大 frame_000044.png"><img src="frame_000044.png?v=a2d63955e45f" alt="frame_000044.png：No Matching Object（無符合目標），相似度 21.67%" loading="lazy" width="1280" height="720"></a>
+<div class="body"><div class="row"><h2>frame_000044.png</h2><span class="badge ">No Matching Object（無符合目標）</span></div>
+<div class="row"><div><span class="score">21.67<small>%</small></span><span class="caption">最高候選相似度</span></div><a class="open" href="frame_000044.png?v=a2d63955e45f" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
+<p class="details">1280 × 720 px · 框座標 —（未顯示框）</p></div></article><article data-name="frame_000290.png" data-score="0.28067025542259216" data-order="8" data-accepted="false">
+<a class="photo" href="frame_000290.png?v=04f59760354d" target="_blank" rel="noopener" aria-label="放大 frame_000290.png"><img src="frame_000290.png?v=04f59760354d" alt="frame_000290.png：No Matching Object（無符合目標），相似度 28.07%" loading="lazy" width="1280" height="720"></a>
+<div class="body"><div class="row"><h2>frame_000290.png</h2><span class="badge ">No Matching Object（無符合目標）</span></div>
+<div class="row"><div><span class="score">28.07<small>%</small></span><span class="caption">最高候選相似度</span></div><a class="open" href="frame_000290.png?v=04f59760354d" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
+<p class="details">1280 × 720 px · 框座標 —（未顯示框）</p></div></article><article data-name="frame_000231.png" data-score="0.49931079149246216" data-order="9" data-accepted="true">
+<a class="photo" href="frame_000231.png?v=2c96e7477212" target="_blank" rel="noopener" aria-label="放大 frame_000231.png"><img src="frame_000231.png?v=2c96e7477212" alt="frame_000231.png：目標船候選，相似度 49.93%" loading="lazy" width="1280" height="720"></a>
+<div class="body"><div class="row"><h2>frame_000231.png</h2><span class="badge accepted">目標船候選</span></div>
+<div class="row"><div><span class="score">49.93<small>%</small></span><span class="caption">最高候選相似度</span></div><a class="open" href="frame_000231.png?v=2c96e7477212" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
 <p class="details">1280 × 720 px · 框座標 [426, 346, 1014, 534]</p></div></article><article data-name="frame_000266.png" data-score="0.3491246700286865" data-order="10" data-accepted="false">
-<a class="photo" href="frame_000266.png" target="_blank" rel="noopener" aria-label="放大 frame_000266.png"><img src="frame_000266.png" alt="frame_000266.png：低於門檻 · 未分類區域，相似度 34.91%" loading="lazy" width="1280" height="720"></a>
-<div class="body"><div class="row"><h2>frame_000266.png</h2><span class="badge ">低於門檻 · 未分類區域</span></div>
-<div class="row"><div><span class="score">34.91<small>%</small></span><span class="caption">Similarity</span></div><a class="open" href="frame_000266.png" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
-<p class="details">1280 × 720 px · 框座標 [373, 213, 934, 454]</p></div></article><article data-name="frame_000353.png" data-score="0.5123348236083984" data-order="11" data-accepted="false">
-<a class="photo" href="frame_000353.png" target="_blank" rel="noopener" aria-label="放大 frame_000353.png"><img src="frame_000353.png" alt="frame_000353.png：低於門檻 · 未分類區域，相似度 51.23%" loading="lazy" width="1280" height="720"></a>
-<div class="body"><div class="row"><h2>frame_000353.png</h2><span class="badge ">低於門檻 · 未分類區域</span></div>
-<div class="row"><div><span class="score">51.23<small>%</small></span><span class="caption">Similarity</span></div><a class="open" href="frame_000353.png" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
-<p class="details">1280 × 720 px · 框座標 [320, 426, 854, 614]</p></div></article><article data-name="frame_000347.png" data-score="0.40359431505203247" data-order="12" data-accepted="false">
-<a class="photo" href="frame_000347.png" target="_blank" rel="noopener" aria-label="放大 frame_000347.png"><img src="frame_000347.png" alt="frame_000347.png：低於門檻 · 未分類區域，相似度 40.36%" loading="lazy" width="1280" height="720"></a>
-<div class="body"><div class="row"><h2>frame_000347.png</h2><span class="badge ">低於門檻 · 未分類區域</span></div>
-<div class="row"><div><span class="score">40.36<small>%</small></span><span class="caption">Similarity</span></div><a class="open" href="frame_000347.png" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
-<p class="details">1280 × 720 px · 框座標 [346, 453, 880, 640]</p></div></article><article data-name="frame_000431.png" data-score="0.5023213028907776" data-order="13" data-accepted="false">
-<a class="photo" href="frame_000431.png" target="_blank" rel="noopener" aria-label="放大 frame_000431.png"><img src="frame_000431.png" alt="frame_000431.png：低於門檻 · 未分類區域，相似度 50.23%" loading="lazy" width="1280" height="720"></a>
-<div class="body"><div class="row"><h2>frame_000431.png</h2><span class="badge ">低於門檻 · 未分類區域</span></div>
-<div class="row"><div><span class="score">50.23<small>%</small></span><span class="caption">Similarity</span></div><a class="open" href="frame_000431.png" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
+<a class="photo" href="frame_000266.png?v=d21132f5f4db" target="_blank" rel="noopener" aria-label="放大 frame_000266.png"><img src="frame_000266.png?v=d21132f5f4db" alt="frame_000266.png：No Matching Object（無符合目標），相似度 34.91%" loading="lazy" width="1280" height="720"></a>
+<div class="body"><div class="row"><h2>frame_000266.png</h2><span class="badge ">No Matching Object（無符合目標）</span></div>
+<div class="row"><div><span class="score">34.91<small>%</small></span><span class="caption">最高候選相似度</span></div><a class="open" href="frame_000266.png?v=d21132f5f4db" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
+<p class="details">1280 × 720 px · 框座標 —（未顯示框）</p></div></article><article data-name="frame_000353.png" data-score="0.5123348236083984" data-order="11" data-accepted="true">
+<a class="photo" href="frame_000353.png?v=cc7232e76c15" target="_blank" rel="noopener" aria-label="放大 frame_000353.png"><img src="frame_000353.png?v=cc7232e76c15" alt="frame_000353.png：目標船候選，相似度 51.23%" loading="lazy" width="1280" height="720"></a>
+<div class="body"><div class="row"><h2>frame_000353.png</h2><span class="badge accepted">目標船候選</span></div>
+<div class="row"><div><span class="score">51.23<small>%</small></span><span class="caption">最高候選相似度</span></div><a class="open" href="frame_000353.png?v=cc7232e76c15" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
+<p class="details">1280 × 720 px · 框座標 [320, 426, 854, 614]</p></div></article><article data-name="frame_000347.png" data-score="0.40359431505203247" data-order="12" data-accepted="true">
+<a class="photo" href="frame_000347.png?v=16820c583862" target="_blank" rel="noopener" aria-label="放大 frame_000347.png"><img src="frame_000347.png?v=16820c583862" alt="frame_000347.png：目標船候選，相似度 40.36%" loading="lazy" width="1280" height="720"></a>
+<div class="body"><div class="row"><h2>frame_000347.png</h2><span class="badge accepted">目標船候選</span></div>
+<div class="row"><div><span class="score">40.36<small>%</small></span><span class="caption">最高候選相似度</span></div><a class="open" href="frame_000347.png?v=16820c583862" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
+<p class="details">1280 × 720 px · 框座標 [346, 453, 880, 640]</p></div></article><article data-name="frame_000431.png" data-score="0.5023213028907776" data-order="13" data-accepted="true">
+<a class="photo" href="frame_000431.png?v=96290a0a9fe4" target="_blank" rel="noopener" aria-label="放大 frame_000431.png"><img src="frame_000431.png?v=96290a0a9fe4" alt="frame_000431.png：目標船候選，相似度 50.23%" loading="lazy" width="1280" height="720"></a>
+<div class="body"><div class="row"><h2>frame_000431.png</h2><span class="badge accepted">目標船候選</span></div>
+<div class="row"><div><span class="score">50.23<small>%</small></span><span class="caption">最高候選相似度</span></div><a class="open" href="frame_000431.png?v=96290a0a9fe4" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
 <p class="details">1280 × 720 px · 框座標 [400, 320, 960, 534]</p></div></article><article data-name="frame_000256.png" data-score="0.3176206350326538" data-order="14" data-accepted="false">
-<a class="photo" href="frame_000256.png" target="_blank" rel="noopener" aria-label="放大 frame_000256.png"><img src="frame_000256.png" alt="frame_000256.png：低於門檻 · 未分類區域，相似度 31.76%" loading="lazy" width="1280" height="720"></a>
-<div class="body"><div class="row"><h2>frame_000256.png</h2><span class="badge ">低於門檻 · 未分類區域</span></div>
-<div class="row"><div><span class="score">31.76<small>%</small></span><span class="caption">Similarity</span></div><a class="open" href="frame_000256.png" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
-<p class="details">1280 × 720 px · 框座標 [480, 213, 1014, 454]</p></div></article><article data-name="frame_000073.png" data-score="0.2999020516872406" data-order="15" data-accepted="false">
-<a class="photo" href="frame_000073.png" target="_blank" rel="noopener" aria-label="放大 frame_000073.png"><img src="frame_000073.png" alt="frame_000073.png：低於門檻 · 未分類區域，相似度 29.99%" loading="lazy" width="1280" height="720"></a>
-<div class="body"><div class="row"><h2>frame_000073.png</h2><span class="badge ">低於門檻 · 未分類區域</span></div>
-<div class="row"><div><span class="score">29.99<small>%</small></span><span class="caption">Similarity</span></div><a class="open" href="frame_000073.png" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
-<p class="details">1280 × 720 px · 框座標 [160, 133, 880, 347]</p></div></article><article data-name="frame_000307.png" data-score="0.3752766251564026" data-order="16" data-accepted="false">
-<a class="photo" href="frame_000307.png" target="_blank" rel="noopener" aria-label="放大 frame_000307.png"><img src="frame_000307.png" alt="frame_000307.png：低於門檻 · 未分類區域，相似度 37.53%" loading="lazy" width="1280" height="720"></a>
-<div class="body"><div class="row"><h2>frame_000307.png</h2><span class="badge ">低於門檻 · 未分類區域</span></div>
-<div class="row"><div><span class="score">37.53<small>%</small></span><span class="caption">Similarity</span></div><a class="open" href="frame_000307.png" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
-<p class="details">1280 × 720 px · 框座標 [480, 346, 987, 534]</p></div></article><article data-name="frame_000260.png" data-score="0.3063238859176636" data-order="17" data-accepted="false">
-<a class="photo" href="frame_000260.png" target="_blank" rel="noopener" aria-label="放大 frame_000260.png"><img src="frame_000260.png" alt="frame_000260.png：低於門檻 · 未分類區域，相似度 30.63%" loading="lazy" width="1280" height="720"></a>
-<div class="body"><div class="row"><h2>frame_000260.png</h2><span class="badge ">低於門檻 · 未分類區域</span></div>
-<div class="row"><div><span class="score">30.63<small>%</small></span><span class="caption">Similarity</span></div><a class="open" href="frame_000260.png" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
-<p class="details">1280 × 720 px · 框座標 [320, 213, 960, 454]</p></div></article><article data-name="frame_000426.png" data-score="0.3911879062652588" data-order="18" data-accepted="false">
-<a class="photo" href="frame_000426.png" target="_blank" rel="noopener" aria-label="放大 frame_000426.png"><img src="frame_000426.png" alt="frame_000426.png：低於門檻 · 未分類區域，相似度 39.12%" loading="lazy" width="1280" height="720"></a>
-<div class="body"><div class="row"><h2>frame_000426.png</h2><span class="badge ">低於門檻 · 未分類區域</span></div>
-<div class="row"><div><span class="score">39.12<small>%</small></span><span class="caption">Similarity</span></div><a class="open" href="frame_000426.png" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
-<p class="details">1280 × 720 px · 框座標 [320, 346, 934, 534]</p></div></article><article data-name="frame_000557.png" data-score="0.5315349102020264" data-order="19" data-accepted="false">
-<a class="photo" href="frame_000557.png" target="_blank" rel="noopener" aria-label="放大 frame_000557.png"><img src="frame_000557.png" alt="frame_000557.png：低於門檻 · 未分類區域，相似度 53.15%" loading="lazy" width="1280" height="720"></a>
-<div class="body"><div class="row"><h2>frame_000557.png</h2><span class="badge ">低於門檻 · 未分類區域</span></div>
-<div class="row"><div><span class="score">53.15<small>%</small></span><span class="caption">Similarity</span></div><a class="open" href="frame_000557.png" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
+<a class="photo" href="frame_000256.png?v=e7d725084983" target="_blank" rel="noopener" aria-label="放大 frame_000256.png"><img src="frame_000256.png?v=e7d725084983" alt="frame_000256.png：No Matching Object（無符合目標），相似度 31.76%" loading="lazy" width="1280" height="720"></a>
+<div class="body"><div class="row"><h2>frame_000256.png</h2><span class="badge ">No Matching Object（無符合目標）</span></div>
+<div class="row"><div><span class="score">31.76<small>%</small></span><span class="caption">最高候選相似度</span></div><a class="open" href="frame_000256.png?v=e7d725084983" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
+<p class="details">1280 × 720 px · 框座標 —（未顯示框）</p></div></article><article data-name="frame_000073.png" data-score="0.2999020516872406" data-order="15" data-accepted="false">
+<a class="photo" href="frame_000073.png?v=d371a664871d" target="_blank" rel="noopener" aria-label="放大 frame_000073.png"><img src="frame_000073.png?v=d371a664871d" alt="frame_000073.png：No Matching Object（無符合目標），相似度 29.99%" loading="lazy" width="1280" height="720"></a>
+<div class="body"><div class="row"><h2>frame_000073.png</h2><span class="badge ">No Matching Object（無符合目標）</span></div>
+<div class="row"><div><span class="score">29.99<small>%</small></span><span class="caption">最高候選相似度</span></div><a class="open" href="frame_000073.png?v=d371a664871d" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
+<p class="details">1280 × 720 px · 框座標 —（未顯示框）</p></div></article><article data-name="frame_000307.png" data-score="0.3752766251564026" data-order="16" data-accepted="false">
+<a class="photo" href="frame_000307.png?v=65603508f559" target="_blank" rel="noopener" aria-label="放大 frame_000307.png"><img src="frame_000307.png?v=65603508f559" alt="frame_000307.png：No Matching Object（無符合目標），相似度 37.53%" loading="lazy" width="1280" height="720"></a>
+<div class="body"><div class="row"><h2>frame_000307.png</h2><span class="badge ">No Matching Object（無符合目標）</span></div>
+<div class="row"><div><span class="score">37.53<small>%</small></span><span class="caption">最高候選相似度</span></div><a class="open" href="frame_000307.png?v=65603508f559" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
+<p class="details">1280 × 720 px · 框座標 —（未顯示框）</p></div></article><article data-name="frame_000260.png" data-score="0.3063238859176636" data-order="17" data-accepted="false">
+<a class="photo" href="frame_000260.png?v=e911a9361969" target="_blank" rel="noopener" aria-label="放大 frame_000260.png"><img src="frame_000260.png?v=e911a9361969" alt="frame_000260.png：No Matching Object（無符合目標），相似度 30.63%" loading="lazy" width="1280" height="720"></a>
+<div class="body"><div class="row"><h2>frame_000260.png</h2><span class="badge ">No Matching Object（無符合目標）</span></div>
+<div class="row"><div><span class="score">30.63<small>%</small></span><span class="caption">最高候選相似度</span></div><a class="open" href="frame_000260.png?v=e911a9361969" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
+<p class="details">1280 × 720 px · 框座標 —（未顯示框）</p></div></article><article data-name="frame_000426.png" data-score="0.3911879062652588" data-order="18" data-accepted="true">
+<a class="photo" href="frame_000426.png?v=f38c86e32b77" target="_blank" rel="noopener" aria-label="放大 frame_000426.png"><img src="frame_000426.png?v=f38c86e32b77" alt="frame_000426.png：目標船候選，相似度 39.12%" loading="lazy" width="1280" height="720"></a>
+<div class="body"><div class="row"><h2>frame_000426.png</h2><span class="badge accepted">目標船候選</span></div>
+<div class="row"><div><span class="score">39.12<small>%</small></span><span class="caption">最高候選相似度</span></div><a class="open" href="frame_000426.png?v=f38c86e32b77" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
+<p class="details">1280 × 720 px · 框座標 [320, 346, 934, 534]</p></div></article><article data-name="frame_000557.png" data-score="0.5315349102020264" data-order="19" data-accepted="true">
+<a class="photo" href="frame_000557.png?v=fc943340bfcc" target="_blank" rel="noopener" aria-label="放大 frame_000557.png"><img src="frame_000557.png?v=fc943340bfcc" alt="frame_000557.png：目標船候選，相似度 53.15%" loading="lazy" width="1280" height="720"></a>
+<div class="body"><div class="row"><h2>frame_000557.png</h2><span class="badge accepted">目標船候選</span></div>
+<div class="row"><div><span class="score">53.15<small>%</small></span><span class="caption">最高候選相似度</span></div><a class="open" href="frame_000557.png?v=fc943340bfcc" target="_blank" rel="noopener">開啟原尺寸 ↗</a></div>
 <p class="details">1280 × 720 px · 框座標 [266, 373, 800, 560]</p></div></article></section><p id="empty" hidden>沒有符合條件的影格。</p>
 <footer>抽樣種子：629399051 · 原始影格未修改 · <a href="results.json" target="_blank" rel="noopener">座標與完整推論紀錄</a><br>本頁展示固定批次的推論結果；影像身分及候選框未經人工驗證。</footer>
 </main><script>

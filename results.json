@@ -3,9 +3,9 @@
   "available_images": 595,
   "selected": 20,
   "seed": 629399051,
-  "threshold": 0.6,
-  "with_detections": 20,
-  "detection_count": 20,
+  "threshold": 0.39,
+  "with_detections": 9,
+  "detection_count": 9,
   "localization": "DINOv3 patch KMeans regions, no border contact, minimum 4 patches; not a trained detector",
   "score": "100 * max cosine similarity of crop CLS+mean patch feature to saved full-image reference prototypes",
   "limitations": "Uncalibrated crop threshold; candidate identity unverified; border objects may be missed.",
@@ -69,7 +69,7 @@
             507
           ],
           "similarity": 0.5185669660568237,
-          "class": "unclassified_region"
+          "class": "target_ship_candidate"
         }
       ]
     },
@@ -128,7 +128,7 @@
             534
           ],
           "similarity": 0.48039111495018005,
-          "class": "unclassified_region"
+          "class": "target_ship_candidate"
         }
       ]
     },
@@ -169,18 +169,7 @@
           "similarity": 0.24312002956867218
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            320,
-            186,
-            987,
-            454
-          ],
-          "similarity": 0.2985789179801941,
-          "class": "unclassified_region"
-        }
-      ]
+      "detections": []
     },
     {
       "input": "val_images/frame_000362.png",
@@ -237,18 +226,7 @@
           "similarity": 0.32050877809524536
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            533,
-            106,
-            960,
-            400
-          ],
-          "similarity": 0.34688276052474976,
-          "class": "unclassified_region"
-        }
-      ]
+      "detections": []
     },
     {
       "input": "val_images/frame_000477.png",
@@ -314,7 +292,7 @@
             507
           ],
           "similarity": 0.5661545395851135,
-          "class": "unclassified_region"
+          "class": "target_ship_candidate"
         }
       ]
     },
@@ -364,18 +342,7 @@
           "similarity": 0.30105939507484436
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            293,
-            293,
-            854,
-            507
-          ],
-          "similarity": 0.30621254444122314,
-          "class": "unclassified_region"
-        }
-      ]
+      "detections": []
     },
     {
       "input": "val_images/frame_000014.png",
@@ -414,18 +381,7 @@
           "similarity": 0.22839638590812683
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            400,
-            80,
-            934,
-            347
-          ],
-          "similarity": 0.22839638590812683,
-          "class": "unclassified_region"
-        }
-      ]
+      "detections": []
     },
     {
       "input": "val_images/frame_000044.png",
@@ -455,18 +411,7 @@
           "similarity": 0.21666038036346436
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            400,
-            80,
-            960,
-            347
-          ],
-          "similarity": 0.21666038036346436,
-          "class": "unclassified_region"
-        }
-      ]
+      "detections": []
     },
     {
       "input": "val_images/frame_000290.png",
@@ -514,18 +459,7 @@
           "similarity": 0.23692196607589722
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            453,
-            186,
-            1014,
-            347
-          ],
-          "similarity": 0.28067025542259216,
-          "class": "unclassified_region"
-        }
-      ]
+      "detections": []
     },
     {
       "input": "val_images/frame_000231.png",
@@ -600,7 +534,7 @@
             534
           ],
           "similarity": 0.49931079149246216,
-          "class": "unclassified_region"
+          "class": "target_ship_candidate"
         }
       ]
     },
@@ -650,18 +584,7 @@
           "similarity": 0.26154375076293945
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            373,
-            213,
-            934,
-            454
-          ],
-          "similarity": 0.3491246700286865,
-          "class": "unclassified_region"
-        }
-      ]
+      "detections": []
     },
     {
       "input": "val_images/frame_000353.png",
@@ -763,7 +686,7 @@
             614
           ],
           "similarity": 0.5123348236083984,
-          "class": "unclassified_region"
+          "class": "target_ship_candidate"
         }
       ]
     },
@@ -849,7 +772,7 @@
             640
           ],
           "similarity": 0.40359431505203247,
-          "class": "unclassified_region"
+          "class": "target_ship_candidate"
         }
       ]
     },
@@ -926,7 +849,7 @@
             534
           ],
           "similarity": 0.5023213028907776,
-          "class": "unclassified_region"
+          "class": "target_ship_candidate"
         }
       ]
     },
@@ -976,18 +899,7 @@
           "similarity": 0.3176206350326538
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            480,
-            213,
-            1014,
-            454
-          ],
-          "similarity": 0.3176206350326538,
-          "class": "unclassified_region"
-        }
-      ]
+      "detections": []
     },
     {
       "input": "val_images/frame_000073.png",
@@ -1035,18 +947,7 @@
           "similarity": 0.25026795268058777
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            160,
-            133,
-            880,
-            347
-          ],
-          "similarity": 0.2999020516872406,
-          "class": "unclassified_region"
-        }
-      ]
+      "detections": []
     },
     {
       "input": "val_images/frame_000307.png",
@@ -1103,18 +1004,7 @@
           "similarity": 0.307738333940506
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            480,
-            346,
-            987,
-            534
-          ],
-          "similarity": 0.3752766251564026,
-          "class": "unclassified_region"
-        }
-      ]
+      "detections": []
     },
     {
       "input": "val_images/frame_000260.png",
@@ -1162,18 +1052,7 @@
           "similarity": 0.21834252774715424
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            320,
-            213,
-            960,
-            454
-          ],
-          "similarity": 0.3063238859176636,
-          "class": "unclassified_region"
-        }
-      ]
+      "detections": []
     },
     {
       "input": "val_images/frame_000426.png",
@@ -1248,7 +1127,7 @@
             534
           ],
           "similarity": 0.3911879062652588,
-          "class": "unclassified_region"
+          "class": "target_ship_candidate"
         }
       ]
     },
@@ -1316,11 +1195,11 @@
             560
           ],
           "similarity": 0.5315349102020264,
-          "class": "unclassified_region"
+          "class": "target_ship_candidate"
         }
       ]
     }
   ],
-  "target_candidate_count": 0,
-  "display_policy": "Highest-similarity region only; below-threshold winner remains unclassified."
+  "target_candidate_count": 9,
+  "display_policy": "Highest-similarity region only if score >= threshold; otherwise No Matching Object without a box."
 }
