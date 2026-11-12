@@ -4,10 +4,10 @@
   "selected": 20,
   "seed": 629399051,
   "threshold": 0.34591996669769287,
-  "with_detections": 4,
-  "display_policy": "Largest-area post-NMS boat only if its DINOv3 similarity meets threshold; no fallback to smaller boxes.",
-  "detection_count": 4,
-  "target_candidate_count": 4,
+  "with_detections": 14,
+  "display_policy": "Largest-area post-NMS boat only if its width/height is within [R * 0.8, R * 1.2] AND its DINOv3 similarity meets threshold; no fallback to smaller boxes.",
+  "detection_count": 14,
+  "target_candidate_count": 14,
   "localization": "YOLO11s boat detections on whole image plus overlapping tiles; merged with NMS",
   "detector": {
     "name": "YOLO11s COCO boat",
@@ -200,10 +200,28 @@
           "detector_input_size": 640,
           "similarity": 0.42380255460739136,
           "bbox_ratio": 4.462264150943396,
-          "ratio_pass": false
+          "ratio_pass": true
         }
       ],
-      "detections": [],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            471,
+            357,
+            944,
+            463
+          ],
+          "confidence": 0.6142578125,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.42380255460739136,
+          "bbox_ratio": 4.462264150943396,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
+        }
+      ],
       "nms_candidate_count": 6
     },
     {
@@ -381,10 +399,28 @@
           "detector_input_size": 1280,
           "similarity": 0.4409942328929901,
           "bbox_ratio": 4.342105263157895,
-          "ratio_pass": false
+          "ratio_pass": true
         }
       ],
-      "detections": [],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            487,
+            506,
+            652,
+            544
+          ],
+          "confidence": 0.5927734375,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.4409942328929901,
+          "bbox_ratio": 4.342105263157895,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
+        }
+      ],
       "nms_candidate_count": 2
     },
     {
@@ -410,10 +446,28 @@
           "detector_input_size": 1280,
           "similarity": 0.3771846890449524,
           "bbox_ratio": 5.125,
-          "ratio_pass": false
+          "ratio_pass": true
         }
       ],
-      "detections": [],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            536,
+            482,
+            700,
+            514
+          ],
+          "confidence": 0.466552734375,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.3771846890449524,
+          "bbox_ratio": 5.125,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
+        }
+      ],
       "nms_candidate_count": 1
     },
     {
@@ -439,10 +493,28 @@
           "detector_input_size": 640,
           "similarity": 0.4054497182369232,
           "bbox_ratio": 4.485714285714286,
-          "ratio_pass": false
+          "ratio_pass": true
         }
       ],
-      "detections": [],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            349,
+            470,
+            820,
+            575
+          ],
+          "confidence": 0.54345703125,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.4054497182369232,
+          "bbox_ratio": 4.485714285714286,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
+        }
+      ],
       "nms_candidate_count": 3
     },
     {
@@ -468,10 +540,28 @@
           "detector_input_size": 640,
           "similarity": 0.3629433810710907,
           "bbox_ratio": 4.4423076923076925,
-          "ratio_pass": false
+          "ratio_pass": true
         }
       ],
-      "detections": [],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            378,
+            487,
+            840,
+            591
+          ],
+          "confidence": 0.24560546875,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.3629433810710907,
+          "bbox_ratio": 4.4423076923076925,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
+        }
+      ],
       "nms_candidate_count": 2
     },
     {
@@ -497,10 +587,28 @@
           "detector_input_size": 640,
           "similarity": 0.40708714723587036,
           "bbox_ratio": 4.401869158878505,
-          "ratio_pass": false
+          "ratio_pass": true
         }
       ],
-      "detections": [],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            440,
+            369,
+            911,
+            476
+          ],
+          "confidence": 0.66455078125,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.40708714723587036,
+          "bbox_ratio": 4.401869158878505,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
+        }
+      ],
       "nms_candidate_count": 2
     },
     {
@@ -526,10 +634,28 @@
           "detector_input_size": 1280,
           "similarity": 0.46389585733413696,
           "bbox_ratio": 4.342105263157895,
-          "ratio_pass": false
+          "ratio_pass": true
         }
       ],
-      "detections": [],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            510,
+            485,
+            675,
+            523
+          ],
+          "confidence": 0.6650390625,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.46389585733413696,
+          "bbox_ratio": 4.342105263157895,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
+        }
+      ],
       "nms_candidate_count": 2
     },
     {
@@ -584,10 +710,28 @@
           "detector_input_size": 640,
           "similarity": 0.3857691287994385,
           "bbox_ratio": 4.366666666666666,
-          "ratio_pass": false
+          "ratio_pass": true
         }
       ],
-      "detections": [],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            603,
+            506,
+            865,
+            566
+          ],
+          "confidence": 0.177490234375,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.3857691287994385,
+          "bbox_ratio": 4.366666666666666,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
+        }
+      ],
       "nms_candidate_count": 1
     },
     {
@@ -613,10 +757,28 @@
           "detector_input_size": 1280,
           "similarity": 0.4617800712585449,
           "bbox_ratio": 4.4324324324324325,
-          "ratio_pass": false
+          "ratio_pass": true
         }
       ],
-      "detections": [],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            520,
+            482,
+            684,
+            519
+          ],
+          "confidence": 0.64892578125,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.4617800712585449,
+          "bbox_ratio": 4.4324324324324325,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
+        }
+      ],
       "nms_candidate_count": 2
     },
     {
@@ -653,18 +815,36 @@
           "detector_input_size": 640,
           "similarity": 0.39213934540748596,
           "bbox_ratio": 4.3125,
-          "ratio_pass": false
+          "ratio_pass": true
         }
       ],
-      "detections": [],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            292,
+            400,
+            775,
+            512
+          ],
+          "confidence": 0.72412109375,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.39213934540748596,
+          "bbox_ratio": 4.3125,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
+        }
+      ],
       "nms_candidate_count": 5
     }
   ],
   "ratio_filter": {
     "reference_ratio": 4.762931034482759,
-    "tolerance": 0.1,
-    "minimum": 4.662931034482759,
-    "maximum": 4.8629310344827585,
+    "relative_tolerance": 0.2,
+    "minimum": 3.8103448275862073,
+    "maximum": 5.7155172413793105,
     "foreground_bounds": [
       0,
       4,

@@ -37,9 +37,9 @@
     "accuracy": null,
     "ratio_filter": {
       "reference_ratio": 4.762931034482759,
-      "tolerance": 0.1,
-      "minimum": 4.662931034482759,
-      "maximum": 4.8629310344827585,
+      "relative_tolerance": 0.2,
+      "minimum": 3.8103448275862073,
+      "maximum": 5.7155172413793105,
       "foreground_bounds": [
         0,
         4,
@@ -670,7 +670,7 @@
           "detector_input_size": 640,
           "similarity": 0.3250885605812073,
           "bbox_ratio": 3.893162393162393,
-          "ratio_pass": false
+          "ratio_pass": true
         }
       ],
       "detections": [],
@@ -761,7 +761,7 @@
           "detector_input_size": 1280,
           "similarity": 0.32218360900878906,
           "bbox_ratio": 5.053571428571429,
-          "ratio_pass": false
+          "ratio_pass": true
         }
       ],
       "detections": [],
@@ -1125,7 +1125,7 @@
           "detector_input_size": 640,
           "similarity": 0.31759825348854065,
           "bbox_ratio": 4.3426573426573425,
-          "ratio_pass": false
+          "ratio_pass": true
         }
       ],
       "detections": [],
@@ -1994,7 +1994,7 @@
           "detector_input_size": 640,
           "similarity": 0.3053501546382904,
           "bbox_ratio": 4.236180904522613,
-          "ratio_pass": false
+          "ratio_pass": true
         }
       ],
       "detections": [],
@@ -2677,7 +2677,7 @@
           "detector_input_size": 640,
           "similarity": 0.29082709550857544,
           "bbox_ratio": 4.029411764705882,
-          "ratio_pass": false
+          "ratio_pass": true
         }
       ],
       "detections": [],
@@ -3089,7 +3089,7 @@
           "detector_input_size": 640,
           "similarity": 0.2829729914665222,
           "bbox_ratio": 4.601503759398496,
-          "ratio_pass": false
+          "ratio_pass": true
         }
       ],
       "detections": [],
@@ -3500,7 +3500,7 @@
           "detector_input_size": 640,
           "similarity": 0.2697325348854065,
           "bbox_ratio": 3.86697247706422,
-          "ratio_pass": false
+          "ratio_pass": true
         }
       ],
       "detections": [],
@@ -3637,7 +3637,7 @@
           "detector_input_size": 640,
           "similarity": 0.2647756040096283,
           "bbox_ratio": 5.169354838709677,
-          "ratio_pass": false
+          "ratio_pass": true
         }
       ],
       "detections": [],
@@ -4001,7 +4001,7 @@
           "detector_input_size": 640,
           "similarity": 0.24837666749954224,
           "bbox_ratio": 5.255681818181818,
-          "ratio_pass": false
+          "ratio_pass": true
         }
       ],
       "detections": [],
@@ -4500,7 +4500,7 @@
           "detector_input_size": 640,
           "similarity": 0.2247740626335144,
           "bbox_ratio": 5.141104294478527,
-          "ratio_pass": false
+          "ratio_pass": true
         }
       ],
       "detections": [],

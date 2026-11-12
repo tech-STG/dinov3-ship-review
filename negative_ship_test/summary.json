@@ -36,9 +36,9 @@
   "accuracy": null,
   "ratio_filter": {
     "reference_ratio": 4.762931034482759,
-    "tolerance": 0.1,
-    "minimum": 4.662931034482759,
-    "maximum": 4.8629310344827585,
+    "relative_tolerance": 0.2,
+    "minimum": 3.8103448275862073,
+    "maximum": 5.7155172413793105,
     "foreground_bounds": [
       0,
       4,
