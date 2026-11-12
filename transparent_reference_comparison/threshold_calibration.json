@@ -309,6 +309,7 @@
     "relative_tolerance": 0.2,
     "minimum": 3.8103448275862073,
     "maximum": 5.7155172413793105,
+    "rejected_scores": 0.0,
     "foreground_bounds": [
       0,
       4,
@@ -320,12 +321,12 @@
   },
   "before_ratio_filter": {
     "threshold": 0.34591996669769287,
-    "frames_passed": 4,
+    "frames_passed": 14,
     "frames_total": 20,
     "negative_false_accepts": 0,
     "negative_total": 100,
-    "frame_pass_rate": 0.2,
+    "frame_pass_rate": 0.7,
     "false_positive_rate": 0.0,
-    "objective": 0.2
+    "objective": 0.7
   }
 }

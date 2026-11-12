@@ -1,10 +1,10 @@
 {
   "count": 100,
-  "min_similarity": 0.2019246518611908,
-  "max_similarity": 0.38939839601516724,
+  "min_similarity": 0.0,
+  "max_similarity": 0.3250885605812073,
   "classification_head_enabled": false,
   "reference_version": "yolo-color-transparent-augmentation-v6",
-  "mean_similarity": 0.29232764184474946,
+  "mean_similarity": 0.028516795337200165,
   "model_modified": false,
   "pipeline": "Same YOLO11s tiled boat detections and DINOv3 cropped ship reference as validation",
   "detector": {
@@ -39,6 +39,7 @@
     "relative_tolerance": 0.2,
     "minimum": 3.8103448275862073,
     "maximum": 5.7155172413793105,
+    "rejected_scores": 0.0,
     "foreground_bounds": [
       0,
       4,

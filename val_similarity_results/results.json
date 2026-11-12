@@ -153,14 +153,16 @@
             741,
             517
           ],
-          "confidence": 0.626953125,
+          "confidence": 0.0,
           "detector_class": "boat",
           "detector_view": "whole",
           "contrast_enhanced": true,
           "detector_input_size": 640,
-          "similarity": 0.41914474964141846,
+          "similarity": 0.0,
           "bbox_ratio": 3.727272727272727,
-          "ratio_pass": false
+          "ratio_pass": false,
+          "raw_confidence": 0.626953125,
+          "raw_similarity": 0.41914474964141846
         }
       ],
       "detections": [],
@@ -287,14 +289,16 @@
             1248,
             441
           ],
-          "confidence": 0.72607421875,
+          "confidence": 0.0,
           "detector_class": "boat",
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.45581287145614624,
+          "similarity": 0.0,
           "bbox_ratio": 1.263157894736842,
-          "ratio_pass": false
+          "ratio_pass": false,
+          "raw_confidence": 0.72607421875,
+          "raw_similarity": 0.45581287145614624
         }
       ],
       "detections": [],
@@ -316,14 +320,16 @@
             1253,
             444
           ],
-          "confidence": 0.79443359375,
+          "confidence": 0.0,
           "detector_class": "boat",
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 1024,
-          "similarity": 0.4634353518486023,
+          "similarity": 0.0,
           "bbox_ratio": 1.25,
-          "ratio_pass": false
+          "ratio_pass": false,
+          "raw_confidence": 0.79443359375,
+          "raw_similarity": 0.4634353518486023
         }
       ],
       "detections": [],
@@ -674,14 +680,16 @@
             94,
             540
           ],
-          "confidence": 0.53466796875,
+          "confidence": 0.0,
           "detector_class": "boat",
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.354342520236969,
+          "similarity": 0.0,
           "bbox_ratio": 3.4285714285714284,
-          "ratio_pass": false
+          "ratio_pass": false,
+          "raw_confidence": 0.53466796875,
+          "raw_similarity": 0.354342520236969
         }
       ],
       "detections": [],
@@ -845,6 +853,7 @@
     "relative_tolerance": 0.2,
     "minimum": 3.8103448275862073,
     "maximum": 5.7155172413793105,
+    "rejected_scores": 0.0,
     "foreground_bounds": [
       0,
       4,
