@@ -1,9 +1,9 @@
 {
   "summary": {
     "count": 7,
-    "min_similarity": 0.46380212903022766,
-    "max_similarity": 0.7198624014854431,
-    "mean_similarity": 0.5853208005428314,
+    "min_similarity": 0.43553078174591064,
+    "max_similarity": 0.7007153630256653,
+    "mean_similarity": 0.5596147520201546,
     "model_modified": false,
     "pipeline": "Same YOLO11s tiled boat detections and DINOv3 cropped ship reference as validation",
     "detector": {
@@ -25,7 +25,7 @@
       "merge_iou": 0.5,
       "fallback": "CLAHE luminance contrast, only if raw whole-image and tile passes find no boats"
     },
-    "model_sha256": "441dd2ed879889751411d0218606c0130544158c2880b71206a8b8aea054ff7b",
+    "model_sha256": "1fd28f91a7faa16c0f9c053d58fa7438aec2937620c279720e44b39d8b5e2554",
     "training_sources": [
       "training_images\\S__191913989.jpg"
     ],
@@ -37,7 +37,7 @@
     "note": "Exploratory negative-only test. Thresholds below are hypothetical, not calibrated; no independent labeled positives.",
     "hypothetical_false_accepts": {
       "0.6": {
-        "count": 3,
+        "count": 2,
         "total": 7
       },
       "0.7": {
@@ -92,7 +92,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.7198624014854431
+          "similarity": 0.7007153630256653
         },
         {
           "bbox_xyxy": [
@@ -106,7 +106,7 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 1024,
-          "similarity": 0.6401047706604004
+          "similarity": 0.5913641452789307
         },
         {
           "bbox_xyxy": [
@@ -120,7 +120,7 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 1024,
-          "similarity": 0.5238938331604004
+          "similarity": 0.4469650983810425
         }
       ],
       "detections": [
@@ -136,11 +136,11 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.7198624014854431,
+          "similarity": 0.7007153630256653,
           "class": "target_ship_candidate"
         }
       ],
-      "cosine_similarity": 0.7198624014854431,
+      "cosine_similarity": 0.7007153630256653,
       "confidence": 0.67529296875,
       "target_candidate": true,
       "annotated_file": "annotated/Ship COSCO Portugal (1).jpg"
@@ -174,7 +174,7 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 1024,
-          "similarity": 0.45354437828063965
+          "similarity": 0.38575541973114014
         },
         {
           "bbox_xyxy": [
@@ -188,7 +188,7 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 1024,
-          "similarity": 0.683300793170929
+          "similarity": 0.6557369828224182
         },
         {
           "bbox_xyxy": [
@@ -202,7 +202,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.6311026811599731
+          "similarity": 0.598475456237793
         },
         {
           "bbox_xyxy": [
@@ -216,7 +216,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.5847222805023193
+          "similarity": 0.5242845416069031
         },
         {
           "bbox_xyxy": [
@@ -230,7 +230,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.49541807174682617
+          "similarity": 0.46361273527145386
         }
       ],
       "detections": [
@@ -246,11 +246,11 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 1024,
-          "similarity": 0.683300793170929,
+          "similarity": 0.6557369828224182,
           "class": "target_ship_candidate"
         }
       ],
-      "cosine_similarity": 0.683300793170929,
+      "cosine_similarity": 0.6557369828224182,
       "confidence": 0.51220703125,
       "target_candidate": true,
       "annotated_file": "annotated/Maersk kalamata seattle 20101127.jpg"
@@ -284,7 +284,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.5923112630844116
+          "similarity": 0.5548974871635437
         },
         {
           "bbox_xyxy": [
@@ -298,7 +298,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.633862316608429
+          "similarity": 0.5827138423919678
         },
         {
           "bbox_xyxy": [
@@ -312,7 +312,7 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.5791955590248108
+          "similarity": 0.5389213562011719
         },
         {
           "bbox_xyxy": [
@@ -326,7 +326,7 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.2752254605293274
+          "similarity": 0.24598634243011475
         },
         {
           "bbox_xyxy": [
@@ -340,7 +340,7 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 1024,
-          "similarity": 0.6156187057495117
+          "similarity": 0.5582963228225708
         },
         {
           "bbox_xyxy": [
@@ -354,7 +354,7 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 1024,
-          "similarity": 0.6064370274543762
+          "similarity": 0.5535075664520264
         },
         {
           "bbox_xyxy": [
@@ -368,7 +368,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.5875168442726135
+          "similarity": 0.5683164596557617
         },
         {
           "bbox_xyxy": [
@@ -382,7 +382,7 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 1024,
-          "similarity": 0.4503428339958191
+          "similarity": 0.3992539048194885
         },
         {
           "bbox_xyxy": [
@@ -396,7 +396,7 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 1024,
-          "similarity": 0.31341612339019775
+          "similarity": 0.33585125207901
         },
         {
           "bbox_xyxy": [
@@ -410,7 +410,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.44803687930107117
+          "similarity": 0.40510833263397217
         }
       ],
       "detections": [
@@ -426,11 +426,11 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.633862316608429,
+          "similarity": 0.5827138423919678,
           "class": "target_ship_candidate"
         }
       ],
-      "cosine_similarity": 0.633862316608429,
+      "cosine_similarity": 0.5827138423919678,
       "confidence": 0.55029296875,
       "target_candidate": true,
       "annotated_file": "annotated/Container ship MV Maersk Alabama.jpg"
@@ -464,7 +464,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.578986644744873
+          "similarity": 0.5670530796051025
         },
         {
           "bbox_xyxy": [
@@ -478,7 +478,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.5007296204566956
+          "similarity": 0.4834740459918976
         },
         {
           "bbox_xyxy": [
@@ -492,7 +492,7 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 1024,
-          "similarity": 0.49554261565208435
+          "similarity": 0.490957111120224
         },
         {
           "bbox_xyxy": [
@@ -506,7 +506,7 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 1024,
-          "similarity": 0.4526194632053375
+          "similarity": 0.46052226424217224
         },
         {
           "bbox_xyxy": [
@@ -520,7 +520,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.5153591632843018
+          "similarity": 0.5155395269393921
         },
         {
           "bbox_xyxy": [
@@ -534,7 +534,7 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.5414375066757202
+          "similarity": 0.5223129987716675
         },
         {
           "bbox_xyxy": [
@@ -548,7 +548,7 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 1024,
-          "similarity": 0.40411609411239624
+          "similarity": 0.4075195789337158
         }
       ],
       "detections": [
@@ -564,82 +564,14 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.578986644744873,
+          "similarity": 0.5670530796051025,
           "class": "target_ship_candidate"
         }
       ],
-      "cosine_similarity": 0.578986644744873,
+      "cosine_similarity": 0.5670530796051025,
       "confidence": 0.76904296875,
       "target_candidate": true,
       "annotated_file": "annotated/Cosco Taicang container ship.jpg"
-    },
-    {
-      "file": "images/Calnexship.jpg",
-      "title": "File:Calnexship.jpg",
-      "source_page": "https://commons.wikimedia.org/wiki/File:Calnexship.jpg",
-      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Calnexship.jpg/1280px-Calnexship.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "license": "Public domain",
-      "license_url": "",
-      "author": "NOAA-image (Credit: NOAA)",
-      "description": "The container ship Margrethe Maersk, operated by the Maersk Line, steams toward California in May 2010. NOAA researchers and collaborators studied the ship's emissions in detail from a research aircraft (from which this photo was taken) and a research ship. The team found that as the container ship shifted to low-sulfur fuels and slowed down near the coast, air pollution emissions plummeted, with some pollutants dropping by as much as 90 percent.",
-      "sha256": "7980a3814f8007eb727fabdceae78316192b49b79d22b222773685b0572387f5",
-      "dimensions": [
-        1280,
-        1094
-      ],
-      "downloaded_utc": "2026-11-12T03:39:35.867685+00:00",
-      "label_basis": "Commons identifies a non-Evergreen vessel; target IMO not supplied",
-      "proposals": [
-        {
-          "bbox_xyxy": [
-            351,
-            335,
-            747,
-            706
-          ],
-          "confidence": 0.91455078125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.5288558006286621
-        },
-        {
-          "bbox_xyxy": [
-            530,
-            599,
-            745,
-            695
-          ],
-          "confidence": 0.3310546875,
-          "detector_class": "boat",
-          "detector_view": "tile",
-          "contrast_enhanced": false,
-          "detector_input_size": 1024,
-          "similarity": 0.29978400468826294
-        }
-      ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            351,
-            335,
-            747,
-            706
-          ],
-          "confidence": 0.91455078125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.5288558006286621,
-          "class": "target_ship_candidate"
-        }
-      ],
-      "cosine_similarity": 0.5288558006286621,
-      "confidence": 0.91455078125,
-      "target_candidate": true,
-      "annotated_file": "annotated/Calnexship.jpg"
     },
     {
       "file": "images/Cosco Yantian.jpg",
@@ -670,7 +602,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.4885755181312561
+          "similarity": 0.49403929710388184
         },
         {
           "bbox_xyxy": [
@@ -684,7 +616,7 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.31334948539733887
+          "similarity": 0.32010841369628906
         }
       ],
       "detections": [
@@ -700,14 +632,82 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.4885755181312561,
+          "similarity": 0.49403929710388184,
           "class": "target_ship_candidate"
         }
       ],
-      "cosine_similarity": 0.4885755181312561,
+      "cosine_similarity": 0.49403929710388184,
       "confidence": 0.8515625,
       "target_candidate": true,
       "annotated_file": "annotated/Cosco Yantian.jpg"
+    },
+    {
+      "file": "images/Calnexship.jpg",
+      "title": "File:Calnexship.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Calnexship.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Calnexship.jpg/1280px-Calnexship.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Public domain",
+      "license_url": "",
+      "author": "NOAA-image (Credit: NOAA)",
+      "description": "The container ship Margrethe Maersk, operated by the Maersk Line, steams toward California in May 2010. NOAA researchers and collaborators studied the ship's emissions in detail from a research aircraft (from which this photo was taken) and a research ship. The team found that as the container ship shifted to low-sulfur fuels and slowed down near the coast, air pollution emissions plummeted, with some pollutants dropping by as much as 90 percent.",
+      "sha256": "7980a3814f8007eb727fabdceae78316192b49b79d22b222773685b0572387f5",
+      "dimensions": [
+        1280,
+        1094
+      ],
+      "downloaded_utc": "2026-11-12T03:39:35.867685+00:00",
+      "label_basis": "Commons identifies a non-Evergreen vessel; target IMO not supplied",
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            351,
+            335,
+            747,
+            706
+          ],
+          "confidence": 0.91455078125,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.4815139174461365
+        },
+        {
+          "bbox_xyxy": [
+            530,
+            599,
+            745,
+            695
+          ],
+          "confidence": 0.3310546875,
+          "detector_class": "boat",
+          "detector_view": "tile",
+          "contrast_enhanced": false,
+          "detector_input_size": 1024,
+          "similarity": 0.26772063970565796
+        }
+      ],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            351,
+            335,
+            747,
+            706
+          ],
+          "confidence": 0.91455078125,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.4815139174461365,
+          "class": "target_ship_candidate"
+        }
+      ],
+      "cosine_similarity": 0.4815139174461365,
+      "confidence": 0.91455078125,
+      "target_candidate": true,
+      "annotated_file": "annotated/Calnexship.jpg"
     },
     {
       "file": "images/COSCO Glory (ship, 2011) 001.jpg",
@@ -738,7 +738,7 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 1024,
-          "similarity": 0.4190784692764282
+          "similarity": 0.3709603250026703
         },
         {
           "bbox_xyxy": [
@@ -752,7 +752,7 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.2763518989086151
+          "similarity": 0.24490639567375183
         },
         {
           "bbox_xyxy": [
@@ -766,7 +766,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.4364206790924072
+          "similarity": 0.43553078174591064
         },
         {
           "bbox_xyxy": [
@@ -780,7 +780,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.43038249015808105
+          "similarity": 0.38617461919784546
         },
         {
           "bbox_xyxy": [
@@ -794,7 +794,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.45222222805023193
+          "similarity": 0.4342535436153412
         },
         {
           "bbox_xyxy": [
@@ -808,28 +808,28 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.46380212903022766
+          "similarity": 0.4169740676879883
         }
       ],
       "detections": [
         {
           "bbox_xyxy": [
-            0,
-            770,
-            128,
-            828
+            343,
+            589,
+            974,
+            830
           ],
-          "confidence": 0.4052734375,
+          "confidence": 0.57373046875,
           "detector_class": "boat",
           "detector_view": "whole",
           "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.46380212903022766,
+          "detector_input_size": 640,
+          "similarity": 0.43553078174591064,
           "class": "target_ship_candidate"
         }
       ],
-      "cosine_similarity": 0.46380212903022766,
-      "confidence": 0.4052734375,
+      "cosine_similarity": 0.43553078174591064,
+      "confidence": 0.57373046875,
       "target_candidate": true,
       "annotated_file": "annotated/COSCO Glory (ship, 2011) 001.jpg"
     }
