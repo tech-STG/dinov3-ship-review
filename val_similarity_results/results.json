@@ -1,0 +1,1205 @@
+{
+  "input_directory": "val_images",
+  "available_images": 595,
+  "selected": 20,
+  "seed": 629399051,
+  "threshold": 0.39,
+  "with_detections": 9,
+  "detection_count": 9,
+  "localization": "DINOv3 patch KMeans regions, no border contact, minimum 4 patches; not a trained detector",
+  "score": "100 * max cosine similarity of crop CLS+mean patch feature to saved full-image reference prototypes",
+  "limitations": "Uncalibrated crop threshold; candidate identity unverified; border objects may be missed.",
+  "model_sha256": "4211669766e4f1a22039e3af5118b71f96e3653c1ba1e4a446775330a2889425",
+  "training_sources": [
+    "training_images\\S__191913989.jpg"
+  ],
+  "images": [
+    {
+      "input": "val_images/frame_000445.png",
+      "output": "frame_000445.png",
+      "input_sha256": "0de9da5c814529531da4fae7fba3a83d8f97f899941f44c360d837c5f7e7292c",
+      "size": [
+        1280,
+        720
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            400,
+            293,
+            1014,
+            454
+          ],
+          "similarity": 0.4869251251220703
+        },
+        {
+          "bbox_xyxy": [
+            453,
+            320,
+            1014,
+            507
+          ],
+          "similarity": 0.5185669660568237
+        },
+        {
+          "bbox_xyxy": [
+            453,
+            346,
+            1014,
+            507
+          ],
+          "similarity": 0.46127140522003174
+        },
+        {
+          "bbox_xyxy": [
+            506,
+            106,
+            1040,
+            347
+          ],
+          "similarity": 0.34026479721069336
+        }
+      ],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            453,
+            320,
+            1014,
+            507
+          ],
+          "similarity": 0.5185669660568237,
+          "class": "target_ship_candidate"
+        }
+      ]
+    },
+    {
+      "input": "val_images/frame_000578.png",
+      "output": "frame_000578.png",
+      "input_sha256": "5a8219d79045a482e5e0c90a187112b5ce429d6786fbcf402918179c7abf87e4",
+      "size": [
+        1280,
+        720
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            240,
+            373,
+            774,
+            534
+          ],
+          "similarity": 0.48039111495018005
+        },
+        {
+          "bbox_xyxy": [
+            373,
+            160,
+            800,
+            400
+          ],
+          "similarity": 0.3354867696762085
+        },
+        {
+          "bbox_xyxy": [
+            480,
+            106,
+            960,
+            400
+          ],
+          "similarity": 0.3395470976829529
+        },
+        {
+          "bbox_xyxy": [
+            693,
+            160,
+            1040,
+            427
+          ],
+          "similarity": 0.33639851212501526
+        }
+      ],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            240,
+            373,
+            774,
+            534
+          ],
+          "similarity": 0.48039111495018005,
+          "class": "target_ship_candidate"
+        }
+      ]
+    },
+    {
+      "input": "val_images/frame_000280.png",
+      "output": "frame_000280.png",
+      "input_sha256": "1b4c82317119baf7045207c575c356e882fdd69982cd79f110a6d1abd82b9e81",
+      "size": [
+        1280,
+        720
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            320,
+            186,
+            987,
+            454
+          ],
+          "similarity": 0.2985789179801941
+        },
+        {
+          "bbox_xyxy": [
+            426,
+            266,
+            1014,
+            454
+          ],
+          "similarity": 0.29288744926452637
+        },
+        {
+          "bbox_xyxy": [
+            480,
+            133,
+            1014,
+            320
+          ],
+          "similarity": 0.24312002956867218
+        }
+      ],
+      "detections": []
+    },
+    {
+      "input": "val_images/frame_000362.png",
+      "output": "frame_000362.png",
+      "input_sha256": "84e92ddd32ae61e52ae5fcf99b12436988d93bced7558f74e5cacb0ce7e12171",
+      "size": [
+        1280,
+        720
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            213,
+            400,
+            854,
+            587
+          ],
+          "similarity": 0.2524154782295227
+        },
+        {
+          "bbox_xyxy": [
+            293,
+            426,
+            880,
+            587
+          ],
+          "similarity": 0.2547800838947296
+        },
+        {
+          "bbox_xyxy": [
+            480,
+            240,
+            987,
+            480
+          ],
+          "similarity": 0.29925113916397095
+        },
+        {
+          "bbox_xyxy": [
+            533,
+            106,
+            960,
+            400
+          ],
+          "similarity": 0.34688276052474976
+        },
+        {
+          "bbox_xyxy": [
+            533,
+            106,
+            1014,
+            320
+          ],
+          "similarity": 0.32050877809524536
+        }
+      ],
+      "detections": []
+    },
+    {
+      "input": "val_images/frame_000477.png",
+      "output": "frame_000477.png",
+      "input_sha256": "790fb5b4f08a3c9d00374103451cfd8cdd9d74c973083f0afc5dc170e2d46cb2",
+      "size": [
+        1280,
+        720
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            400,
+            266,
+            1014,
+            427
+          ],
+          "similarity": 0.43510323762893677
+        },
+        {
+          "bbox_xyxy": [
+            426,
+            320,
+            987,
+            507
+          ],
+          "similarity": 0.5661545395851135
+        },
+        {
+          "bbox_xyxy": [
+            506,
+            80,
+            1014,
+            320
+          ],
+          "similarity": 0.3185137212276459
+        },
+        {
+          "bbox_xyxy": [
+            533,
+            426,
+            880,
+            507
+          ],
+          "similarity": 0.24050290882587433
+        },
+        {
+          "bbox_xyxy": [
+            560,
+            133,
+            1067,
+            400
+          ],
+          "similarity": 0.3256415128707886
+        }
+      ],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            426,
+            320,
+            987,
+            507
+          ],
+          "similarity": 0.5661545395851135,
+          "class": "target_ship_candidate"
+        }
+      ]
+    },
+    {
+      "input": "val_images/frame_000193.png",
+      "output": "frame_000193.png",
+      "input_sha256": "90fe7233b205c493e4679eedb171758d3b5e5084eab6fb88336fec24883ed202",
+      "size": [
+        1280,
+        720
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            106,
+            160,
+            720,
+            347
+          ],
+          "similarity": 0.2351856231689453
+        },
+        {
+          "bbox_xyxy": [
+            293,
+            293,
+            854,
+            507
+          ],
+          "similarity": 0.30621254444122314
+        },
+        {
+          "bbox_xyxy": [
+            400,
+            106,
+            1014,
+            347
+          ],
+          "similarity": 0.24518389999866486
+        },
+        {
+          "bbox_xyxy": [
+            560,
+            186,
+            1040,
+            400
+          ],
+          "similarity": 0.30105939507484436
+        }
+      ],
+      "detections": []
+    },
+    {
+      "input": "val_images/frame_000014.png",
+      "output": "frame_000014.png",
+      "input_sha256": "4e86d3a332a2e9772e6cf7dd702eb056a276a7c6c59f229468b61f47126bd524",
+      "size": [
+        1280,
+        720
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            160,
+            26,
+            694,
+            214
+          ],
+          "similarity": 0.18029409646987915
+        },
+        {
+          "bbox_xyxy": [
+            373,
+            106,
+            907,
+            374
+          ],
+          "similarity": 0.22516220808029175
+        },
+        {
+          "bbox_xyxy": [
+            400,
+            80,
+            934,
+            347
+          ],
+          "similarity": 0.22839638590812683
+        }
+      ],
+      "detections": []
+    },
+    {
+      "input": "val_images/frame_000044.png",
+      "output": "frame_000044.png",
+      "input_sha256": "c06f1102d2cac414b009d94230795461e8eb21550ac1260b8ce877abb84f9ce2",
+      "size": [
+        1280,
+        720
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            293,
+            133,
+            800,
+            374
+          ],
+          "similarity": 0.20576366782188416
+        },
+        {
+          "bbox_xyxy": [
+            400,
+            80,
+            960,
+            347
+          ],
+          "similarity": 0.21666038036346436
+        }
+      ],
+      "detections": []
+    },
+    {
+      "input": "val_images/frame_000290.png",
+      "output": "frame_000290.png",
+      "input_sha256": "d0ee4184166ab11813ab0242de3dfc1564c80d2176042b77f9a6d4fbbfb66bd8",
+      "size": [
+        1280,
+        720
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            240,
+            240,
+            854,
+            427
+          ],
+          "similarity": 0.2803954482078552
+        },
+        {
+          "bbox_xyxy": [
+            373,
+            133,
+            987,
+            347
+          ],
+          "similarity": 0.25403013825416565
+        },
+        {
+          "bbox_xyxy": [
+            453,
+            186,
+            1014,
+            347
+          ],
+          "similarity": 0.28067025542259216
+        },
+        {
+          "bbox_xyxy": [
+            480,
+            80,
+            1040,
+            240
+          ],
+          "similarity": 0.23692196607589722
+        }
+      ],
+      "detections": []
+    },
+    {
+      "input": "val_images/frame_000231.png",
+      "output": "frame_000231.png",
+      "input_sha256": "29319e824e6e306d90c3d9a0f410faf16a0a9ff33e8a817e69807be9140a9359",
+      "size": [
+        1280,
+        720
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            106,
+            240,
+            854,
+            427
+          ],
+          "similarity": 0.23371227085590363
+        },
+        {
+          "bbox_xyxy": [
+            266,
+            106,
+            1014,
+            347
+          ],
+          "similarity": 0.24942712485790253
+        },
+        {
+          "bbox_xyxy": [
+            346,
+            266,
+            1040,
+            480
+          ],
+          "similarity": 0.2901826500892639
+        },
+        {
+          "bbox_xyxy": [
+            426,
+            133,
+            987,
+            320
+          ],
+          "similarity": 0.2365817427635193
+        },
+        {
+          "bbox_xyxy": [
+            426,
+            346,
+            1014,
+            534
+          ],
+          "similarity": 0.49931079149246216
+        },
+        {
+          "bbox_xyxy": [
+            533,
+            26,
+            1067,
+            214
+          ],
+          "similarity": 0.21074695885181427
+        }
+      ],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            426,
+            346,
+            1014,
+            534
+          ],
+          "similarity": 0.49931079149246216,
+          "class": "target_ship_candidate"
+        }
+      ]
+    },
+    {
+      "input": "val_images/frame_000266.png",
+      "output": "frame_000266.png",
+      "input_sha256": "67ab8a3f837ca4cb759de36107b3ebf2b13daf0756bb3f2bd3883818636af3ba",
+      "size": [
+        1280,
+        720
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            320,
+            106,
+            880,
+            294
+          ],
+          "similarity": 0.2646716237068176
+        },
+        {
+          "bbox_xyxy": [
+            346,
+            213,
+            960,
+            400
+          ],
+          "similarity": 0.29244157671928406
+        },
+        {
+          "bbox_xyxy": [
+            373,
+            213,
+            934,
+            454
+          ],
+          "similarity": 0.3491246700286865
+        },
+        {
+          "bbox_xyxy": [
+            400,
+            320,
+            1040,
+            480
+          ],
+          "similarity": 0.26154375076293945
+        }
+      ],
+      "detections": []
+    },
+    {
+      "input": "val_images/frame_000353.png",
+      "output": "frame_000353.png",
+      "input_sha256": "ec04a021ae36f01159a92161ac3fc9e51ebc8550e1de0302b898265db8d4dff3",
+      "size": [
+        1280,
+        720
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            266,
+            266,
+            987,
+            454
+          ],
+          "similarity": 0.3190787136554718
+        },
+        {
+          "bbox_xyxy": [
+            320,
+            426,
+            854,
+            587
+          ],
+          "similarity": 0.46651291847229004
+        },
+        {
+          "bbox_xyxy": [
+            320,
+            426,
+            854,
+            614
+          ],
+          "similarity": 0.5123348236083984
+        },
+        {
+          "bbox_xyxy": [
+            346,
+            160,
+            800,
+            400
+          ],
+          "similarity": 0.34911179542541504
+        },
+        {
+          "bbox_xyxy": [
+            400,
+            80,
+            960,
+            320
+          ],
+          "similarity": 0.31725579500198364
+        },
+        {
+          "bbox_xyxy": [
+            400,
+            533,
+            667,
+            614
+          ],
+          "similarity": 0.2690179944038391
+        },
+        {
+          "bbox_xyxy": [
+            480,
+            320,
+            960,
+            534
+          ],
+          "similarity": 0.3915106952190399
+        },
+        {
+          "bbox_xyxy": [
+            506,
+            133,
+            960,
+            427
+          ],
+          "similarity": 0.36823657155036926
+        },
+        {
+          "bbox_xyxy": [
+            720,
+            133,
+            1040,
+            400
+          ],
+          "similarity": 0.3391422927379608
+        }
+      ],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            320,
+            426,
+            854,
+            614
+          ],
+          "similarity": 0.5123348236083984,
+          "class": "target_ship_candidate"
+        }
+      ]
+    },
+    {
+      "input": "val_images/frame_000347.png",
+      "output": "frame_000347.png",
+      "input_sha256": "c361df7e550d254c8a4fcb23cc9eeb3ad0be31b0b0d0cc875b8945f9864831cf",
+      "size": [
+        1280,
+        720
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            80,
+            80,
+            694,
+            294
+          ],
+          "similarity": 0.3169839084148407
+        },
+        {
+          "bbox_xyxy": [
+            160,
+            240,
+            694,
+            454
+          ],
+          "similarity": 0.3469241261482239
+        },
+        {
+          "bbox_xyxy": [
+            346,
+            453,
+            880,
+            640
+          ],
+          "similarity": 0.40359431505203247
+        },
+        {
+          "bbox_xyxy": [
+            506,
+            160,
+            960,
+            480
+          ],
+          "similarity": 0.33670830726623535
+        },
+        {
+          "bbox_xyxy": [
+            533,
+            106,
+            987,
+            454
+          ],
+          "similarity": 0.3550664186477661
+        },
+        {
+          "bbox_xyxy": [
+            586,
+            106,
+            987,
+            374
+          ],
+          "similarity": 0.34704717993736267
+        },
+        {
+          "bbox_xyxy": [
+            586,
+            293,
+            960,
+            534
+          ],
+          "similarity": 0.3681528866291046
+        }
+      ],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            346,
+            453,
+            880,
+            640
+          ],
+          "similarity": 0.40359431505203247,
+          "class": "target_ship_candidate"
+        }
+      ]
+    },
+    {
+      "input": "val_images/frame_000431.png",
+      "output": "frame_000431.png",
+      "input_sha256": "1657d31a59feb6338c5be76be2403ff83710bb0f371e513f6ea0e75f5dd3f8a3",
+      "size": [
+        1280,
+        720
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            266,
+            213,
+            800,
+            427
+          ],
+          "similarity": 0.4466591477394104
+        },
+        {
+          "bbox_xyxy": [
+            400,
+            320,
+            960,
+            534
+          ],
+          "similarity": 0.5023213028907776
+        },
+        {
+          "bbox_xyxy": [
+            400,
+            346,
+            960,
+            534
+          ],
+          "similarity": 0.5001561045646667
+        },
+        {
+          "bbox_xyxy": [
+            480,
+            80,
+            1040,
+            294
+          ],
+          "similarity": 0.3094157576560974
+        },
+        {
+          "bbox_xyxy": [
+            506,
+            133,
+            987,
+            400
+          ],
+          "similarity": 0.3391214609146118
+        },
+        {
+          "bbox_xyxy": [
+            720,
+            213,
+            1067,
+            427
+          ],
+          "similarity": 0.38777750730514526
+        }
+      ],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            400,
+            320,
+            960,
+            534
+          ],
+          "similarity": 0.5023213028907776,
+          "class": "target_ship_candidate"
+        }
+      ]
+    },
+    {
+      "input": "val_images/frame_000256.png",
+      "output": "frame_000256.png",
+      "input_sha256": "8794e7c68c9973a6e1bda5acd4606227a936d9832b6a6c64dc698684d124ba34",
+      "size": [
+        1280,
+        720
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            320,
+            240,
+            1040,
+            454
+          ],
+          "similarity": 0.30784493684768677
+        },
+        {
+          "bbox_xyxy": [
+            453,
+            80,
+            1014,
+            267
+          ],
+          "similarity": 0.251480370759964
+        },
+        {
+          "bbox_xyxy": [
+            453,
+            80,
+            1094,
+            294
+          ],
+          "similarity": 0.26162034273147583
+        },
+        {
+          "bbox_xyxy": [
+            480,
+            213,
+            1014,
+            454
+          ],
+          "similarity": 0.3176206350326538
+        }
+      ],
+      "detections": []
+    },
+    {
+      "input": "val_images/frame_000073.png",
+      "output": "frame_000073.png",
+      "input_sha256": "1bdf2f2ac13448b052877f3d065bc875e294ce2cc2f26de5f35733176ce0a653",
+      "size": [
+        1280,
+        720
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            160,
+            133,
+            880,
+            347
+          ],
+          "similarity": 0.2999020516872406
+        },
+        {
+          "bbox_xyxy": [
+            320,
+            266,
+            934,
+            454
+          ],
+          "similarity": 0.2109697014093399
+        },
+        {
+          "bbox_xyxy": [
+            320,
+            320,
+            934,
+            480
+          ],
+          "similarity": 0.2463725358247757
+        },
+        {
+          "bbox_xyxy": [
+            480,
+            160,
+            934,
+            374
+          ],
+          "similarity": 0.25026795268058777
+        }
+      ],
+      "detections": []
+    },
+    {
+      "input": "val_images/frame_000307.png",
+      "output": "frame_000307.png",
+      "input_sha256": "16819bcc9643f3a70c210ee1c676cc8c81e1434c2f6eb1689888717da5fe6ff0",
+      "size": [
+        1280,
+        720
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            160,
+            106,
+            720,
+            347
+          ],
+          "similarity": 0.29571986198425293
+        },
+        {
+          "bbox_xyxy": [
+            453,
+            106,
+            1014,
+            400
+          ],
+          "similarity": 0.31347936391830444
+        },
+        {
+          "bbox_xyxy": [
+            480,
+            160,
+            987,
+            454
+          ],
+          "similarity": 0.3197261095046997
+        },
+        {
+          "bbox_xyxy": [
+            480,
+            346,
+            987,
+            534
+          ],
+          "similarity": 0.3752766251564026
+        },
+        {
+          "bbox_xyxy": [
+            506,
+            160,
+            987,
+            400
+          ],
+          "similarity": 0.307738333940506
+        }
+      ],
+      "detections": []
+    },
+    {
+      "input": "val_images/frame_000260.png",
+      "output": "frame_000260.png",
+      "input_sha256": "141c0dfefb1a32e133fd843440cf60eaff63caffbf6b3e2e318a76325816ca97",
+      "size": [
+        1280,
+        720
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            320,
+            213,
+            960,
+            454
+          ],
+          "similarity": 0.3063238859176636
+        },
+        {
+          "bbox_xyxy": [
+            373,
+            320,
+            934,
+            480
+          ],
+          "similarity": 0.2849528193473816
+        },
+        {
+          "bbox_xyxy": [
+            400,
+            213,
+            1014,
+            374
+          ],
+          "similarity": 0.2547299861907959
+        },
+        {
+          "bbox_xyxy": [
+            426,
+            106,
+            1014,
+            267
+          ],
+          "similarity": 0.21834252774715424
+        }
+      ],
+      "detections": []
+    },
+    {
+      "input": "val_images/frame_000426.png",
+      "output": "frame_000426.png",
+      "input_sha256": "9c7ef5686928e55dcf86c5d3aaea8cdaafca57cdf6d11d9f18a00712d126178b",
+      "size": [
+        1280,
+        720
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            320,
+            346,
+            934,
+            534
+          ],
+          "similarity": 0.3911879062652588
+        },
+        {
+          "bbox_xyxy": [
+            373,
+            346,
+            934,
+            534
+          ],
+          "similarity": 0.3788917660713196
+        },
+        {
+          "bbox_xyxy": [
+            480,
+            53,
+            1014,
+            267
+          ],
+          "similarity": 0.29291170835494995
+        },
+        {
+          "bbox_xyxy": [
+            480,
+            453,
+            800,
+            534
+          ],
+          "similarity": 0.32074472308158875
+        },
+        {
+          "bbox_xyxy": [
+            533,
+            106,
+            987,
+            374
+          ],
+          "similarity": 0.3209376037120819
+        },
+        {
+          "bbox_xyxy": [
+            533,
+            186,
+            1014,
+            427
+          ],
+          "similarity": 0.3367532789707184
+        }
+      ],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            320,
+            346,
+            934,
+            534
+          ],
+          "similarity": 0.3911879062652588,
+          "class": "target_ship_candidate"
+        }
+      ]
+    },
+    {
+      "input": "val_images/frame_000557.png",
+      "output": "frame_000557.png",
+      "input_sha256": "90d3a84a6c1d3693ece15b67dc2edee48989f7e6f8432a59a2fffdaa9c32a469",
+      "size": [
+        1280,
+        720
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            266,
+            373,
+            800,
+            560
+          ],
+          "similarity": 0.5315349102020264
+        },
+        {
+          "bbox_xyxy": [
+            453,
+            106,
+            987,
+            294
+          ],
+          "similarity": 0.3041762709617615
+        },
+        {
+          "bbox_xyxy": [
+            453,
+            240,
+            960,
+            454
+          ],
+          "similarity": 0.3925175070762634
+        },
+        {
+          "bbox_xyxy": [
+            506,
+            106,
+            960,
+            400
+          ],
+          "similarity": 0.3531220853328705
+        },
+        {
+          "bbox_xyxy": [
+            746,
+            453,
+            907,
+            560
+          ],
+          "similarity": 0.33183032274246216
+        }
+      ],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            266,
+            373,
+            800,
+            560
+          ],
+          "similarity": 0.5315349102020264,
+          "class": "target_ship_candidate"
+        }
+      ]
+    }
+  ],
+  "target_candidate_count": 9,
+  "display_policy": "Highest-similarity region only if score >= threshold; otherwise No Matching Object without a box."
+}

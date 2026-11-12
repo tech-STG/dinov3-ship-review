@@ -1,0 +1,43 @@
+{
+  "count": 7,
+  "min_similarity": 0.31276774406433105,
+  "max_similarity": 0.6345876455307007,
+  "mean_similarity": 0.4791073203086853,
+  "model_modified": false,
+  "model_sha256": "4211669766e4f1a22039e3af5118b71f96e3653c1ba1e4a446775330a2889425",
+  "training_sources": [
+    "training_images\\S__191913989.jpg"
+  ],
+  "threshold_selected": 0.39,
+  "threshold_source": "user-selected",
+  "accuracy": null,
+  "false_accept_count": 5,
+  "false_accept_rate": 0.7142857142857143,
+  "note": "Exploratory negative-only test. Thresholds below are hypothetical, not calibrated; no independent labeled positives.",
+  "hypothetical_false_accepts": {
+    "0.6": {
+      "count": 2,
+      "total": 7
+    },
+    "0.7": {
+      "count": 0,
+      "total": 7
+    },
+    "0.75": {
+      "count": 0,
+      "total": 7
+    },
+    "0.8": {
+      "count": 0,
+      "total": 7
+    },
+    "0.85": {
+      "count": 0,
+      "total": 7
+    },
+    "0.9": {
+      "count": 0,
+      "total": 7
+    }
+  }
+}
