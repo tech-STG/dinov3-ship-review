@@ -4,13 +4,39 @@
   "selected": 20,
   "seed": 629399051,
   "threshold": 0.39,
-  "with_detections": 19,
+  "with_detections": 15,
   "display_policy": "Highest-similarity region only if score >= threshold; otherwise No Matching Object without a box.",
-  "detection_count": 19,
-  "target_candidate_count": 19,
-  "localization": "Full-frame plus overlapping 512px tiles; training foreground/background patch matching and local dark-object contrast refinement; not a trained detector",
+  "detection_count": 15,
+  "target_candidate_count": 15,
+  "localization": "YOLO11s boat detections on whole image plus overlapping tiles; merged with NMS",
+  "detector": {
+    "name": "YOLO11s COCO boat",
+    "ultralytics_version": "8.4.211",
+    "weights_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+    "confidence_threshold": 0.15,
+    "class_id": 8,
+    "whole_image_sizes": [
+      640,
+      1280
+    ],
+    "tile_size": 512,
+    "tile_stride": 256,
+    "tile_inference_sizes": [
+      640,
+      1024
+    ],
+    "merge_iou": 0.5,
+    "fallback": "CLAHE luminance contrast, only if raw whole-image and tile passes find no boats"
+  },
+  "frames_with_yolo_boats": 18,
+  "reference_roi_xyxy": [
+    32,
+    350,
+    1188,
+    650
+  ],
   "score": "100 * max cosine similarity of crop CLS+mean patch feature to ship-crop reference prototypes",
-  "limitations": "Uncalibrated crop threshold; candidate identity unverified; low-contrast or bright vessels may be missed. Development samples, not independent accuracy test.",
+  "limitations": "YOLO confidence measures boat detection, not vessel identity. DINOv3 similarity threshold is uncalibrated. Development samples, not independent accuracy test.",
   "model_sha256": "441dd2ed879889751411d0218606c0130544158c2880b71206a8b8aea054ff7b",
   "training_sources": [
     "training_images\\S__191913989.jpg"
@@ -27,590 +53,103 @@
       "proposals": [
         {
           "bbox_xyxy": [
-            0,
-            632,
-            45,
-            644
-          ],
-          "similarity": 0.24253569543361664
-        },
-        {
-          "bbox_xyxy": [
-            13,
-            475,
-            29,
-            483
-          ],
-          "similarity": 0.21870064735412598
-        },
-        {
-          "bbox_xyxy": [
-            47,
-            633,
-            89,
-            647
-          ],
-          "similarity": 0.23433880507946014
-        },
-        {
-          "bbox_xyxy": [
-            53,
-            445,
-            67,
-            458
-          ],
-          "similarity": 0.2144688069820404
-        },
-        {
-          "bbox_xyxy": [
-            53,
-            445,
-            71,
-            459
-          ],
-          "similarity": 0.21895866096019745
-        },
-        {
-          "bbox_xyxy": [
-            81,
-            419,
-            95,
-            427
-          ],
-          "similarity": 0.1952177733182907
-        },
-        {
-          "bbox_xyxy": [
-            82,
-            633,
-            110,
-            647
-          ],
-          "similarity": 0.2283516824245453
-        },
-        {
-          "bbox_xyxy": [
-            113,
-            419,
-            129,
-            427
-          ],
-          "similarity": 0.23587501049041748
-        },
-        {
-          "bbox_xyxy": [
-            133,
-            477,
-            163,
-            487
-          ],
-          "similarity": 0.2181369960308075
-        },
-        {
-          "bbox_xyxy": [
-            149,
-            448,
-            171,
-            458
-          ],
-          "similarity": 0.24296176433563232
-        },
-        {
-          "bbox_xyxy": [
-            149,
-            448,
-            171,
-            459
-          ],
-          "similarity": 0.24861513078212738
-        },
-        {
-          "bbox_xyxy": [
-            172,
-            455,
-            195,
-            464
-          ],
-          "similarity": 0.22397127747535706
-        },
-        {
-          "bbox_xyxy": [
-            189,
-            419,
-            203,
-            427
-          ],
-          "similarity": 0.19200555980205536
-        },
-        {
-          "bbox_xyxy": [
-            189,
-            445,
-            201,
-            458
-          ],
-          "similarity": 0.22518673539161682
-        },
-        {
-          "bbox_xyxy": [
-            189,
-            445,
-            201,
-            459
-          ],
-          "similarity": 0.2205718755722046
-        },
-        {
-          "bbox_xyxy": [
-            189,
-            508,
-            203,
-            516
-          ],
-          "similarity": 0.22309993207454681
-        },
-        {
-          "bbox_xyxy": [
-            226,
-            477,
-            243,
-            485
-          ],
-          "similarity": 0.22313067317008972
-        },
-        {
-          "bbox_xyxy": [
-            277,
-            517,
-            295,
-            525
-          ],
-          "similarity": 0.1823119819164276
-        },
-        {
-          "bbox_xyxy": [
-            317,
-            456,
-            331,
-            466
-          ],
-          "similarity": 0.23015624284744263
-        },
-        {
-          "bbox_xyxy": [
-            317,
-            456,
-            331,
-            467
-          ],
-          "similarity": 0.22935748100280762
-        },
-        {
-          "bbox_xyxy": [
-            317,
-            482,
-            331,
-            491
-          ],
-          "similarity": 0.2253347784280777
-        },
-        {
-          "bbox_xyxy": [
-            421,
-            477,
-            437,
-            486
-          ],
-          "similarity": 0.20272937417030334
-        },
-        {
-          "bbox_xyxy": [
-            436,
-            341,
-            1022,
-            481
-          ],
-          "similarity": 0.5666036009788513
-        },
-        {
-          "bbox_xyxy": [
-            467,
-            394,
-            734,
-            465
-          ],
-          "similarity": 0.4827699065208435
-        },
-        {
-          "bbox_xyxy": [
-            487,
-            400,
-            512,
-            458
-          ],
-          "similarity": 0.23326389491558075
-        },
-        {
-          "bbox_xyxy": [
-            512,
-            400,
-            600,
-            429
-          ],
-          "similarity": 0.2829553484916687
-        },
-        {
-          "bbox_xyxy": [
-            512,
-            445,
-            548,
-            459
-          ],
-          "similarity": 0.2693672180175781
-        },
-        {
-          "bbox_xyxy": [
-            525,
-            528,
-            539,
-            536
-          ],
-          "similarity": 0.20361202955245972
-        },
-        {
-          "bbox_xyxy": [
-            558,
-            525,
-            591,
-            537
-          ],
-          "similarity": 0.2095874398946762
-        },
-        {
-          "bbox_xyxy": [
-            588,
-            478,
-            600,
-            491
-          ],
-          "similarity": 0.18149630725383759
-        },
-        {
-          "bbox_xyxy": [
-            611,
-            406,
-            721,
-            429
-          ],
-          "similarity": 0.2863657772541046
-        },
-        {
-          "bbox_xyxy": [
-            613,
-            529,
-            627,
-            537
-          ],
-          "similarity": 0.20171040296554565
-        },
-        {
-          "bbox_xyxy": [
-            625,
-            447,
-            639,
-            455
-          ],
-          "similarity": 0.2249678671360016
-        },
-        {
-          "bbox_xyxy": [
-            645,
-            437,
-            659,
-            446
-          ],
-          "similarity": 0.18110391497612
-        },
-        {
-          "bbox_xyxy": [
-            649,
-            523,
-            667,
-            531
-          ],
-          "similarity": 0.21699738502502441
-        },
-        {
-          "bbox_xyxy": [
-            657,
-            445,
-            678,
-            455
-          ],
-          "similarity": 0.2354058027267456
-        },
-        {
-          "bbox_xyxy": [
-            710,
-            341,
-            988,
-            481
-          ],
-          "similarity": 0.5288331508636475
-        },
-        {
-          "bbox_xyxy": [
-            719,
-            444,
-            768,
-            459
-          ],
-          "similarity": 0.2323766052722931
-        },
-        {
-          "bbox_xyxy": [
-            724,
-            446,
-            747,
-            458
-          ],
-          "similarity": 0.23301872611045837
-        },
-        {
-          "bbox_xyxy": [
-            735,
-            404,
-            768,
-            430
-          ],
-          "similarity": 0.2615633010864258
-        },
-        {
-          "bbox_xyxy": [
-            749,
-            445,
-            771,
-            455
-          ],
-          "similarity": 0.22727972269058228
-        },
-        {
-          "bbox_xyxy": [
-            768,
-            339,
-            988,
-            492
-          ],
-          "similarity": 0.4764097332954407
-        },
-        {
-          "bbox_xyxy": [
-            768,
-            456,
-            785,
-            467
-          ],
-          "similarity": 0.20793232321739197
-        },
-        {
-          "bbox_xyxy": [
-            769,
-            457,
-            781,
-            467
-          ],
-          "similarity": 0.2019052356481552
-        },
-        {
-          "bbox_xyxy": [
-            777,
-            445,
-            795,
-            454
-          ],
-          "similarity": 0.2147580087184906
-        },
-        {
-          "bbox_xyxy": [
-            786,
-            456,
-            807,
-            465
-          ],
-          "similarity": 0.19876496493816376
-        },
-        {
-          "bbox_xyxy": [
-            789,
-            449,
-            803,
-            459
-          ],
-          "similarity": 0.20605359971523285
-        },
-        {
-          "bbox_xyxy": [
-            820,
-            450,
-            843,
+            497,
+            366,
+            966,
             463
           ],
-          "similarity": 0.2529078722000122
+          "confidence": 0.59912109375,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.49097147583961487
         },
         {
           "bbox_xyxy": [
-            828,
-            458,
-            868,
-            473
+            496,
+            405,
+            628,
+            449
           ],
-          "similarity": 0.24655264616012573
+          "confidence": 0.52392578125,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.413265585899353
         },
         {
           "bbox_xyxy": [
-            829,
-            461,
-            859,
-            472
+            817,
+            366,
+            965,
+            458
           ],
-          "similarity": 0.23452484607696533
+          "confidence": 0.466552734375,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.46945855021476746
         },
         {
           "bbox_xyxy": [
-            841,
-            451,
-            855,
-            460
+            738,
+            409,
+            818,
+            435
           ],
-          "similarity": 0.23057037591934204
+          "confidence": 0.38330078125,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.26192450523376465
         },
         {
           "bbox_xyxy": [
-            850,
-            465,
-            910,
-            494
+            706,
+            406,
+            740,
+            428
           ],
-          "similarity": 0.2521732449531555
+          "confidence": 0.18505859375,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.20382267236709595
         },
         {
           "bbox_xyxy": [
-            850,
-            467,
-            910,
-            494
+            623,
+            408,
+            708,
+            433
           ],
-          "similarity": 0.2376668006181717
-        },
-        {
-          "bbox_xyxy": [
-            854,
-            458,
-            867,
-            468
-          ],
-          "similarity": 0.2172802984714508
-        },
-        {
-          "bbox_xyxy": [
-            866,
-            462,
-            879,
-            474
-          ],
-          "similarity": 0.2295038402080536
-        },
-        {
-          "bbox_xyxy": [
-            893,
-            525,
-            909,
-            535
-          ],
-          "similarity": 0.19853630661964417
-        },
-        {
-          "bbox_xyxy": [
-            901,
-            517,
-            916,
-            527
-          ],
-          "similarity": 0.21747925877571106
-        },
-        {
-          "bbox_xyxy": [
-            905,
-            457,
-            919,
-            465
-          ],
-          "similarity": 0.18535441160202026
-        },
-        {
-          "bbox_xyxy": [
-            905,
-            457,
-            919,
-            466
-          ],
-          "similarity": 0.19008022546768188
-        },
-        {
-          "bbox_xyxy": [
-            936,
-            526,
-            955,
-            535
-          ],
-          "similarity": 0.21903645992279053
-        },
-        {
-          "bbox_xyxy": [
-            956,
-            417,
-            968,
-            432
-          ],
-          "similarity": 0.20769153535366058
-        },
-        {
-          "bbox_xyxy": [
-            1069,
-            481,
-            1083,
-            489
-          ],
-          "similarity": 0.20418018102645874
-        },
-        {
-          "bbox_xyxy": [
-            1206,
-            457,
-            1219,
-            466
-          ],
-          "similarity": 0.21952062845230103
-        },
-        {
-          "bbox_xyxy": [
-            1263,
-            456,
-            1275,
-            465
-          ],
-          "similarity": 0.19978463649749756
+          "confidence": 0.18212890625,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.23843485116958618
         }
       ],
       "detections": [
         {
           "bbox_xyxy": [
-            436,
-            341,
-            1022,
-            481
+            497,
+            366,
+            966,
+            463
           ],
-          "similarity": 0.5666036009788513,
+          "confidence": 0.59912109375,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.49097147583961487,
           "class": "target_ship_candidate"
         }
       ]
@@ -626,446 +165,75 @@
       "proposals": [
         {
           "bbox_xyxy": [
-            5,
-            489,
-            24,
-            502
-          ],
-          "similarity": 0.23355890810489655
-        },
-        {
-          "bbox_xyxy": [
-            6,
-            499,
-            27,
-            511
-          ],
-          "similarity": 0.2591279149055481
-        },
-        {
-          "bbox_xyxy": [
-            53,
-            515,
-            67,
-            533
-          ],
-          "similarity": 0.24830590188503265
-        },
-        {
-          "bbox_xyxy": [
-            129,
-            509,
-            143,
-            520
-          ],
-          "similarity": 0.19713664054870605
-        },
-        {
-          "bbox_xyxy": [
-            137,
-            521,
-            151,
-            529
-          ],
-          "similarity": 0.22910097241401672
-        },
-        {
-          "bbox_xyxy": [
-            165,
-            525,
-            187,
-            534
-          ],
-          "similarity": 0.23683130741119385
-        },
-        {
-          "bbox_xyxy": [
-            218,
-            382,
-            799,
-            529
-          ],
-          "similarity": 0.5716253519058228
-        },
-        {
-          "bbox_xyxy": [
-            257,
-            442,
-            429,
-            511
-          ],
-          "similarity": 0.4801609516143799
-        },
-        {
-          "bbox_xyxy": [
-            264,
-            443,
-            392,
-            504
-          ],
-          "similarity": 0.4400738477706909
-        },
-        {
-          "bbox_xyxy": [
-            285,
-            492,
-            337,
-            503
-          ],
-          "similarity": 0.19687491655349731
-        },
-        {
-          "bbox_xyxy": [
-            352,
-            488,
-            379,
-            501
-          ],
-          "similarity": 0.21564024686813354
-        },
-        {
-          "bbox_xyxy": [
-            380,
-            451,
-            497,
-            480
-          ],
-          "similarity": 0.31200817227363586
-        },
-        {
-          "bbox_xyxy": [
-            381,
-            451,
-            498,
-            479
-          ],
-          "similarity": 0.27043813467025757
-        },
-        {
-          "bbox_xyxy": [
-            396,
-            494,
-            415,
-            504
-          ],
-          "similarity": 0.2088291049003601
-        },
-        {
-          "bbox_xyxy": [
-            397,
-            524,
-            411,
-            533
-          ],
-          "similarity": 0.2073202282190323
-        },
-        {
-          "bbox_xyxy": [
-            403,
-            474,
-            415,
-            488
-          ],
-          "similarity": 0.2257601022720337
-        },
-        {
-          "bbox_xyxy": [
-            419,
-            492,
-            473,
-            503
-          ],
-          "similarity": 0.21975739300251007
-        },
-        {
-          "bbox_xyxy": [
-            429,
-            475,
-            451,
-            492
-          ],
-          "similarity": 0.25142645835876465
-        },
-        {
-          "bbox_xyxy": [
-            429,
-            476,
-            451,
-            491
-          ],
-          "similarity": 0.24771833419799805
-        },
-        {
-          "bbox_xyxy": [
-            458,
-            493,
-            471,
-            502
-          ],
-          "similarity": 0.19658395648002625
-        },
-        {
-          "bbox_xyxy": [
-            498,
-            493,
-            512,
-            504
-          ],
-          "similarity": 0.21509835124015808
-        },
-        {
-          "bbox_xyxy": [
-            501,
-            452,
-            615,
-            487
-          ],
-          "similarity": 0.34520626068115234
-        },
-        {
-          "bbox_xyxy": [
-            512,
-            382,
-            770,
-            512
-          ],
-          "similarity": 0.5733449459075928
-        },
-        {
-          "bbox_xyxy": [
-            512,
-            382,
-            770,
-            531
-          ],
-          "similarity": 0.5547279119491577
-        },
-        {
-          "bbox_xyxy": [
-            529,
-            493,
-            548,
-            502
-          ],
-          "similarity": 0.22329062223434448
-        },
-        {
-          "bbox_xyxy": [
-            572,
-            493,
-            603,
+            274,
+            408,
+            745,
             508
           ],
-          "similarity": 0.24968744814395905
+          "confidence": 0.599609375,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.4680507779121399
         },
         {
           "bbox_xyxy": [
-            572,
-            493,
-            607,
-            508
+            274,
+            453,
+            404,
+            500
           ],
-          "similarity": 0.25082504749298096
+          "confidence": 0.5244140625,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.3915235996246338
         },
         {
           "bbox_xyxy": [
-            605,
-            496,
-            621,
-            507
+            483,
+            454,
+            520,
+            476
           ],
-          "similarity": 0.22933420538902283
+          "confidence": 0.24169921875,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.28099948167800903
         },
         {
           "bbox_xyxy": [
-            607,
-            475,
-            625,
-            487
-          ],
-          "similarity": 0.2554585933685303
-        },
-        {
-          "bbox_xyxy": [
-            618,
-            386,
-            729,
-            505
-          ],
-          "similarity": 0.4852299690246582
-        },
-        {
-          "bbox_xyxy": [
-            635,
-            493,
-            689,
-            511
-          ],
-          "similarity": 0.27516427636146545
-        },
-        {
-          "bbox_xyxy": [
-            700,
-            485,
-            742,
-            507
-          ],
-          "similarity": 0.23573468625545502
-        },
-        {
-          "bbox_xyxy": [
-            719,
-            482,
-            739,
-            493
-          ],
-          "similarity": 0.23638896644115448
-        },
-        {
-          "bbox_xyxy": [
-            725,
-            509,
-            741,
-            520
-          ],
-          "similarity": 0.21314755082130432
-        },
-        {
-          "bbox_xyxy": [
-            735,
             516,
-            794,
-            539
+            457,
+            600,
+            483
           ],
-          "similarity": 0.23751726746559143
-        },
-        {
-          "bbox_xyxy": [
-            736,
-            516,
-            794,
-            539
-          ],
-          "similarity": 0.2605207562446594
-        },
-        {
-          "bbox_xyxy": [
-            738,
-            506,
-            752,
-            516
-          ],
-          "similarity": 0.21010152995586395
-        },
-        {
-          "bbox_xyxy": [
-            738,
-            506,
-            755,
-            516
-          ],
-          "similarity": 0.2257496416568756
-        },
-        {
-          "bbox_xyxy": [
-            738,
-            517,
-            768,
-            539
-          ],
-          "similarity": 0.245284304022789
-        },
-        {
-          "bbox_xyxy": [
-            821,
-            501,
-            835,
-            511
-          ],
-          "similarity": 0.21607568860054016
-        },
-        {
-          "bbox_xyxy": [
-            958,
-            500,
-            979,
-            509
-          ],
-          "similarity": 0.24121174216270447
-        },
-        {
-          "bbox_xyxy": [
-            1003,
-            502,
-            1019,
-            511
-          ],
-          "similarity": 0.22234463691711426
-        },
-        {
-          "bbox_xyxy": [
-            1077,
-            510,
-            1091,
-            519
-          ],
-          "similarity": 0.226789653301239
-        },
-        {
-          "bbox_xyxy": [
-            1105,
-            501,
-            1122,
-            509
-          ],
-          "similarity": 0.2197173833847046
-        },
-        {
-          "bbox_xyxy": [
-            1105,
-            501,
-            1122,
-            510
-          ],
-          "similarity": 0.21478405594825745
-        },
-        {
-          "bbox_xyxy": [
-            1199,
-            501,
-            1212,
-            512
-          ],
-          "similarity": 0.22261711955070496
-        },
-        {
-          "bbox_xyxy": [
-            1199,
-            501,
-            1212,
-            513
-          ],
-          "similarity": 0.24717113375663757
-        },
-        {
-          "bbox_xyxy": [
-            1199,
-            501,
-            1212,
-            514
-          ],
-          "similarity": 0.24083416163921356
+          "confidence": 0.2232666015625,
+          "detector_class": "boat",
+          "detector_view": "tile",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.28320205211639404
         }
       ],
       "detections": [
         {
           "bbox_xyxy": [
-            512,
-            382,
-            770,
-            512
+            274,
+            408,
+            745,
+            508
           ],
-          "similarity": 0.5733449459075928,
+          "confidence": 0.599609375,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.4680507779121399,
           "class": "target_ship_candidate"
         }
       ]
@@ -1081,176 +249,33 @@
       "proposals": [
         {
           "bbox_xyxy": [
-            0,
-            488,
-            27,
-            498
+            577,
+            473,
+            741,
+            517
           ],
-          "similarity": 0.25720375776290894
-        },
-        {
-          "bbox_xyxy": [
-            237,
-            477,
-            261,
-            496
-          ],
-          "similarity": 0.2305135875940323
-        },
-        {
-          "bbox_xyxy": [
-            462,
-            507,
-            517,
-            518
-          ],
-          "similarity": 0.28983813524246216
-        },
-        {
-          "bbox_xyxy": [
-            476,
-            507,
-            516,
-            515
-          ],
-          "similarity": 0.2611737549304962
-        },
-        {
-          "bbox_xyxy": [
-            556,
-            467,
-            761,
-            514
-          ],
-          "similarity": 0.47069844603538513
-        },
-        {
-          "bbox_xyxy": [
-            559,
-            467,
-            758,
-            512
-          ],
-          "similarity": 0.4617069363594055
-        },
-        {
-          "bbox_xyxy": [
-            559,
-            467,
-            758,
-            514
-          ],
-          "similarity": 0.47391408681869507
-        },
-        {
-          "bbox_xyxy": [
-            559,
-            467,
-            759,
-            512
-          ],
-          "similarity": 0.45966729521751404
-        },
-        {
-          "bbox_xyxy": [
-            559,
-            467,
-            759,
-            514
-          ],
-          "similarity": 0.474431574344635
-        },
-        {
-          "bbox_xyxy": [
-            659,
-            509,
-            683,
-            522
-          ],
-          "similarity": 0.2641637325286865
-        },
-        {
-          "bbox_xyxy": [
-            659,
-            509,
-            691,
-            522
-          ],
-          "similarity": 0.2682058811187744
-        },
-        {
-          "bbox_xyxy": [
-            660,
-            509,
-            683,
-            521
-          ],
-          "similarity": 0.2636058032512665
-        },
-        {
-          "bbox_xyxy": [
-            1074,
-            453,
-            1089,
-            466
-          ],
-          "similarity": 0.26650241017341614
-        },
-        {
-          "bbox_xyxy": [
-            1085,
-            441,
-            1099,
-            451
-          ],
-          "similarity": 0.20817670226097107
-        },
-        {
-          "bbox_xyxy": [
-            1085,
-            461,
-            1115,
-            472
-          ],
-          "similarity": 0.2194831222295761
-        },
-        {
-          "bbox_xyxy": [
-            1105,
-            445,
-            1181,
-            463
-          ],
-          "similarity": 0.24198295176029205
-        },
-        {
-          "bbox_xyxy": [
-            1149,
-            477,
-            1166,
-            489
-          ],
-          "similarity": 0.19851714372634888
-        },
-        {
-          "bbox_xyxy": [
-            1160,
-            466,
-            1280,
-            487
-          ],
-          "similarity": 0.23330040276050568
+          "confidence": 0.626953125,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": true,
+          "detector_input_size": 640,
+          "similarity": 0.42724472284317017
         }
       ],
       "detections": [
         {
           "bbox_xyxy": [
-            559,
-            467,
-            759,
-            514
+            577,
+            473,
+            741,
+            517
           ],
-          "similarity": 0.474431574344635,
+          "confidence": 0.626953125,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": true,
+          "detector_input_size": 640,
+          "similarity": 0.42724472284317017,
           "class": "target_ship_candidate"
         }
       ]
@@ -1263,377 +288,7 @@
         1280,
         720
       ],
-      "proposals": [
-        {
-          "bbox_xyxy": [
-            0,
-            574,
-            15,
-            587
-          ],
-          "similarity": 0.24537748098373413
-        },
-        {
-          "bbox_xyxy": [
-            43,
-            577,
-            93,
-            588
-          ],
-          "similarity": 0.25425583124160767
-        },
-        {
-          "bbox_xyxy": [
-            257,
-            563,
-            275,
-            571
-          ],
-          "similarity": 0.21800968050956726
-        },
-        {
-          "bbox_xyxy": [
-            289,
-            435,
-            854,
-            581
-          ],
-          "similarity": 0.2894982099533081
-        },
-        {
-          "bbox_xyxy": [
-            332,
-            468,
-            460,
-            551
-          ],
-          "similarity": 0.2655887007713318
-        },
-        {
-          "bbox_xyxy": [
-            335,
-            474,
-            460,
-            512
-          ],
-          "similarity": 0.22708389163017273
-        },
-        {
-          "bbox_xyxy": [
-            336,
-            477,
-            460,
-            556
-          ],
-          "similarity": 0.2741384506225586
-        },
-        {
-          "bbox_xyxy": [
-            336,
-            483,
-            460,
-            512
-          ],
-          "similarity": 0.22481396794319153
-        },
-        {
-          "bbox_xyxy": [
-            381,
-            477,
-            395,
-            487
-          ],
-          "similarity": 0.18258440494537354
-        },
-        {
-          "bbox_xyxy": [
-            476,
-            517,
-            516,
-            535
-          ],
-          "similarity": 0.28280380368232727
-        },
-        {
-          "bbox_xyxy": [
-            479,
-            509,
-            499,
-            523
-          ],
-          "similarity": 0.2821221947669983
-        },
-        {
-          "bbox_xyxy": [
-            495,
-            499,
-            512,
-            507
-          ],
-          "similarity": 0.244795560836792
-        },
-        {
-          "bbox_xyxy": [
-            495,
-            499,
-            515,
-            507
-          ],
-          "similarity": 0.25332289934158325
-        },
-        {
-          "bbox_xyxy": [
-            512,
-            494,
-            525,
-            502
-          ],
-          "similarity": 0.21537160873413086
-        },
-        {
-          "bbox_xyxy": [
-            512,
-            519,
-            531,
-            530
-          ],
-          "similarity": 0.22041484713554382
-        },
-        {
-          "bbox_xyxy": [
-            517,
-            519,
-            531,
-            527
-          ],
-          "similarity": 0.20037388801574707
-        },
-        {
-          "bbox_xyxy": [
-            586,
-            492,
-            666,
-            548
-          ],
-          "similarity": 0.267971396446228
-        },
-        {
-          "bbox_xyxy": [
-            589,
-            497,
-            663,
-            512
-          ],
-          "similarity": 0.23146149516105652
-        },
-        {
-          "bbox_xyxy": [
-            593,
-            520,
-            619,
-            528
-          ],
-          "similarity": 0.23964636027812958
-        },
-        {
-          "bbox_xyxy": [
-            613,
-            525,
-            635,
-            535
-          ],
-          "similarity": 0.21412456035614014
-        },
-        {
-          "bbox_xyxy": [
-            621,
-            500,
-            643,
-            512
-          ],
-          "similarity": 0.27199041843414307
-        },
-        {
-          "bbox_xyxy": [
-            621,
-            500,
-            643,
-            515
-          ],
-          "similarity": 0.28195005655288696
-        },
-        {
-          "bbox_xyxy": [
-            629,
-            521,
-            656,
-            535
-          ],
-          "similarity": 0.2681295871734619
-        },
-        {
-          "bbox_xyxy": [
-            645,
-            583,
-            659,
-            595
-          ],
-          "similarity": 0.21271972358226776
-        },
-        {
-          "bbox_xyxy": [
-            660,
-            560,
-            684,
-            569
-          ],
-          "similarity": 0.2297520935535431
-        },
-        {
-          "bbox_xyxy": [
-            671,
-            579,
-            691,
-            590
-          ],
-          "similarity": 0.2231035828590393
-        },
-        {
-          "bbox_xyxy": [
-            671,
-            579,
-            691,
-            594
-          ],
-          "similarity": 0.23839129507541656
-        },
-        {
-          "bbox_xyxy": [
-            675,
-            549,
-            691,
-            559
-          ],
-          "similarity": 0.18678387999534607
-        },
-        {
-          "bbox_xyxy": [
-            680,
-            437,
-            803,
-            569
-          ],
-          "similarity": 0.28621533513069153
-        },
-        {
-          "bbox_xyxy": [
-            685,
-            429,
-            707,
-            443
-          ],
-          "similarity": 0.2108106017112732
-        },
-        {
-          "bbox_xyxy": [
-            685,
-            445,
-            761,
-            512
-          ],
-          "similarity": 0.21960538625717163
-        },
-        {
-          "bbox_xyxy": [
-            686,
-            445,
-            748,
-            512
-          ],
-          "similarity": 0.21892057359218597
-        },
-        {
-          "bbox_xyxy": [
-            686,
-            445,
-            748,
-            523
-          ],
-          "similarity": 0.23903177678585052
-        },
-        {
-          "bbox_xyxy": [
-            706,
-            520,
-            735,
-            536
-          ],
-          "similarity": 0.25346317887306213
-        },
-        {
-          "bbox_xyxy": [
-            749,
-            433,
-            767,
-            451
-          ],
-          "similarity": 0.2181052565574646
-        },
-        {
-          "bbox_xyxy": [
-            766,
-            525,
-            801,
-            539
-          ],
-          "similarity": 0.2743019759654999
-        },
-        {
-          "bbox_xyxy": [
-            768,
-            498,
-            826,
-            559
-          ],
-          "similarity": 0.2634314298629761
-        },
-        {
-          "bbox_xyxy": [
-            781,
-            504,
-            804,
-            512
-          ],
-          "similarity": 0.20173144340515137
-        },
-        {
-          "bbox_xyxy": [
-            1153,
-            345,
-            1167,
-            353
-          ],
-          "similarity": 0.191562682390213
-        },
-        {
-          "bbox_xyxy": [
-            1194,
-            337,
-            1218,
-            347
-          ],
-          "similarity": 0.218056321144104
-        },
-        {
-          "bbox_xyxy": [
-            1269,
-            317,
-            1280,
-            326
-          ],
-          "similarity": 0.1896468847990036
-        }
-      ],
+      "proposals": [],
       "detections": []
     },
     {
@@ -1647,401 +302,103 @@
       "proposals": [
         {
           "bbox_xyxy": [
-            13,
-            475,
-            35,
-            486
-          ],
-          "similarity": 0.21322278678417206
-        },
-        {
-          "bbox_xyxy": [
-            37,
-            413,
-            67,
-            426
-          ],
-          "similarity": 0.25482311844825745
-        },
-        {
-          "bbox_xyxy": [
-            45,
-            414,
-            67,
-            424
-          ],
-          "similarity": 0.23624439537525177
-        },
-        {
-          "bbox_xyxy": [
-            61,
-            406,
-            83,
-            418
-          ],
-          "similarity": 0.24807345867156982
-        },
-        {
-          "bbox_xyxy": [
-            61,
-            475,
-            91,
-            486
-          ],
-          "similarity": 0.21534961462020874
-        },
-        {
-          "bbox_xyxy": [
-            62,
-            409,
-            75,
-            418
-          ],
-          "similarity": 0.2123108208179474
-        },
-        {
-          "bbox_xyxy": [
-            86,
+            471,
             357,
-            99,
-            366
-          ],
-          "similarity": 0.2231791764497757
-        },
-        {
-          "bbox_xyxy": [
-            121,
-            349,
-            147,
-            360
-          ],
-          "similarity": 0.2233891636133194
-        },
-        {
-          "bbox_xyxy": [
-            139,
-            454,
-            155,
+            944,
             463
           ],
-          "similarity": 0.22490860521793365
+          "confidence": 0.6142578125,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.5103481411933899
         },
         {
           "bbox_xyxy": [
-            141,
-            446,
-            163,
-            454
+            714,
+            409,
+            796,
+            433
           ],
-          "similarity": 0.22463595867156982
+          "confidence": 0.483642578125,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.2534981071949005
         },
         {
           "bbox_xyxy": [
-            205,
-            495,
-            227,
-            503
-          ],
-          "similarity": 0.2154596745967865
-        },
-        {
-          "bbox_xyxy": [
-            237,
-            478,
-            249,
-            487
-          ],
-          "similarity": 0.21143847703933716
-        },
-        {
-          "bbox_xyxy": [
-            333,
-            464,
-            354,
-            472
-          ],
-          "similarity": 0.21983297169208527
-        },
-        {
-          "bbox_xyxy": [
-            341,
-            477,
-            355,
-            487
-          ],
-          "similarity": 0.19876845180988312
-        },
-        {
-          "bbox_xyxy": [
-            361,
-            454,
-            377,
-            462
-          ],
-          "similarity": 0.21032845973968506
-        },
-        {
-          "bbox_xyxy": [
-            361,
-            454,
-            377,
-            463
-          ],
-          "similarity": 0.2124737799167633
-        },
-        {
-          "bbox_xyxy": [
-            361,
-            463,
-            384,
-            475
-          ],
-          "similarity": 0.21405304968357086
-        },
-        {
-          "bbox_xyxy": [
-            416,
-            331,
-            997,
-            490
-          ],
-          "similarity": 0.600712776184082
-        },
-        {
-          "bbox_xyxy": [
-            455,
-            389,
-            632,
-            465
-          ],
-          "similarity": 0.4579007625579834
-        },
-        {
-          "bbox_xyxy": [
-            467,
-            391,
-            512,
-            461
-          ],
-          "similarity": 0.3170977830886841
-        },
-        {
-          "bbox_xyxy": [
-            512,
-            398,
-            576,
-            428
-          ],
-          "similarity": 0.2866562008857727
-        },
-        {
-          "bbox_xyxy": [
-            512,
-            445,
-            531,
-            457
-          ],
-          "similarity": 0.22021302580833435
-        },
-        {
-          "bbox_xyxy": [
-            556,
-            437,
-            598,
-            458
-          ],
-          "similarity": 0.2655388414859772
-        },
-        {
-          "bbox_xyxy": [
-            557,
-            445,
+            471,
+            404,
             583,
-            456
+            452
           ],
-          "similarity": 0.2033463418483734
+          "confidence": 0.359130859375,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.3093540668487549
         },
         {
           "bbox_xyxy": [
-            590,
+            471,
+            402,
+            685,
+            451
+          ],
+          "confidence": 0.317626953125,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.3372281789779663
+        },
+        {
+          "bbox_xyxy": [
+            680,
             404,
-            694,
-            432
-          ],
-          "similarity": 0.2950124740600586
-        },
-        {
-          "bbox_xyxy": [
-            590,
-            404,
-            711,
-            432
-          ],
-          "similarity": 0.2773253917694092
-        },
-        {
-          "bbox_xyxy": [
-            656,
-            446,
-            675,
-            454
-          ],
-          "similarity": 0.2370825707912445
-        },
-        {
-          "bbox_xyxy": [
-            687,
-            331,
-            968,
-            490
-          ],
-          "similarity": 0.5707520246505737
-        },
-        {
-          "bbox_xyxy": [
-            699,
-            439,
-            747,
-            455
-          ],
-          "similarity": 0.24932432174682617
-        },
-        {
-          "bbox_xyxy": [
-            709,
-            406,
-            768,
+            717,
             427
           ],
-          "similarity": 0.263923317193985
+          "confidence": 0.1993408203125,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.265225350856781
         },
         {
           "bbox_xyxy": [
-            709,
-            445,
-            735,
-            454
+            712,
+            361,
+            941,
+            458
           ],
-          "similarity": 0.24161292612552643
-        },
-        {
-          "bbox_xyxy": [
-            747,
-            446,
-            768,
-            466
-          ],
-          "similarity": 0.314087450504303
-        },
-        {
-          "bbox_xyxy": [
-            757,
-            429,
-            768,
-            444
-          ],
-          "similarity": 0.20667585730552673
-        },
-        {
-          "bbox_xyxy": [
-            757,
-            448,
-            787,
-            462
-          ],
-          "similarity": 0.2809564471244812
-        },
-        {
-          "bbox_xyxy": [
-            768,
-            332,
-            962,
-            486
-          ],
-          "similarity": 0.5287880301475525
-        },
-        {
-          "bbox_xyxy": [
-            773,
-            433,
-            787,
-            443
-          ],
-          "similarity": 0.1762920618057251
-        },
-        {
-          "bbox_xyxy": [
-            819,
-            459,
-            851,
-            467
-          ],
-          "similarity": 0.2402752935886383
-        },
-        {
-          "bbox_xyxy": [
-            824,
-            448,
-            868,
-            470
-          ],
-          "similarity": 0.2973138689994812
-        },
-        {
-          "bbox_xyxy": [
-            845,
-            463,
-            859,
-            473
-          ],
-          "similarity": 0.20586547255516052
-        },
-        {
-          "bbox_xyxy": [
-            845,
-            463,
-            859,
-            474
-          ],
-          "similarity": 0.21538753807544708
-        },
-        {
-          "bbox_xyxy": [
-            856,
-            469,
-            916,
-            491
-          ],
-          "similarity": 0.209985613822937
-        },
-        {
-          "bbox_xyxy": [
-            1045,
-            342,
-            1059,
-            362
-          ],
-          "similarity": 0.26999765634536743
-        },
-        {
-          "bbox_xyxy": [
-            1093,
-            460,
-            1119,
-            472
-          ],
-          "similarity": 0.23843425512313843
+          "confidence": 0.1644287109375,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.5125414133071899
         }
       ],
       "detections": [
         {
           "bbox_xyxy": [
-            416,
-            331,
-            997,
-            490
+            712,
+            361,
+            941,
+            458
           ],
-          "similarity": 0.600712776184082,
+          "confidence": 0.1644287109375,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.5125414133071899,
           "class": "target_ship_candidate"
         }
       ]
@@ -2057,167 +414,47 @@
       "proposals": [
         {
           "bbox_xyxy": [
-            150,
-            534,
-            175,
-            562
-          ],
-          "similarity": 0.23766788840293884
-        },
-        {
-          "bbox_xyxy": [
-            150,
+            507,
             535,
-            172,
-            555
+            671,
+            569
           ],
-          "similarity": 0.2433648705482483
+          "confidence": 0.5087890625,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.47716593742370605
         },
         {
           "bbox_xyxy": [
-            374,
-            574,
-            403,
-            582
-          ],
-          "similarity": 0.26880401372909546
-        },
-        {
-          "bbox_xyxy": [
-            389,
-            532,
-            405,
-            541
-          ],
-          "similarity": 0.19802959263324738
-        },
-        {
-          "bbox_xyxy": [
-            489,
-            524,
-            689,
-            572
-          ],
-          "similarity": 0.5228443145751953
-        },
-        {
-          "bbox_xyxy": [
-            512,
-            528,
-            689,
-            571
-          ],
-          "similarity": 0.5016809701919556
-        },
-        {
-          "bbox_xyxy": [
-            544,
-            563,
-            588,
-            577
-          ],
-          "similarity": 0.22233691811561584
-        },
-        {
-          "bbox_xyxy": [
-            567,
-            566,
-            587,
-            577
-          ],
-          "similarity": 0.23458603024482727
-        },
-        {
-          "bbox_xyxy": [
-            568,
-            566,
             586,
-            577
+            534,
+            671,
+            566
           ],
-          "similarity": 0.22949975728988647
-        },
-        {
-          "bbox_xyxy": [
-            736,
-            506,
-            768,
-            512
-          ],
-          "similarity": 0.2104565054178238
-        },
-        {
-          "bbox_xyxy": [
-            736,
-            506,
-            768,
-            515
-          ],
-          "similarity": 0.24425634741783142
-        },
-        {
-          "bbox_xyxy": [
-            741,
-            481,
-            768,
-            495
-          ],
-          "similarity": 0.2360290288925171
-        },
-        {
-          "bbox_xyxy": [
-            742,
-            487,
-            768,
-            495
-          ],
-          "similarity": 0.2002357542514801
-        },
-        {
-          "bbox_xyxy": [
-            893,
-            501,
-            917,
-            515
-          ],
-          "similarity": 0.24887673556804657
-        },
-        {
-          "bbox_xyxy": [
-            925,
-            481,
-            950,
-            499
-          ],
-          "similarity": 0.2147718071937561
-        },
-        {
-          "bbox_xyxy": [
-            1253,
-            509,
-            1280,
-            523
-          ],
-          "similarity": 0.21930265426635742
-        },
-        {
-          "bbox_xyxy": [
-            1269,
-            429,
-            1280,
-            439
-          ],
-          "similarity": 0.1775374412536621
+          "confidence": 0.26806640625,
+          "detector_class": "boat",
+          "detector_view": "tile",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.47118067741394043
         }
       ],
       "detections": [
         {
           "bbox_xyxy": [
-            489,
-            524,
-            689,
-            572
+            507,
+            535,
+            671,
+            569
           ],
-          "similarity": 0.5228443145751953,
+          "confidence": 0.5087890625,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.47716593742370605,
           "class": "target_ship_candidate"
         }
       ]
@@ -2233,521 +470,34 @@
       "proposals": [
         {
           "bbox_xyxy": [
-            393,
-            431,
-            409,
-            440
-          ],
-          "similarity": 0.24636034667491913
-        },
-        {
-          "bbox_xyxy": [
-            393,
-            431,
-            410,
-            440
-          ],
-          "similarity": 0.24750472605228424
-        },
-        {
-          "bbox_xyxy": [
-            394,
-            432,
-            409,
-            440
-          ],
-          "similarity": 0.23639759421348572
-        },
-        {
-          "bbox_xyxy": [
-            458,
-            394,
-            512,
-            438
-          ],
-          "similarity": 0.38017958402633667
-        },
-        {
-          "bbox_xyxy": [
-            462,
-            325,
-            512,
-            359
-          ],
-          "similarity": 0.2956921458244324
-        },
-        {
-          "bbox_xyxy": [
-            482,
-            587,
-            563,
-            693
-          ],
-          "similarity": 0.2897654175758362
-        },
-        {
-          "bbox_xyxy": [
-            493,
-            356,
-            512,
-            379
-          ],
-          "similarity": 0.29625988006591797
-        },
-        {
-          "bbox_xyxy": [
-            493,
-            397,
-            512,
-            419
-          ],
-          "similarity": 0.22254909574985504
-        },
-        {
-          "bbox_xyxy": [
-            493,
-            429,
-            512,
-            438
-          ],
-          "similarity": 0.23456811904907227
-        },
-        {
-          "bbox_xyxy": [
-            497,
-            389,
-            512,
-            399
-          ],
-          "similarity": 0.20570220053195953
-        },
-        {
-          "bbox_xyxy": [
-            501,
-            419,
-            512,
-            429
-          ],
-          "similarity": 0.22111575305461884
-        },
-        {
-          "bbox_xyxy": [
-            512,
-            565,
-            536,
-            675
-          ],
-          "similarity": 0.1400424838066101
-        },
-        {
-          "bbox_xyxy": [
-            512,
-            686,
-            530,
-            716
-          ],
-          "similarity": 0.08243317902088165
-        },
-        {
-          "bbox_xyxy": [
-            528,
-            710,
-            549,
-            720
-          ],
-          "similarity": 0.09467330574989319
-        },
-        {
-          "bbox_xyxy": [
-            531,
-            569,
-            556,
-            653
-          ],
-          "similarity": 0.19263280928134918
-        },
-        {
-          "bbox_xyxy": [
-            548,
-            693,
-            563,
-            715
-          ],
-          "similarity": 0.05926896631717682
-        },
-        {
-          "bbox_xyxy": [
-            559,
-            551,
-            621,
-            686
-          ],
-          "similarity": 0.22365429997444153
-        },
-        {
-          "bbox_xyxy": [
-            562,
-            710,
-            574,
-            720
-          ],
-          "similarity": 0.06924619525671005
-        },
-        {
-          "bbox_xyxy": [
-            565,
-            620,
-            577,
-            641
-          ],
-          "similarity": 0.08929775655269623
-        },
-        {
-          "bbox_xyxy": [
-            569,
-            553,
-            743,
-            720
-          ],
-          "similarity": 0.2843949496746063
-        },
-        {
-          "bbox_xyxy": [
-            595,
-            567,
-            608,
-            577
-          ],
-          "similarity": 0.1479463279247284
-        },
-        {
-          "bbox_xyxy": [
-            597,
-            557,
-            768,
-            685
-          ],
-          "similarity": 0.3299088478088379
-        },
-        {
-          "bbox_xyxy": [
-            599,
-            671,
-            611,
-            684
-          ],
-          "similarity": 0.06745817512273788
-        },
-        {
-          "bbox_xyxy": [
-            614,
-            628,
-            629,
-            649
-          ],
-          "similarity": 0.071425661444664
-        },
-        {
-          "bbox_xyxy": [
-            618,
-            564,
-            648,
-            606
-          ],
-          "similarity": 0.18056803941726685
-        },
-        {
-          "bbox_xyxy": [
-            626,
-            578,
-            647,
-            601
-          ],
-          "similarity": 0.16934344172477722
-        },
-        {
-          "bbox_xyxy": [
-            638,
-            600,
-            656,
-            617
-          ],
-          "similarity": 0.1560552567243576
-        },
-        {
-          "bbox_xyxy": [
-            642,
-            601,
-            656,
-            617
-          ],
-          "similarity": 0.13807351887226105
-        },
-        {
-          "bbox_xyxy": [
-            652,
-            564,
-            671,
-            608
-          ],
-          "similarity": 0.18367809057235718
-        },
-        {
-          "bbox_xyxy": [
-            654,
-            688,
-            687,
-            720
-          ],
-          "similarity": 0.09755757451057434
-        },
-        {
-          "bbox_xyxy": [
-            655,
-            580,
-            667,
-            594
-          ],
-          "similarity": 0.1675722748041153
-        },
-        {
-          "bbox_xyxy": [
-            678,
-            682,
-            707,
-            720
-          ],
-          "similarity": 0.11154835671186447
-        },
-        {
-          "bbox_xyxy": [
-            813,
-            561,
-            895,
-            610
-          ],
-          "similarity": 0.3000902533531189
-        },
-        {
-          "bbox_xyxy": [
-            861,
-            566,
-            890,
-            607
-          ],
-          "similarity": 0.19386203587055206
-        },
-        {
-          "bbox_xyxy": [
-            876,
-            545,
-            997,
-            613
-          ],
-          "similarity": 0.37719592452049255
-        },
-        {
-          "bbox_xyxy": [
-            879,
-            545,
-            974,
-            613
-          ],
-          "similarity": 0.3475411534309387
-        },
-        {
-          "bbox_xyxy": [
-            953,
-            324,
-            1024,
+            1224,
+            422,
+            1248,
             441
           ],
-          "similarity": 0.41214779019355774
+          "confidence": 0.72607421875,
+          "detector_class": "boat",
+          "detector_view": "tile",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.382161021232605
         },
         {
           "bbox_xyxy": [
-            966,
-            350,
-            979,
-            363
+            396,
+            433,
+            407,
+            438
           ],
-          "similarity": 0.2622474133968353
-        },
-        {
-          "bbox_xyxy": [
-            966,
-            402,
-            982,
-            418
-          ],
-          "similarity": 0.2548617124557495
-        },
-        {
-          "bbox_xyxy": [
-            972,
-            553,
-            1024,
-            600
-          ],
-          "similarity": 0.27933943271636963
-        },
-        {
-          "bbox_xyxy": [
-            973,
-            344,
-            987,
-            355
-          ],
-          "similarity": 0.2225809395313263
-        },
-        {
-          "bbox_xyxy": [
-            973,
-            596,
-            999,
-            606
-          ],
-          "similarity": 0.08541550487279892
-        },
-        {
-          "bbox_xyxy": [
-            984,
-            542,
-            1066,
-            589
-          ],
-          "similarity": 0.3309347629547119
-        },
-        {
-          "bbox_xyxy": [
-            1013,
-            338,
-            1024,
-            347
-          ],
-          "similarity": 0.18312126398086548
-        },
-        {
-          "bbox_xyxy": [
-            1058,
-            542,
-            1090,
-            589
-          ],
-          "similarity": 0.23426717519760132
-        },
-        {
-          "bbox_xyxy": [
-            1112,
-            548,
-            1156,
-            588
-          ],
-          "similarity": 0.25641828775405884
-        },
-        {
-          "bbox_xyxy": [
-            1181,
-            584,
-            1195,
-            595
-          ],
-          "similarity": 0.09606534987688065
-        },
-        {
-          "bbox_xyxy": [
-            1192,
-            577,
-            1219,
-            595
-          ],
-          "similarity": 0.09519531577825546
-        },
-        {
-          "bbox_xyxy": [
-            1209,
-            559,
-            1240,
-            595
-          ],
-          "similarity": 0.13835009932518005
-        },
-        {
-          "bbox_xyxy": [
-            1209,
-            604,
-            1280,
-            665
-          ],
-          "similarity": 0.15467068552970886
-        },
-        {
-          "bbox_xyxy": [
-            1221,
-            418,
-            1250,
-            445
-          ],
-          "similarity": 0.41604161262512207
-        },
-        {
-          "bbox_xyxy": [
-            1221,
-            418,
-            1251,
-            445
-          ],
-          "similarity": 0.4198893904685974
-        },
-        {
-          "bbox_xyxy": [
-            1221,
-            419,
-            1250,
-            445
-          ],
-          "similarity": 0.3968152105808258
-        },
-        {
-          "bbox_xyxy": [
-            1226,
-            556,
-            1240,
-            566
-          ],
-          "similarity": 0.22063395380973816
-        },
-        {
-          "bbox_xyxy": [
-            1238,
-            550,
-            1280,
-            599
-          ],
-          "similarity": 0.3077235221862793
-        },
-        {
-          "bbox_xyxy": [
-            1269,
-            363,
-            1280,
-            378
-          ],
-          "similarity": 0.19981467723846436
+          "confidence": 0.357177734375,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.22801928222179413
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            1221,
-            418,
-            1251,
-            445
-          ],
-          "similarity": 0.4198893904685974,
-          "class": "target_ship_candidate"
-        }
-      ]
+      "detections": []
     },
     {
       "input": "val_images/frame_000044.png",
@@ -2760,446 +510,61 @@
       "proposals": [
         {
           "bbox_xyxy": [
-            398,
-            434,
-            414,
-            443
+            1228,
+            424,
+            1253,
+            444
           ],
-          "similarity": 0.2377396672964096
+          "confidence": 0.79443359375,
+          "detector_class": "boat",
+          "detector_view": "tile",
+          "contrast_enhanced": false,
+          "detector_input_size": 1024,
+          "similarity": 0.4088793396949768
         },
         {
           "bbox_xyxy": [
-            458,
-            393,
-            512,
+            400,
+            435,
+            412,
             441
           ],
-          "similarity": 0.3923623263835907
+          "confidence": 0.2218017578125,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.2227621078491211
         },
         {
           "bbox_xyxy": [
-            462,
-            419,
-            483,
-            429
+            401,
+            437,
+            412,
+            440
           ],
-          "similarity": 0.26069575548171997
-        },
-        {
-          "bbox_xyxy": [
-            470,
-            544,
-            570,
-            720
-          ],
-          "similarity": 0.29550209641456604
-        },
-        {
-          "bbox_xyxy": [
-            480,
-            337,
-            512,
-            364
-          ],
-          "similarity": 0.29782384634017944
-        },
-        {
-          "bbox_xyxy": [
-            491,
-            594,
-            507,
-            610
-          ],
-          "similarity": 0.16122205555438995
-        },
-        {
-          "bbox_xyxy": [
-            493,
-            369,
-            512,
-            387
-          ],
-          "similarity": 0.22243764996528625
-        },
-        {
-          "bbox_xyxy": [
-            493,
-            420,
-            512,
-            431
-          ],
-          "similarity": 0.2407933622598648
-        },
-        {
-          "bbox_xyxy": [
-            501,
-            441,
-            512,
-            451
-          ],
-          "similarity": 0.20613698661327362
-        },
-        {
-          "bbox_xyxy": [
-            512,
-            565,
-            561,
-            678
-          ],
-          "similarity": 0.2570691704750061
-        },
-        {
-          "bbox_xyxy": [
-            512,
-            621,
-            525,
-            637
-          ],
-          "similarity": 0.08413265645503998
-        },
-        {
-          "bbox_xyxy": [
-            512,
-            690,
-            525,
-            702
-          ],
-          "similarity": 0.058841947466135025
-        },
-        {
-          "bbox_xyxy": [
-            534,
-            684,
-            563,
-            702
-          ],
-          "similarity": 0.075516477227211
-        },
-        {
-          "bbox_xyxy": [
-            542,
-            643,
-            557,
-            672
-          ],
-          "similarity": 0.13824674487113953
-        },
-        {
-          "bbox_xyxy": [
-            543,
-            540,
-            768,
-            720
-          ],
-          "similarity": 0.30395203828811646
-        },
-        {
-          "bbox_xyxy": [
-            557,
-            684,
-            582,
-            702
-          ],
-          "similarity": 0.07598172873258591
-        },
-        {
-          "bbox_xyxy": [
-            558,
-            629,
-            570,
-            647
-          ],
-          "similarity": 0.13626602292060852
-        },
-        {
-          "bbox_xyxy": [
-            582,
-            609,
-            694,
-            714
-          ],
-          "similarity": 0.2676531970500946
-        },
-        {
-          "bbox_xyxy": [
-            586,
-            568,
-            619,
-            661
-          ],
-          "similarity": 0.2118094265460968
-        },
-        {
-          "bbox_xyxy": [
-            599,
-            578,
-            614,
-            588
-          ],
-          "similarity": 0.13791479170322418
-        },
-        {
-          "bbox_xyxy": [
-            618,
-            564,
-            652,
-            607
-          ],
-          "similarity": 0.18876805901527405
-        },
-        {
-          "bbox_xyxy": [
-            619,
-            641,
-            632,
-            652
-          ],
-          "similarity": 0.07691661268472672
-        },
-        {
-          "bbox_xyxy": [
-            634,
-            577,
-            650,
-            604
-          ],
-          "similarity": 0.14125850796699524
-        },
-        {
-          "bbox_xyxy": [
-            641,
-            603,
-            659,
-            620
-          ],
-          "similarity": 0.15953588485717773
-        },
-        {
-          "bbox_xyxy": [
-            642,
-            603,
-            659,
-            619
-          ],
-          "similarity": 0.15058763325214386
-        },
-        {
-          "bbox_xyxy": [
-            658,
-            565,
-            675,
-            600
-          ],
-          "similarity": 0.18961504101753235
-        },
-        {
-          "bbox_xyxy": [
-            661,
-            623,
-            684,
-            644
-          ],
-          "similarity": 0.1414204239845276
-        },
-        {
-          "bbox_xyxy": [
-            665,
-            674,
-            686,
-            694
-          ],
-          "similarity": 0.0778423622250557
-        },
-        {
-          "bbox_xyxy": [
-            757,
-            414,
-            768,
-            424
-          ],
-          "similarity": 0.2693931460380554
-        },
-        {
-          "bbox_xyxy": [
-            882,
-            543,
-            1024,
-            663
-          ],
-          "similarity": 0.35451173782348633
-        },
-        {
-          "bbox_xyxy": [
-            949,
-            381,
-            963,
-            391
-          ],
-          "similarity": 0.17760908603668213
-        },
-        {
-          "bbox_xyxy": [
-            957,
-            561,
-            989,
-            597
-          ],
-          "similarity": 0.2755283713340759
-        },
-        {
-          "bbox_xyxy": [
-            962,
-            328,
-            1024,
-            441
-          ],
-          "similarity": 0.4131050109863281
-        },
-        {
-          "bbox_xyxy": [
-            976,
-            556,
-            1024,
-            603
-          ],
-          "similarity": 0.32247409224510193
-        },
-        {
-          "bbox_xyxy": [
-            978,
-            570,
-            1006,
-            596
-          ],
-          "similarity": 0.19301778078079224
-        },
-        {
-          "bbox_xyxy": [
-            989,
-            434,
-            1011,
-            443
-          ],
-          "similarity": 0.2236660122871399
-        },
-        {
-          "bbox_xyxy": [
-            1013,
-            609,
-            1024,
-            622
-          ],
-          "similarity": 0.07183584570884705
-        },
-        {
-          "bbox_xyxy": [
-            1031,
-            542,
-            1064,
-            589
-          ],
-          "similarity": 0.21542160212993622
-        },
-        {
-          "bbox_xyxy": [
-            1067,
-            542,
-            1090,
-            593
-          ],
-          "similarity": 0.254376620054245
-        },
-        {
-          "bbox_xyxy": [
-            1074,
-            582,
-            1102,
-            595
-          ],
-          "similarity": 0.10336090624332428
-        },
-        {
-          "bbox_xyxy": [
-            1086,
-            552,
-            1102,
-            572
-          ],
-          "similarity": 0.1759445071220398
-        },
-        {
-          "bbox_xyxy": [
-            1118,
-            555,
-            1134,
-            590
-          ],
-          "similarity": 0.14125877618789673
-        },
-        {
-          "bbox_xyxy": [
-            1202,
-            579,
-            1229,
-            607
-          ],
-          "similarity": 0.12298310548067093
-        },
-        {
-          "bbox_xyxy": [
-            1209,
-            535,
-            1280,
-            702
-          ],
-          "similarity": 0.31129181385040283
-        },
-        {
-          "bbox_xyxy": [
-            1214,
-            561,
-            1244,
-            597
-          ],
-          "similarity": 0.16693493723869324
-        },
-        {
-          "bbox_xyxy": [
-            1218,
-            667,
-            1232,
-            681
-          ],
-          "similarity": 0.11085411161184311
-        },
-        {
-          "bbox_xyxy": [
-            1226,
-            420,
-            1256,
-            448
-          ],
-          "similarity": 0.4496065676212311
-        },
-        {
-          "bbox_xyxy": [
-            1226,
-            421,
-            1255,
-            447
-          ],
-          "similarity": 0.4390912652015686
+          "confidence": 0.194580078125,
+          "detector_class": "boat",
+          "detector_view": "tile",
+          "contrast_enhanced": false,
+          "detector_input_size": 1024,
+          "similarity": 0.18912002444267273
         }
       ],
       "detections": [
         {
           "bbox_xyxy": [
-            1226,
-            420,
-            1256,
-            448
+            1228,
+            424,
+            1253,
+            444
           ],
-          "similarity": 0.4496065676212311,
+          "confidence": 0.79443359375,
+          "detector_class": "boat",
+          "detector_view": "tile",
+          "contrast_enhanced": false,
+          "detector_input_size": 1024,
+          "similarity": 0.4088793396949768,
           "class": "target_ship_candidate"
         }
       ]
@@ -3215,203 +580,33 @@
       "proposals": [
         {
           "bbox_xyxy": [
-            0,
-            491,
-            11,
-            499
-          ],
-          "similarity": 0.20332826673984528
-        },
-        {
-          "bbox_xyxy": [
-            262,
-            472,
-            285,
-            499
-          ],
-          "similarity": 0.2520467936992645
-        },
-        {
-          "bbox_xyxy": [
-            262,
-            473,
-            285,
-            494
-          ],
-          "similarity": 0.2234845757484436
-        },
-        {
-          "bbox_xyxy": [
-            507,
-            502,
-            519,
-            510
-          ],
-          "similarity": 0.2172747254371643
-        },
-        {
-          "bbox_xyxy": [
-            581,
-            464,
-            785,
+            594,
+            470,
+            773,
             508
           ],
-          "similarity": 0.503815770149231
-        },
-        {
-          "bbox_xyxy": [
-            582,
-            464,
-            785,
-            508
-          ],
-          "similarity": 0.5036709308624268
-        },
-        {
-          "bbox_xyxy": [
-            584,
-            463,
-            766,
-            506
-          ],
-          "similarity": 0.45834970474243164
-        },
-        {
-          "bbox_xyxy": [
-            686,
-            501,
-            707,
-            512
-          ],
-          "similarity": 0.23199480772018433
-        },
-        {
-          "bbox_xyxy": [
-            686,
-            501,
-            707,
-            516
-          ],
-          "similarity": 0.25799185037612915
-        },
-        {
-          "bbox_xyxy": [
-            686,
-            501,
-            715,
-            516
-          ],
-          "similarity": 0.2494405210018158
-        },
-        {
-          "bbox_xyxy": [
-            688,
-            503,
-            707,
-            512
-          ],
-          "similarity": 0.21415650844573975
-        },
-        {
-          "bbox_xyxy": [
-            688,
-            503,
-            707,
-            516
-          ],
-          "similarity": 0.24248851835727692
-        },
-        {
-          "bbox_xyxy": [
-            753,
-            493,
-            765,
-            504
-          ],
-          "similarity": 0.21678200364112854
-        },
-        {
-          "bbox_xyxy": [
-            1029,
-            474,
-            1043,
-            483
-          ],
-          "similarity": 0.1983480453491211
-        },
-        {
-          "bbox_xyxy": [
-            1029,
-            474,
-            1043,
-            487
-          ],
-          "similarity": 0.19721683859825134
-        },
-        {
-          "bbox_xyxy": [
-            1061,
-            429,
-            1091,
-            443
-          ],
-          "similarity": 0.22350260615348816
-        },
-        {
-          "bbox_xyxy": [
-            1069,
-            475,
-            1091,
-            485
-          ],
-          "similarity": 0.22353437542915344
-        },
-        {
-          "bbox_xyxy": [
-            1106,
-            469,
-            1118,
-            485
-          ],
-          "similarity": 0.21598316729068756
-        },
-        {
-          "bbox_xyxy": [
-            1106,
-            469,
-            1122,
-            485
-          ],
-          "similarity": 0.23957078158855438
-        },
-        {
-          "bbox_xyxy": [
-            1163,
-            445,
-            1177,
-            455
-          ],
-          "similarity": 0.2123449146747589
-        },
-        {
-          "bbox_xyxy": [
-            1244,
-            448,
-            1280,
-            485
-          ],
-          "similarity": 0.28919118642807007
+          "confidence": 0.424072265625,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": true,
+          "detector_input_size": 640,
+          "similarity": 0.4338243007659912
         }
       ],
       "detections": [
         {
           "bbox_xyxy": [
-            581,
-            464,
-            785,
+            594,
+            470,
+            773,
             508
           ],
-          "similarity": 0.503815770149231,
+          "confidence": 0.424072265625,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": true,
+          "detector_input_size": 640,
+          "similarity": 0.4338243007659912,
           "class": "target_ship_candidate"
         }
       ]
@@ -3427,248 +622,47 @@
       "proposals": [
         {
           "bbox_xyxy": [
-            29,
-            518,
-            51,
-            526
-          ],
-          "similarity": 0.2507595121860504
-        },
-        {
-          "bbox_xyxy": [
-            137,
-            508,
-            158,
-            527
-          ],
-          "similarity": 0.22683833539485931
-        },
-        {
-          "bbox_xyxy": [
-            137,
-            508,
-            158,
-            528
-          ],
-          "similarity": 0.2316654622554779
-        },
-        {
-          "bbox_xyxy": [
-            256,
-            536,
-            275,
+            487,
+            506,
+            652,
             544
           ],
-          "similarity": 0.2434387356042862
+          "confidence": 0.5927734375,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.519537091255188
         },
         {
           "bbox_xyxy": [
-            468,
-            496,
-            671,
-            546
+            598,
+            505,
+            651,
+            539
           ],
-          "similarity": 0.5348259210586548
-        },
-        {
-          "bbox_xyxy": [
-            485,
-            507,
-            512,
-            541
-          ],
-          "similarity": 0.29145610332489014
-        },
-        {
-          "bbox_xyxy": [
-            512,
-            496,
-            666,
-            546
-          ],
-          "similarity": 0.5292376279830933
-        },
-        {
-          "bbox_xyxy": [
-            526,
-            538,
-            558,
-            546
-          ],
-          "similarity": 0.24830979108810425
-        },
-        {
-          "bbox_xyxy": [
-            558,
-            540,
-            577,
-            551
-          ],
-          "similarity": 0.2292121946811676
-        },
-        {
-          "bbox_xyxy": [
-            558,
-            540,
-            577,
-            552
-          ],
-          "similarity": 0.2339407503604889
-        },
-        {
-          "bbox_xyxy": [
-            558,
-            540,
-            583,
-            552
-          ],
-          "similarity": 0.2589660584926605
-        },
-        {
-          "bbox_xyxy": [
-            606,
-            500,
-            627,
-            512
-          ],
-          "similarity": 0.21196961402893066
-        },
-        {
-          "bbox_xyxy": [
-            609,
-            500,
-            627,
-            512
-          ],
-          "similarity": 0.21023030579090118
-        },
-        {
-          "bbox_xyxy": [
-            881,
-            463,
-            915,
-            497
-          ],
-          "similarity": 0.3148573637008667
-        },
-        {
-          "bbox_xyxy": [
-            881,
-            465,
-            899,
-            475
-          ],
-          "similarity": 0.19867616891860962
-        },
-        {
-          "bbox_xyxy": [
-            887,
-            459,
-            899,
-            467
-          ],
-          "similarity": 0.18439945578575134
-        },
-        {
-          "bbox_xyxy": [
-            913,
-            461,
-            933,
-            475
-          ],
-          "similarity": 0.2442246526479721
-        },
-        {
-          "bbox_xyxy": [
-            925,
-            477,
-            947,
-            490
-          ],
-          "similarity": 0.22640520334243774
-        },
-        {
-          "bbox_xyxy": [
-            1005,
-            551,
-            1027,
-            559
-          ],
-          "similarity": 0.24489407241344452
-        },
-        {
-          "bbox_xyxy": [
-            1008,
-            551,
-            1027,
-            559
-          ],
-          "similarity": 0.23270809650421143
-        },
-        {
-          "bbox_xyxy": [
-            1077,
-            468,
-            1090,
-            479
-          ],
-          "similarity": 0.22802238166332245
-        },
-        {
-          "bbox_xyxy": [
-            1133,
-            397,
-            1155,
-            406
-          ],
-          "similarity": 0.2191789299249649
-        },
-        {
-          "bbox_xyxy": [
-            1138,
-            396,
-            1280,
-            423
-          ],
-          "similarity": 0.27902451157569885
-        },
-        {
-          "bbox_xyxy": [
-            1209,
-            445,
-            1223,
-            458
-          ],
-          "similarity": 0.2286529242992401
-        },
-        {
-          "bbox_xyxy": [
-            1219,
-            429,
-            1280,
-            459
-          ],
-          "similarity": 0.25315913558006287
-        },
-        {
-          "bbox_xyxy": [
-            1269,
-            513,
-            1280,
-            523
-          ],
-          "similarity": 0.17747876048088074
+          "confidence": 0.281982421875,
+          "detector_class": "boat",
+          "detector_view": "tile",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.48221462965011597
         }
       ],
       "detections": [
         {
           "bbox_xyxy": [
-            468,
-            496,
-            671,
-            546
+            487,
+            506,
+            652,
+            544
           ],
-          "similarity": 0.5348259210586548,
+          "confidence": 0.5927734375,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.519537091255188,
           "class": "target_ship_candidate"
         }
       ]
@@ -3684,212 +678,33 @@
       "proposals": [
         {
           "bbox_xyxy": [
-            37,
-            509,
-            55,
-            519
+            536,
+            482,
+            700,
+            514
           ],
-          "similarity": 0.2314925193786621
-        },
-        {
-          "bbox_xyxy": [
-            61,
-            495,
-            83,
-            503
-          ],
-          "similarity": 0.21158041059970856
-        },
-        {
-          "bbox_xyxy": [
-            193,
-            485,
-            215,
-            504
-          ],
-          "similarity": 0.24820098280906677
-        },
-        {
-          "bbox_xyxy": [
-            193,
-            485,
-            217,
-            504
-          ],
-          "similarity": 0.24570664763450623
-        },
-        {
-          "bbox_xyxy": [
-            317,
-            525,
-            339,
-            534
-          ],
-          "similarity": 0.26049304008483887
-        },
-        {
-          "bbox_xyxy": [
-            317,
-            525,
-            339,
-            535
-          ],
-          "similarity": 0.2646714150905609
-        },
-        {
-          "bbox_xyxy": [
-            420,
-            455,
-            439,
-            465
-          ],
-          "similarity": 0.2305675894021988
-        },
-        {
-          "bbox_xyxy": [
-            453,
-            544,
-            467,
-            552
-          ],
-          "similarity": 0.2124750316143036
-        },
-        {
-          "bbox_xyxy": [
-            461,
-            514,
-            475,
-            522
-          ],
-          "similarity": 0.2459540218114853
-        },
-        {
-          "bbox_xyxy": [
-            516,
-            474,
-            720,
-            522
-          ],
-          "similarity": 0.5052894353866577
-        },
-        {
-          "bbox_xyxy": [
-            517,
-            474,
-            717,
-            522
-          ],
-          "similarity": 0.5118109583854675
-        },
-        {
-          "bbox_xyxy": [
-            517,
-            475,
-            717,
-            512
-          ],
-          "similarity": 0.4524008631706238
-        },
-        {
-          "bbox_xyxy": [
-            613,
-            515,
-            638,
-            527
-          ],
-          "similarity": 0.26315200328826904
-        },
-        {
-          "bbox_xyxy": [
-            613,
-            515,
-            641,
-            527
-          ],
-          "similarity": 0.2627742886543274
-        },
-        {
-          "bbox_xyxy": [
-            853,
-            519,
-            875,
-            527
-          ],
-          "similarity": 0.2232894003391266
-        },
-        {
-          "bbox_xyxy": [
-            989,
-            493,
-            1007,
-            501
-          ],
-          "similarity": 0.20897606015205383
-        },
-        {
-          "bbox_xyxy": [
-            1021,
-            484,
-            1043,
-            494
-          ],
-          "similarity": 0.21153488755226135
-        },
-        {
-          "bbox_xyxy": [
-            1117,
-            481,
-            1152,
-            491
-          ],
-          "similarity": 0.23161177337169647
-        },
-        {
-          "bbox_xyxy": [
-            1125,
-            437,
-            1155,
-            449
-          ],
-          "similarity": 0.2625155746936798
-        },
-        {
-          "bbox_xyxy": [
-            1146,
-            445,
-            1206,
-            459
-          ],
-          "similarity": 0.2285831868648529
-        },
-        {
-          "bbox_xyxy": [
-            1229,
-            468,
-            1280,
-            496
-          ],
-          "similarity": 0.23556411266326904
-        },
-        {
-          "bbox_xyxy": [
-            1261,
-            457,
-            1280,
-            467
-          ],
-          "similarity": 0.1902344524860382
+          "confidence": 0.466552734375,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.42022383213043213
         }
       ],
       "detections": [
         {
           "bbox_xyxy": [
-            517,
-            474,
-            717,
-            522
+            536,
+            482,
+            700,
+            514
           ],
-          "similarity": 0.5118109583854675,
+          "confidence": 0.466552734375,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.42022383213043213,
           "class": "target_ship_candidate"
         }
       ]
@@ -3905,770 +720,61 @@
       "proposals": [
         {
           "bbox_xyxy": [
-            0,
-            469,
-            11,
-            481
-          ],
-          "similarity": 0.22087661921977997
-        },
-        {
-          "bbox_xyxy": [
-            0,
-            558,
-            54,
-            571
-          ],
-          "similarity": 0.2506536543369293
-        },
-        {
-          "bbox_xyxy": [
-            13,
-            469,
-            26,
-            482
-          ],
-          "similarity": 0.22195939719676971
-        },
-        {
-          "bbox_xyxy": [
-            33,
-            532,
-            47,
-            541
-          ],
-          "similarity": 0.1894150674343109
-        },
-        {
-          "bbox_xyxy": [
-            45,
-            557,
-            57,
-            568
-          ],
-          "similarity": 0.2185555398464203
-        },
-        {
-          "bbox_xyxy": [
-            49,
-            533,
-            75,
-            547
-          ],
-          "similarity": 0.2816947400569916
-        },
-        {
-          "bbox_xyxy": [
-            57,
-            593,
-            69,
-            601
-          ],
-          "similarity": 0.21744614839553833
-        },
-        {
-          "bbox_xyxy": [
-            62,
-            558,
-            81,
-            568
-          ],
-          "similarity": 0.2415657341480255
-        },
-        {
-          "bbox_xyxy": [
-            93,
-            461,
-            115,
-            470
-          ],
-          "similarity": 0.20082998275756836
-        },
-        {
-          "bbox_xyxy": [
-            93,
-            533,
-            111,
-            541
-          ],
-          "similarity": 0.19956158101558685
-        },
-        {
-          "bbox_xyxy": [
-            93,
-            560,
-            106,
-            568
-          ],
-          "similarity": 0.2114783376455307
-        },
-        {
-          "bbox_xyxy": [
-            109,
-            589,
-            129,
-            601
-          ],
-          "similarity": 0.2590727210044861
-        },
-        {
-          "bbox_xyxy": [
-            125,
-            461,
-            150,
-            470
-          ],
-          "similarity": 0.19966384768486023
-        },
-        {
-          "bbox_xyxy": [
-            125,
-            467,
-            155,
-            475
-          ],
-          "similarity": 0.20552319288253784
-        },
-        {
-          "bbox_xyxy": [
-            125,
-            561,
-            139,
-            571
-          ],
-          "similarity": 0.2256259322166443
-        },
-        {
-          "bbox_xyxy": [
-            153,
-            477,
-            167,
-            487
-          ],
-          "similarity": 0.22149977087974548
-        },
-        {
-          "bbox_xyxy": [
-            181,
-            461,
-            194,
-            470
-          ],
-          "similarity": 0.18982666730880737
-        },
-        {
-          "bbox_xyxy": [
-            181,
-            467,
-            194,
-            475
-          ],
-          "similarity": 0.1859350949525833
-        },
-        {
-          "bbox_xyxy": [
-            198,
-            559,
-            229,
-            571
-          ],
-          "similarity": 0.24538472294807434
-        },
-        {
-          "bbox_xyxy": [
-            237,
-            591,
-            250,
-            601
-          ],
-          "similarity": 0.20712924003601074
-        },
-        {
-          "bbox_xyxy": [
-            253,
-            469,
-            267,
-            483
-          ],
-          "similarity": 0.19109830260276794
-        },
-        {
-          "bbox_xyxy": [
-            256,
-            469,
-            267,
-            483
-          ],
-          "similarity": 0.1949358731508255
-        },
-        {
-          "bbox_xyxy": [
-            257,
-            561,
-            275,
-            569
-          ],
-          "similarity": 0.2051190882921219
-        },
-        {
-          "bbox_xyxy": [
-            295,
-            444,
-            875,
-            586
-          ],
-          "similarity": 0.5774047374725342
-        },
-        {
-          "bbox_xyxy": [
-            301,
-            562,
-            315,
-            570
-          ],
-          "similarity": 0.19897103309631348
-        },
-        {
-          "bbox_xyxy": [
-            317,
-            449,
-            331,
-            459
-          ],
-          "similarity": 0.19169755280017853
-        },
-        {
-          "bbox_xyxy": [
-            317,
-            562,
-            347,
-            570
-          ],
-          "similarity": 0.2064647376537323
-        },
-        {
-          "bbox_xyxy": [
-            327,
-            493,
-            589,
-            570
-          ],
-          "similarity": 0.5104929208755493
-        },
-        {
-          "bbox_xyxy": [
-            333,
-            493,
-            512,
-            570
-          ],
-          "similarity": 0.5072687864303589
-        },
-        {
-          "bbox_xyxy": [
-            364,
-            501,
-            422,
-            512
-          ],
-          "similarity": 0.22060784697532654
-        },
-        {
-          "bbox_xyxy": [
-            373,
-            594,
-            398,
-            602
-          ],
-          "similarity": 0.20322909951210022
-        },
-        {
-          "bbox_xyxy": [
-            373,
-            594,
-            398,
-            603
-          ],
-          "similarity": 0.20012880861759186
-        },
-        {
-          "bbox_xyxy": [
-            375,
-            501,
-            420,
-            512
-          ],
-          "similarity": 0.21193556487560272
-        },
-        {
-          "bbox_xyxy": [
-            387,
-            561,
-            413,
-            574
-          ],
-          "similarity": 0.23646599054336548
-        },
-        {
-          "bbox_xyxy": [
-            393,
-            561,
-            413,
-            570
-          ],
-          "similarity": 0.21759386360645294
-        },
-        {
-          "bbox_xyxy": [
-            405,
-            447,
-            419,
-            459
-          ],
-          "similarity": 0.19944366812705994
-        },
-        {
-          "bbox_xyxy": [
-            405,
-            449,
-            419,
-            459
-          ],
-          "similarity": 0.18952113389968872
-        },
-        {
-          "bbox_xyxy": [
-            413,
-            453,
-            425,
-            467
-          ],
-          "similarity": 0.1934235543012619
-        },
-        {
-          "bbox_xyxy": [
-            429,
-            461,
-            451,
-            470
-          ],
-          "similarity": 0.1975068747997284
-        },
-        {
-          "bbox_xyxy": [
-            429,
-            461,
-            451,
-            475
-          ],
-          "similarity": 0.2112402617931366
-        },
-        {
-          "bbox_xyxy": [
-            490,
-            553,
-            511,
-            562
-          ],
-          "similarity": 0.24529102444648743
-        },
-        {
-          "bbox_xyxy": [
-            501,
-            537,
-            522,
-            547
-          ],
-          "similarity": 0.22493645548820496
-        },
-        {
-          "bbox_xyxy": [
-            512,
-            513,
-            576,
-            542
-          ],
-          "similarity": 0.30376747250556946
-        },
-        {
-          "bbox_xyxy": [
-            512,
-            539,
-            523,
-            547
-          ],
-          "similarity": 0.18101699650287628
-        },
-        {
-          "bbox_xyxy": [
-            536,
-            553,
-            554,
-            562
-          ],
-          "similarity": 0.23720110952854156
-        },
-        {
-          "bbox_xyxy": [
-            550,
-            596,
-            567,
-            606
-          ],
-          "similarity": 0.206924706697464
-        },
-        {
-          "bbox_xyxy": [
-            552,
-            596,
-            567,
-            604
-          ],
-          "similarity": 0.19514970481395721
-        },
-        {
-          "bbox_xyxy": [
-            556,
-            443,
-            847,
-            589
-          ],
-          "similarity": 0.5485395789146423
-        },
-        {
-          "bbox_xyxy": [
-            573,
-            511,
-            686,
-            545
-          ],
-          "similarity": 0.3300318419933319
-        },
-        {
-          "bbox_xyxy": [
-            575,
-            567,
-            629,
-            584
-          ],
-          "similarity": 0.2868413031101227
-        },
-        {
-          "bbox_xyxy": [
-            577,
-            567,
-            611,
-            584
-          ],
-          "similarity": 0.29350465536117554
-        },
-        {
-          "bbox_xyxy": [
-            581,
-            567,
-            611,
-            583
-          ],
-          "similarity": 0.27983617782592773
-        },
-        {
-          "bbox_xyxy": [
-            602,
-            445,
-            618,
-            454
-          ],
-          "similarity": 0.2026342749595642
-        },
-        {
-          "bbox_xyxy": [
-            605,
-            570,
-            627,
-            579
-          ],
-          "similarity": 0.22201350331306458
-        },
-        {
-          "bbox_xyxy": [
-            613,
-            419,
-            626,
-            431
-          ],
-          "similarity": 0.22859518229961395
-        },
-        {
-          "bbox_xyxy": [
-            618,
-            555,
-            643,
-            567
-          ],
-          "similarity": 0.19769757986068726
-        },
-        {
-          "bbox_xyxy": [
-            621,
-            564,
-            641,
-            577
-          ],
-          "similarity": 0.22468547523021698
-        },
-        {
-          "bbox_xyxy": [
-            626,
-            571,
-            699,
-            608
-          ],
-          "similarity": 0.2699134945869446
-        },
-        {
-          "bbox_xyxy": [
-            627,
-            571,
-            699,
-            608
-          ],
-          "similarity": 0.27508217096328735
-        },
-        {
-          "bbox_xyxy": [
-            630,
-            570,
-            664,
-            585
-          ],
-          "similarity": 0.2134675681591034
-        },
-        {
-          "bbox_xyxy": [
-            653,
-            549,
-            683,
-            567
-          ],
-          "similarity": 0.23446741700172424
-        },
-        {
-          "bbox_xyxy": [
-            653,
-            551,
-            675,
-            567
-          ],
-          "similarity": 0.22808779776096344
-        },
-        {
-          "bbox_xyxy": [
-            682,
-            557,
-            699,
-            567
-          ],
-          "similarity": 0.20770317316055298
-        },
-        {
-          "bbox_xyxy": [
-            698,
-            552,
-            762,
-            568
-          ],
-          "similarity": 0.2353135049343109
-        },
-        {
-          "bbox_xyxy": [
-            703,
-            455,
-            755,
-            512
-          ],
-          "similarity": 0.34514302015304565
-        },
-        {
-          "bbox_xyxy": [
-            704,
-            449,
-            754,
-            553
-          ],
-          "similarity": 0.34367066621780396
-        },
-        {
-          "bbox_xyxy": [
-            704,
-            455,
-            753,
-            512
-          ],
-          "similarity": 0.3489328622817993
-        },
-        {
-          "bbox_xyxy": [
-            768,
-            503,
-            829,
-            579
-          ],
-          "similarity": 0.3906642198562622
-        },
-        {
-          "bbox_xyxy": [
-            771,
-            501,
-            791,
-            512
-          ],
-          "similarity": 0.18864698708057404
-        },
-        {
-          "bbox_xyxy": [
-            845,
-            573,
-            859,
-            584
-          ],
-          "similarity": 0.22127196192741394
-        },
-        {
-          "bbox_xyxy": [
-            981,
-            573,
-            1003,
-            581
-          ],
-          "similarity": 0.2295953333377838
-        },
-        {
-          "bbox_xyxy": [
-            993,
-            600,
-            1008,
-            608
-          ],
-          "similarity": 0.20398956537246704
-        },
-        {
-          "bbox_xyxy": [
-            1069,
-            573,
-            1095,
-            581
-          ],
-          "similarity": 0.22716471552848816
-        },
-        {
-          "bbox_xyxy": [
-            1101,
-            573,
-            1123,
-            581
-          ],
-          "similarity": 0.20857718586921692
-        },
-        {
-          "bbox_xyxy": [
-            1113,
-            501,
-            1127,
-            511
-          ],
-          "similarity": 0.19993877410888672
-        },
-        {
-          "bbox_xyxy": [
-            1117,
-            605,
-            1131,
-            614
-          ],
-          "similarity": 0.19596025347709656
-        },
-        {
-          "bbox_xyxy": [
-            1125,
-            570,
-            1146,
-            581
-          ],
-          "similarity": 0.22455266118049622
-        },
-        {
-          "bbox_xyxy": [
-            1189,
-            449,
-            1211,
-            459
-          ],
-          "similarity": 0.20040550827980042
-        },
-        {
-          "bbox_xyxy": [
-            1204,
-            440,
-            1280,
-            496
-          ],
-          "similarity": 0.35365068912506104
-        },
-        {
-          "bbox_xyxy": [
-            1221,
-            449,
-            1236,
-            463
-          ],
-          "similarity": 0.20430919528007507
-        },
-        {
-          "bbox_xyxy": [
-            1222,
-            477,
-            1234,
-            491
-          ],
-          "similarity": 0.21354395151138306
-        },
-        {
-          "bbox_xyxy": [
-            1245,
-            445,
-            1275,
-            463
-          ],
-          "similarity": 0.21683356165885925
-        },
-        {
-          "bbox_xyxy": [
-            1245,
-            461,
-            1264,
-            477
-          ],
-          "similarity": 0.23156651854515076
-        },
-        {
-          "bbox_xyxy": [
-            1261,
-            459,
-            1280,
-            493
-          ],
-          "similarity": 0.2626776397228241
+            349,
+            470,
+            820,
+            575
+          ],
+          "confidence": 0.54345703125,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.5558604598045349
+        },
+        {
+          "bbox_xyxy": [
+            671,
+            476,
+            820,
+            564
+          ],
+          "confidence": 0.457275390625,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.5118226408958435
+        },
+        {
+          "bbox_xyxy": [
+            351,
+            516,
+            463,
+            558
+          ],
+          "confidence": 0.3837890625,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.2822704315185547
         }
       ],
       "detections": [
         {
           "bbox_xyxy": [
-            295,
-            444,
-            875,
-            586
+            349,
+            470,
+            820,
+            575
           ],
-          "similarity": 0.5774047374725342,
+          "confidence": 0.54345703125,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.5558604598045349,
           "class": "target_ship_candidate"
         }
       ]
@@ -4684,566 +790,34 @@
       "proposals": [
         {
           "bbox_xyxy": [
-            0,
-            468,
-            19,
-            496
-          ],
-          "similarity": 0.23687374591827393
-        },
-        {
-          "bbox_xyxy": [
-            0,
-            477,
-            18,
-            498
-          ],
-          "similarity": 0.22369413077831268
-        },
-        {
-          "bbox_xyxy": [
-            0,
-            545,
-            19,
-            557
-          ],
-          "similarity": 0.24841926991939545
-        },
-        {
-          "bbox_xyxy": [
-            25,
-            572,
-            43,
-            583
-          ],
-          "similarity": 0.21542391180992126
-        },
-        {
-          "bbox_xyxy": [
-            29,
-            481,
-            43,
-            490
-          ],
-          "similarity": 0.19820386171340942
-        },
-        {
-          "bbox_xyxy": [
-            61,
-            574,
-            80,
-            586
-          ],
-          "similarity": 0.2522519826889038
-        },
-        {
-          "bbox_xyxy": [
-            64,
-            606,
-            77,
-            615
-          ],
-          "similarity": 0.1943403035402298
-        },
-        {
-          "bbox_xyxy": [
-            90,
-            572,
-            154,
+            691,
+            493,
+            839,
             584
           ],
-          "similarity": 0.23618900775909424
+          "confidence": 0.26904296875,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.35772427916526794
         },
         {
           "bbox_xyxy": [
-            90,
-            572,
-            154,
-            586
-          ],
-          "similarity": 0.26049721240997314
-        },
-        {
-          "bbox_xyxy": [
-            109,
-            550,
-            123,
-            558
-          ],
-          "similarity": 0.2255786657333374
-        },
-        {
-          "bbox_xyxy": [
-            137,
-            606,
-            162,
-            619
-          ],
-          "similarity": 0.2677963376045227
-        },
-        {
-          "bbox_xyxy": [
-            189,
-            583,
-            211,
-            595
-          ],
-          "similarity": 0.21414923667907715
-        },
-        {
-          "bbox_xyxy": [
-            237,
-            605,
-            251,
-            615
-          ],
-          "similarity": 0.19043973088264465
-        },
-        {
-          "bbox_xyxy": [
-            253,
-            463,
-            272,
-            475
-          ],
-          "similarity": 0.214689701795578
-        },
-        {
-          "bbox_xyxy": [
-            256,
-            463,
-            272,
-            475
-          ],
-          "similarity": 0.21508662402629852
-        },
-        {
-          "bbox_xyxy": [
-            317,
-            514,
-            333,
-            525
-          ],
-          "similarity": 0.18058770895004272
-        },
-        {
-          "bbox_xyxy": [
-            317,
-            514,
-            333,
-            526
-          ],
-          "similarity": 0.18561463057994843
-        },
-        {
-          "bbox_xyxy": [
-            317,
-            514,
-            333,
-            527
-          ],
-          "similarity": 0.19405204057693481
-        },
-        {
-          "bbox_xyxy": [
-            319,
-            463,
-            895,
-            604
-          ],
-          "similarity": 0.45100879669189453
-        },
-        {
-          "bbox_xyxy": [
-            352,
-            518,
-            610,
-            586
-          ],
-          "similarity": 0.33287253975868225
-        },
-        {
-          "bbox_xyxy": [
-            359,
-            518,
-            512,
-            586
-          ],
-          "similarity": 0.27991437911987305
-        },
-        {
-          "bbox_xyxy": [
-            366,
-            577,
-            386,
-            588
-          ],
-          "similarity": 0.2414311021566391
-        },
-        {
-          "bbox_xyxy": [
-            385,
-            517,
-            399,
-            526
-          ],
-          "similarity": 0.1977994292974472
-        },
-        {
-          "bbox_xyxy": [
-            385,
-            517,
-            399,
-            527
-          ],
-          "similarity": 0.1959100067615509
-        },
-        {
-          "bbox_xyxy": [
-            464,
-            580,
-            482,
-            589
-          ],
-          "similarity": 0.22887472808361053
-        },
-        {
-          "bbox_xyxy": [
-            464,
-            580,
-            483,
-            593
-          ],
-          "similarity": 0.23946060240268707
-        },
-        {
-          "bbox_xyxy": [
-            465,
-            582,
-            483,
-            593
-          ],
-          "similarity": 0.2327198088169098
-        },
-        {
-          "bbox_xyxy": [
-            506,
-            563,
-            523,
-            578
-          ],
-          "similarity": 0.27720195055007935
-        },
-        {
-          "bbox_xyxy": [
-            512,
-            528,
-            594,
-            558
-          ],
-          "similarity": 0.24641141295433044
-        },
-        {
-          "bbox_xyxy": [
-            580,
-            463,
-            867,
-            604
-          ],
-          "similarity": 0.44925597310066223
-        },
-        {
-          "bbox_xyxy": [
-            589,
-            586,
-            619,
-            594
-          ],
-          "similarity": 0.23257926106452942
-        },
-        {
-          "bbox_xyxy": [
-            604,
-            528,
-            704,
-            557
-          ],
-          "similarity": 0.22947052121162415
-        },
-        {
-          "bbox_xyxy": [
-            613,
-            573,
-            631,
-            588
-          ],
-          "similarity": 0.215337872505188
-        },
-        {
-          "bbox_xyxy": [
-            613,
-            573,
-            631,
-            589
-          ],
-          "similarity": 0.2214692234992981
-        },
-        {
-          "bbox_xyxy": [
-            637,
-            573,
-            651,
-            583
-          ],
-          "similarity": 0.19599124789237976
-        },
-        {
-          "bbox_xyxy": [
-            642,
-            609,
-            654,
-            618
-          ],
-          "similarity": 0.1940946727991104
-        },
-        {
-          "bbox_xyxy": [
-            663,
-            589,
-            715,
-            619
-          ],
-          "similarity": 0.2528493106365204
-        },
-        {
-          "bbox_xyxy": [
-            663,
-            590,
-            714,
-            620
-          ],
-          "similarity": 0.24014295637607574
-        },
-        {
-          "bbox_xyxy": [
-            663,
-            590,
-            715,
-            606
-          ],
-          "similarity": 0.22134390473365784
-        },
-        {
-          "bbox_xyxy": [
-            669,
-            585,
-            683,
-            596
-          ],
-          "similarity": 0.21430595219135284
-        },
-        {
-          "bbox_xyxy": [
-            669,
-            585,
-            685,
-            596
-          ],
-          "similarity": 0.22283819317817688
-        },
-        {
-          "bbox_xyxy": [
-            679,
-            577,
-            692,
-            587
-          ],
-          "similarity": 0.19907401502132416
-        },
-        {
-          "bbox_xyxy": [
-            698,
-            569,
-            713,
-            579
-          ],
-          "similarity": 0.22477805614471436
-        },
-        {
-          "bbox_xyxy": [
-            723,
-            469,
-            768,
-            568
-          ],
-          "similarity": 0.25096601247787476
-        },
-        {
-          "bbox_xyxy": [
-            723,
-            477,
-            768,
-            512
-          ],
-          "similarity": 0.2534690797328949
-        },
-        {
-          "bbox_xyxy": [
-            723,
-            477,
-            777,
-            512
-          ],
-          "similarity": 0.24654006958007812
-        },
-        {
-          "bbox_xyxy": [
-            732,
-            560,
-            768,
-            587
-          ],
-          "similarity": 0.27751001715660095
-        },
-        {
-          "bbox_xyxy": [
-            741,
-            582,
-            767,
+            378,
+            487,
+            840,
             591
           ],
-          "similarity": 0.2115243375301361
-        },
-        {
-          "bbox_xyxy": [
-            768,
-            530,
-            848,
-            593
-          ],
-          "similarity": 0.26060524582862854
-        },
-        {
-          "bbox_xyxy": [
-            829,
-            584,
-            844,
-            595
-          ],
-          "similarity": 0.2275468111038208
-        },
-        {
-          "bbox_xyxy": [
-            1069,
-            560,
-            1091,
-            568
-          ],
-          "similarity": 0.2219303846359253
-        },
-        {
-          "bbox_xyxy": [
-            1109,
-            469,
-            1131,
-            478
-          ],
-          "similarity": 0.1932106912136078
-        },
-        {
-          "bbox_xyxy": [
-            1109,
-            469,
-            1131,
-            479
-          ],
-          "similarity": 0.19553279876708984
-        },
-        {
-          "bbox_xyxy": [
-            1109,
-            475,
-            1123,
-            483
-          ],
-          "similarity": 0.1856466829776764
-        },
-        {
-          "bbox_xyxy": [
-            1181,
-            482,
-            1193,
-            493
-          ],
-          "similarity": 0.2286737710237503
-        },
-        {
-          "bbox_xyxy": [
-            1191,
-            490,
-            1219,
-            501
-          ],
-          "similarity": 0.22824563086032867
-        },
-        {
-          "bbox_xyxy": [
-            1197,
-            468,
-            1224,
-            491
-          ],
-          "similarity": 0.21806968748569489
-        },
-        {
-          "bbox_xyxy": [
-            1228,
-            453,
-            1268,
-            474
-          ],
-          "similarity": 0.23605531454086304
-        },
-        {
-          "bbox_xyxy": [
-            1230,
-            474,
-            1262,
-            495
-          ],
-          "similarity": 0.25102436542510986
-        },
-        {
-          "bbox_xyxy": [
-            1230,
-            485,
-            1259,
-            495
-          ],
-          "similarity": 0.21479129791259766
-        },
-        {
-          "bbox_xyxy": [
-            1253,
-            489,
-            1280,
-            516
-          ],
-          "similarity": 0.2583988904953003
+          "confidence": 0.24560546875,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.35350751876831055
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            319,
-            463,
-            895,
-            604
-          ],
-          "similarity": 0.45100879669189453,
-          "class": "target_ship_candidate"
-        }
-      ]
+      "detections": []
     },
     {
       "input": "val_images/frame_000431.png",
@@ -5256,410 +830,47 @@
       "proposals": [
         {
           "bbox_xyxy": [
-            45,
-            455,
-            75,
-            467
+            440,
+            369,
+            911,
+            476
           ],
-          "similarity": 0.2702232301235199
+          "confidence": 0.66455078125,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.5299567580223083
         },
         {
           "bbox_xyxy": [
-            73,
-            478,
-            91,
-            487
+            440,
+            414,
+            572,
+            462
           ],
-          "similarity": 0.23361565172672272
-        },
-        {
-          "bbox_xyxy": [
-            113,
-            429,
-            131,
-            441
-          ],
-          "similarity": 0.24366357922554016
-        },
-        {
-          "bbox_xyxy": [
-            133,
-            454,
-            151,
-            466
-          ],
-          "similarity": 0.24845871329307556
-        },
-        {
-          "bbox_xyxy": [
-            159,
-            431,
-            180,
-            441
-          ],
-          "similarity": 0.2698003053665161
-        },
-        {
-          "bbox_xyxy": [
-            293,
-            489,
-            311,
-            499
-          ],
-          "similarity": 0.23196184635162354
-        },
-        {
-          "bbox_xyxy": [
-            305,
-            486,
-            319,
-            495
-          ],
-          "similarity": 0.23640164732933044
-        },
-        {
-          "bbox_xyxy": [
-            313,
-            489,
-            327,
-            499
-          ],
-          "similarity": 0.2141733169555664
-        },
-        {
-          "bbox_xyxy": [
-            384,
-            347,
-            966,
-            488
-          ],
-          "similarity": 0.5490605235099792
-        },
-        {
-          "bbox_xyxy": [
-            416,
-            399,
-            677,
-            475
-          ],
-          "similarity": 0.4531440734863281
-        },
-        {
-          "bbox_xyxy": [
-            429,
-            464,
-            451,
-            477
-          ],
-          "similarity": 0.26185324788093567
-        },
-        {
-          "bbox_xyxy": [
-            433,
-            399,
-            512,
-            475
-          ],
-          "similarity": 0.3044714331626892
-        },
-        {
-          "bbox_xyxy": [
-            438,
-            474,
-            451,
-            483
-          ],
-          "similarity": 0.20399725437164307
-        },
-        {
-          "bbox_xyxy": [
-            445,
-            237,
-            463,
-            247
-          ],
-          "similarity": 0.19416509568691254
-        },
-        {
-          "bbox_xyxy": [
-            481,
-            462,
-            494,
-            472
-          ],
-          "similarity": 0.21719960868358612
-        },
-        {
-          "bbox_xyxy": [
-            512,
-            413,
-            542,
-            439
-          ],
-          "similarity": 0.25932663679122925
-        },
-        {
-          "bbox_xyxy": [
-            512,
-            447,
-            523,
-            459
-          ],
-          "similarity": 0.2434103786945343
-        },
-        {
-          "bbox_xyxy": [
-            541,
-            453,
-            570,
-            464
-          ],
-          "similarity": 0.20967251062393188
-        },
-        {
-          "bbox_xyxy": [
-            548,
-            433,
-            563,
-            444
-          ],
-          "similarity": 0.24728617072105408
-        },
-        {
-          "bbox_xyxy": [
-            561,
-            413,
-            672,
-            440
-          ],
-          "similarity": 0.2653062343597412
-        },
-        {
-          "bbox_xyxy": [
-            597,
-            442,
-            611,
-            454
-          ],
-          "similarity": 0.204982191324234
-        },
-        {
-          "bbox_xyxy": [
-            656,
-            348,
-            934,
-            487
-          ],
-          "similarity": 0.568108320236206
-        },
-        {
-          "bbox_xyxy": [
-            659,
-            453,
-            684,
-            465
-          ],
-          "similarity": 0.25855961441993713
-        },
-        {
-          "bbox_xyxy": [
-            659,
-            453,
-            691,
-            465
-          ],
-          "similarity": 0.2315102070569992
-        },
-        {
-          "bbox_xyxy": [
-            674,
-            416,
-            768,
-            438
-          ],
-          "similarity": 0.23031680285930634
-        },
-        {
-          "bbox_xyxy": [
-            716,
-            444,
-            787,
-            472
-          ],
-          "similarity": 0.28021255135536194
-        },
-        {
-          "bbox_xyxy": [
-            718,
-            454,
-            768,
-            471
-          ],
-          "similarity": 0.25788944959640503
-        },
-        {
-          "bbox_xyxy": [
-            753,
-            445,
-            767,
-            457
-          ],
-          "similarity": 0.20234271883964539
-        },
-        {
-          "bbox_xyxy": [
-            768,
-            348,
-            928,
-            487
-          ],
-          "similarity": 0.5087121725082397
-        },
-        {
-          "bbox_xyxy": [
-            769,
-            457,
-            783,
-            467
-          ],
-          "similarity": 0.20929422974586487
-        },
-        {
-          "bbox_xyxy": [
-            786,
-            476,
-            852,
-            505
-          ],
-          "similarity": 0.2577207684516907
-        },
-        {
-          "bbox_xyxy": [
-            787,
-            453,
-            801,
-            464
-          ],
-          "similarity": 0.22707927227020264
-        },
-        {
-          "bbox_xyxy": [
-            788,
-            476,
-            854,
-            503
-          ],
-          "similarity": 0.26233232021331787
-        },
-        {
-          "bbox_xyxy": [
-            792,
-            477,
-            854,
-            499
-          ],
-          "similarity": 0.23463216423988342
-        },
-        {
-          "bbox_xyxy": [
-            900,
-            421,
-            913,
-            442
-          ],
-          "similarity": 0.22259026765823364
-        },
-        {
-          "bbox_xyxy": [
-            963,
-            487,
-            986,
-            499
-          ],
-          "similarity": 0.25355929136276245
-        },
-        {
-          "bbox_xyxy": [
-            965,
-            487,
-            986,
-            499
-          ],
-          "similarity": 0.24819375574588776
-        },
-        {
-          "bbox_xyxy": [
-            1011,
-            487,
-            1028,
-            498
-          ],
-          "similarity": 0.21690386533737183
-        },
-        {
-          "bbox_xyxy": [
-            1101,
-            486,
-            1113,
-            497
-          ],
-          "similarity": 0.2134203016757965
-        },
-        {
-          "bbox_xyxy": [
-            1101,
-            486,
-            1113,
-            498
-          ],
-          "similarity": 0.2157876044511795
-        },
-        {
-          "bbox_xyxy": [
-            1103,
-            447,
-            1115,
-            456
-          ],
-          "similarity": 0.1655028909444809
-        },
-        {
-          "bbox_xyxy": [
-            1109,
-            493,
-            1123,
-            502
-          ],
-          "similarity": 0.19801922142505646
-        },
-        {
-          "bbox_xyxy": [
-            1173,
-            526,
-            1192,
-            535
-          ],
-          "similarity": 0.21150630712509155
-        },
-        {
-          "bbox_xyxy": [
-            1229,
-            489,
-            1251,
-            497
-          ],
-          "similarity": 0.2276085764169693
+          "confidence": 0.178466796875,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.32779595255851746
         }
       ],
       "detections": [
         {
           "bbox_xyxy": [
-            656,
-            348,
-            934,
-            487
+            440,
+            369,
+            911,
+            476
           ],
-          "similarity": 0.568108320236206,
+          "confidence": 0.66455078125,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.5299567580223083,
           "class": "target_ship_candidate"
         }
       ]
@@ -5675,230 +886,47 @@
       "proposals": [
         {
           "bbox_xyxy": [
-            45,
-            499,
-            68,
-            507
+            510,
+            485,
+            675,
+            523
           ],
-          "similarity": 0.24620458483695984
+          "confidence": 0.6650390625,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.5477973818778992
         },
         {
           "bbox_xyxy": [
-            53,
-            499,
-            67,
-            507
+            621,
+            486,
+            676,
+            517
           ],
-          "similarity": 0.23158809542655945
-        },
-        {
-          "bbox_xyxy": [
-            81,
-            497,
-            115,
-            507
-          ],
-          "similarity": 0.2566010653972626
-        },
-        {
-          "bbox_xyxy": [
-            93,
-            517,
-            123,
-            526
-          ],
-          "similarity": 0.28052014112472534
-        },
-        {
-          "bbox_xyxy": [
-            125,
-            517,
-            141,
-            525
-          ],
-          "similarity": 0.25303834676742554
-        },
-        {
-          "bbox_xyxy": [
-            140,
-            516,
-            180,
-            525
-          ],
-          "similarity": 0.2775568962097168
-        },
-        {
-          "bbox_xyxy": [
-            164,
-            488,
-            188,
-            507
-          ],
-          "similarity": 0.22690027952194214
-        },
-        {
-          "bbox_xyxy": [
-            172,
-            517,
-            212,
-            525
-          ],
-          "similarity": 0.26047271490097046
-        },
-        {
-          "bbox_xyxy": [
-            370,
-            548,
-            387,
-            556
-          ],
-          "similarity": 0.23238611221313477
-        },
-        {
-          "bbox_xyxy": [
-            490,
-            477,
-            693,
-            526
-          ],
-          "similarity": 0.5950748920440674
-        },
-        {
-          "bbox_xyxy": [
-            490,
-            477,
-            694,
-            526
-          ],
-          "similarity": 0.6000564098358154
-        },
-        {
-          "bbox_xyxy": [
-            492,
-            479,
-            681,
-            512
-          ],
-          "similarity": 0.4109874963760376
-        },
-        {
-          "bbox_xyxy": [
-            512,
-            477,
-            692,
-            526
-          ],
-          "similarity": 0.5532435178756714
-        },
-        {
-          "bbox_xyxy": [
-            512,
-            479,
-            681,
-            512
-          ],
-          "similarity": 0.4357883930206299
-        },
-        {
-          "bbox_xyxy": [
-            585,
-            518,
-            609,
-            531
-          ],
-          "similarity": 0.2590910494327545
-        },
-        {
-          "bbox_xyxy": [
-            588,
-            520,
-            610,
-            531
-          ],
-          "similarity": 0.251893013715744
-        },
-        {
-          "bbox_xyxy": [
-            588,
-            521,
-            609,
-            531
-          ],
-          "similarity": 0.23446330428123474
-        },
-        {
-          "bbox_xyxy": [
-            922,
-            494,
-            939,
-            504
-          ],
-          "similarity": 0.23751568794250488
-        },
-        {
-          "bbox_xyxy": [
-            981,
-            457,
-            995,
-            467
-          ],
-          "similarity": 0.2057500183582306
-        },
-        {
-          "bbox_xyxy": [
-            982,
-            491,
-            995,
-            499
-          ],
-          "similarity": 0.19672143459320068
-        },
-        {
-          "bbox_xyxy": [
-            1053,
-            453,
-            1072,
-            462
-          ],
-          "similarity": 0.18729564547538757
-        },
-        {
-          "bbox_xyxy": [
-            1129,
-            481,
-            1155,
-            491
-          ],
-          "similarity": 0.2056034356355667
-        },
-        {
-          "bbox_xyxy": [
-            1191,
-            455,
-            1280,
-            490
-          ],
-          "similarity": 0.35063672065734863
-        },
-        {
-          "bbox_xyxy": [
-            1265,
-            493,
-            1280,
-            502
-          ],
-          "similarity": 0.17760148644447327
+          "confidence": 0.263671875,
+          "detector_class": "boat",
+          "detector_view": "tile",
+          "contrast_enhanced": false,
+          "detector_input_size": 1024,
+          "similarity": 0.45468637347221375
         }
       ],
       "detections": [
         {
           "bbox_xyxy": [
-            490,
-            477,
-            694,
-            526
+            510,
+            485,
+            675,
+            523
           ],
-          "similarity": 0.6000564098358154,
+          "confidence": 0.6650390625,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.5477973818778992,
           "class": "target_ship_candidate"
         }
       ]
@@ -5914,269 +942,20 @@
       "proposals": [
         {
           "bbox_xyxy": [
-            68,
-            530,
-            96,
-            543
+            70,
+            533,
+            94,
+            540
           ],
-          "similarity": 0.24523583054542542
-        },
-        {
-          "bbox_xyxy": [
-            205,
-            514,
-            223,
-            522
-          ],
-          "similarity": 0.19970457255840302
-        },
-        {
-          "bbox_xyxy": [
-            377,
-            521,
-            406,
-            530
-          ],
-          "similarity": 0.22048822045326233
-        },
-        {
-          "bbox_xyxy": [
-            477,
-            485,
-            499,
-            499
-          ],
-          "similarity": 0.23408058285713196
-        },
-        {
-          "bbox_xyxy": [
-            477,
-            485,
-            499,
-            500
-          ],
-          "similarity": 0.23744511604309082
-        },
-        {
-          "bbox_xyxy": [
-            493,
-            479,
-            512,
-            487
-          ],
-          "similarity": 0.174907386302948
-        },
-        {
-          "bbox_xyxy": [
-            509,
-            501,
-            531,
-            509
-          ],
-          "similarity": 0.2536182403564453
-        },
-        {
-          "bbox_xyxy": [
-            575,
-            516,
-            595,
-            525
-          ],
-          "similarity": 0.2389620840549469
-        },
-        {
-          "bbox_xyxy": [
-            591,
-            493,
-            643,
-            506
-          ],
-          "similarity": 0.29304200410842896
-        },
-        {
-          "bbox_xyxy": [
-            591,
-            494,
-            643,
-            506
-          ],
-          "similarity": 0.2859683632850647
-        },
-        {
-          "bbox_xyxy": [
-            604,
-            496,
-            628,
-            505
-          ],
-          "similarity": 0.2606005072593689
-        },
-        {
-          "bbox_xyxy": [
-            701,
-            429,
-            727,
-            443
-          ],
-          "similarity": 0.21568931639194489
-        },
-        {
-          "bbox_xyxy": [
-            723,
-            429,
-            768,
-            443
-          ],
-          "similarity": 0.23607279360294342
-        },
-        {
-          "bbox_xyxy": [
-            725,
-            453,
-            755,
-            467
-          ],
-          "similarity": 0.20055125653743744
-        },
-        {
-          "bbox_xyxy": [
-            741,
-            441,
-            768,
-            451
-          ],
-          "similarity": 0.20679743587970734
-        },
-        {
-          "bbox_xyxy": [
-            989,
-            485,
-            1003,
-            499
-          ],
-          "similarity": 0.18047747015953064
-        },
-        {
-          "bbox_xyxy": [
-            994,
-            375,
-            1007,
-            393
-          ],
-          "similarity": 0.2518606185913086
-        },
-        {
-          "bbox_xyxy": [
-            1005,
-            493,
-            1024,
-            503
-          ],
-          "similarity": 0.22860990464687347
-        },
-        {
-          "bbox_xyxy": [
-            1149,
-            481,
-            1167,
-            491
-          ],
-          "similarity": 0.1783699244260788
-        },
-        {
-          "bbox_xyxy": [
-            1164,
-            397,
-            1204,
-            419
-          ],
-          "similarity": 0.20869046449661255
-        },
-        {
-          "bbox_xyxy": [
-            1165,
-            421,
-            1187,
-            435
-          ],
-          "similarity": 0.21155254542827606
-        },
-        {
-          "bbox_xyxy": [
-            1180,
-            512,
-            1219,
-            522
-          ],
-          "similarity": 0.2666862905025482
-        },
-        {
-          "bbox_xyxy": [
-            1181,
-            429,
-            1203,
-            451
-          ],
-          "similarity": 0.23347188532352448
-        },
-        {
-          "bbox_xyxy": [
-            1191,
-            418,
-            1280,
-            516
-          ],
-          "similarity": 0.4247928261756897
-        },
-        {
-          "bbox_xyxy": [
-            1197,
-            413,
-            1219,
-            435
-          ],
-          "similarity": 0.20903325080871582
-        },
-        {
-          "bbox_xyxy": [
-            1226,
-            476,
-            1280,
-            506
-          ],
-          "similarity": 0.32918596267700195
-        },
-        {
-          "bbox_xyxy": [
-            1244,
-            364,
-            1280,
-            425
-          ],
-          "similarity": 0.2700500190258026
-        },
-        {
-          "bbox_xyxy": [
-            1244,
-            419,
-            1280,
-            427
-          ],
-          "similarity": 0.16972479224205017
+          "confidence": 0.53466796875,
+          "detector_class": "boat",
+          "detector_view": "tile",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.1897432804107666
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            1191,
-            418,
-            1280,
-            516
-          ],
-          "similarity": 0.4247928261756897,
-          "class": "target_ship_candidate"
-        }
-      ]
+      "detections": []
     },
     {
       "input": "val_images/frame_000307.png",
@@ -6189,311 +968,33 @@
       "proposals": [
         {
           "bbox_xyxy": [
-            0,
-            555,
-            15,
-            564
+            603,
+            506,
+            865,
+            566
           ],
-          "similarity": 0.20804619789123535
-        },
-        {
-          "bbox_xyxy": [
-            76,
-            517,
-            118,
-            540
-          ],
-          "similarity": 0.2533007264137268
-        },
-        {
-          "bbox_xyxy": [
-            76,
-            518,
-            118,
-            540
-          ],
-          "similarity": 0.2507488429546356
-        },
-        {
-          "bbox_xyxy": [
-            157,
-            556,
-            183,
-            564
-          ],
-          "similarity": 0.2391175776720047
-        },
-        {
-          "bbox_xyxy": [
-            317,
-            600,
-            331,
-            608
-          ],
-          "similarity": 0.1972392201423645
-        },
-        {
-          "bbox_xyxy": [
-            519,
-            558,
-            570,
-            571
-          ],
-          "similarity": 0.2806965708732605
-        },
-        {
-          "bbox_xyxy": [
-            571,
-            489,
-            892,
-            572
-          ],
-          "similarity": 0.48743414878845215
-        },
-        {
-          "bbox_xyxy": [
-            587,
-            523,
-            743,
-            560
-          ],
-          "similarity": 0.2942899763584137
-        },
-        {
-          "bbox_xyxy": [
-            588,
-            522,
-            734,
-            563
-          ],
-          "similarity": 0.35387539863586426
-        },
-        {
-          "bbox_xyxy": [
-            653,
-            599,
-            683,
-            607
-          ],
-          "similarity": 0.212562695145607
-        },
-        {
-          "bbox_xyxy": [
-            712,
-            489,
-            876,
-            572
-          ],
-          "similarity": 0.4701385200023651
-        },
-        {
-          "bbox_xyxy": [
-            735,
-            531,
-            768,
-            551
-          ],
-          "similarity": 0.2497835010290146
-        },
-        {
-          "bbox_xyxy": [
-            748,
-            560,
-            775,
-            579
-          ],
-          "similarity": 0.25562360882759094
-        },
-        {
-          "bbox_xyxy": [
-            748,
-            562,
-            768,
-            576
-          ],
-          "similarity": 0.2292456328868866
-        },
-        {
-          "bbox_xyxy": [
-            768,
-            489,
-            872,
-            572
-          ],
-          "similarity": 0.42278605699539185
-        },
-        {
-          "bbox_xyxy": [
-            773,
-            598,
-            787,
-            607
-          ],
-          "similarity": 0.21692702174186707
-        },
-        {
-          "bbox_xyxy": [
-            796,
-            498,
-            836,
-            512
-          ],
-          "similarity": 0.24587932229042053
-        },
-        {
-          "bbox_xyxy": [
-            797,
-            498,
-            823,
-            512
-          ],
-          "similarity": 0.2540813684463501
-        },
-        {
-          "bbox_xyxy": [
-            905,
-            578,
-            919,
-            587
-          ],
-          "similarity": 0.2226918339729309
-        },
-        {
-          "bbox_xyxy": [
-            925,
-            562,
-            947,
-            571
-          ],
-          "similarity": 0.24759656190872192
-        },
-        {
-          "bbox_xyxy": [
-            957,
-            562,
-            979,
-            571
-          ],
-          "similarity": 0.2350602000951767
-        },
-        {
-          "bbox_xyxy": [
-            957,
-            562,
-            983,
-            572
-          ],
-          "similarity": 0.22856146097183228
-        },
-        {
-          "bbox_xyxy": [
-            973,
-            558,
-            985,
-            567
-          ],
-          "similarity": 0.2151002585887909
-        },
-        {
-          "bbox_xyxy": [
-            1137,
-            481,
-            1151,
-            489
-          ],
-          "similarity": 0.2242954820394516
-        },
-        {
-          "bbox_xyxy": [
-            1137,
-            481,
-            1151,
-            490
-          ],
-          "similarity": 0.21838033199310303
-        },
-        {
-          "bbox_xyxy": [
-            1157,
-            477,
-            1175,
-            489
-          ],
-          "similarity": 0.22504664957523346
-        },
-        {
-          "bbox_xyxy": [
-            1181,
-            469,
-            1203,
-            477
-          ],
-          "similarity": 0.20628982782363892
-        },
-        {
-          "bbox_xyxy": [
-            1185,
-            441,
-            1199,
-            451
-          ],
-          "similarity": 0.20147055387496948
-        },
-        {
-          "bbox_xyxy": [
-            1197,
-            466,
-            1219,
-            475
-          ],
-          "similarity": 0.22833409905433655
-        },
-        {
-          "bbox_xyxy": [
-            1250,
-            449,
-            1280,
-            470
-          ],
-          "similarity": 0.24068328738212585
-        },
-        {
-          "bbox_xyxy": [
-            1253,
-            453,
-            1280,
-            467
-          ],
-          "similarity": 0.22995051741600037
-        },
-        {
-          "bbox_xyxy": [
-            1261,
-            421,
-            1280,
-            431
-          ],
-          "similarity": 0.21759995818138123
-        },
-        {
-          "bbox_xyxy": [
-            1261,
-            429,
-            1280,
-            451
-          ],
-          "similarity": 0.2282598912715912
+          "confidence": 0.177490234375,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.4151649475097656
         }
       ],
       "detections": [
         {
           "bbox_xyxy": [
-            571,
-            489,
-            892,
-            572
+            603,
+            506,
+            865,
+            566
           ],
-          "similarity": 0.48743414878845215,
+          "confidence": 0.177490234375,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.4151649475097656,
           "class": "target_ship_candidate"
         }
       ]
@@ -6509,302 +1010,47 @@
       "proposals": [
         {
           "bbox_xyxy": [
-            0,
-            497,
-            19,
-            505
-          ],
-          "similarity": 0.2160768061876297
-        },
-        {
-          "bbox_xyxy": [
-            45,
-            497,
-            59,
-            506
-          ],
-          "similarity": 0.22995424270629883
-        },
-        {
-          "bbox_xyxy": [
-            177,
-            487,
-            198,
-            505
-          ],
-          "similarity": 0.2399161458015442
-        },
-        {
-          "bbox_xyxy": [
-            193,
-            514,
-            227,
-            522
-          ],
-          "similarity": 0.2656548023223877
-        },
-        {
-          "bbox_xyxy": [
-            461,
-            513,
-            483,
-            524
-          ],
-          "similarity": 0.26600146293640137
-        },
-        {
-          "bbox_xyxy": [
-            461,
-            515,
-            483,
-            524
-          ],
-          "similarity": 0.23770783841609955
-        },
-        {
-          "bbox_xyxy": [
-            465,
-            522,
-            483,
-            531
-          ],
-          "similarity": 0.23752161860466003
-        },
-        {
-          "bbox_xyxy": [
-            500,
-            475,
-            703,
-            524
-          ],
-          "similarity": 0.5364598035812378
-        },
-        {
-          "bbox_xyxy": [
-            500,
-            476,
-            703,
-            512
-          ],
-          "similarity": 0.4357112646102905
-        },
-        {
-          "bbox_xyxy": [
-            500,
-            477,
-            704,
-            524
-          ],
-          "similarity": 0.5444036722183228
-        },
-        {
-          "bbox_xyxy": [
-            512,
-            475,
-            704,
-            525
-          ],
-          "similarity": 0.5040671825408936
-        },
-        {
-          "bbox_xyxy": [
-            512,
-            476,
-            703,
-            512
-          ],
-          "similarity": 0.41826122999191284
-        },
-        {
-          "bbox_xyxy": [
-            596,
-            517,
-            619,
-            529
-          ],
-          "similarity": 0.28206756711006165
-        },
-        {
-          "bbox_xyxy": [
-            596,
-            517,
-            621,
-            529
-          ],
-          "similarity": 0.27194884419441223
-        },
-        {
-          "bbox_xyxy": [
-            597,
-            517,
-            619,
-            529
-          ],
-          "similarity": 0.2728995680809021
-        },
-        {
-          "bbox_xyxy": [
-            745,
-            518,
-            763,
-            527
-          ],
-          "similarity": 0.25362297892570496
-        },
-        {
-          "bbox_xyxy": [
-            775,
             520,
-            865,
-            531
+            482,
+            684,
+            519
           ],
-          "similarity": 0.29212069511413574
+          "confidence": 0.64892578125,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.522351861000061
         },
         {
           "bbox_xyxy": [
-            781,
-            522,
-            803,
-            530
+            631,
+            485,
+            685,
+            515
           ],
-          "similarity": 0.24466624855995178
-        },
-        {
-          "bbox_xyxy": [
-            797,
-            528,
-            815,
-            537
-          ],
-          "similarity": 0.23678959906101227
-        },
-        {
-          "bbox_xyxy": [
-            797,
-            528,
-            815,
-            538
-          ],
-          "similarity": 0.2346767783164978
-        },
-        {
-          "bbox_xyxy": [
-            821,
-            519,
-            860,
-            527
-          ],
-          "similarity": 0.22328320145606995
-        },
-        {
-          "bbox_xyxy": [
-            853,
-            521,
-            875,
-            529
-          ],
-          "similarity": 0.2483566403388977
-        },
-        {
-          "bbox_xyxy": [
-            933,
-            521,
-            951,
-            529
-          ],
-          "similarity": 0.23611536622047424
-        },
-        {
-          "bbox_xyxy": [
-            955,
-            473,
-            1005,
-            489
-          ],
-          "similarity": 0.2934476435184479
-        },
-        {
-          "bbox_xyxy": [
-            957,
-            473,
-            983,
-            484
-          ],
-          "similarity": 0.23620745539665222
-        },
-        {
-          "bbox_xyxy": [
-            972,
-            445,
-            1012,
-            459
-          ],
-          "similarity": 0.2403724640607834
-        },
-        {
-          "bbox_xyxy": [
-            988,
-            469,
-            1024,
-            483
-          ],
-          "similarity": 0.28293317556381226
-        },
-        {
-          "bbox_xyxy": [
-            988,
-            469,
-            1028,
-            483
-          ],
-          "similarity": 0.26867759227752686
-        },
-        {
-          "bbox_xyxy": [
-            989,
-            469,
-            1019,
-            480
-          ],
-          "similarity": 0.22946736216545105
-        },
-        {
-          "bbox_xyxy": [
-            1038,
-            477,
-            1059,
-            487
-          ],
-          "similarity": 0.24140217900276184
-        },
-        {
-          "bbox_xyxy": [
-            1128,
-            465,
-            1155,
-            483
-          ],
-          "similarity": 0.21351073682308197
-        },
-        {
-          "bbox_xyxy": [
-            1186,
-            442,
-            1280,
-            482
-          ],
-          "similarity": 0.36094650626182556
+          "confidence": 0.18994140625,
+          "detector_class": "boat",
+          "detector_view": "tile",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.4490402936935425
         }
       ],
       "detections": [
         {
           "bbox_xyxy": [
-            500,
-            477,
-            704,
-            524
+            520,
+            482,
+            684,
+            519
           ],
-          "similarity": 0.5444036722183228,
+          "confidence": 0.64892578125,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.522351861000061,
           "class": "target_ship_candidate"
         }
       ]
@@ -6817,380 +1063,8 @@
         1280,
         720
       ],
-      "proposals": [
-        {
-          "bbox_xyxy": [
-            77,
-            465,
-            95,
-            473
-          ],
-          "similarity": 0.21770352125167847
-        },
-        {
-          "bbox_xyxy": [
-            189,
-            381,
-            211,
-            399
-          ],
-          "similarity": 0.20788836479187012
-        },
-        {
-          "bbox_xyxy": [
-            190,
-            381,
-            211,
-            395
-          ],
-          "similarity": 0.1932584047317505
-        },
-        {
-          "bbox_xyxy": [
-            285,
-            500,
-            299,
-            508
-          ],
-          "similarity": 0.21496771275997162
-        },
-        {
-          "bbox_xyxy": [
-            301,
-            492,
-            323,
-            501
-          ],
-          "similarity": 0.21197941899299622
-        },
-        {
-          "bbox_xyxy": [
-            301,
-            501,
-            319,
-            510
-          ],
-          "similarity": 0.20682302117347717
-        },
-        {
-          "bbox_xyxy": [
-            368,
-            355,
-            944,
-            501
-          ],
-          "similarity": 0.40867918729782104
-        },
-        {
-          "bbox_xyxy": [
-            384,
-            501,
-            428,
-            510
-          ],
-          "similarity": 0.21116553246974945
-        },
-        {
-          "bbox_xyxy": [
-            410,
-            410,
-            558,
-            482
-          ],
-          "similarity": 0.2714446783065796
-        },
-        {
-          "bbox_xyxy": [
-            410,
-            412,
-            558,
-            467
-          ],
-          "similarity": 0.2131144106388092
-        },
-        {
-          "bbox_xyxy": [
-            413,
-            413,
-            431,
-            422
-          ],
-          "similarity": 0.20815160870552063
-        },
-        {
-          "bbox_xyxy": [
-            413,
-            413,
-            433,
-            423
-          ],
-          "similarity": 0.2277010977268219
-        },
-        {
-          "bbox_xyxy": [
-            414,
-            410,
-            512,
-            480
-          ],
-          "similarity": 0.26522815227508545
-        },
-        {
-          "bbox_xyxy": [
-            414,
-            410,
-            512,
-            482
-          ],
-          "similarity": 0.2793886065483093
-        },
-        {
-          "bbox_xyxy": [
-            429,
-            497,
-            459,
-            510
-          ],
-          "similarity": 0.24463579058647156
-        },
-        {
-          "bbox_xyxy": [
-            461,
-            500,
-            489,
-            510
-          ],
-          "similarity": 0.23642748594284058
-        },
-        {
-          "bbox_xyxy": [
-            465,
-            500,
-            487,
-            508
-          ],
-          "similarity": 0.22898536920547485
-        },
-        {
-          "bbox_xyxy": [
-            534,
-            419,
-            640,
-            460
-          ],
-          "similarity": 0.28411251306533813
-        },
-        {
-          "bbox_xyxy": [
-            534,
-            419,
-            640,
-            462
-          ],
-          "similarity": 0.283461332321167
-        },
-        {
-          "bbox_xyxy": [
-            556,
-            420,
-            638,
-            453
-          ],
-          "similarity": 0.23376747965812683
-        },
-        {
-          "bbox_xyxy": [
-            652,
-            420,
-            767,
-            462
-          ],
-          "similarity": 0.25725826621055603
-        },
-        {
-          "bbox_xyxy": [
-            655,
-            420,
-            750,
-            460
-          ],
-          "similarity": 0.22985635697841644
-        },
-        {
-          "bbox_xyxy": [
-            655,
-            420,
-            750,
-            462
-          ],
-          "similarity": 0.24337512254714966
-        },
-        {
-          "bbox_xyxy": [
-            690,
-            389,
-            703,
-            398
-          ],
-          "similarity": 0.2000206708908081
-        },
-        {
-          "bbox_xyxy": [
-            727,
-            355,
-            901,
-            501
-          ],
-          "similarity": 0.31090494990348816
-        },
-        {
-          "bbox_xyxy": [
-            765,
-            487,
-            835,
-            515
-          ],
-          "similarity": 0.2600831985473633
-        },
-        {
-          "bbox_xyxy": [
-            768,
-            361,
-            898,
-            500
-          ],
-          "similarity": 0.3105132579803467
-        },
-        {
-          "bbox_xyxy": [
-            770,
-            487,
-            834,
-            512
-          ],
-          "similarity": 0.2661794126033783
-        },
-        {
-          "bbox_xyxy": [
-            773,
-            488,
-            808,
-            499
-          ],
-          "similarity": 0.2710222005844116
-        },
-        {
-          "bbox_xyxy": [
-            877,
-            437,
-            891,
-            451
-          ],
-          "similarity": 0.24477413296699524
-        },
-        {
-          "bbox_xyxy": [
-            957,
-            237,
-            987,
-            245
-          ],
-          "similarity": 0.19966472685337067
-        },
-        {
-          "bbox_xyxy": [
-            957,
-            251,
-            979,
-            259
-          ],
-          "similarity": 0.1917417347431183
-        },
-        {
-          "bbox_xyxy": [
-            981,
-            251,
-            995,
-            259
-          ],
-          "similarity": 0.20935940742492676
-        },
-        {
-          "bbox_xyxy": [
-            988,
-            263,
-            1024,
-            279
-          ],
-          "similarity": 0.25870078802108765
-        },
-        {
-          "bbox_xyxy": [
-            997,
-            253,
-            1011,
-            267
-          ],
-          "similarity": 0.23133742809295654
-        },
-        {
-          "bbox_xyxy": [
-            1010,
-            245,
-            1032,
-            267
-          ],
-          "similarity": 0.2613382935523987
-        },
-        {
-          "bbox_xyxy": [
-            1077,
-            238,
-            1091,
-            247
-          ],
-          "similarity": 0.20256970822811127
-        },
-        {
-          "bbox_xyxy": [
-            1077,
-            257,
-            1091,
-            266
-          ],
-          "similarity": 0.18002985417842865
-        },
-        {
-          "bbox_xyxy": [
-            1109,
-            245,
-            1123,
-            257
-          ],
-          "similarity": 0.2223741114139557
-        },
-        {
-          "bbox_xyxy": [
-            1133,
-            248,
-            1148,
-            257
-          ],
-          "similarity": 0.20848970115184784
-        }
-      ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            368,
-            355,
-            944,
-            501
-          ],
-          "similarity": 0.40867918729782104,
-          "class": "target_ship_candidate"
-        }
-      ]
+      "proposals": [],
+      "detections": []
     },
     {
       "input": "val_images/frame_000557.png",
@@ -7203,442 +1077,92 @@
       "proposals": [
         {
           "bbox_xyxy": [
-            109,
-            508,
-            131,
-            524
-          ],
-          "similarity": 0.23860123753547668
-        },
-        {
-          "bbox_xyxy": [
-            149,
-            511,
-            179,
-            521
-          ],
-          "similarity": 0.24333059787750244
-        },
-        {
-          "bbox_xyxy": [
-            236,
-            372,
-            817,
-            517
-          ],
-          "similarity": 0.602336585521698
-        },
-        {
-          "bbox_xyxy": [
-            278,
-            429,
-            431,
-            500
-          ],
-          "similarity": 0.4504495859146118
-        },
-        {
-          "bbox_xyxy": [
-            279,
-            429,
-            431,
-            500
-          ],
-          "similarity": 0.45934197306632996
-        },
-        {
-          "bbox_xyxy": [
-            321,
-            513,
-            335,
-            523
-          ],
-          "similarity": 0.2087451070547104
-        },
-        {
-          "bbox_xyxy": [
-            410,
-            436,
-            512,
-            472
-          ],
-          "similarity": 0.3806453049182892
-        },
-        {
-          "bbox_xyxy": [
-            410,
-            437,
-            523,
-            470
-          ],
-          "similarity": 0.40243691205978394
-        },
-        {
-          "bbox_xyxy": [
-            413,
-            479,
-            443,
-            492
-          ],
-          "similarity": 0.22893932461738586
-        },
-        {
-          "bbox_xyxy": [
-            417,
-            480,
-            437,
-            491
-          ],
-          "similarity": 0.22636818885803223
-        },
-        {
-          "bbox_xyxy": [
-            429,
-            461,
-            445,
-            479
-          ],
-          "similarity": 0.23230381309986115
-        },
-        {
-          "bbox_xyxy": [
-            445,
-            482,
-            495,
-            494
-          ],
-          "similarity": 0.23803916573524475
-        },
-        {
-          "bbox_xyxy": [
-            488,
-            513,
-            507,
-            523
-          ],
-          "similarity": 0.2078993022441864
-        },
-        {
-          "bbox_xyxy": [
-            493,
-            482,
-            505,
-            492
-          ],
-          "similarity": 0.21012356877326965
-        },
-        {
-          "bbox_xyxy": [
-            493,
-            513,
-            507,
-            521
-          ],
-          "similarity": 0.20414137840270996
-        },
-        {
-          "bbox_xyxy": [
-            493,
-            554,
-            515,
-            563
-          ],
-          "similarity": 0.2241401970386505
-        },
-        {
-          "bbox_xyxy": [
-            512,
-            371,
-            791,
+            292,
+            400,
+            775,
             512
           ],
-          "similarity": 0.5681330561637878
+          "confidence": 0.72412109375,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.5375290513038635
         },
         {
           "bbox_xyxy": [
-            512,
-            371,
-            791,
-            526
-          ],
-          "similarity": 0.5755128860473633
-        },
-        {
-          "bbox_xyxy": [
-            513,
-            483,
-            529,
-            492
-          ],
-          "similarity": 0.2114803045988083
-        },
-        {
-          "bbox_xyxy": [
-            524,
-            442,
-            626,
-            472
-          ],
-          "similarity": 0.2994694411754608
-        },
-        {
-          "bbox_xyxy": [
-            593,
-            483,
-            619,
-            493
-          ],
-          "similarity": 0.24447521567344666
-        },
-        {
-          "bbox_xyxy": [
-            605,
-            485,
-            619,
-            494
-          ],
-          "similarity": 0.21331243216991425
-        },
-        {
-          "bbox_xyxy": [
-            613,
-            484,
-            636,
-            492
-          ],
-          "similarity": 0.22630643844604492
-        },
-        {
-          "bbox_xyxy": [
-            621,
-            466,
-            651,
-            476
-          ],
-          "similarity": 0.23446756601333618
-        },
-        {
-          "bbox_xyxy": [
-            637,
-            487,
-            651,
-            497
-          ],
-          "similarity": 0.22348999977111816
-        },
-        {
-          "bbox_xyxy": [
-            638,
-            377,
-            735,
-            487
-          ],
-          "similarity": 0.4680168628692627
-        },
-        {
-          "bbox_xyxy": [
-            701,
-            483,
-            719,
-            491
-          ],
-          "similarity": 0.19690784811973572
-        },
-        {
-          "bbox_xyxy": [
-            713,
-            494,
-            731,
-            503
-          ],
-          "similarity": 0.21969164907932281
-        },
-        {
-          "bbox_xyxy": [
-            739,
-            504,
-            790,
-            532
-          ],
-          "similarity": 0.25902095437049866
-        },
-        {
-          "bbox_xyxy": [
-            741,
-            470,
-            759,
-            483
-          ],
-          "similarity": 0.24141594767570496
-        },
-        {
-          "bbox_xyxy": [
-            741,
-            485,
-            757,
-            499
-          ],
-          "similarity": 0.26308804750442505
-        },
-        {
-          "bbox_xyxy": [
-            741,
-            506,
-            768,
-            529
-          ],
-          "similarity": 0.2569218575954437
-        },
-        {
-          "bbox_xyxy": [
-            744,
-            505,
-            762,
-            512
-          ],
-          "similarity": 0.22285693883895874
-        },
-        {
-          "bbox_xyxy": [
-            744,
-            506,
-            762,
-            512
-          ],
-          "similarity": 0.22391974925994873
-        },
-        {
-          "bbox_xyxy": [
-            751,
+            533,
             445,
-            763,
+            616,
             467
           ],
-          "similarity": 0.2363424003124237
+          "confidence": 0.303955078125,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.25319623947143555
         },
         {
           "bbox_xyxy": [
-            775,
-            505,
-            787,
-            512
-          ],
-          "similarity": 0.1903357058763504
-        },
-        {
-          "bbox_xyxy": [
-            776,
-            461,
-            795,
-            469
-          ],
-          "similarity": 0.2428532838821411
-        },
-        {
-          "bbox_xyxy": [
-            867,
-            513,
-            880,
-            521
-          ],
-          "similarity": 0.23037345707416534
-        },
-        {
-          "bbox_xyxy": [
-            973,
-            490,
-            989,
-            498
-          ],
-          "similarity": 0.22074830532073975
-        },
-        {
-          "bbox_xyxy": [
-            1093,
-            485,
-            1107,
-            493
-          ],
-          "similarity": 0.18606260418891907
-        },
-        {
-          "bbox_xyxy": [
-            1117,
-            488,
-            1131,
-            496
-          ],
-          "similarity": 0.2138981819152832
-        },
-        {
-          "bbox_xyxy": [
-            1156,
-            482,
-            1183,
+            530,
+            399,
+            762,
             491
           ],
-          "similarity": 0.21238304674625397
+          "confidence": 0.2900390625,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.5702942609786987
         },
         {
           "bbox_xyxy": [
-            1169,
-            482,
-            1183,
-            490
+            291,
+            440,
+            424,
+            489
           ],
-          "similarity": 0.18802523612976074
+          "confidence": 0.272216796875,
+          "detector_class": "boat",
+          "detector_view": "tile",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.37411707639694214
         },
         {
           "bbox_xyxy": [
-            1190,
-            485,
-            1203,
-            494
+            420,
+            443,
+            501,
+            465
           ],
-          "similarity": 0.20577019453048706
-        },
-        {
-          "bbox_xyxy": [
-            1190,
-            485,
-            1203,
-            497
-          ],
-          "similarity": 0.2144032120704651
+          "confidence": 0.246337890625,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.2558014392852783
         }
       ],
       "detections": [
         {
           "bbox_xyxy": [
-            236,
-            372,
-            817,
-            517
+            530,
+            399,
+            762,
+            491
           ],
-          "similarity": 0.602336585521698,
+          "confidence": 0.2900390625,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.5702942609786987,
           "class": "target_ship_candidate"
         }
       ]
     }
-  ],
-  "reference_roi_xyxy": [
-    32,
-    350,
-    1188,
-    650
-  ],
-  "foreground_rois_xyxy": [
-    [
-      65,
-      515,
-      1155,
-      612
-    ],
-    [
-      880,
-      430,
-      976,
-      570
-    ]
   ]
 }

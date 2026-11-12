@@ -1,10 +1,29 @@
 {
   "count": 7,
-  "min_similarity": 0.35035240650177,
-  "max_similarity": 0.7269632816314697,
-  "mean_similarity": 0.5568455372537885,
+  "min_similarity": 0.46380212903022766,
+  "max_similarity": 0.7198624014854431,
+  "mean_similarity": 0.5853208005428314,
   "model_modified": false,
-  "pipeline": "Same tiled foreground/background matching and cropped ship reference as validation",
+  "pipeline": "Same YOLO11s tiled boat detections and DINOv3 cropped ship reference as validation",
+  "detector": {
+    "name": "YOLO11s COCO boat",
+    "ultralytics_version": "8.4.211",
+    "weights_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+    "confidence_threshold": 0.15,
+    "class_id": 8,
+    "whole_image_sizes": [
+      640,
+      1280
+    ],
+    "tile_size": 512,
+    "tile_stride": 256,
+    "tile_inference_sizes": [
+      640,
+      1024
+    ],
+    "merge_iou": 0.5,
+    "fallback": "CLAHE luminance contrast, only if raw whole-image and tile passes find no boats"
+  },
   "model_sha256": "441dd2ed879889751411d0218606c0130544158c2880b71206a8b8aea054ff7b",
   "training_sources": [
     "training_images\\S__191913989.jpg"
@@ -12,8 +31,8 @@
   "threshold_selected": 0.39,
   "threshold_source": "user-selected",
   "accuracy": null,
-  "false_accept_count": 6,
-  "false_accept_rate": 0.8571428571428571,
+  "false_accept_count": 7,
+  "false_accept_rate": 1.0,
   "note": "Exploratory negative-only test. Thresholds below are hypothetical, not calibrated; no independent labeled positives.",
   "hypothetical_false_accepts": {
     "0.6": {
