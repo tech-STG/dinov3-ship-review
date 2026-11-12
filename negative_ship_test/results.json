@@ -2,10 +2,10 @@
   "summary": {
     "count": 100,
     "min_similarity": 0.0,
-    "max_similarity": 0.38939839601516724,
+    "max_similarity": 0.4088279604911804,
     "classification_head_enabled": false,
-    "reference_version": "yolo-color-transparent-augmentation-v6",
-    "mean_similarity": 0.07236213952302933,
+    "reference_version": "yolo-color-transparent-augmentation-vitb-v7",
+    "mean_similarity": 0.07993161380290985,
     "model_modified": false,
     "pipeline": "Same YOLO11s tiled boat detections and DINOv3 cropped ship reference as validation",
     "detector": {
@@ -28,11 +28,11 @@
       "selection_policy": "largest-area boat after merged NMS; confidence breaks equal-area ties",
       "fallback": "CLAHE luminance contrast, only if raw whole-image and tile passes find no boats"
     },
-    "model_sha256": "7ab9d990006bf3f1fd03c82c97a433f12fc91272ac4de4cde055e289cb842c6b",
+    "model_sha256": "dbb8685d7a8fffcb0f2a3fc7eb6688820287b94110c67179e412d451adea5038",
     "training_sources": [
       "training_images\\S__191913989.jpg"
     ],
-    "threshold_selected": 0.34591996669769287,
+    "threshold_selected": 0.25895166397094727,
     "threshold_source": "development-set calibration",
     "accuracy": null,
     "ratio_filter": {
@@ -50,8 +50,8 @@
       "mask": "augmented_training_images_transparent\\masks\\ship.png",
       "definition": "width / height of nonzero unaugmented foreground mask bounds"
     },
-    "false_accept_count": 1,
-    "false_accept_rate": 0.01,
+    "false_accept_count": 22,
+    "false_accept_rate": 0.22,
     "note": "Threshold tuned on these development images. Reported rates are in-sample; an independent held-out test is required.",
     "hypothetical_false_accepts": {
       "0.6": {
@@ -118,7 +118,7 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 1024,
-          "similarity": 0.38939839601516724,
+          "similarity": 0.4088279604911804,
           "bbox_ratio": 3.5384615384615383,
           "ratio_pass": true
         }
@@ -136,61 +136,79 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 1024,
-          "similarity": 0.38939839601516724,
+          "similarity": 0.4088279604911804,
           "bbox_ratio": 3.5384615384615383,
           "ratio_pass": true,
           "class": "target_ship_candidate"
         }
       ],
-      "cosine_similarity": 0.38939839601516724,
+      "cosine_similarity": 0.4088279604911804,
       "confidence": 0.92431640625,
       "target_candidate": true,
       "annotated_file": "annotated/commons_63577975_MSC_GENEVA_CMA_CGM_BLUE_WHALE_MSC_FABIENNE_MSC_PREZIOSA_37501865206_.jpg"
     },
     {
-      "file": "images/commons_37867353_COSCO_Vancouver_ship_2004_002.jpg",
-      "title": "File:COSCO Vancouver (ship, 2004) 002.jpg",
-      "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Vancouver_(ship,_2004)_002.jpg",
-      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/COSCO_Vancouver_%28ship%2C_2004%29_002.jpg/960px-COSCO_Vancouver_%28ship%2C_2004%29_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "license": "CC BY 2.0",
-      "license_url": "https://creativecommons.org/licenses/by/2.0",
-      "author": "Skibuff18",
-      "description": "Container ship COSCO Vancouver",
-      "sha256": "4f4c64908ee19c7aba243b697a31d6690e2c8473b3412e9727b0d6e5360efbc9",
+      "file": "images/commons_74879953_BEAGLE_COSCO_SAGITTARIUS_SD_REBEL_ROTTERDAM_46101578611_cropped_.jpg",
+      "title": "File:BEAGLE , COSCO SAGITTARIUS , SD REBEL & ROTTERDAM (46101578611) (cropped).jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:BEAGLE_,_COSCO_SAGITTARIUS_,_SD_REBEL_%26_ROTTERDAM_(46101578611)_(cropped).jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/BEAGLE_%2C_COSCO_SAGITTARIUS_%2C_SD_REBEL_%26_ROTTERDAM_%2846101578611%29_%28cropped%29.jpg/960px-BEAGLE_%2C_COSCO_SAGITTARIUS_%2C_SD_REBEL_%26_ROTTERDAM_%2846101578611%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "author": "kees torn",
+      "description": "29-11-2018 eerste bezoek aan Rotterdam van de COSCO SAGITTARIUS (2018)",
+      "sha256": "c1705076728357f6c6340b5e2ca685bcb48f83996e9e4c60869858182e6932b2",
       "dimensions": [
         960,
-        519
+        433
       ],
-      "downloaded_utc": "2026-11-12T07:33:33.358155+00:00",
+      "downloaded_utc": "2026-11-12T07:32:51.244745+00:00",
       "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
-      "vessel_group": "vessel_group_070",
-      "dhash": "c0e0d0363791e0e0",
+      "vessel_group": "vessel_group_034",
+      "dhash": "d0e0f0da0b6163e0",
       "vessel_aliases": [
-        "cosco vancouver"
+        "cosco sagittarius"
       ],
       "proposals": [
         {
           "bbox_xyxy": [
-            159,
-            159,
-            834,
-            357
+            87,
+            154,
+            930,
+            353
           ],
-          "confidence": 0.8662109375,
+          "confidence": 0.3818359375,
           "detector_class": "boat",
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3282701373100281,
-          "bbox_ratio": 3.409090909090909,
+          "similarity": 0.36926108598709106,
+          "bbox_ratio": 4.236180904522613,
           "ratio_pass": true
         }
       ],
-      "detections": [],
-      "cosine_similarity": 0.3282701373100281,
-      "confidence": 0.8662109375,
-      "target_candidate": false,
-      "annotated_file": "annotated/commons_37867353_COSCO_Vancouver_ship_2004_002.jpg"
+      "detections": [
+        {
+          "bbox_xyxy": [
+            87,
+            154,
+            930,
+            353
+          ],
+          "confidence": 0.3818359375,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.36926108598709106,
+          "bbox_ratio": 4.236180904522613,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
+        }
+      ],
+      "cosine_similarity": 0.36926108598709106,
+      "confidence": 0.3818359375,
+      "target_candidate": true,
+      "annotated_file": "annotated/commons_74879953_BEAGLE_COSCO_SAGITTARIUS_SD_REBEL_ROTTERDAM_46101578611_cropped_.jpg"
     },
     {
       "file": "images/commons_47373759_COSCO_Taicang_ship_2009_001.jpg",
@@ -226,62 +244,34 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3250885605812073,
+          "similarity": 0.35632893443107605,
           "bbox_ratio": 3.893162393162393,
           "ratio_pass": true
         }
       ],
-      "detections": [],
-      "cosine_similarity": 0.3250885605812073,
-      "confidence": 0.2265625,
-      "target_candidate": false,
-      "annotated_file": "annotated/commons_47373759_COSCO_Taicang_ship_2009_001.jpg"
-    },
-    {
-      "file": "images/commons_68409484_COSCO_URANUS_COSCO_ASIA_AKERDIJK_26493482277_.jpg",
-      "title": "File:COSCO URANUS , COSCO ASIA , AKERDIJK (26493482277).jpg",
-      "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_URANUS_,_COSCO_ASIA_,_AKERDIJK_(26493482277).jpg",
-      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/COSCO_URANUS_%2C_COSCO_ASIA_%2C_AKERDIJK_%2826493482277%29.jpg/960px-COSCO_URANUS_%2C_COSCO_ASIA_%2C_AKERDIJK_%2826493482277%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "license": "CC BY-SA 2.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
-      "author": "kees torn",
-      "description": "Euromax terminal 10-4-2018",
-      "sha256": "f3f3cdee274035c45f660401309cff8e7ab01625051787865099e91373a22f6d",
-      "dimensions": [
-        960,
-        454
-      ],
-      "downloaded_utc": "2026-11-12T07:33:32.145980+00:00",
-      "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
-      "vessel_group": "vessel_group_069",
-      "dhash": "e0c8f0c6263479de",
-      "vessel_aliases": [
-        "cosco asia",
-        "cosco uranus"
-      ],
-      "proposals": [
+      "detections": [
         {
           "bbox_xyxy": [
-            646,
-            326,
-            929,
-            382
+            3,
+            207,
+            914,
+            441
           ],
-          "confidence": 0.75537109375,
+          "confidence": 0.2265625,
           "detector_class": "boat",
           "detector_view": "whole",
           "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.32218360900878906,
-          "bbox_ratio": 5.053571428571429,
-          "ratio_pass": true
+          "detector_input_size": 640,
+          "similarity": 0.35632893443107605,
+          "bbox_ratio": 3.893162393162393,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
         }
       ],
-      "detections": [],
-      "cosine_similarity": 0.32218360900878906,
-      "confidence": 0.75537109375,
-      "target_candidate": false,
-      "annotated_file": "annotated/commons_68409484_COSCO_URANUS_COSCO_ASIA_AKERDIJK_26493482277_.jpg"
+      "cosine_similarity": 0.35632893443107605,
+      "confidence": 0.2265625,
+      "target_candidate": true,
+      "annotated_file": "annotated/commons_47373759_COSCO_Taicang_ship_2009_001.jpg"
     },
     {
       "file": "images/commons_25695147_COSCO_Ningbo_03.jpg",
@@ -317,16 +307,289 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3211196959018707,
+          "similarity": 0.35395270586013794,
           "bbox_ratio": 3.484732824427481,
           "ratio_pass": true
         }
       ],
-      "detections": [],
-      "cosine_similarity": 0.3211196959018707,
+      "detections": [
+        {
+          "bbox_xyxy": [
+            37,
+            72,
+            950,
+            334
+          ],
+          "confidence": 0.935546875,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.35395270586013794,
+          "bbox_ratio": 3.484732824427481,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
+        }
+      ],
+      "cosine_similarity": 0.35395270586013794,
       "confidence": 0.935546875,
-      "target_candidate": false,
+      "target_candidate": true,
       "annotated_file": "annotated/commons_25695147_COSCO_Ningbo_03.jpg"
+    },
+    {
+      "file": "images/commons_37867353_COSCO_Vancouver_ship_2004_002.jpg",
+      "title": "File:COSCO Vancouver (ship, 2004) 002.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Vancouver_(ship,_2004)_002.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/COSCO_Vancouver_%28ship%2C_2004%29_002.jpg/960px-COSCO_Vancouver_%28ship%2C_2004%29_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "author": "Skibuff18",
+      "description": "Container ship COSCO Vancouver",
+      "sha256": "4f4c64908ee19c7aba243b697a31d6690e2c8473b3412e9727b0d6e5360efbc9",
+      "dimensions": [
+        960,
+        519
+      ],
+      "downloaded_utc": "2026-11-12T07:33:33.358155+00:00",
+      "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+      "vessel_group": "vessel_group_070",
+      "dhash": "c0e0d0363791e0e0",
+      "vessel_aliases": [
+        "cosco vancouver"
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            159,
+            159,
+            834,
+            357
+          ],
+          "confidence": 0.8662109375,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.3519751727581024,
+          "bbox_ratio": 3.409090909090909,
+          "ratio_pass": true
+        }
+      ],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            159,
+            159,
+            834,
+            357
+          ],
+          "confidence": 0.8662109375,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.3519751727581024,
+          "bbox_ratio": 3.409090909090909,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
+        }
+      ],
+      "cosine_similarity": 0.3519751727581024,
+      "confidence": 0.8662109375,
+      "target_candidate": true,
+      "annotated_file": "annotated/commons_37867353_COSCO_Vancouver_ship_2004_002.jpg"
+    },
+    {
+      "file": "images/commons_92806755_MSC_AJACCIO_MSC_NELA_cropped_.jpg",
+      "title": "File:MSC AJACCIO & MSC NELA (cropped).jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:MSC_AJACCIO_%26_MSC_NELA_(cropped).jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/MSC_AJACCIO_%26_MSC_NELA_%28cropped%29.jpg/960px-MSC_AJACCIO_%26_MSC_NELA_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "author": "kees torn",
+      "description": "16-6-2020 gezien vanaf DE NIEUWE PRINS in Europoort",
+      "sha256": "f67d929c308ec5da7048a0b29a9afaf17110d6c0e53357bb83b46031d4ab9861",
+      "dimensions": [
+        960,
+        432
+      ],
+      "downloaded_utc": "2026-11-12T07:33:54.946970+00:00",
+      "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+      "vessel_group": "vessel_group_086",
+      "dhash": "e080b01f3b3d1db4",
+      "vessel_aliases": [
+        "msc ajaccio",
+        "msc nela"
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            28,
+            76,
+            948,
+            344
+          ],
+          "confidence": 0.32275390625,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.3462473452091217,
+          "bbox_ratio": 3.4328358208955225,
+          "ratio_pass": true
+        }
+      ],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            28,
+            76,
+            948,
+            344
+          ],
+          "confidence": 0.32275390625,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.3462473452091217,
+          "bbox_ratio": 3.4328358208955225,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
+        }
+      ],
+      "cosine_similarity": 0.3462473452091217,
+      "confidence": 0.32275390625,
+      "target_candidate": true,
+      "annotated_file": "annotated/commons_92806755_MSC_AJACCIO_MSC_NELA_cropped_.jpg"
+    },
+    {
+      "file": "images/commons_183474561_COSCO_Shipping_Seine_IMO_9731949_C_Hamburg_16-01-2026_2_.jpg",
+      "title": "File:COSCO Shipping Seine IMO 9731949 C Hamburg 16-01-2026 (2).jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Shipping_Seine_IMO_9731949_C_Hamburg_16-01-2026_(2).jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/COSCO_Shipping_Seine_IMO_9731949_C_Hamburg_16-01-2026_%282%29.jpg/960px-COSCO_Shipping_Seine_IMO_9731949_C_Hamburg_16-01-2026_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "Wolfgang Fricke",
+      "description": "COSCO Shipping Seine 2026 in Hamburg",
+      "sha256": "d1ce3fe727a5a008f22ff27a9d7399cdc94c3f4a3efdc40d43dcb20143b661bc",
+      "dimensions": [
+        960,
+        523
+      ],
+      "downloaded_utc": "2026-11-12T07:33:23.382771+00:00",
+      "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+      "vessel_group": "vessel_group_061",
+      "dhash": "bbbf8c19793f0f2f",
+      "vessel_aliases": [
+        "cosco seine",
+        "imo-9731949"
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            13,
+            147,
+            938,
+            323
+          ],
+          "confidence": 0.357177734375,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.34252673387527466,
+          "bbox_ratio": 5.255681818181818,
+          "ratio_pass": true
+        }
+      ],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            13,
+            147,
+            938,
+            323
+          ],
+          "confidence": 0.357177734375,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.34252673387527466,
+          "bbox_ratio": 5.255681818181818,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
+        }
+      ],
+      "cosine_similarity": 0.34252673387527466,
+      "confidence": 0.357177734375,
+      "target_candidate": true,
+      "annotated_file": "annotated/commons_183474561_COSCO_Shipping_Seine_IMO_9731949_C_Hamburg_16-01-2026_2_.jpg"
+    },
+    {
+      "file": "images/commons_63604225_FAIRPLAY_XI_MAERSK_NORTHWOOD_MAERSK_NIENBURG_29279265506_.jpg",
+      "title": "File:FAIRPLAY XI , MAERSK NORTHWOOD & MAERSK NIENBURG (29279265506).jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:FAIRPLAY_XI_,_MAERSK_NORTHWOOD_%26_MAERSK_NIENBURG_(29279265506).jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/FAIRPLAY_XI_%2C_MAERSK_NORTHWOOD_%26_MAERSK_NIENBURG_%2829279265506%29.jpg/960px-FAIRPLAY_XI_%2C_MAERSK_NORTHWOOD_%26_MAERSK_NIENBURG_%2829279265506%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "author": "kees torn",
+      "description": "FAIRPLAY XI , MAERSK NORTHWOOD &amp; MAERSK NIENBURG",
+      "sha256": "fc99f81483363085cb1fd76d75f1b92e0c168712b0031e707c1e2a4b6b99347d",
+      "dimensions": [
+        960,
+        424
+      ],
+      "downloaded_utc": "2026-11-12T07:32:38.659122+00:00",
+      "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+      "vessel_group": "vessel_group_021",
+      "dhash": "9cd26437ee95819e",
+      "vessel_aliases": [
+        "maersk nienburg",
+        "maersk northwood"
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            333,
+            231,
+            807,
+            367
+          ],
+          "confidence": 0.28515625,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.3413454294204712,
+          "bbox_ratio": 3.485294117647059,
+          "ratio_pass": true
+        }
+      ],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            333,
+            231,
+            807,
+            367
+          ],
+          "confidence": 0.28515625,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 1280,
+          "similarity": 0.3413454294204712,
+          "bbox_ratio": 3.485294117647059,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
+        }
+      ],
+      "cosine_similarity": 0.3413454294204712,
+      "confidence": 0.28515625,
+      "target_candidate": true,
+      "annotated_file": "annotated/commons_63604225_FAIRPLAY_XI_MAERSK_NORTHWOOD_MAERSK_NIENBURG_29279265506_.jpg"
     },
     {
       "file": "images/commons_63580180_MAERSK_NEWHAVEN_JPO_VULPECULA_MAJESTIC_MAERSK_SVEN_D_24133691965_.jpg",
@@ -363,61 +626,161 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.31841132044792175,
+          "similarity": 0.33605635166168213,
           "bbox_ratio": 3.425,
           "ratio_pass": true
         }
       ],
-      "detections": [],
-      "cosine_similarity": 0.31841132044792175,
-      "confidence": 0.90283203125,
-      "target_candidate": false,
-      "annotated_file": "annotated/commons_63580180_MAERSK_NEWHAVEN_JPO_VULPECULA_MAJESTIC_MAERSK_SVEN_D_24133691965_.jpg"
-    },
-    {
-      "file": "images/commons_63580735_COSCO_TAICANG_PRIDE_OF_HULL_16731868362_.jpg",
-      "title": "File:COSCO TAICANG & PRIDE OF HULL (16731868362).jpg",
-      "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_TAICANG_%26_PRIDE_OF_HULL_(16731868362).jpg",
-      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/COSCO_TAICANG_%26_PRIDE_OF_HULL_%2816731868362%29.jpg/960px-COSCO_TAICANG_%26_PRIDE_OF_HULL_%2816731868362%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "license": "CC BY-SA 2.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
-      "author": "kees torn",
-      "description": "Beerkanaal / Calandkanaal 5-3-2015",
-      "sha256": "f7d4397cbbb2debbfad92898550ed650c6427cf7221a7b6694dc804ed314f30c",
-      "dimensions": [
-        960,
-        507
-      ],
-      "downloaded_utc": "2026-11-12T07:33:28.779246+00:00",
-      "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
-      "vessel_group": "vessel_group_003",
-      "dhash": "82800080a1830899",
-      "vessel_aliases": [
-        "cosco taicang"
-      ],
-      "proposals": [
+      "detections": [
         {
           "bbox_xyxy": [
-            333,
-            235,
-            954,
-            378
+            12,
+            215,
+            423,
+            335
           ],
-          "confidence": 0.74267578125,
+          "confidence": 0.90283203125,
           "detector_class": "boat",
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.31759825348854065,
-          "bbox_ratio": 4.3426573426573425,
+          "similarity": 0.33605635166168213,
+          "bbox_ratio": 3.425,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
+        }
+      ],
+      "cosine_similarity": 0.33605635166168213,
+      "confidence": 0.90283203125,
+      "target_candidate": true,
+      "annotated_file": "annotated/commons_63580180_MAERSK_NEWHAVEN_JPO_VULPECULA_MAJESTIC_MAERSK_SVEN_D_24133691965_.jpg"
+    },
+    {
+      "file": "images/commons_111473604_COSCO_Indonesia_IMO_9448786_C_Hamburg_26-08-2021_2_.jpg",
+      "title": "File:COSCO Indonesia IMO 9448786 C Hamburg 26-08-2021 (2).jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Indonesia_IMO_9448786_C_Hamburg_26-08-2021_(2).jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/COSCO_Indonesia_IMO_9448786_C_Hamburg_26-08-2021_%282%29.jpg/960px-COSCO_Indonesia_IMO_9448786_C_Hamburg_26-08-2021_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "Wolfgang Fricke",
+      "description": "COSCO Indonesia 2021 in Hamburg",
+      "sha256": "8ede06fa0d1d2e1d65b28ff37b3c0a0d94a80da97d06bc8cf7d16ade350ea315",
+      "dimensions": [
+        960,
+        587
+      ],
+      "downloaded_utc": "2026-11-12T07:33:02.670201+00:00",
+      "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+      "vessel_group": "vessel_group_041",
+      "dhash": "c4d70b1b7971fefe",
+      "vessel_aliases": [
+        "cosco indonesia",
+        "imo-9448786"
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            48,
+            107,
+            953,
+            378
+          ],
+          "confidence": 0.58154296875,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.3338378369808197,
+          "bbox_ratio": 3.339483394833948,
           "ratio_pass": true
         }
       ],
-      "detections": [],
-      "cosine_similarity": 0.31759825348854065,
-      "confidence": 0.74267578125,
-      "target_candidate": false,
-      "annotated_file": "annotated/commons_63580735_COSCO_TAICANG_PRIDE_OF_HULL_16731868362_.jpg"
+      "detections": [
+        {
+          "bbox_xyxy": [
+            48,
+            107,
+            953,
+            378
+          ],
+          "confidence": 0.58154296875,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.3338378369808197,
+          "bbox_ratio": 3.339483394833948,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
+        }
+      ],
+      "cosine_similarity": 0.3338378369808197,
+      "confidence": 0.58154296875,
+      "target_candidate": true,
+      "annotated_file": "annotated/commons_111473604_COSCO_Indonesia_IMO_9448786_C_Hamburg_26-08-2021_2_.jpg"
+    },
+    {
+      "file": "images/commons_66361082_COSCO_Shanghai_Fremantle_2018_06_.jpg",
+      "title": "File:COSCO Shanghai, Fremantle, 2018 (06).jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Shanghai,_Fremantle,_2018_(06).jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/COSCO_Shanghai%2C_Fremantle%2C_2018_%2806%29.jpg/960px-COSCO_Shanghai%2C_Fremantle%2C_2018_%2806%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Bahnfrend",
+      "description": "Container ship COSCO Shanghai entering the inner harbour of the Port of Fremantle, Western Australia, on a liner voyage from Port Klang.  Next port: Sydney.",
+      "sha256": "f7663bfba42fc4416a1e7b96d4e0000d80e997bdc0c7049eb8360bd596898b0a",
+      "dimensions": [
+        960,
+        535
+      ],
+      "downloaded_utc": "2026-11-12T07:33:14.791708+00:00",
+      "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+      "vessel_group": "vessel_group_054",
+      "dhash": "136c0333e3150263",
+      "vessel_aliases": [
+        "cosco shanghai"
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            28,
+            86,
+            812,
+            302
+          ],
+          "confidence": 0.72705078125,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.3305545151233673,
+          "bbox_ratio": 3.6296296296296298,
+          "ratio_pass": true
+        }
+      ],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            28,
+            86,
+            812,
+            302
+          ],
+          "confidence": 0.72705078125,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.3305545151233673,
+          "bbox_ratio": 3.6296296296296298,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
+        }
+      ],
+      "cosine_similarity": 0.3305545151233673,
+      "confidence": 0.72705078125,
+      "target_candidate": true,
+      "annotated_file": "annotated/commons_66361082_COSCO_Shanghai_Fremantle_2018_06_.jpg"
     },
     {
       "file": "images/Ship COSCO Portugal (1).jpg",
@@ -453,16 +816,160 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.31622856855392456,
+          "similarity": 0.3221135139465332,
           "bbox_ratio": 3.592057761732852,
           "ratio_pass": true
         }
       ],
-      "detections": [],
-      "cosine_similarity": 0.31622856855392456,
+      "detections": [
+        {
+          "bbox_xyxy": [
+            137,
+            213,
+            1132,
+            490
+          ],
+          "confidence": 0.67529296875,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.3221135139465332,
+          "bbox_ratio": 3.592057761732852,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
+        }
+      ],
+      "cosine_similarity": 0.3221135139465332,
       "confidence": 0.67529296875,
-      "target_candidate": false,
+      "target_candidate": true,
       "annotated_file": "annotated/Ship COSCO Portugal (1).jpg"
+    },
+    {
+      "file": "images/commons_35724522_Clase_Maersk_A-03.jpg",
+      "title": "File:Clase Maersk A-03.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Clase_Maersk_A-03.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Clase_Maersk_A-03.jpg/960px-Clase_Maersk_A-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "\n\n\n\n\n\nThis file is a work by Takashi kurita.Please, credit this: \u00c1lvaro C.E.\n I would appreciate being notified (acantos30hotmail.com) if you use my work outside Wikimedia\nMore of my work can be found in my personal gallery\n\n",
+      "description": "Buque de la clase Maersk A en el puerto de Algeciras el 24 de septiembre de 2014",
+      "sha256": "25650b8c390cedcdb717717062ba0ef702832e697000fc1ebae27607354678c1",
+      "dimensions": [
+        960,
+        720
+      ],
+      "downloaded_utc": "2026-11-12T07:32:34.308827+00:00",
+      "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+      "vessel_group": "vessel_group_017",
+      "dhash": "ecc0e08e0ec8c04c",
+      "vessel_aliases": [
+        "maersk a"
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            312,
+            290,
+            723,
+            392
+          ],
+          "confidence": 0.9091796875,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.318308562040329,
+          "bbox_ratio": 4.029411764705882,
+          "ratio_pass": true
+        }
+      ],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            312,
+            290,
+            723,
+            392
+          ],
+          "confidence": 0.9091796875,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.318308562040329,
+          "bbox_ratio": 4.029411764705882,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
+        }
+      ],
+      "cosine_similarity": 0.318308562040329,
+      "confidence": 0.9091796875,
+      "target_candidate": true,
+      "annotated_file": "annotated/commons_35724522_Clase_Maersk_A-03.jpg"
+    },
+    {
+      "file": "images/Maersk kalamata seattle 20101127.jpg",
+      "title": "File:Maersk kalamata seattle 20101127.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Maersk_kalamata_seattle_20101127.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Maersk_kalamata_seattle_20101127.jpg/1280px-Maersk_kalamata_seattle_20101127.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Ozymandias42",
+      "description": "Photograph of the MAERSK KALAMATA, a container ship of the Maersk Line.  The marking on the ship reads \"Maersk Line\" in large letters, and \"Maersk Kalamata\" near the bow.",
+      "sha256": "e0a40d9c75722317099d9d84abc551bd467c500cdfe26fd1525adbbb9eedc9a7",
+      "dimensions": [
+        1280,
+        417
+      ],
+      "downloaded_utc": "2026-11-12T03:39:40.943556+00:00",
+      "label_basis": "Commons identifies a non-Evergreen vessel; target IMO not supplied",
+      "vessel_group": "vessel_group_005",
+      "dhash": "c0e0c201297d717f",
+      "vessel_aliases": [
+        "maersk kalamata"
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            38,
+            175,
+            1271,
+            376
+          ],
+          "confidence": 0.457275390625,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.3177686929702759,
+          "bbox_ratio": 6.134328358208955,
+          "ratio_pass": true
+        }
+      ],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            38,
+            175,
+            1271,
+            376
+          ],
+          "confidence": 0.457275390625,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.3177686929702759,
+          "bbox_ratio": 6.134328358208955,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
+        }
+      ],
+      "cosine_similarity": 0.3177686929702759,
+      "confidence": 0.457275390625,
+      "target_candidate": true,
+      "annotated_file": "annotated/Maersk kalamata seattle 20101127.jpg"
     },
     {
       "file": "images/commons_103832373_COSCO_ARIES_COSCO_UNIVERSE_50305732612_.jpg",
@@ -499,106 +1006,224 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3072381615638733,
+          "similarity": 0.31758394837379456,
           "bbox_ratio": 3.5872093023255816,
           "ratio_pass": true
         }
       ],
-      "detections": [],
-      "cosine_similarity": 0.3072381615638733,
+      "detections": [
+        {
+          "bbox_xyxy": [
+            27,
+            189,
+            644,
+            361
+          ],
+          "confidence": 0.87451171875,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.31758394837379456,
+          "bbox_ratio": 3.5872093023255816,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
+        }
+      ],
+      "cosine_similarity": 0.31758394837379456,
       "confidence": 0.87451171875,
-      "target_candidate": false,
+      "target_candidate": true,
       "annotated_file": "annotated/commons_103832373_COSCO_ARIES_COSCO_UNIVERSE_50305732612_.jpg"
     },
     {
-      "file": "images/commons_74879953_BEAGLE_COSCO_SAGITTARIUS_SD_REBEL_ROTTERDAM_46101578611_cropped_.jpg",
-      "title": "File:BEAGLE , COSCO SAGITTARIUS , SD REBEL & ROTTERDAM (46101578611) (cropped).jpg",
-      "source_page": "https://commons.wikimedia.org/wiki/File:BEAGLE_,_COSCO_SAGITTARIUS_,_SD_REBEL_%26_ROTTERDAM_(46101578611)_(cropped).jpg",
-      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/BEAGLE_%2C_COSCO_SAGITTARIUS_%2C_SD_REBEL_%26_ROTTERDAM_%2846101578611%29_%28cropped%29.jpg/960px-BEAGLE_%2C_COSCO_SAGITTARIUS_%2C_SD_REBEL_%26_ROTTERDAM_%2846101578611%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "license": "CC BY-SA 2.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
-      "author": "kees torn",
-      "description": "29-11-2018 eerste bezoek aan Rotterdam van de COSCO SAGITTARIUS (2018)",
-      "sha256": "c1705076728357f6c6340b5e2ca685bcb48f83996e9e4c60869858182e6932b2",
+      "file": "images/commons_35724523_Clase_Maersk_A-05.jpg",
+      "title": "File:Clase Maersk A-05.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Clase_Maersk_A-05.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Clase_Maersk_A-05.jpg/960px-Clase_Maersk_A-05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "\n\n\n\n\n\nThis file is a work by Takashi kurita.Please, credit this: \u00c1lvaro C.E.\n I would appreciate being notified (acantos30hotmail.com) if you use my work outside Wikimedia\nMore of my work can be found in my personal gallery\n\n",
+      "description": "Buque de la clase Maersk A en el puerto de Algeciras el 24 de septiembre de 2014",
+      "sha256": "dd911ffb3a162547313c8bb5dac84c6f11b8164d3e98cae111f13fc290c2599c",
       "dimensions": [
         960,
-        433
+        720
       ],
-      "downloaded_utc": "2026-11-12T07:32:51.244745+00:00",
+      "downloaded_utc": "2026-11-12T07:32:36.419231+00:00",
       "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
-      "vessel_group": "vessel_group_034",
-      "dhash": "d0e0f0da0b6163e0",
+      "vessel_group": "vessel_group_017",
+      "dhash": "32f0f89f1f383033",
       "vessel_aliases": [
-        "cosco sagittarius"
+        "maersk a"
       ],
       "proposals": [
         {
           "bbox_xyxy": [
-            87,
-            154,
-            930,
-            353
+            215,
+            250,
+            856,
+            374
           ],
-          "confidence": 0.3818359375,
+          "confidence": 0.57373046875,
           "detector_class": "boat",
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3053501546382904,
-          "bbox_ratio": 4.236180904522613,
+          "similarity": 0.31586453318595886,
+          "bbox_ratio": 5.169354838709677,
           "ratio_pass": true
         }
       ],
-      "detections": [],
-      "cosine_similarity": 0.3053501546382904,
-      "confidence": 0.3818359375,
-      "target_candidate": false,
-      "annotated_file": "annotated/commons_74879953_BEAGLE_COSCO_SAGITTARIUS_SD_REBEL_ROTTERDAM_46101578611_cropped_.jpg"
+      "detections": [
+        {
+          "bbox_xyxy": [
+            215,
+            250,
+            856,
+            374
+          ],
+          "confidence": 0.57373046875,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.31586453318595886,
+          "bbox_ratio": 5.169354838709677,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
+        }
+      ],
+      "cosine_similarity": 0.31586453318595886,
+      "confidence": 0.57373046875,
+      "target_candidate": true,
+      "annotated_file": "annotated/commons_35724523_Clase_Maersk_A-05.jpg"
     },
     {
-      "file": "images/Maersk kalamata seattle 20101127.jpg",
-      "title": "File:Maersk kalamata seattle 20101127.jpg",
-      "source_page": "https://commons.wikimedia.org/wiki/File:Maersk_kalamata_seattle_20101127.jpg",
-      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Maersk_kalamata_seattle_20101127.jpg/1280px-Maersk_kalamata_seattle_20101127.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "license": "CC BY-SA 3.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-      "author": "Ozymandias42",
-      "description": "Photograph of the MAERSK KALAMATA, a container ship of the Maersk Line.  The marking on the ship reads \"Maersk Line\" in large letters, and \"Maersk Kalamata\" near the bow.",
-      "sha256": "e0a40d9c75722317099d9d84abc551bd467c500cdfe26fd1525adbbb9eedc9a7",
+      "file": "images/commons_122754061_COSCO_Shipping_Solar_IMO_9795646_C_Hamburg_24-08-2022_1_.jpg",
+      "title": "File:COSCO Shipping Solar IMO 9795646 C Hamburg 24-08-2022 (1).jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Shipping_Solar_IMO_9795646_C_Hamburg_24-08-2022_(1).jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/COSCO_Shipping_Solar_IMO_9795646_C_Hamburg_24-08-2022_%281%29.jpg/960px-COSCO_Shipping_Solar_IMO_9795646_C_Hamburg_24-08-2022_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "Wolfgang Fricke",
+      "description": "COSCO Shipping Solar 2022 in Hamburg",
+      "sha256": "3f68e7e371d5fde92fb3a0e273f6afa8f9a479d0cc860899cf326b5f4eb825ad",
       "dimensions": [
-        1280,
-        417
+        960,
+        645
       ],
-      "downloaded_utc": "2026-11-12T03:39:40.943556+00:00",
-      "label_basis": "Commons identifies a non-Evergreen vessel; target IMO not supplied",
-      "vessel_group": "vessel_group_005",
-      "dhash": "c0e0c201297d717f",
+      "downloaded_utc": "2026-11-12T07:33:24.141969+00:00",
+      "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+      "vessel_group": "vessel_group_062",
+      "dhash": "8c0e0f0d1f8f4f20",
       "vessel_aliases": [
-        "maersk kalamata"
+        "cosco solar",
+        "imo-9795646"
       ],
       "proposals": [
         {
           "bbox_xyxy": [
-            38,
-            175,
-            1271,
-            376
+            85,
+            272,
+            944,
+            511
           ],
-          "confidence": 0.457275390625,
+          "confidence": 0.841796875,
           "detector_class": "boat",
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3048288822174072,
-          "bbox_ratio": 6.134328358208955,
+          "similarity": 0.3108327388763428,
+          "bbox_ratio": 3.594142259414226,
           "ratio_pass": true
         }
       ],
-      "detections": [],
-      "cosine_similarity": 0.3048288822174072,
-      "confidence": 0.457275390625,
-      "target_candidate": false,
-      "annotated_file": "annotated/Maersk kalamata seattle 20101127.jpg"
+      "detections": [
+        {
+          "bbox_xyxy": [
+            85,
+            272,
+            944,
+            511
+          ],
+          "confidence": 0.841796875,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.3108327388763428,
+          "bbox_ratio": 3.594142259414226,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
+        }
+      ],
+      "cosine_similarity": 0.3108327388763428,
+      "confidence": 0.841796875,
+      "target_candidate": true,
+      "annotated_file": "annotated/commons_122754061_COSCO_Shipping_Solar_IMO_9795646_C_Hamburg_24-08-2022_1_.jpg"
+    },
+    {
+      "file": "images/commons_145293651_MSC_HARMONY_III_container_ship_2006_in_Port_Koper_SIKOP_2024_.jpg",
+      "title": "File:MSC HARMONY III (container ship, 2006) in Port Koper (SIKOP, 2024).jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:MSC_HARMONY_III_(container_ship,_2006)_in_Port_Koper_(SIKOP,_2024).jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/MSC_HARMONY_III_%28container_ship%2C_2006%29_in_Port_Koper_%28SIKOP%2C_2024%29.jpg/960px-MSC_HARMONY_III_%28container_ship%2C_2006%29_in_Port_Koper_%28SIKOP%2C_2024%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Petar Milo\u0161evi\u0107",
+      "description": "MSC HARMONY III (container ship, 2006, IMO 9309411) in Port Koper (SIKOP, 2024)",
+      "sha256": "e603f83a31339edd8d781d452cdddc76215ae5a31b7f07cf8e3c34a9d485029b",
+      "dimensions": [
+        960,
+        631
+      ],
+      "downloaded_utc": "2026-11-12T07:35:23.247458+00:00",
+      "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+      "vessel_group": "vessel_group_097",
+      "dhash": "0b0be149a9c14169",
+      "vessel_aliases": [
+        "msc harmony"
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            99,
+            320,
+            942,
+            538
+          ],
+          "confidence": 0.4169921875,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.3071135878562927,
+          "bbox_ratio": 3.86697247706422,
+          "ratio_pass": true
+        }
+      ],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            99,
+            320,
+            942,
+            538
+          ],
+          "confidence": 0.4169921875,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.3071135878562927,
+          "bbox_ratio": 3.86697247706422,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
+        }
+      ],
+      "cosine_similarity": 0.3071135878562927,
+      "confidence": 0.4169921875,
+      "target_candidate": true,
+      "annotated_file": "annotated/commons_145293651_MSC_HARMONY_III_container_ship_2006_in_Port_Koper_SIKOP_2024_.jpg"
     },
     {
       "file": "images/commons_63580446_MARSTAL_MAERSK_MORTEN_MAERSK_MAERSK_ROSYTH_18263325183_.jpg",
@@ -636,61 +1261,34 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.2980099320411682,
+          "similarity": 0.3067857325077057,
           "bbox_ratio": 3.4378109452736316,
           "ratio_pass": true
         }
       ],
-      "detections": [],
-      "cosine_similarity": 0.2980099320411682,
-      "confidence": 0.896484375,
-      "target_candidate": false,
-      "annotated_file": "annotated/commons_63580446_MARSTAL_MAERSK_MORTEN_MAERSK_MAERSK_ROSYTH_18263325183_.jpg"
-    },
-    {
-      "file": "images/commons_35724522_Clase_Maersk_A-03.jpg",
-      "title": "File:Clase Maersk A-03.jpg",
-      "source_page": "https://commons.wikimedia.org/wiki/File:Clase_Maersk_A-03.jpg",
-      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Clase_Maersk_A-03.jpg/960px-Clase_Maersk_A-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "author": "\n\n\n\n\n\nThis file is a work by Takashi kurita.Please, credit this: \u00c1lvaro C.E.\n I would appreciate being notified (acantos30hotmail.com) if you use my work outside Wikimedia\nMore of my work can be found in my personal gallery\n\n",
-      "description": "Buque de la clase Maersk A en el puerto de Algeciras el 24 de septiembre de 2014",
-      "sha256": "25650b8c390cedcdb717717062ba0ef702832e697000fc1ebae27607354678c1",
-      "dimensions": [
-        960,
-        720
-      ],
-      "downloaded_utc": "2026-11-12T07:32:34.308827+00:00",
-      "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
-      "vessel_group": "vessel_group_017",
-      "dhash": "ecc0e08e0ec8c04c",
-      "vessel_aliases": [
-        "maersk a"
-      ],
-      "proposals": [
+      "detections": [
         {
           "bbox_xyxy": [
-            312,
-            290,
-            723,
-            392
+            257,
+            179,
+            948,
+            380
           ],
-          "confidence": 0.9091796875,
+          "confidence": 0.896484375,
           "detector_class": "boat",
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.29082709550857544,
-          "bbox_ratio": 4.029411764705882,
-          "ratio_pass": true
+          "similarity": 0.3067857325077057,
+          "bbox_ratio": 3.4378109452736316,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
         }
       ],
-      "detections": [],
-      "cosine_similarity": 0.29082709550857544,
-      "confidence": 0.9091796875,
-      "target_candidate": false,
-      "annotated_file": "annotated/commons_35724522_Clase_Maersk_A-03.jpg"
+      "cosine_similarity": 0.3067857325077057,
+      "confidence": 0.896484375,
+      "target_candidate": true,
+      "annotated_file": "annotated/commons_63580446_MARSTAL_MAERSK_MORTEN_MAERSK_MAERSK_ROSYTH_18263325183_.jpg"
     },
     {
       "file": "images/commons_97708649_COSCO_SCORPIO_NEBULA_50563157757_.jpg",
@@ -726,472 +1324,98 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.2829729914665222,
+          "similarity": 0.3011161684989929,
           "bbox_ratio": 4.601503759398496,
           "ratio_pass": true
         }
       ],
-      "detections": [],
-      "cosine_similarity": 0.2829729914665222,
+      "detections": [
+        {
+          "bbox_xyxy": [
+            324,
+            246,
+            936,
+            379
+          ],
+          "confidence": 0.475830078125,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.3011161684989929,
+          "bbox_ratio": 4.601503759398496,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
+        }
+      ],
+      "cosine_similarity": 0.3011161684989929,
       "confidence": 0.475830078125,
-      "target_candidate": false,
+      "target_candidate": true,
       "annotated_file": "annotated/commons_97708649_COSCO_SCORPIO_NEBULA_50563157757_.jpg"
     },
     {
-      "file": "images/commons_111473604_COSCO_Indonesia_IMO_9448786_C_Hamburg_26-08-2021_2_.jpg",
-      "title": "File:COSCO Indonesia IMO 9448786 C Hamburg 26-08-2021 (2).jpg",
-      "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Indonesia_IMO_9448786_C_Hamburg_26-08-2021_(2).jpg",
-      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/COSCO_Indonesia_IMO_9448786_C_Hamburg_26-08-2021_%282%29.jpg/960px-COSCO_Indonesia_IMO_9448786_C_Hamburg_26-08-2021_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "license": "CC BY 3.0",
-      "license_url": "https://creativecommons.org/licenses/by/3.0",
-      "author": "Wolfgang Fricke",
-      "description": "COSCO Indonesia 2021 in Hamburg",
-      "sha256": "8ede06fa0d1d2e1d65b28ff37b3c0a0d94a80da97d06bc8cf7d16ade350ea315",
-      "dimensions": [
-        960,
-        587
-      ],
-      "downloaded_utc": "2026-11-12T07:33:02.670201+00:00",
-      "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
-      "vessel_group": "vessel_group_041",
-      "dhash": "c4d70b1b7971fefe",
-      "vessel_aliases": [
-        "cosco indonesia",
-        "imo-9448786"
-      ],
-      "proposals": [
-        {
-          "bbox_xyxy": [
-            48,
-            107,
-            953,
-            378
-          ],
-          "confidence": 0.58154296875,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.2785416841506958,
-          "bbox_ratio": 3.339483394833948,
-          "ratio_pass": true
-        }
-      ],
-      "detections": [],
-      "cosine_similarity": 0.2785416841506958,
-      "confidence": 0.58154296875,
-      "target_candidate": false,
-      "annotated_file": "annotated/commons_111473604_COSCO_Indonesia_IMO_9448786_C_Hamburg_26-08-2021_2_.jpg"
-    },
-    {
-      "file": "images/commons_92806755_MSC_AJACCIO_MSC_NELA_cropped_.jpg",
-      "title": "File:MSC AJACCIO & MSC NELA (cropped).jpg",
-      "source_page": "https://commons.wikimedia.org/wiki/File:MSC_AJACCIO_%26_MSC_NELA_(cropped).jpg",
-      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/MSC_AJACCIO_%26_MSC_NELA_%28cropped%29.jpg/960px-MSC_AJACCIO_%26_MSC_NELA_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "file": "images/commons_68409484_COSCO_URANUS_COSCO_ASIA_AKERDIJK_26493482277_.jpg",
+      "title": "File:COSCO URANUS , COSCO ASIA , AKERDIJK (26493482277).jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_URANUS_,_COSCO_ASIA_,_AKERDIJK_(26493482277).jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/COSCO_URANUS_%2C_COSCO_ASIA_%2C_AKERDIJK_%2826493482277%29.jpg/960px-COSCO_URANUS_%2C_COSCO_ASIA_%2C_AKERDIJK_%2826493482277%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "license": "CC BY-SA 2.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
       "author": "kees torn",
-      "description": "16-6-2020 gezien vanaf DE NIEUWE PRINS in Europoort",
-      "sha256": "f67d929c308ec5da7048a0b29a9afaf17110d6c0e53357bb83b46031d4ab9861",
+      "description": "Euromax terminal 10-4-2018",
+      "sha256": "f3f3cdee274035c45f660401309cff8e7ab01625051787865099e91373a22f6d",
       "dimensions": [
         960,
-        432
+        454
       ],
-      "downloaded_utc": "2026-11-12T07:33:54.946970+00:00",
+      "downloaded_utc": "2026-11-12T07:33:32.145980+00:00",
       "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
-      "vessel_group": "vessel_group_086",
-      "dhash": "e080b01f3b3d1db4",
+      "vessel_group": "vessel_group_069",
+      "dhash": "e0c8f0c6263479de",
       "vessel_aliases": [
-        "msc ajaccio",
-        "msc nela"
+        "cosco asia",
+        "cosco uranus"
       ],
       "proposals": [
         {
           "bbox_xyxy": [
-            28,
-            76,
-            948,
-            344
+            646,
+            326,
+            929,
+            382
           ],
-          "confidence": 0.32275390625,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.27828729152679443,
-          "bbox_ratio": 3.4328358208955225,
-          "ratio_pass": true
-        }
-      ],
-      "detections": [],
-      "cosine_similarity": 0.27828729152679443,
-      "confidence": 0.32275390625,
-      "target_candidate": false,
-      "annotated_file": "annotated/commons_92806755_MSC_AJACCIO_MSC_NELA_cropped_.jpg"
-    },
-    {
-      "file": "images/commons_63604225_FAIRPLAY_XI_MAERSK_NORTHWOOD_MAERSK_NIENBURG_29279265506_.jpg",
-      "title": "File:FAIRPLAY XI , MAERSK NORTHWOOD & MAERSK NIENBURG (29279265506).jpg",
-      "source_page": "https://commons.wikimedia.org/wiki/File:FAIRPLAY_XI_,_MAERSK_NORTHWOOD_%26_MAERSK_NIENBURG_(29279265506).jpg",
-      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/FAIRPLAY_XI_%2C_MAERSK_NORTHWOOD_%26_MAERSK_NIENBURG_%2829279265506%29.jpg/960px-FAIRPLAY_XI_%2C_MAERSK_NORTHWOOD_%26_MAERSK_NIENBURG_%2829279265506%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "license": "CC BY-SA 2.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
-      "author": "kees torn",
-      "description": "FAIRPLAY XI , MAERSK NORTHWOOD &amp; MAERSK NIENBURG",
-      "sha256": "fc99f81483363085cb1fd76d75f1b92e0c168712b0031e707c1e2a4b6b99347d",
-      "dimensions": [
-        960,
-        424
-      ],
-      "downloaded_utc": "2026-11-12T07:32:38.659122+00:00",
-      "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
-      "vessel_group": "vessel_group_021",
-      "dhash": "9cd26437ee95819e",
-      "vessel_aliases": [
-        "maersk nienburg",
-        "maersk northwood"
-      ],
-      "proposals": [
-        {
-          "bbox_xyxy": [
-            333,
-            231,
-            807,
-            367
-          ],
-          "confidence": 0.28515625,
+          "confidence": 0.75537109375,
           "detector_class": "boat",
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.2743382155895233,
-          "bbox_ratio": 3.485294117647059,
+          "similarity": 0.2844581604003906,
+          "bbox_ratio": 5.053571428571429,
           "ratio_pass": true
         }
       ],
-      "detections": [],
-      "cosine_similarity": 0.2743382155895233,
-      "confidence": 0.28515625,
-      "target_candidate": false,
-      "annotated_file": "annotated/commons_63604225_FAIRPLAY_XI_MAERSK_NORTHWOOD_MAERSK_NIENBURG_29279265506_.jpg"
-    },
-    {
-      "file": "images/commons_118778405_MSC_Grandiosa_leaving_Kiel_XV.jpg",
-      "title": "File:MSC Grandiosa leaving Kiel XV.jpg",
-      "source_page": "https://commons.wikimedia.org/wiki/File:MSC_Grandiosa_leaving_Kiel_XV.jpg",
-      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/MSC_Grandiosa_leaving_Kiel_XV.jpg/960px-MSC_Grandiosa_leaving_Kiel_XV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "author": "HenSti",
-      "description": "MSC Grandiosa leaving Kiel, Ostuferhafen.",
-      "sha256": "5803b7526dd0971b350ad82d5e5bc3a4e5deadbc8552f0bd5d9267f11f47a5cc",
-      "dimensions": [
-        960,
-        720
-      ],
-      "downloaded_utc": "2026-11-12T07:35:22.537572+00:00",
-      "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
-      "vessel_group": "vessel_group_096",
-      "dhash": "05060926c4c4c4c0",
-      "vessel_aliases": [
-        "msc grandiosa"
-      ],
-      "proposals": [
+      "detections": [
         {
           "bbox_xyxy": [
-            144,
-            292,
-            798,
-            470
+            646,
+            326,
+            929,
+            382
           ],
-          "confidence": 0.92431640625,
+          "confidence": 0.75537109375,
           "detector_class": "boat",
           "detector_view": "whole",
           "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.2708800137042999,
-          "bbox_ratio": 3.6741573033707864,
-          "ratio_pass": true
+          "detector_input_size": 1280,
+          "similarity": 0.2844581604003906,
+          "bbox_ratio": 5.053571428571429,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
         }
       ],
-      "detections": [],
-      "cosine_similarity": 0.2708800137042999,
-      "confidence": 0.92431640625,
-      "target_candidate": false,
-      "annotated_file": "annotated/commons_118778405_MSC_Grandiosa_leaving_Kiel_XV.jpg"
-    },
-    {
-      "file": "images/commons_145293651_MSC_HARMONY_III_container_ship_2006_in_Port_Koper_SIKOP_2024_.jpg",
-      "title": "File:MSC HARMONY III (container ship, 2006) in Port Koper (SIKOP, 2024).jpg",
-      "source_page": "https://commons.wikimedia.org/wiki/File:MSC_HARMONY_III_(container_ship,_2006)_in_Port_Koper_(SIKOP,_2024).jpg",
-      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/MSC_HARMONY_III_%28container_ship%2C_2006%29_in_Port_Koper_%28SIKOP%2C_2024%29.jpg/960px-MSC_HARMONY_III_%28container_ship%2C_2006%29_in_Port_Koper_%28SIKOP%2C_2024%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "author": "Petar Milo\u0161evi\u0107",
-      "description": "MSC HARMONY III (container ship, 2006, IMO 9309411) in Port Koper (SIKOP, 2024)",
-      "sha256": "e603f83a31339edd8d781d452cdddc76215ae5a31b7f07cf8e3c34a9d485029b",
-      "dimensions": [
-        960,
-        631
-      ],
-      "downloaded_utc": "2026-11-12T07:35:23.247458+00:00",
-      "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
-      "vessel_group": "vessel_group_097",
-      "dhash": "0b0be149a9c14169",
-      "vessel_aliases": [
-        "msc harmony"
-      ],
-      "proposals": [
-        {
-          "bbox_xyxy": [
-            99,
-            320,
-            942,
-            538
-          ],
-          "confidence": 0.4169921875,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.2697325348854065,
-          "bbox_ratio": 3.86697247706422,
-          "ratio_pass": true
-        }
-      ],
-      "detections": [],
-      "cosine_similarity": 0.2697325348854065,
-      "confidence": 0.4169921875,
-      "target_candidate": false,
-      "annotated_file": "annotated/commons_145293651_MSC_HARMONY_III_container_ship_2006_in_Port_Koper_SIKOP_2024_.jpg"
-    },
-    {
-      "file": "images/commons_35724523_Clase_Maersk_A-05.jpg",
-      "title": "File:Clase Maersk A-05.jpg",
-      "source_page": "https://commons.wikimedia.org/wiki/File:Clase_Maersk_A-05.jpg",
-      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Clase_Maersk_A-05.jpg/960px-Clase_Maersk_A-05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "author": "\n\n\n\n\n\nThis file is a work by Takashi kurita.Please, credit this: \u00c1lvaro C.E.\n I would appreciate being notified (acantos30hotmail.com) if you use my work outside Wikimedia\nMore of my work can be found in my personal gallery\n\n",
-      "description": "Buque de la clase Maersk A en el puerto de Algeciras el 24 de septiembre de 2014",
-      "sha256": "dd911ffb3a162547313c8bb5dac84c6f11b8164d3e98cae111f13fc290c2599c",
-      "dimensions": [
-        960,
-        720
-      ],
-      "downloaded_utc": "2026-11-12T07:32:36.419231+00:00",
-      "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
-      "vessel_group": "vessel_group_017",
-      "dhash": "32f0f89f1f383033",
-      "vessel_aliases": [
-        "maersk a"
-      ],
-      "proposals": [
-        {
-          "bbox_xyxy": [
-            215,
-            250,
-            856,
-            374
-          ],
-          "confidence": 0.57373046875,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.2647756040096283,
-          "bbox_ratio": 5.169354838709677,
-          "ratio_pass": true
-        }
-      ],
-      "detections": [],
-      "cosine_similarity": 0.2647756040096283,
-      "confidence": 0.57373046875,
-      "target_candidate": false,
-      "annotated_file": "annotated/commons_35724523_Clase_Maersk_A-05.jpg"
-    },
-    {
-      "file": "images/commons_183474561_COSCO_Shipping_Seine_IMO_9731949_C_Hamburg_16-01-2026_2_.jpg",
-      "title": "File:COSCO Shipping Seine IMO 9731949 C Hamburg 16-01-2026 (2).jpg",
-      "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Shipping_Seine_IMO_9731949_C_Hamburg_16-01-2026_(2).jpg",
-      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/COSCO_Shipping_Seine_IMO_9731949_C_Hamburg_16-01-2026_%282%29.jpg/960px-COSCO_Shipping_Seine_IMO_9731949_C_Hamburg_16-01-2026_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "license": "CC BY 3.0",
-      "license_url": "https://creativecommons.org/licenses/by/3.0",
-      "author": "Wolfgang Fricke",
-      "description": "COSCO Shipping Seine 2026 in Hamburg",
-      "sha256": "d1ce3fe727a5a008f22ff27a9d7399cdc94c3f4a3efdc40d43dcb20143b661bc",
-      "dimensions": [
-        960,
-        523
-      ],
-      "downloaded_utc": "2026-11-12T07:33:23.382771+00:00",
-      "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
-      "vessel_group": "vessel_group_061",
-      "dhash": "bbbf8c19793f0f2f",
-      "vessel_aliases": [
-        "cosco seine",
-        "imo-9731949"
-      ],
-      "proposals": [
-        {
-          "bbox_xyxy": [
-            13,
-            147,
-            938,
-            323
-          ],
-          "confidence": 0.357177734375,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.24837666749954224,
-          "bbox_ratio": 5.255681818181818,
-          "ratio_pass": true
-        }
-      ],
-      "detections": [],
-      "cosine_similarity": 0.24837666749954224,
-      "confidence": 0.357177734375,
-      "target_candidate": false,
-      "annotated_file": "annotated/commons_183474561_COSCO_Shipping_Seine_IMO_9731949_C_Hamburg_16-01-2026_2_.jpg"
-    },
-    {
-      "file": "images/commons_66361082_COSCO_Shanghai_Fremantle_2018_06_.jpg",
-      "title": "File:COSCO Shanghai, Fremantle, 2018 (06).jpg",
-      "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Shanghai,_Fremantle,_2018_(06).jpg",
-      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/COSCO_Shanghai%2C_Fremantle%2C_2018_%2806%29.jpg/960px-COSCO_Shanghai%2C_Fremantle%2C_2018_%2806%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "author": "Bahnfrend",
-      "description": "Container ship COSCO Shanghai entering the inner harbour of the Port of Fremantle, Western Australia, on a liner voyage from Port Klang.  Next port: Sydney.",
-      "sha256": "f7663bfba42fc4416a1e7b96d4e0000d80e997bdc0c7049eb8360bd596898b0a",
-      "dimensions": [
-        960,
-        535
-      ],
-      "downloaded_utc": "2026-11-12T07:33:14.791708+00:00",
-      "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
-      "vessel_group": "vessel_group_054",
-      "dhash": "136c0333e3150263",
-      "vessel_aliases": [
-        "cosco shanghai"
-      ],
-      "proposals": [
-        {
-          "bbox_xyxy": [
-            28,
-            86,
-            812,
-            302
-          ],
-          "confidence": 0.72705078125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.24369773268699646,
-          "bbox_ratio": 3.6296296296296298,
-          "ratio_pass": true
-        }
-      ],
-      "detections": [],
-      "cosine_similarity": 0.24369773268699646,
-      "confidence": 0.72705078125,
-      "target_candidate": false,
-      "annotated_file": "annotated/commons_66361082_COSCO_Shanghai_Fremantle_2018_06_.jpg"
-    },
-    {
-      "file": "images/commons_122754061_COSCO_Shipping_Solar_IMO_9795646_C_Hamburg_24-08-2022_1_.jpg",
-      "title": "File:COSCO Shipping Solar IMO 9795646 C Hamburg 24-08-2022 (1).jpg",
-      "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Shipping_Solar_IMO_9795646_C_Hamburg_24-08-2022_(1).jpg",
-      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/COSCO_Shipping_Solar_IMO_9795646_C_Hamburg_24-08-2022_%281%29.jpg/960px-COSCO_Shipping_Solar_IMO_9795646_C_Hamburg_24-08-2022_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "license": "CC BY 3.0",
-      "license_url": "https://creativecommons.org/licenses/by/3.0",
-      "author": "Wolfgang Fricke",
-      "description": "COSCO Shipping Solar 2022 in Hamburg",
-      "sha256": "3f68e7e371d5fde92fb3a0e273f6afa8f9a479d0cc860899cf326b5f4eb825ad",
-      "dimensions": [
-        960,
-        645
-      ],
-      "downloaded_utc": "2026-11-12T07:33:24.141969+00:00",
-      "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
-      "vessel_group": "vessel_group_062",
-      "dhash": "8c0e0f0d1f8f4f20",
-      "vessel_aliases": [
-        "cosco solar",
-        "imo-9795646"
-      ],
-      "proposals": [
-        {
-          "bbox_xyxy": [
-            85,
-            272,
-            944,
-            511
-          ],
-          "confidence": 0.841796875,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.23055800795555115,
-          "bbox_ratio": 3.594142259414226,
-          "ratio_pass": true
-        }
-      ],
-      "detections": [],
-      "cosine_similarity": 0.23055800795555115,
-      "confidence": 0.841796875,
-      "target_candidate": false,
-      "annotated_file": "annotated/commons_122754061_COSCO_Shipping_Solar_IMO_9795646_C_Hamburg_24-08-2022_1_.jpg"
-    },
-    {
-      "file": "images/commons_183474502_COSCO_Japan_IMO_9448748_C_Hamburg_15-12-2025_5_.jpg",
-      "title": "File:COSCO Japan IMO 9448748 C Hamburg 15-12-2025 (5).jpg",
-      "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Japan_IMO_9448748_C_Hamburg_15-12-2025_(5).jpg",
-      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/COSCO_Japan_IMO_9448748_C_Hamburg_15-12-2025_%285%29.jpg/960px-COSCO_Japan_IMO_9448748_C_Hamburg_15-12-2025_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "license": "CC BY 3.0",
-      "license_url": "https://creativecommons.org/licenses/by/3.0",
-      "author": "Wolfgang Fricke",
-      "description": "COSCO Japan 2025 in Hamburg",
-      "sha256": "e328826df1c175e7340a9a76f8470fba5b1dc161f64955a331b89d2970dfdeaf",
-      "dimensions": [
-        960,
-        635
-      ],
-      "downloaded_utc": "2026-11-12T07:33:04.643285+00:00",
-      "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
-      "vessel_group": "vessel_group_044",
-      "dhash": "d8b0326b6d5b59b0",
-      "vessel_aliases": [
-        "cosco japan",
-        "imo-9448748"
-      ],
-      "proposals": [
-        {
-          "bbox_xyxy": [
-            21,
-            380,
-            859,
-            543
-          ],
-          "confidence": 0.1578369140625,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.2247740626335144,
-          "bbox_ratio": 5.141104294478527,
-          "ratio_pass": true
-        }
-      ],
-      "detections": [],
-      "cosine_similarity": 0.2247740626335144,
-      "confidence": 0.1578369140625,
-      "target_candidate": false,
-      "annotated_file": "annotated/commons_183474502_COSCO_Japan_IMO_9448748_C_Hamburg_15-12-2025_5_.jpg"
+      "cosine_similarity": 0.2844581604003906,
+      "confidence": 0.75537109375,
+      "target_candidate": true,
+      "annotated_file": "annotated/commons_68409484_COSCO_URANUS_COSCO_ASIA_AKERDIJK_26493482277_.jpg"
     },
     {
       "file": "images/commons_178905418_COSCO_Shipping_Galaxy_IMO_9795634_C_Hamburg_31-07-2025_4_.jpg",
@@ -1228,16 +1452,170 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.2247263789176941,
+          "similarity": 0.27902740240097046,
           "bbox_ratio": 5.913333333333333,
           "ratio_pass": true
         }
       ],
-      "detections": [],
-      "cosine_similarity": 0.2247263789176941,
+      "detections": [
+        {
+          "bbox_xyxy": [
+            32,
+            249,
+            919,
+            399
+          ],
+          "confidence": 0.6494140625,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.27902740240097046,
+          "bbox_ratio": 5.913333333333333,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
+        }
+      ],
+      "cosine_similarity": 0.27902740240097046,
       "confidence": 0.6494140625,
-      "target_candidate": false,
+      "target_candidate": true,
       "annotated_file": "annotated/commons_178905418_COSCO_Shipping_Galaxy_IMO_9795634_C_Hamburg_31-07-2025_4_.jpg"
+    },
+    {
+      "file": "images/commons_63580735_COSCO_TAICANG_PRIDE_OF_HULL_16731868362_.jpg",
+      "title": "File:COSCO TAICANG & PRIDE OF HULL (16731868362).jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_TAICANG_%26_PRIDE_OF_HULL_(16731868362).jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/COSCO_TAICANG_%26_PRIDE_OF_HULL_%2816731868362%29.jpg/960px-COSCO_TAICANG_%26_PRIDE_OF_HULL_%2816731868362%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "author": "kees torn",
+      "description": "Beerkanaal / Calandkanaal 5-3-2015",
+      "sha256": "f7d4397cbbb2debbfad92898550ed650c6427cf7221a7b6694dc804ed314f30c",
+      "dimensions": [
+        960,
+        507
+      ],
+      "downloaded_utc": "2026-11-12T07:33:28.779246+00:00",
+      "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+      "vessel_group": "vessel_group_003",
+      "dhash": "82800080a1830899",
+      "vessel_aliases": [
+        "cosco taicang"
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            333,
+            235,
+            954,
+            378
+          ],
+          "confidence": 0.74267578125,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.25015145540237427,
+          "bbox_ratio": 4.3426573426573425,
+          "ratio_pass": true
+        }
+      ],
+      "detections": [],
+      "cosine_similarity": 0.25015145540237427,
+      "confidence": 0.74267578125,
+      "target_candidate": false,
+      "annotated_file": "annotated/commons_63580735_COSCO_TAICANG_PRIDE_OF_HULL_16731868362_.jpg"
+    },
+    {
+      "file": "images/commons_183474502_COSCO_Japan_IMO_9448748_C_Hamburg_15-12-2025_5_.jpg",
+      "title": "File:COSCO Japan IMO 9448748 C Hamburg 15-12-2025 (5).jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Japan_IMO_9448748_C_Hamburg_15-12-2025_(5).jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/COSCO_Japan_IMO_9448748_C_Hamburg_15-12-2025_%285%29.jpg/960px-COSCO_Japan_IMO_9448748_C_Hamburg_15-12-2025_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "Wolfgang Fricke",
+      "description": "COSCO Japan 2025 in Hamburg",
+      "sha256": "e328826df1c175e7340a9a76f8470fba5b1dc161f64955a331b89d2970dfdeaf",
+      "dimensions": [
+        960,
+        635
+      ],
+      "downloaded_utc": "2026-11-12T07:33:04.643285+00:00",
+      "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+      "vessel_group": "vessel_group_044",
+      "dhash": "d8b0326b6d5b59b0",
+      "vessel_aliases": [
+        "cosco japan",
+        "imo-9448748"
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            21,
+            380,
+            859,
+            543
+          ],
+          "confidence": 0.1578369140625,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.2499387562274933,
+          "bbox_ratio": 5.141104294478527,
+          "ratio_pass": true
+        }
+      ],
+      "detections": [],
+      "cosine_similarity": 0.2499387562274933,
+      "confidence": 0.1578369140625,
+      "target_candidate": false,
+      "annotated_file": "annotated/commons_183474502_COSCO_Japan_IMO_9448748_C_Hamburg_15-12-2025_5_.jpg"
+    },
+    {
+      "file": "images/commons_118778405_MSC_Grandiosa_leaving_Kiel_XV.jpg",
+      "title": "File:MSC Grandiosa leaving Kiel XV.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:MSC_Grandiosa_leaving_Kiel_XV.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/MSC_Grandiosa_leaving_Kiel_XV.jpg/960px-MSC_Grandiosa_leaving_Kiel_XV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "HenSti",
+      "description": "MSC Grandiosa leaving Kiel, Ostuferhafen.",
+      "sha256": "5803b7526dd0971b350ad82d5e5bc3a4e5deadbc8552f0bd5d9267f11f47a5cc",
+      "dimensions": [
+        960,
+        720
+      ],
+      "downloaded_utc": "2026-11-12T07:35:22.537572+00:00",
+      "label_basis": "Commons title identifies non-Evergreen operator; target IMO unavailable; exploratory negative label",
+      "vessel_group": "vessel_group_096",
+      "dhash": "05060926c4c4c4c0",
+      "vessel_aliases": [
+        "msc grandiosa"
+      ],
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            144,
+            292,
+            798,
+            470
+          ],
+          "confidence": 0.92431640625,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.2411840558052063,
+          "bbox_ratio": 3.6741573033707864,
+          "ratio_pass": true
+        }
+      ],
+      "detections": [],
+      "cosine_similarity": 0.2411840558052063,
+      "confidence": 0.92431640625,
+      "target_candidate": false,
+      "annotated_file": "annotated/commons_118778405_MSC_Grandiosa_leaving_Kiel_XV.jpg"
     },
     {
       "file": "images/COSCO Glory (ship, 2011) 001.jpg",
@@ -1277,7 +1655,7 @@
           "bbox_ratio": 2.6182572614107884,
           "ratio_pass": false,
           "raw_confidence": 0.57373046875,
-          "raw_similarity": 0.2148572951555252
+          "raw_similarity": 0.30698907375335693
         }
       ],
       "detections": [],
@@ -1324,7 +1702,7 @@
           "bbox_ratio": 1.0673854447439353,
           "ratio_pass": false,
           "raw_confidence": 0.91455078125,
-          "raw_similarity": 0.3182829022407532
+          "raw_similarity": 0.3277033865451813
         }
       ],
       "detections": [],
@@ -1372,7 +1750,7 @@
           "bbox_ratio": 1.7301587301587302,
           "ratio_pass": false,
           "raw_confidence": 0.315185546875,
-          "raw_similarity": 0.2882451117038727
+          "raw_similarity": 0.3221941292285919
         }
       ],
       "detections": [],
@@ -1419,7 +1797,7 @@
           "bbox_ratio": 1.283132530120482,
           "ratio_pass": false,
           "raw_confidence": 0.67041015625,
-          "raw_similarity": 0.24274364113807678
+          "raw_similarity": 0.2597159445285797
         }
       ],
       "detections": [],
@@ -1466,7 +1844,7 @@
           "bbox_ratio": 1.7985865724381624,
           "ratio_pass": false,
           "raw_confidence": 0.8515625,
-          "raw_similarity": 0.24510127305984497
+          "raw_similarity": 0.26625218987464905
         }
       ],
       "detections": [],
@@ -1514,7 +1892,7 @@
           "bbox_ratio": 1.2526315789473683,
           "ratio_pass": false,
           "raw_confidence": 0.93408203125,
-          "raw_similarity": 0.3100360035896301
+          "raw_similarity": 0.301225870847702
         }
       ],
       "detections": [],
@@ -1562,7 +1940,7 @@
           "bbox_ratio": 2.86046511627907,
           "ratio_pass": false,
           "raw_confidence": 0.81005859375,
-          "raw_similarity": 0.3169328570365906
+          "raw_similarity": 0.291713684797287
         }
       ],
       "detections": [],
@@ -1610,7 +1988,7 @@
           "bbox_ratio": 1.746928746928747,
           "ratio_pass": false,
           "raw_confidence": 0.8681640625,
-          "raw_similarity": 0.3179909586906433
+          "raw_similarity": 0.25139519572257996
         }
       ],
       "detections": [],
@@ -1658,7 +2036,7 @@
           "bbox_ratio": 1.3936170212765957,
           "ratio_pass": false,
           "raw_confidence": 0.96533203125,
-          "raw_similarity": 0.3012838661670685
+          "raw_similarity": 0.30632781982421875
         }
       ],
       "detections": [],
@@ -1706,7 +2084,7 @@
           "bbox_ratio": 1.799554565701559,
           "ratio_pass": false,
           "raw_confidence": 0.93115234375,
-          "raw_similarity": 0.3267538845539093
+          "raw_similarity": 0.2856684625148773
         }
       ],
       "detections": [],
@@ -1754,7 +2132,7 @@
           "bbox_ratio": 2.1019283746556474,
           "ratio_pass": false,
           "raw_confidence": 0.939453125,
-          "raw_similarity": 0.3156551718711853
+          "raw_similarity": 0.3076886236667633
         }
       ],
       "detections": [],
@@ -1802,7 +2180,7 @@
           "bbox_ratio": 1.2958715596330275,
           "ratio_pass": false,
           "raw_confidence": 0.96630859375,
-          "raw_similarity": 0.31153619289398193
+          "raw_similarity": 0.27876144647598267
         }
       ],
       "detections": [],
@@ -1850,7 +2228,7 @@
           "bbox_ratio": 1.7737843551797041,
           "ratio_pass": false,
           "raw_confidence": 0.88232421875,
-          "raw_similarity": 0.2997458577156067
+          "raw_similarity": 0.31277191638946533
         }
       ],
       "detections": [],
@@ -1898,7 +2276,7 @@
           "bbox_ratio": 2.274193548387097,
           "ratio_pass": false,
           "raw_confidence": 0.87353515625,
-          "raw_similarity": 0.3017119765281677
+          "raw_similarity": 0.30427056550979614
         }
       ],
       "detections": [],
@@ -1947,7 +2325,7 @@
           "bbox_ratio": 0.8611713665943601,
           "ratio_pass": false,
           "raw_confidence": 0.29345703125,
-          "raw_similarity": 0.2670661211013794
+          "raw_similarity": 0.24059225618839264
         }
       ],
       "detections": [],
@@ -1994,7 +2372,7 @@
           "bbox_ratio": 3.1578947368421053,
           "ratio_pass": false,
           "raw_confidence": 0.9091796875,
-          "raw_similarity": 0.29375773668289185
+          "raw_similarity": 0.31148815155029297
         }
       ],
       "detections": [],
@@ -2041,7 +2419,7 @@
           "bbox_ratio": 1.0717299578059072,
           "ratio_pass": false,
           "raw_confidence": 0.61474609375,
-          "raw_similarity": 0.3053086996078491
+          "raw_similarity": 0.3081444501876831
         }
       ],
       "detections": [],
@@ -2088,7 +2466,7 @@
           "bbox_ratio": 1.6284246575342465,
           "ratio_pass": false,
           "raw_confidence": 0.341796875,
-          "raw_similarity": 0.32047390937805176
+          "raw_similarity": 0.33762434124946594
         }
       ],
       "detections": [],
@@ -2136,7 +2514,7 @@
           "bbox_ratio": 2.878787878787879,
           "ratio_pass": false,
           "raw_confidence": 0.755859375,
-          "raw_similarity": 0.33749741315841675
+          "raw_similarity": 0.33571675419807434
         }
       ],
       "detections": [],
@@ -2183,7 +2561,7 @@
           "bbox_ratio": 1.830316742081448,
           "ratio_pass": false,
           "raw_confidence": 0.71142578125,
-          "raw_similarity": 0.30367332696914673
+          "raw_similarity": 0.30084025859832764
         }
       ],
       "detections": [],
@@ -2232,7 +2610,7 @@
           "bbox_ratio": 1.7142857142857142,
           "ratio_pass": false,
           "raw_confidence": 0.20751953125,
-          "raw_similarity": 0.27519458532333374
+          "raw_similarity": 0.20753450691699982
         }
       ],
       "detections": [],
@@ -2281,7 +2659,7 @@
           "bbox_ratio": 0.8291139240506329,
           "ratio_pass": false,
           "raw_confidence": 0.83447265625,
-          "raw_similarity": 0.3544692099094391
+          "raw_similarity": 0.33427679538726807
         }
       ],
       "detections": [],
@@ -2329,7 +2707,7 @@
           "bbox_ratio": 2.4055555555555554,
           "ratio_pass": false,
           "raw_confidence": 0.81396484375,
-          "raw_similarity": 0.3685808777809143
+          "raw_similarity": 0.3377044200897217
         }
       ],
       "detections": [],
@@ -2377,7 +2755,7 @@
           "bbox_ratio": 2.7712418300653594,
           "ratio_pass": false,
           "raw_confidence": 0.31982421875,
-          "raw_similarity": 0.3205137252807617
+          "raw_similarity": 0.3455200791358948
         }
       ],
       "detections": [],
@@ -2424,7 +2802,7 @@
           "bbox_ratio": 1.9216152019002375,
           "ratio_pass": false,
           "raw_confidence": 0.7783203125,
-          "raw_similarity": 0.3135172724723816
+          "raw_similarity": 0.3453800082206726
         }
       ],
       "detections": [],
@@ -2471,7 +2849,7 @@
           "bbox_ratio": 2.7867132867132867,
           "ratio_pass": false,
           "raw_confidence": 0.88916015625,
-          "raw_similarity": 0.3242078423500061
+          "raw_similarity": 0.35927897691726685
         }
       ],
       "detections": [],
@@ -2518,7 +2896,7 @@
           "bbox_ratio": 1.2,
           "ratio_pass": false,
           "raw_confidence": 0.38427734375,
-          "raw_similarity": 0.2811643183231354
+          "raw_similarity": 0.30064380168914795
         }
       ],
       "detections": [],
@@ -2565,7 +2943,7 @@
           "bbox_ratio": 6.571428571428571,
           "ratio_pass": false,
           "raw_confidence": 0.580078125,
-          "raw_similarity": 0.3283436894416809
+          "raw_similarity": 0.36356550455093384
         }
       ],
       "detections": [],
@@ -2612,7 +2990,7 @@
           "bbox_ratio": 9.744444444444444,
           "ratio_pass": false,
           "raw_confidence": 0.2115478515625,
-          "raw_similarity": 0.24159088730812073
+          "raw_similarity": 0.2881700396537781
         }
       ],
       "detections": [],
@@ -2660,7 +3038,7 @@
           "bbox_ratio": 1.7743055555555556,
           "ratio_pass": false,
           "raw_confidence": 0.350341796875,
-          "raw_similarity": 0.29922163486480713
+          "raw_similarity": 0.31848210096359253
         }
       ],
       "detections": [],
@@ -2707,7 +3085,7 @@
           "bbox_ratio": 6.91,
           "ratio_pass": false,
           "raw_confidence": 0.31396484375,
-          "raw_similarity": 0.2690936028957367
+          "raw_similarity": 0.3091259300708771
         }
       ],
       "detections": [],
@@ -2754,7 +3132,7 @@
           "bbox_ratio": 2.188841201716738,
           "ratio_pass": false,
           "raw_confidence": 0.58447265625,
-          "raw_similarity": 0.2783084809780121
+          "raw_similarity": 0.30447545647621155
         }
       ],
       "detections": [],
@@ -2802,7 +3180,7 @@
           "bbox_ratio": 2.1384615384615384,
           "ratio_pass": false,
           "raw_confidence": 0.27392578125,
-          "raw_similarity": 0.24930962920188904
+          "raw_similarity": 0.3127438724040985
         }
       ],
       "detections": [],
@@ -2850,7 +3228,7 @@
           "bbox_ratio": 2.048780487804878,
           "ratio_pass": false,
           "raw_confidence": 0.3896484375,
-          "raw_similarity": 0.3057118356227875
+          "raw_similarity": 0.3367004692554474
         }
       ],
       "detections": [],
@@ -2898,7 +3276,7 @@
           "bbox_ratio": 1.51840490797546,
           "ratio_pass": false,
           "raw_confidence": 0.623046875,
-          "raw_similarity": 0.29069599509239197
+          "raw_similarity": 0.3183901607990265
         }
       ],
       "detections": [],
@@ -2946,7 +3324,7 @@
           "bbox_ratio": 1.6098360655737705,
           "ratio_pass": false,
           "raw_confidence": 0.5341796875,
-          "raw_similarity": 0.2964498996734619
+          "raw_similarity": 0.3476281762123108
         }
       ],
       "detections": [],
@@ -2993,7 +3371,7 @@
           "bbox_ratio": 1.1531531531531531,
           "ratio_pass": false,
           "raw_confidence": 0.260009765625,
-          "raw_similarity": 0.30237865447998047
+          "raw_similarity": 0.32503849267959595
         }
       ],
       "detections": [],
@@ -3040,7 +3418,7 @@
           "bbox_ratio": 2.4553314121037464,
           "ratio_pass": false,
           "raw_confidence": 0.2327880859375,
-          "raw_similarity": 0.31030145287513733
+          "raw_similarity": 0.3483593463897705
         }
       ],
       "detections": [],
@@ -3088,7 +3466,7 @@
           "bbox_ratio": 1.0577617328519855,
           "ratio_pass": false,
           "raw_confidence": 0.49609375,
-          "raw_similarity": 0.313596248626709
+          "raw_similarity": 0.29956263303756714
         }
       ],
       "detections": [],
@@ -3135,7 +3513,7 @@
           "bbox_ratio": 2.8118279569892475,
           "ratio_pass": false,
           "raw_confidence": 0.60791015625,
-          "raw_similarity": 0.2473764717578888
+          "raw_similarity": 0.2836570143699646
         }
       ],
       "detections": [],
@@ -3182,7 +3560,7 @@
           "bbox_ratio": 2.0425531914893615,
           "ratio_pass": false,
           "raw_confidence": 0.822265625,
-          "raw_similarity": 0.28618982434272766
+          "raw_similarity": 0.30489498376846313
         }
       ],
       "detections": [],
@@ -3230,7 +3608,7 @@
           "bbox_ratio": 6.492753623188406,
           "ratio_pass": false,
           "raw_confidence": 0.321044921875,
-          "raw_similarity": 0.2019246518611908
+          "raw_similarity": 0.2919751703739166
         }
       ],
       "detections": [],
@@ -3278,7 +3656,7 @@
           "bbox_ratio": 2.956810631229236,
           "ratio_pass": false,
           "raw_confidence": 0.340087890625,
-          "raw_similarity": 0.2516922056674957
+          "raw_similarity": 0.27554917335510254
         }
       ],
       "detections": [],
@@ -3326,7 +3704,7 @@
           "bbox_ratio": 1.8893805309734513,
           "ratio_pass": false,
           "raw_confidence": 0.173095703125,
-          "raw_similarity": 0.27637502551078796
+          "raw_similarity": 0.3126823902130127
         }
       ],
       "detections": [],
@@ -3374,7 +3752,7 @@
           "bbox_ratio": 1.7560137457044673,
           "ratio_pass": false,
           "raw_confidence": 0.343017578125,
-          "raw_similarity": 0.28746601939201355
+          "raw_similarity": 0.32609081268310547
         }
       ],
       "detections": [],
@@ -3421,7 +3799,7 @@
           "bbox_ratio": 1.75,
           "ratio_pass": false,
           "raw_confidence": 0.336669921875,
-          "raw_similarity": 0.29087817668914795
+          "raw_similarity": 0.28256699442863464
         }
       ],
       "detections": [],
@@ -3469,7 +3847,7 @@
           "bbox_ratio": 2.3944444444444444,
           "ratio_pass": false,
           "raw_confidence": 0.260498046875,
-          "raw_similarity": 0.3091299831867218
+          "raw_similarity": 0.336747407913208
         }
       ],
       "detections": [],
@@ -3516,7 +3894,7 @@
           "bbox_ratio": 2.942084942084942,
           "ratio_pass": false,
           "raw_confidence": 0.9462890625,
-          "raw_similarity": 0.3104258179664612
+          "raw_similarity": 0.34274590015411377
         }
       ],
       "detections": [],
@@ -3563,7 +3941,7 @@
           "bbox_ratio": 3.2447916666666665,
           "ratio_pass": false,
           "raw_confidence": 0.8916015625,
-          "raw_similarity": 0.30449971556663513
+          "raw_similarity": 0.3432825207710266
         }
       ],
       "detections": [],
@@ -3610,7 +3988,7 @@
           "bbox_ratio": 3.1097560975609757,
           "ratio_pass": false,
           "raw_confidence": 0.2333984375,
-          "raw_similarity": 0.36277157068252563
+          "raw_similarity": 0.3625202476978302
         }
       ],
       "detections": [],
@@ -3658,7 +4036,7 @@
           "bbox_ratio": 1.9879032258064515,
           "ratio_pass": false,
           "raw_confidence": 0.19677734375,
-          "raw_similarity": 0.29818737506866455
+          "raw_similarity": 0.2902832627296448
         }
       ],
       "detections": [],
@@ -3705,7 +4083,7 @@
           "bbox_ratio": 2.4545454545454546,
           "ratio_pass": false,
           "raw_confidence": 0.2032470703125,
-          "raw_similarity": 0.25492578744888306
+          "raw_similarity": 0.3297557234764099
         }
       ],
       "detections": [],
@@ -3752,7 +4130,7 @@
           "bbox_ratio": 1.6540084388185654,
           "ratio_pass": false,
           "raw_confidence": 0.268310546875,
-          "raw_similarity": 0.28494757413864136
+          "raw_similarity": 0.31850260496139526
         }
       ],
       "detections": [],
@@ -3799,7 +4177,7 @@
           "bbox_ratio": 1.110204081632653,
           "ratio_pass": false,
           "raw_confidence": 0.272705078125,
-          "raw_similarity": 0.3151463568210602
+          "raw_similarity": 0.3335499167442322
         }
       ],
       "detections": [],
@@ -3846,7 +4224,7 @@
           "bbox_ratio": 1.2466666666666666,
           "ratio_pass": false,
           "raw_confidence": 0.91455078125,
-          "raw_similarity": 0.26119330525398254
+          "raw_similarity": 0.2026522159576416
         }
       ],
       "detections": [],
@@ -3893,7 +4271,7 @@
           "bbox_ratio": 1.5220338983050847,
           "ratio_pass": false,
           "raw_confidence": 0.7509765625,
-          "raw_similarity": 0.26368582248687744
+          "raw_similarity": 0.20758560299873352
         }
       ],
       "detections": [],
@@ -3940,7 +4318,7 @@
           "bbox_ratio": 1.7875288683602772,
           "ratio_pass": false,
           "raw_confidence": 0.9501953125,
-          "raw_similarity": 0.24397599697113037
+          "raw_similarity": 0.203287273645401
         }
       ],
       "detections": [],
@@ -3987,7 +4365,7 @@
           "bbox_ratio": 2.269767441860465,
           "ratio_pass": false,
           "raw_confidence": 0.90087890625,
-          "raw_similarity": 0.2324216514825821
+          "raw_similarity": 0.16371022164821625
         }
       ],
       "detections": [],
@@ -4035,7 +4413,7 @@
           "bbox_ratio": 2.0588235294117645,
           "ratio_pass": false,
           "raw_confidence": 0.7138671875,
-          "raw_similarity": 0.3059656023979187
+          "raw_similarity": 0.32487908005714417
         }
       ],
       "detections": [],
@@ -4083,7 +4461,7 @@
           "bbox_ratio": 1.590990990990991,
           "ratio_pass": false,
           "raw_confidence": 0.39111328125,
-          "raw_similarity": 0.3088145852088928
+          "raw_similarity": 0.3097343444824219
         }
       ],
       "detections": [],
@@ -4133,7 +4511,7 @@
           "bbox_ratio": 1.8148148148148149,
           "ratio_pass": false,
           "raw_confidence": 0.54248046875,
-          "raw_similarity": 0.32607290148735046
+          "raw_similarity": 0.34386318922042847
         }
       ],
       "detections": [],
@@ -4181,7 +4559,7 @@
           "bbox_ratio": 1.4625,
           "ratio_pass": false,
           "raw_confidence": 0.7939453125,
-          "raw_similarity": 0.3339386284351349
+          "raw_similarity": 0.27740663290023804
         }
       ],
       "detections": [],
@@ -4229,7 +4607,7 @@
           "bbox_ratio": 1.0,
           "ratio_pass": false,
           "raw_confidence": 0.77685546875,
-          "raw_similarity": 0.2869873344898224
+          "raw_similarity": 0.21254804730415344
         }
       ],
       "detections": [],
@@ -4276,7 +4654,7 @@
           "bbox_ratio": 0.948019801980198,
           "ratio_pass": false,
           "raw_confidence": 0.6708984375,
-          "raw_similarity": 0.26122474670410156
+          "raw_similarity": 0.3178790807723999
         }
       ],
       "detections": [],
@@ -4324,7 +4702,7 @@
           "bbox_ratio": 1.0495049504950495,
           "ratio_pass": false,
           "raw_confidence": 0.287109375,
-          "raw_similarity": 0.26000988483428955
+          "raw_similarity": 0.28331929445266724
         }
       ],
       "detections": [],
@@ -4373,7 +4751,7 @@
           "bbox_ratio": 1.1818181818181819,
           "ratio_pass": false,
           "raw_confidence": 0.377685546875,
-          "raw_similarity": 0.3140019178390503
+          "raw_similarity": 0.34487712383270264
         }
       ],
       "detections": [],
@@ -4421,7 +4799,7 @@
           "bbox_ratio": 2.6724137931034484,
           "ratio_pass": false,
           "raw_confidence": 0.83740234375,
-          "raw_similarity": 0.3184860944747925
+          "raw_similarity": 0.34877967834472656
         }
       ],
       "detections": [],
@@ -4468,7 +4846,7 @@
           "bbox_ratio": 0.8801261829652997,
           "ratio_pass": false,
           "raw_confidence": 0.9052734375,
-          "raw_similarity": 0.28902655839920044
+          "raw_similarity": 0.30089855194091797
         }
       ],
       "detections": [],
@@ -4516,7 +4894,7 @@
           "bbox_ratio": 3.0427807486631018,
           "ratio_pass": false,
           "raw_confidence": 0.80029296875,
-          "raw_similarity": 0.32823437452316284
+          "raw_similarity": 0.3992661237716675
         }
       ],
       "detections": [],
@@ -4563,7 +4941,7 @@
           "bbox_ratio": 1.277456647398844,
           "ratio_pass": false,
           "raw_confidence": 0.79345703125,
-          "raw_similarity": 0.31349942088127136
+          "raw_similarity": 0.2765202820301056
         }
       ],
       "detections": [],
@@ -4611,7 +4989,7 @@
           "bbox_ratio": 1.0227272727272727,
           "ratio_pass": false,
           "raw_confidence": 0.2042236328125,
-          "raw_similarity": 0.2395603060722351
+          "raw_similarity": 0.24601146578788757
         }
       ],
       "detections": [],
@@ -4661,7 +5039,7 @@
           "bbox_ratio": 1.7730061349693251,
           "ratio_pass": false,
           "raw_confidence": 0.2127685546875,
-          "raw_similarity": 0.28838545083999634
+          "raw_similarity": 0.32428479194641113
         }
       ],
       "detections": [],
@@ -4709,7 +5087,7 @@
           "bbox_ratio": 1.2607594936708861,
           "ratio_pass": false,
           "raw_confidence": 0.15771484375,
-          "raw_similarity": 0.2397466003894806
+          "raw_similarity": 0.29674655199050903
         }
       ],
       "detections": [],
@@ -4757,7 +5135,7 @@
           "bbox_ratio": 1.3029411764705883,
           "ratio_pass": false,
           "raw_confidence": 0.92626953125,
-          "raw_similarity": 0.3277469277381897
+          "raw_similarity": 0.2262483835220337
         }
       ],
       "detections": [],
@@ -4806,7 +5184,7 @@
           "bbox_ratio": 1.119533527696793,
           "ratio_pass": false,
           "raw_confidence": 0.7470703125,
-          "raw_similarity": 0.3103315234184265
+          "raw_similarity": 0.3381670415401459
         }
       ],
       "detections": [],
