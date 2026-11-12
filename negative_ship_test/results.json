@@ -32,12 +32,12 @@
     "training_sources": [
       "training_images\\S__191913989.jpg"
     ],
-    "threshold_selected": 0.01,
-    "threshold_source": "user-selected",
+    "threshold_selected": 0.34591996669769287,
+    "threshold_source": "development-set calibration",
     "accuracy": null,
-    "false_accept_count": 100,
-    "false_accept_rate": 1.0,
-    "note": "Exploratory negative-only test. Thresholds below are hypothetical, not calibrated; no independent labeled positives.",
+    "false_accept_count": 4,
+    "false_accept_rate": 0.04,
+    "note": "Threshold tuned on these development images. Reported rates are in-sample; an independent held-out test is required.",
     "hypothetical_false_accepts": {
       "0.6": {
         "count": 0,
@@ -346,26 +346,10 @@
           "similarity": 0.33749741315841675
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            418,
-            246,
-            893,
-            411
-          ],
-          "confidence": 0.755859375,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.33749741315841675,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.33749741315841675,
       "confidence": 0.755859375,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_161039120_MAERSK_CAMDEN_MAJESTIC_MAERSK_52475473496_.jpg"
     },
     {
@@ -406,26 +390,10 @@
           "similarity": 0.3339386284351349
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            454,
-            120,
-            922,
-            440
-          ],
-          "confidence": 0.7939453125,
-          "detector_class": "boat",
-          "detector_view": "tile",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.3339386284351349,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.3339386284351349,
       "confidence": 0.7939453125,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_63578104_HOOGVLIET_MSC_PREZIOSA_MSC_INGRID_36739735123_.jpg"
     },
     {
@@ -465,26 +433,10 @@
           "similarity": 0.3283436894416809
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            465,
-            266,
-            925,
-            336
-          ],
-          "confidence": 0.580078125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.3283436894416809,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.3283436894416809,
       "confidence": 0.580078125,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_90988985_BORIS_VILKITSKY_PALU_LNG_SMIT_HUDSON_COSCO_CAPRICORN_ROTTERDAM_44193122401_.jpg"
     },
     {
@@ -524,26 +476,10 @@
           "similarity": 0.3282701373100281
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            159,
-            159,
-            834,
-            357
-          ],
-          "confidence": 0.8662109375,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.3282701373100281,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.3282701373100281,
       "confidence": 0.8662109375,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_37867353_COSCO_Vancouver_ship_2004_002.jpg"
     },
     {
@@ -584,26 +520,10 @@
           "similarity": 0.32823437452316284
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            13,
-            308,
-            582,
-            495
-          ],
-          "confidence": 0.80029296875,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.32823437452316284,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.32823437452316284,
       "confidence": 0.80029296875,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_37644176_MSC_Aurora_MSC_Fabienne.jpg"
     },
     {
@@ -644,26 +564,10 @@
           "similarity": 0.3277469277381897
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            503,
-            49,
-            946,
-            389
-          ],
-          "confidence": 0.92626953125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.3277469277381897,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.3277469277381897,
       "confidence": 0.92626953125,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_63578099_MSC_INGRID_JEANINE_PARQUI_MSC_PREZIOSA_36739736343_.jpg"
     },
     {
@@ -704,26 +608,10 @@
           "similarity": 0.3267538845539093
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            37,
-            79,
-            845,
-            528
-          ],
-          "confidence": 0.93115234375,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.3267538845539093,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.3267538845539093,
       "confidence": 0.93115234375,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_162871371_2024-09-11_02_MAERSK_TRADER_-_IMO_9388596_Ogden_Point_BC_CAN.jpg"
     },
     {
@@ -766,26 +654,10 @@
           "similarity": 0.32607290148735046
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            21,
-            265,
-            168,
-            346
-          ],
-          "confidence": 0.54248046875,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.32607290148735046,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.32607290148735046,
       "confidence": 0.54248046875,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_63512854_FAIRPLAY_21_MSC_MIRJAM_SMIT_CHEETAH_MSC_SVEVA_AL_MASHRAB_MSC_BRIANNA_MSC_DOMITILLE_34891931843_.jpg"
     },
     {
@@ -825,26 +697,10 @@
           "similarity": 0.3250885605812073
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            3,
-            207,
-            914,
-            441
-          ],
-          "confidence": 0.2265625,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.3250885605812073,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.3250885605812073,
       "confidence": 0.2265625,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_47373759_COSCO_Taicang_ship_2009_001.jpg"
     },
     {
@@ -884,26 +740,10 @@
           "similarity": 0.3242078423500061
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            54,
-            139,
-            851,
-            425
-          ],
-          "confidence": 0.88916015625,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.3242078423500061,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.3242078423500061,
       "confidence": 0.88916015625,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_4236162_2008-04-14_COSCO_America_3.jpg"
     },
     {
@@ -944,26 +784,10 @@
           "similarity": 0.32218360900878906
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            646,
-            326,
-            929,
-            382
-          ],
-          "confidence": 0.75537109375,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.32218360900878906,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.32218360900878906,
       "confidence": 0.75537109375,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_68409484_COSCO_URANUS_COSCO_ASIA_AKERDIJK_26493482277_.jpg"
     },
     {
@@ -1003,26 +827,10 @@
           "similarity": 0.3211196959018707
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            37,
-            72,
-            950,
-            334
-          ],
-          "confidence": 0.935546875,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.3211196959018707,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.3211196959018707,
       "confidence": 0.935546875,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_25695147_COSCO_Ningbo_03.jpg"
     },
     {
@@ -1063,26 +871,10 @@
           "similarity": 0.3205137252807617
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            22,
-            185,
-            446,
-            338
-          ],
-          "confidence": 0.31982421875,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.3205137252807617,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.3205137252807617,
       "confidence": 0.31982421875,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_103832415_MARSEILLE_MAERSK_OCEANIC_MAERSK_TRANSPORTER_Tog_Mor_SIRIUS_TYFOON_50301151337_.jpg"
     },
     {
@@ -1122,26 +914,10 @@
           "similarity": 0.32047390937805176
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            1,
-            136,
-            952,
-            720
-          ],
-          "confidence": 0.341796875,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.32047390937805176,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.32047390937805176,
       "confidence": 0.341796875,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_18741424_Laust_Maersk_p06_approaching_Port_of_Rotterdam_Holland_14-Jul-2007.jpg"
     },
     {
@@ -1182,26 +958,10 @@
           "similarity": 0.3184860944747925
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            64,
-            407,
-            219,
-            465
-          ],
-          "confidence": 0.83740234375,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.3184860944747925,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.3184860944747925,
       "confidence": 0.83740234375,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_63580984_MSC_ANTALYA_HYUNDAI_SMART_MSC_FLAVIA_15439755464_.jpg"
     },
     {
@@ -1242,26 +1002,10 @@
           "similarity": 0.31841132044792175
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            12,
-            215,
-            423,
-            335
-          ],
-          "confidence": 0.90283203125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.31841132044792175,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.31841132044792175,
       "confidence": 0.90283203125,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_63580180_MAERSK_NEWHAVEN_JPO_VULPECULA_MAJESTIC_MAERSK_SVEN_D_24133691965_.jpg"
     },
     {
@@ -1301,26 +1045,10 @@
           "similarity": 0.3182829022407532
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            351,
-            335,
-            747,
-            706
-          ],
-          "confidence": 0.91455078125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.3182829022407532,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.3182829022407532,
       "confidence": 0.91455078125,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/Calnexship.jpg"
     },
     {
@@ -1361,26 +1089,10 @@
           "similarity": 0.3179909586906433
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            146,
-            133,
-            857,
-            540
-          ],
-          "confidence": 0.8681640625,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.3179909586906433,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.3179909586906433,
       "confidence": 0.8681640625,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_135605715_2017-10-07_04_MAERSK_DISPATCHER_-_IMO_9298909_in_St_John_s_NL_CAN.jpg"
     },
     {
@@ -1420,26 +1132,10 @@
           "similarity": 0.31759825348854065
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            333,
-            235,
-            954,
-            378
-          ],
-          "confidence": 0.74267578125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.31759825348854065,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.31759825348854065,
       "confidence": 0.74267578125,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_63580735_COSCO_TAICANG_PRIDE_OF_HULL_16731868362_.jpg"
     },
     {
@@ -1480,26 +1176,10 @@
           "similarity": 0.3169328570365906
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            150,
-            186,
-            888,
-            444
-          ],
-          "confidence": 0.81005859375,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.3169328570365906,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.3169328570365906,
       "confidence": 0.81005859375,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_135605714_2017-10-07_03_MAERSK_DISPATCHER_-_IMO_9298909_in_St_John_s_NL_CAN.jpg"
     },
     {
@@ -1539,26 +1219,10 @@
           "similarity": 0.31622856855392456
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            137,
-            213,
-            1132,
-            490
-          ],
-          "confidence": 0.67529296875,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.31622856855392456,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.31622856855392456,
       "confidence": 0.67529296875,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/Ship COSCO Portugal (1).jpg"
     },
     {
@@ -1599,26 +1263,10 @@
           "similarity": 0.3156551718711853
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            70,
-            125,
-            833,
-            488
-          ],
-          "confidence": 0.939453125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.3156551718711853,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.3156551718711853,
       "confidence": 0.939453125,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_162871340_2024-09-11_03_MAERSK_TRADER_-_IMO_9388596_Ogden_Point_BC_CAN.jpg"
     },
     {
@@ -1658,26 +1306,10 @@
           "similarity": 0.3151463568210602
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            381,
-            63,
-            925,
-            553
-          ],
-          "confidence": 0.272705078125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.3151463568210602,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.3151463568210602,
       "confidence": 0.272705078125,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_146961915_Cosco_Aquarius_ship_2019_in_the_port_of_Hamburg_-_b.jpg"
     },
     {
@@ -1719,26 +1351,10 @@
           "similarity": 0.3140019178390503
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            633,
-            113,
-            958,
-            388
-          ],
-          "confidence": 0.377685546875,
-          "detector_class": "boat",
-          "detector_view": "tile",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.3140019178390503,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.3140019178390503,
       "confidence": 0.377685546875,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_63512358_MSC_ALTAMIRA_MSC_MARIA_SAVERIA_MSC_VEGA_17285891315_.jpg"
     },
     {
@@ -1779,26 +1395,10 @@
           "similarity": 0.313596248626709
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            80,
-            139,
-            373,
-            416
-          ],
-          "confidence": 0.49609375,
-          "detector_class": "boat",
-          "detector_view": "tile",
-          "contrast_enhanced": false,
-          "detector_input_size": 1024,
-          "similarity": 0.313596248626709,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.313596248626709,
       "confidence": 0.49609375,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_103136859_COSCO_Philippines_ship_2010_IMO_9448762_Yangtzehaven_Port_of_Rotterdam_pic2.jpg"
     },
     {
@@ -1838,26 +1438,10 @@
           "similarity": 0.3135172724723816
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            117,
-            129,
-            926,
-            550
-          ],
-          "confidence": 0.7783203125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.3135172724723816,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.3135172724723816,
       "confidence": 0.7783203125,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_108239736_Maersk_Ahram_1998_.jpg"
     },
     {
@@ -1897,26 +1481,10 @@
           "similarity": 0.31349942088127136
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            114,
-            51,
-            777,
-            570
-          ],
-          "confidence": 0.79345703125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.31349942088127136,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.31349942088127136,
       "confidence": 0.79345703125,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_108477590_MSC_Buffalo_at_Liverpool.jpg"
     },
     {
@@ -1957,26 +1525,10 @@
           "similarity": 0.31153619289398193
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            159,
-            93,
-            724,
-            529
-          ],
-          "confidence": 0.96630859375,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.31153619289398193,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.31153619289398193,
       "confidence": 0.96630859375,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_162871367_2024-09-11_04_MAERSK_TRADER_-_IMO_9388596_Ogden_Point_BC_CAN.jpg"
     },
     {
@@ -2016,26 +1568,10 @@
           "similarity": 0.3104258179664612
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            165,
-            122,
-            927,
-            381
-          ],
-          "confidence": 0.9462890625,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.3104258179664612,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.3104258179664612,
       "confidence": 0.9462890625,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_93944875_COSCO_Singapore_Fremantle_2020_02_.jpg"
     },
     {
@@ -2077,26 +1613,10 @@
           "similarity": 0.3103315234184265
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            0,
-            69,
-            384,
-            412
-          ],
-          "confidence": 0.7470703125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.3103315234184265,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.3103315234184265,
       "confidence": 0.7470703125,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_63512990_MSC_JULIA_R_MSC_GISELLE_MSC_DITTA_37328308365_.jpg"
     },
     {
@@ -2136,26 +1656,10 @@
           "similarity": 0.31030145287513733
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            12,
-            84,
-            864,
-            431
-          ],
-          "confidence": 0.2327880859375,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.31030145287513733,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.31030145287513733,
       "confidence": 0.2327880859375,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_82361529_COSCO_LIBRA_SMIT_SCHELDE_SMIT_PANTHER_Nieuwe_Maze_48758418007_.jpg"
     },
     {
@@ -2196,26 +1700,10 @@
           "similarity": 0.3100360035896301
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            271,
-            67,
-            866,
-            542
-          ],
-          "confidence": 0.93408203125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.3100360035896301,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.3100360035896301,
       "confidence": 0.93408203125,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_135538015_2017-10-07_01_MAERSK_DISPATCHER_-_IMO_9298909_in_St_John_s_NL_CAN.jpg"
     },
     {
@@ -2256,26 +1744,10 @@
           "similarity": 0.3091299831867218
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            62,
-            85,
-            924,
-            445
-          ],
-          "confidence": 0.260498046875,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.3091299831867218,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.3091299831867218,
       "confidence": 0.260498046875,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_105673649_COSCO_Shipping_Universe_ship_2018_IMO_9795610_Yangtzehaven_Port_of_Rotterdam.jpg"
     },
     {
@@ -2316,26 +1788,10 @@
           "similarity": 0.3088145852088928
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            25,
-            3,
-            908,
-            558
-          ],
-          "confidence": 0.39111328125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.3088145852088928,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.3088145852088928,
       "confidence": 0.39111328125,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_125910098_Container_ships_MSC_Amalfi_and_MSC_Cordelia_III_at_Fremantle_Harbour_November_2022_02.jpg"
     },
     {
@@ -2376,26 +1832,10 @@
           "similarity": 0.3072381615638733
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            27,
-            189,
-            644,
-            361
-          ],
-          "confidence": 0.87451171875,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.3072381615638733,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.3072381615638733,
       "confidence": 0.87451171875,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_103832373_COSCO_ARIES_COSCO_UNIVERSE_50305732612_.jpg"
     },
     {
@@ -2436,26 +1876,10 @@
           "similarity": 0.3059656023979187
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            12,
-            85,
-            887,
-            510
-          ],
-          "confidence": 0.7138671875,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.3059656023979187,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.3059656023979187,
       "confidence": 0.7138671875,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_125910096_Container_ships_MSC_Amalfi_and_MSC_Cordelia_III_at_Fremantle_Harbour_November_2022_01.jpg"
     },
     {
@@ -2496,26 +1920,10 @@
           "similarity": 0.3057118356227875
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            402,
-            142,
-            906,
-            388
-          ],
-          "confidence": 0.3896484375,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.3057118356227875,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.3057118356227875,
       "confidence": 0.3896484375,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_111473587_COSCO_Indonesia_IMO_9448786_C_Hamburg_26-08-2021_1_.jpg"
     },
     {
@@ -2555,26 +1963,10 @@
           "similarity": 0.3053501546382904
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            87,
-            154,
-            930,
-            353
-          ],
-          "confidence": 0.3818359375,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.3053501546382904,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.3053501546382904,
       "confidence": 0.3818359375,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_74879953_BEAGLE_COSCO_SAGITTARIUS_SD_REBEL_ROTTERDAM_46101578611_cropped_.jpg"
     },
     {
@@ -2614,26 +2006,10 @@
           "similarity": 0.3053086996078491
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            180,
-            328,
-            434,
-            565
-          ],
-          "confidence": 0.61474609375,
-          "detector_class": "boat",
-          "detector_view": "tile",
-          "contrast_enhanced": false,
-          "detector_input_size": 1024,
-          "similarity": 0.3053086996078491,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.3053086996078491,
       "confidence": 0.61474609375,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_102789949_Esbjerg_harbour_with_Maersk_Resolute.jpg"
     },
     {
@@ -2673,26 +2049,10 @@
           "similarity": 0.3048288822174072
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            38,
-            175,
-            1271,
-            376
-          ],
-          "confidence": 0.457275390625,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.3048288822174072,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.3048288822174072,
       "confidence": 0.457275390625,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/Maersk kalamata seattle 20101127.jpg"
     },
     {
@@ -2732,26 +2092,10 @@
           "similarity": 0.30449971556663513
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            211,
-            145,
-            834,
-            337
-          ],
-          "confidence": 0.8916015625,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.30449971556663513,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.30449971556663513,
       "confidence": 0.8916015625,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_93944874_COSCO_Singapore_Fremantle_2020_03_.jpg"
     },
     {
@@ -2791,26 +2135,10 @@
           "similarity": 0.30367332696914673
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            107,
-            172,
-            916,
-            614
-          ],
-          "confidence": 0.71142578125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.30367332696914673,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.30367332696914673,
       "confidence": 0.71142578125,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_144715351_MAERSK_HANOI_Container_Ship_Port_Koper_SIKOP_2023_.jpg"
     },
     {
@@ -2850,26 +2178,10 @@
           "similarity": 0.30237865447998047
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            3,
-            21,
-            515,
-            465
-          ],
-          "confidence": 0.260009765625,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.30237865447998047,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.30237865447998047,
       "confidence": 0.260009765625,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_82111380_COSCO_LEO_MATADOR_3_SCHELDE_48675118043_.jpg"
     },
     {
@@ -2910,26 +2222,10 @@
           "similarity": 0.3017119765281677
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            36,
-            123,
-            882,
-            495
-          ],
-          "confidence": 0.87353515625,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.3017119765281677,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.3017119765281677,
       "confidence": 0.87353515625,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_163261069_2024-10-31_02_MAERSK_TENDER_-_IMO_9388651_Ogden_Point_BC_CAN.jpg"
     },
     {
@@ -2970,26 +2266,10 @@
           "similarity": 0.3012838661670685
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            242,
-            109,
-            766,
-            485
-          ],
-          "confidence": 0.96533203125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.3012838661670685,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.3012838661670685,
       "confidence": 0.96533203125,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_162871352_2024-09-11_01_MAERSK_TRADER_-_IMO_9388596_Ogden_Point_BC_CAN.jpg"
     },
     {
@@ -3030,26 +2310,10 @@
           "similarity": 0.2997458577156067
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            10,
-            41,
-            849,
-            514
-          ],
-          "confidence": 0.88232421875,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.2997458577156067,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.2997458577156067,
       "confidence": 0.88232421875,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_163261068_2024-10-31_01_MAERSK_TENDER_-_IMO_9388651_Ogden_Point_BC_CAN.jpg"
     },
     {
@@ -3090,26 +2354,10 @@
           "similarity": 0.29922163486480713
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            50,
-            231,
-            561,
-            519
-          ],
-          "confidence": 0.350341796875,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.29922163486480713,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.29922163486480713,
       "confidence": 0.350341796875,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_102818157_COSCO_France_ship_2013_IMO_9516416_Yangtzehaven_Port_of_Rotterdam_pic2.jpg"
     },
     {
@@ -3150,26 +2398,10 @@
           "similarity": 0.29818737506866455
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            452,
-            162,
-            945,
-            410
-          ],
-          "confidence": 0.19677734375,
-          "detector_class": "boat",
-          "detector_view": "tile",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.29818737506866455,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.29818737506866455,
       "confidence": 0.19677734375,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_63512347_COSCO_YANTAIN_COSCO_HOPE_KATHARINA_SCHEPERS_MERWEDIJK_16599340989_.jpg"
     },
     {
@@ -3211,26 +2443,10 @@
           "similarity": 0.2980099320411682
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            257,
-            179,
-            948,
-            380
-          ],
-          "confidence": 0.896484375,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.2980099320411682,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.2980099320411682,
       "confidence": 0.896484375,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_63580446_MARSTAL_MAERSK_MORTEN_MAERSK_MAERSK_ROSYTH_18263325183_.jpg"
     },
     {
@@ -3271,26 +2487,10 @@
           "similarity": 0.2964498996734619
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            464,
-            73,
-            955,
-            378
-          ],
-          "confidence": 0.5341796875,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.2964498996734619,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.2964498996734619,
       "confidence": 0.5341796875,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_157115523_COSCO_Japan_IMO_9448748_C_Hamburg_19-08-2024_2_.jpg"
     },
     {
@@ -3330,26 +2530,10 @@
           "similarity": 0.29375773668289185
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            370,
-            289,
-            670,
-            384
-          ],
-          "confidence": 0.9091796875,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.29375773668289185,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.29375773668289185,
       "confidence": 0.9091796875,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_35724521_Clase_Maersk_A-02.jpg"
     },
     {
@@ -3389,26 +2573,10 @@
           "similarity": 0.29087817668914795
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            4,
-            139,
-            543,
-            447
-          ],
-          "confidence": 0.336669921875,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.29087817668914795,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.29087817668914795,
       "confidence": 0.336669921875,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_103171512_COSCO_Shipping_Leo_ship_2018_Yangtzehaven_pic1.jpg"
     },
     {
@@ -3448,26 +2616,10 @@
           "similarity": 0.29082709550857544
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            312,
-            290,
-            723,
-            392
-          ],
-          "confidence": 0.9091796875,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.29082709550857544,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.29082709550857544,
       "confidence": 0.9091796875,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_35724522_Clase_Maersk_A-03.jpg"
     },
     {
@@ -3508,26 +2660,10 @@
           "similarity": 0.29069599509239197
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            36,
-            137,
-            531,
-            463
-          ],
-          "confidence": 0.623046875,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.29069599509239197,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.29069599509239197,
       "confidence": 0.623046875,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_183378378_COSCO_Japan_IMO_9448748_C_Hamburg_15-12-2025_1_.jpg"
     },
     {
@@ -3567,26 +2703,10 @@
           "similarity": 0.28902655839920044
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            187,
-            23,
-            745,
-            657
-          ],
-          "confidence": 0.9052734375,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.28902655839920044,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.28902655839920044,
       "confidence": 0.9052734375,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_19235751_MSC_Asli_Port_of_Antwerp_19Dec2008_pic2.jpg"
     },
     {
@@ -3629,26 +2749,10 @@
           "similarity": 0.28838545083999634
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            89,
-            225,
-            378,
-            388
-          ],
-          "confidence": 0.2127685546875,
-          "detector_class": "boat",
-          "detector_view": "tile",
-          "contrast_enhanced": false,
-          "detector_input_size": 1024,
-          "similarity": 0.28838545083999634,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.28838545083999634,
       "confidence": 0.2127685546875,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_161037862_MSC_DRAGON_VB_BEAGLE_ROTTERDAM_MSC_TESSA_MSC_CASSANDRE_MSC_REGULUS_53239503107_.jpg"
     },
     {
@@ -3689,26 +2793,10 @@
           "similarity": 0.2882451117038727
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            616,
-            80,
-            1270,
-            458
-          ],
-          "confidence": 0.315185546875,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.2882451117038727,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.2882451117038727,
       "confidence": 0.315185546875,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/Container ship MV Maersk Alabama.jpg"
     },
     {
@@ -3749,26 +2837,10 @@
           "similarity": 0.28746601939201355
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            22,
-            98,
-            533,
-            389
-          ],
-          "confidence": 0.343017578125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.28746601939201355,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.28746601939201355,
       "confidence": 0.343017578125,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_172984232_COSCO_Shipping_Gemini_IMO_9783526_C_Hamburg_04-06-2025_1_.jpg"
     },
     {
@@ -3809,26 +2881,10 @@
           "similarity": 0.2869873344898224
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            448,
-            236,
-            608,
-            396
-          ],
-          "confidence": 0.77685546875,
-          "detector_class": "boat",
-          "detector_view": "tile",
-          "contrast_enhanced": false,
-          "detector_input_size": 1024,
-          "similarity": 0.2869873344898224,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.2869873344898224,
       "confidence": 0.77685546875,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_63578123_HOOGVLIET_MSC_PREZIOSA_MSC_INGRID_36739736113_.jpg"
     },
     {
@@ -3868,26 +2924,10 @@
           "similarity": 0.28618982434272766
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            41,
-            23,
-            905,
-            446
-          ],
-          "confidence": 0.822265625,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.28618982434272766,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.28618982434272766,
       "confidence": 0.822265625,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_69556357_COSCO_SHIPPING_LEO_2018_40642270240_.jpg"
     },
     {
@@ -3927,26 +2967,10 @@
           "similarity": 0.28494757413864136
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            13,
-            267,
-            405,
-            504
-          ],
-          "confidence": 0.268310546875,
-          "detector_class": "boat",
-          "detector_view": "tile",
-          "contrast_enhanced": false,
-          "detector_input_size": 1024,
-          "similarity": 0.28494757413864136,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.28494757413864136,
       "confidence": 0.268310546875,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_28892506_Container_ship_Cosco_Fortune_in_the_port_of_Hamburg_in_October_2013.png"
     },
     {
@@ -3986,26 +3010,10 @@
           "similarity": 0.2829729914665222
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            324,
-            246,
-            936,
-            379
-          ],
-          "confidence": 0.475830078125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.2829729914665222,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.2829729914665222,
       "confidence": 0.475830078125,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_97708649_COSCO_SCORPIO_NEBULA_50563157757_.jpg"
     },
     {
@@ -4045,26 +3053,10 @@
           "similarity": 0.2811643183231354
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            342,
-            16,
-            852,
-            441
-          ],
-          "confidence": 0.38427734375,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.2811643183231354,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.2811643183231354,
       "confidence": 0.38427734375,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_103832353_BEAGLE_COSCO_UNIVERSE_50304896713_.jpg"
     },
     {
@@ -4105,26 +3097,10 @@
           "similarity": 0.2785416841506958
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            48,
-            107,
-            953,
-            378
-          ],
-          "confidence": 0.58154296875,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.2785416841506958,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.2785416841506958,
       "confidence": 0.58154296875,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_111473604_COSCO_Indonesia_IMO_9448786_C_Hamburg_26-08-2021_2_.jpg"
     },
     {
@@ -4164,26 +3140,10 @@
           "similarity": 0.2783084809780121
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            450,
-            130,
-            960,
-            363
-          ],
-          "confidence": 0.58447265625,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.2783084809780121,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.2783084809780121,
       "confidence": 0.58447265625,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_63512411_COSCO_HARMONY_YM_WITTNESS_22138245236_.jpg"
     },
     {
@@ -4224,26 +3184,10 @@
           "similarity": 0.27828729152679443
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            28,
-            76,
-            948,
-            344
-          ],
-          "confidence": 0.32275390625,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.27828729152679443,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.27828729152679443,
       "confidence": 0.32275390625,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_92806755_MSC_AJACCIO_MSC_NELA_cropped_.jpg"
     },
     {
@@ -4284,26 +3228,10 @@
           "similarity": 0.27637502551078796
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            61,
-            51,
-            915,
-            503
-          ],
-          "confidence": 0.173095703125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.27637502551078796,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.27637502551078796,
       "confidence": 0.173095703125,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_178868472_COSCO_Shipping_Galaxy_IMO_9795634_C_Hamburg_31-07-2025_1_.jpg"
     },
     {
@@ -4345,26 +3273,10 @@
           "similarity": 0.27519458532333374
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            0,
-            417,
-            60,
-            452
-          ],
-          "confidence": 0.20751953125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.27519458532333374,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.27519458532333374,
       "confidence": 0.20751953125,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_74524583_MAERSK_HORSBURGH_VOLGA_MAERSK_MAERSK_RESILIENT_BOLGA_31006430917_.jpg"
     },
     {
@@ -4405,26 +3317,10 @@
           "similarity": 0.2743382155895233
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            333,
-            231,
-            807,
-            367
-          ],
-          "confidence": 0.28515625,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.2743382155895233,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.2743382155895233,
       "confidence": 0.28515625,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_63604225_FAIRPLAY_XI_MAERSK_NORTHWOOD_MAERSK_NIENBURG_29279265506_.jpg"
     },
     {
@@ -4464,26 +3360,10 @@
           "similarity": 0.2708800137042999
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            144,
-            292,
-            798,
-            470
-          ],
-          "confidence": 0.92431640625,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.2708800137042999,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.2708800137042999,
       "confidence": 0.92431640625,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_118778405_MSC_Grandiosa_leaving_Kiel_XV.jpg"
     },
     {
@@ -4523,26 +3403,10 @@
           "similarity": 0.2697325348854065
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            99,
-            320,
-            942,
-            538
-          ],
-          "confidence": 0.4169921875,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.2697325348854065,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.2697325348854065,
       "confidence": 0.4169921875,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_145293651_MSC_HARMONY_III_container_ship_2006_in_Port_Koper_SIKOP_2024_.jpg"
     },
     {
@@ -4582,26 +3446,10 @@
           "similarity": 0.2690936028957367
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            248,
-            352,
-            939,
-            452
-          ],
-          "confidence": 0.31396484375,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.2690936028957367,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.2690936028957367,
       "confidence": 0.31396484375,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_69550511_COSCO_GEMINI_41414039484_.jpg"
     },
     {
@@ -4643,26 +3491,10 @@
           "similarity": 0.2670661211013794
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            56,
-            11,
-            453,
-            472
-          ],
-          "confidence": 0.29345703125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.2670661211013794,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.2670661211013794,
       "confidence": 0.29345703125,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_74524586_BOLGA_MAERSK_RESILIENT_MAERSK_HORSBURGH_VOLGA_MAERSK_31002161867_.jpg"
     },
     {
@@ -4702,26 +3534,10 @@
           "similarity": 0.2647756040096283
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            215,
-            250,
-            856,
-            374
-          ],
-          "confidence": 0.57373046875,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.2647756040096283,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.2647756040096283,
       "confidence": 0.57373046875,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_35724523_Clase_Maersk_A-05.jpg"
     },
     {
@@ -4761,26 +3577,10 @@
           "similarity": 0.26368582248687744
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            152,
-            549,
-            601,
-            844
-          ],
-          "confidence": 0.7509765625,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.26368582248687744,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.26368582248687744,
       "confidence": 0.7509765625,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_129106983_0615_MSC_Virtuosa_departing_from_Geiranger_Seawalk_V-P.jpg"
     },
     {
@@ -4820,26 +3620,10 @@
           "similarity": 0.26122474670410156
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            22,
-            1,
-            405,
-            405
-          ],
-          "confidence": 0.6708984375,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.26122474670410156,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.26122474670410156,
       "confidence": 0.6708984375,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_74879353_INNOVATION_MSC_SANTHYA_-_KRVE_34_MSC_GAYAN_31236016617_.jpg"
     },
     {
@@ -4879,26 +3663,10 @@
           "similarity": 0.26119330525398254
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            241,
-            510,
-            615,
-            810
-          ],
-          "confidence": 0.91455078125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.26119330525398254,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.26119330525398254,
       "confidence": 0.91455078125,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_129106992_0614_MSC_Virtuosa_at_Geiranger_Seawalk_V-P.jpg"
     },
     {
@@ -4939,26 +3707,10 @@
           "similarity": 0.26000988483428955
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            640,
-            118,
-            958,
-            421
-          ],
-          "confidence": 0.287109375,
-          "detector_class": "boat",
-          "detector_view": "tile",
-          "contrast_enhanced": false,
-          "detector_input_size": 1024,
-          "similarity": 0.26000988483428955,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.26000988483428955,
       "confidence": 0.287109375,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_63512925_MSC_AGRIGENTO_MSC_LUCIANA_35692882643_.jpg"
     },
     {
@@ -4998,26 +3750,10 @@
           "similarity": 0.25492578744888306
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            238,
-            263,
-            913,
-            538
-          ],
-          "confidence": 0.2032470703125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.25492578744888306,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.25492578744888306,
       "confidence": 0.2032470703125,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_30598060_Container_ship_Cosco_Excellence_income_in_the_port_of_Hamburg_on_12_January_2014.jpg"
     },
     {
@@ -5058,26 +3794,10 @@
           "similarity": 0.2516922056674957
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            37,
-            222,
-            927,
-            523
-          ],
-          "confidence": 0.340087890625,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.2516922056674957,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.2516922056674957,
       "confidence": 0.340087890625,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_106304772_COSCO_Shipping_Danube_ship_2016_IMO_9731913_Amazonehaven_Port_of_Rotterdam_pic12.jpg"
     },
     {
@@ -5118,26 +3838,10 @@
           "similarity": 0.24930962920188904
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            388,
-            105,
-            666,
-            235
-          ],
-          "confidence": 0.27392578125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.24930962920188904,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.24930962920188904,
       "confidence": 0.27392578125,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_114098989_COSCO_Indonesia_IMO_9448786_C_Hamburg_01-11-2021_4_.jpg"
     },
     {
@@ -5178,26 +3882,10 @@
           "similarity": 0.24837666749954224
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            13,
-            147,
-            938,
-            323
-          ],
-          "confidence": 0.357177734375,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.24837666749954224,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.24837666749954224,
       "confidence": 0.357177734375,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_183474561_COSCO_Shipping_Seine_IMO_9731949_C_Hamburg_16-01-2026_2_.jpg"
     },
     {
@@ -5237,26 +3925,10 @@
           "similarity": 0.2473764717578888
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            176,
-            321,
-            699,
-            507
-          ],
-          "confidence": 0.60791015625,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.2473764717578888,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.2473764717578888,
       "confidence": 0.60791015625,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_63578481_COSCO_SHIPPING_HIMALAYAS_8-9-2017_36934806142_.jpg"
     },
     {
@@ -5296,26 +3968,10 @@
           "similarity": 0.24510127305984497
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            19,
-            365,
-            1037,
-            931
-          ],
-          "confidence": 0.8515625,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.24510127305984497,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.24510127305984497,
       "confidence": 0.8515625,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/Cosco Yantian.jpg"
     },
     {
@@ -5355,26 +4011,10 @@
           "similarity": 0.24397599697113037
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            63,
-            98,
-            837,
-            531
-          ],
-          "confidence": 0.9501953125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.24397599697113037,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.24397599697113037,
       "confidence": 0.9501953125,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_129107027_0618_MSC_Virtuosa_in_Geirangerfjord_close-up_V-P.jpg"
     },
     {
@@ -5414,26 +4054,10 @@
           "similarity": 0.24369773268699646
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            28,
-            86,
-            812,
-            302
-          ],
-          "confidence": 0.72705078125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.24369773268699646,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.24369773268699646,
       "confidence": 0.72705078125,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_66361082_COSCO_Shanghai_Fremantle_2018_06_.jpg"
     },
     {
@@ -5473,26 +4097,10 @@
           "similarity": 0.24274364113807678
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            143,
-            189,
-            782,
-            687
-          ],
-          "confidence": 0.67041015625,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.24274364113807678,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.24274364113807678,
       "confidence": 0.67041015625,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/Cosco Taicang container ship.jpg"
     },
     {
@@ -5532,26 +4140,10 @@
           "similarity": 0.24159088730812073
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            40,
-            342,
-            917,
-            432
-          ],
-          "confidence": 0.2115478515625,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.24159088730812073,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.24159088730812073,
       "confidence": 0.2115478515625,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_103832376_COSCO_ARIES_50304896683_.jpg"
     },
     {
@@ -5592,26 +4184,10 @@
           "similarity": 0.2397466003894806
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            10,
-            0,
-            508,
-            395
-          ],
-          "confidence": 0.15771484375,
-          "detector_class": "boat",
-          "detector_view": "tile",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.2397466003894806,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.2397466003894806,
       "confidence": 0.15771484375,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_89914501_MSC_EMMA_MSC_AVNI_BEAGLE_49345392441_.jpg"
     },
     {
@@ -5652,26 +4228,10 @@
           "similarity": 0.2395603060722351
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            19,
-            3,
-            379,
-            355
-          ],
-          "confidence": 0.2042236328125,
-          "detector_class": "boat",
-          "detector_view": "tile",
-          "contrast_enhanced": false,
-          "detector_input_size": 1024,
-          "similarity": 0.2395603060722351,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.2395603060722351,
       "confidence": 0.2042236328125,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_161037908_MSC_DRAGON_VB_BEAGLE_MSC_TESSA_53240743359_.jpg"
     },
     {
@@ -5711,26 +4271,10 @@
           "similarity": 0.2324216514825821
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            261,
-            321,
-            749,
-            536
-          ],
-          "confidence": 0.90087890625,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.2324216514825821,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.2324216514825821,
       "confidence": 0.90087890625,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_129114574_0619_MSC_Virtuosa_passing_Homlung_V-P.jpg"
     },
     {
@@ -5771,26 +4315,10 @@
           "similarity": 0.23055800795555115
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            85,
-            272,
-            944,
-            511
-          ],
-          "confidence": 0.841796875,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.23055800795555115,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.23055800795555115,
       "confidence": 0.841796875,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_122754061_COSCO_Shipping_Solar_IMO_9795646_C_Hamburg_24-08-2022_1_.jpg"
     },
     {
@@ -5831,26 +4359,10 @@
           "similarity": 0.2247740626335144
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            21,
-            380,
-            859,
-            543
-          ],
-          "confidence": 0.1578369140625,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.2247740626335144,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.2247740626335144,
       "confidence": 0.1578369140625,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_183474502_COSCO_Japan_IMO_9448748_C_Hamburg_15-12-2025_5_.jpg"
     },
     {
@@ -5891,26 +4403,10 @@
           "similarity": 0.2247263789176941
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            32,
-            249,
-            919,
-            399
-          ],
-          "confidence": 0.6494140625,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.2247263789176941,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.2247263789176941,
       "confidence": 0.6494140625,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_178905418_COSCO_Shipping_Galaxy_IMO_9795634_C_Hamburg_31-07-2025_4_.jpg"
     },
     {
@@ -5950,26 +4446,10 @@
           "similarity": 0.2148572951555252
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            343,
-            589,
-            974,
-            830
-          ],
-          "confidence": 0.57373046875,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.2148572951555252,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.2148572951555252,
       "confidence": 0.57373046875,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/COSCO Glory (ship, 2011) 001.jpg"
     },
     {
@@ -6010,26 +4490,10 @@
           "similarity": 0.2019246518611908
         }
       ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            30,
-            296,
-            926,
-            434
-          ],
-          "confidence": 0.321044921875,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.2019246518611908,
-          "class": "target_ship_candidate"
-        }
-      ],
+      "detections": [],
       "cosine_similarity": 0.2019246518611908,
       "confidence": 0.321044921875,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_194574692_COSCO_Shipping_Alps_IMO_9757864_C_Hamburg_12-04-2026_4_.jpg"
     }
   ]

@@ -1,0 +1,1247 @@
+{
+  "method": "Maximize frame pass rate minus negative false-positive rate (Youden J); ties: fewer false positives, then higher threshold.",
+  "limitation": "Threshold tuned on these development images. Reported rates are in-sample; an independent held-out test is required.",
+  "before": {
+    "threshold": 0.36,
+    "frames_passed": 17,
+    "frames_total": 20,
+    "negative_false_accepts": 3,
+    "negative_total": 100,
+    "frame_pass_rate": 0.85,
+    "false_positive_rate": 0.03,
+    "objective": 0.82
+  },
+  "selected": {
+    "threshold": 0.34591996669769287,
+    "frames_passed": 18,
+    "frames_total": 20,
+    "negative_false_accepts": 4,
+    "negative_total": 100,
+    "frame_pass_rate": 0.9,
+    "false_positive_rate": 0.04,
+    "objective": 0.86
+  },
+  "sweep": [
+    {
+      "threshold": 0.0,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 100,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 1.0,
+      "objective": -0.09999999999999998
+    },
+    {
+      "threshold": 0.1009623259305954,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 100,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 1.0,
+      "objective": -0.09999999999999998
+    },
+    {
+      "threshold": 0.208390973508358,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 99,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.99,
+      "objective": -0.08999999999999997
+    },
+    {
+      "threshold": 0.21979183703660965,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 98,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.98,
+      "objective": -0.07999999999999996
+    },
+    {
+      "threshold": 0.22475022077560425,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 97,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.97,
+      "objective": -0.06999999999999995
+    },
+    {
+      "threshold": 0.22766603529453278,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 96,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.96,
+      "objective": -0.05999999999999994
+    },
+    {
+      "threshold": 0.23148982971906662,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 95,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.95,
+      "objective": -0.04999999999999993
+    },
+    {
+      "threshold": 0.2359909787774086,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 94,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.94,
+      "objective": -0.039999999999999925
+    },
+    {
+      "threshold": 0.23965345323085785,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 93,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.93,
+      "objective": -0.030000000000000027
+    },
+    {
+      "threshold": 0.24066874384880066,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 92,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.92,
+      "objective": -0.020000000000000018
+    },
+    {
+      "threshold": 0.24216726422309875,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 91,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.91,
+      "objective": -0.010000000000000009
+    },
+    {
+      "threshold": 0.24322068691253662,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 90,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.9,
+      "objective": 0.0
+    },
+    {
+      "threshold": 0.24383686482906342,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 89,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.89,
+      "objective": 0.010000000000000009
+    },
+    {
+      "threshold": 0.24453863501548767,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 88,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.88,
+      "objective": 0.020000000000000018
+    },
+    {
+      "threshold": 0.24623887240886688,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 87,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.87,
+      "objective": 0.030000000000000027
+    },
+    {
+      "threshold": 0.24787656962871552,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 86,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.86,
+      "objective": 0.040000000000000036
+    },
+    {
+      "threshold": 0.24884314835071564,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 85,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.85,
+      "objective": 0.050000000000000044
+    },
+    {
+      "threshold": 0.2505009174346924,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 84,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.84,
+      "objective": 0.06000000000000005
+    },
+    {
+      "threshold": 0.2533089965581894,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 83,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.83,
+      "objective": 0.07000000000000006
+    },
+    {
+      "threshold": 0.2574678361415863,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 82,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.82,
+      "objective": 0.08000000000000007
+    },
+    {
+      "threshold": 0.26060159504413605,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 81,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.81,
+      "objective": 0.08999999999999997
+    },
+    {
+      "threshold": 0.26120902597904205,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 80,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.8,
+      "objective": 0.09999999999999998
+    },
+    {
+      "threshold": 0.2624552845954895,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 79,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.79,
+      "objective": 0.10999999999999999
+    },
+    {
+      "threshold": 0.26423071324825287,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 78,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.78,
+      "objective": 0.12
+    },
+    {
+      "threshold": 0.26592086255550385,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 77,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.77,
+      "objective": 0.13
+    },
+    {
+      "threshold": 0.26807986199855804,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 76,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.76,
+      "objective": 0.14
+    },
+    {
+      "threshold": 0.2694130688905716,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 75,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.75,
+      "objective": 0.15000000000000002
+    },
+    {
+      "threshold": 0.2703062742948532,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 74,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.74,
+      "objective": 0.16000000000000003
+    },
+    {
+      "threshold": 0.2726091146469116,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 73,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.73,
+      "objective": 0.17000000000000004
+    },
+    {
+      "threshold": 0.27476640045642853,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 72,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.72,
+      "objective": 0.18000000000000005
+    },
+    {
+      "threshold": 0.27578480541706085,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 71,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.71,
+      "objective": 0.19000000000000006
+    },
+    {
+      "threshold": 0.2773311585187912,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 70,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.7,
+      "objective": 0.20000000000000007
+    },
+    {
+      "threshold": 0.27829788625240326,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 69,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.69,
+      "objective": 0.21000000000000008
+    },
+    {
+      "threshold": 0.27842508256435394,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 68,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.68,
+      "objective": 0.21999999999999997
+    },
+    {
+      "threshold": 0.2798530012369156,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 67,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.67,
+      "objective": 0.22999999999999998
+    },
+    {
+      "threshold": 0.2820686548948288,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 66,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.66,
+      "objective": 0.24
+    },
+    {
+      "threshold": 0.2839602828025818,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 65,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.65,
+      "objective": 0.25
+    },
+    {
+      "threshold": 0.2855686992406845,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 64,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.64,
+      "objective": 0.26
+    },
+    {
+      "threshold": 0.286588579416275,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 63,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.63,
+      "objective": 0.27
+    },
+    {
+      "threshold": 0.28722667694091797,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 62,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.62,
+      "objective": 0.28
+    },
+    {
+      "threshold": 0.2878555655479431,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 61,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.61,
+      "objective": 0.29000000000000004
+    },
+    {
+      "threshold": 0.2883152812719345,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 60,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.6,
+      "objective": 0.30000000000000004
+    },
+    {
+      "threshold": 0.2887060046195984,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 59,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.59,
+      "objective": 0.31000000000000005
+    },
+    {
+      "threshold": 0.2898612767457962,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 58,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.58,
+      "objective": 0.32000000000000006
+    },
+    {
+      "threshold": 0.2907615453004837,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 57,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.57,
+      "objective": 0.33000000000000007
+    },
+    {
+      "threshold": 0.2908526360988617,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 56,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.56,
+      "objective": 0.33999999999999997
+    },
+    {
+      "threshold": 0.2923179566860199,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 55,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.55,
+      "objective": 0.35
+    },
+    {
+      "threshold": 0.2951038181781769,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 54,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.54,
+      "objective": 0.36
+    },
+    {
+      "threshold": 0.29722991585731506,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 53,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.53,
+      "objective": 0.37
+    },
+    {
+      "threshold": 0.2980986535549164,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 52,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.52,
+      "objective": 0.38
+    },
+    {
+      "threshold": 0.29870450496673584,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 51,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.51,
+      "objective": 0.39
+    },
+    {
+      "threshold": 0.2994837462902069,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 50,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.5,
+      "objective": 0.4
+    },
+    {
+      "threshold": 0.3005148619413376,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 49,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.49,
+      "objective": 0.41000000000000003
+    },
+    {
+      "threshold": 0.3014979213476181,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 48,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.48,
+      "objective": 0.42000000000000004
+    },
+    {
+      "threshold": 0.3020453155040741,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 47,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.47,
+      "objective": 0.43000000000000005
+    },
+    {
+      "threshold": 0.3030259907245636,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 46,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.46,
+      "objective": 0.44
+    },
+    {
+      "threshold": 0.30408652126789093,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 45,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.45,
+      "objective": 0.45
+    },
+    {
+      "threshold": 0.3046642988920212,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 44,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.44,
+      "objective": 0.46
+    },
+    {
+      "threshold": 0.3050687909126282,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 43,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.43,
+      "objective": 0.47000000000000003
+    },
+    {
+      "threshold": 0.30532942712306976,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 42,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.42,
+      "objective": 0.48000000000000004
+    },
+    {
+      "threshold": 0.30553099513053894,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 41,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.41,
+      "objective": 0.49000000000000005
+    },
+    {
+      "threshold": 0.3058387190103531,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 40,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.4,
+      "objective": 0.5
+    },
+    {
+      "threshold": 0.306601881980896,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 39,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.39,
+      "objective": 0.51
+    },
+    {
+      "threshold": 0.30802637338638306,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 38,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.38,
+      "objective": 0.52
+    },
+    {
+      "threshold": 0.3089722841978073,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 37,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.37,
+      "objective": 0.53
+    },
+    {
+      "threshold": 0.30958299338817596,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 36,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.36,
+      "objective": 0.54
+    },
+    {
+      "threshold": 0.31016872823238373,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 35,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.35,
+      "objective": 0.55
+    },
+    {
+      "threshold": 0.3103164881467819,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 34,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.34,
+      "objective": 0.56
+    },
+    {
+      "threshold": 0.31037867069244385,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 33,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.33,
+      "objective": 0.5700000000000001
+    },
+    {
+      "threshold": 0.31098100543022156,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 32,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.32,
+      "objective": 0.5800000000000001
+    },
+    {
+      "threshold": 0.31251780688762665,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 31,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.31,
+      "objective": 0.5900000000000001
+    },
+    {
+      "threshold": 0.3135083466768265,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 30,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.3,
+      "objective": 0.6000000000000001
+    },
+    {
+      "threshold": 0.3135567605495453,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 29,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.29,
+      "objective": 0.6100000000000001
+    },
+    {
+      "threshold": 0.31379908323287964,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 28,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.28,
+      "objective": 0.62
+    },
+    {
+      "threshold": 0.31457413733005524,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 27,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.27,
+      "objective": 0.63
+    },
+    {
+      "threshold": 0.31540076434612274,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 26,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.26,
+      "objective": 0.64
+    },
+    {
+      "threshold": 0.31594187021255493,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 25,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.25,
+      "objective": 0.65
+    },
+    {
+      "threshold": 0.31658071279525757,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 24,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.24,
+      "objective": 0.66
+    },
+    {
+      "threshold": 0.3172655552625656,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 23,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.23,
+      "objective": 0.67
+    },
+    {
+      "threshold": 0.317794606089592,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 22,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.22,
+      "objective": 0.68
+    },
+    {
+      "threshold": 0.31813693046569824,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 21,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.21,
+      "objective": 0.6900000000000001
+    },
+    {
+      "threshold": 0.31834711134433746,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 20,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.2,
+      "objective": 0.7
+    },
+    {
+      "threshold": 0.3184487074613571,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 19,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.19,
+      "objective": 0.71
+    },
+    {
+      "threshold": 0.3194800019264221,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 18,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.18,
+      "objective": 0.72
+    },
+    {
+      "threshold": 0.32049381732940674,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 17,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.17,
+      "objective": 0.73
+    },
+    {
+      "threshold": 0.3208167105913162,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 16,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.16,
+      "objective": 0.74
+    },
+    {
+      "threshold": 0.3216516524553299,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 15,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.15,
+      "objective": 0.75
+    },
+    {
+      "threshold": 0.3231957256793976,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 14,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.14,
+      "objective": 0.76
+    },
+    {
+      "threshold": 0.3246482014656067,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 13,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.13,
+      "objective": 0.77
+    },
+    {
+      "threshold": 0.32558073103427887,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 12,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.12,
+      "objective": 0.78
+    },
+    {
+      "threshold": 0.3264133930206299,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 11,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.11,
+      "objective": 0.79
+    },
+    {
+      "threshold": 0.3272504061460495,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 10,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.1,
+      "objective": 0.8
+    },
+    {
+      "threshold": 0.32799065113067627,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 9,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.09,
+      "objective": 0.81
+    },
+    {
+      "threshold": 0.32825225591659546,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 8,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.08,
+      "objective": 0.8200000000000001
+    },
+    {
+      "threshold": 0.3283069133758545,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 7,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.07,
+      "objective": 0.8300000000000001
+    },
+    {
+      "threshold": 0.3311411589384079,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 6,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.06,
+      "objective": 0.8400000000000001
+    },
+    {
+      "threshold": 0.3357180207967758,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 5,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.05,
+      "objective": 0.85
+    },
+    {
+      "threshold": 0.34591996669769287,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 4,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.04,
+      "objective": 0.86
+    },
+    {
+      "threshold": 0.35440586507320404,
+      "frames_passed": 17,
+      "frames_total": 20,
+      "negative_false_accepts": 4,
+      "negative_total": 100,
+      "frame_pass_rate": 0.85,
+      "false_positive_rate": 0.04,
+      "objective": 0.8099999999999999
+    },
+    {
+      "threshold": 0.35862039029598236,
+      "frames_passed": 17,
+      "frames_total": 20,
+      "negative_false_accepts": 3,
+      "negative_total": 100,
+      "frame_pass_rate": 0.85,
+      "false_positive_rate": 0.03,
+      "objective": 0.82
+    },
+    {
+      "threshold": 0.36,
+      "frames_passed": 17,
+      "frames_total": 20,
+      "negative_false_accepts": 3,
+      "negative_total": 100,
+      "frame_pass_rate": 0.85,
+      "false_positive_rate": 0.03,
+      "objective": 0.82
+    },
+    {
+      "threshold": 0.36285747587680817,
+      "frames_passed": 17,
+      "frames_total": 20,
+      "negative_false_accepts": 2,
+      "negative_total": 100,
+      "frame_pass_rate": 0.85,
+      "false_positive_rate": 0.02,
+      "objective": 0.83
+    },
+    {
+      "threshold": 0.3657621294260025,
+      "frames_passed": 16,
+      "frames_total": 20,
+      "negative_false_accepts": 2,
+      "negative_total": 100,
+      "frame_pass_rate": 0.8,
+      "false_positive_rate": 0.02,
+      "objective": 0.78
+    },
+    {
+      "threshold": 0.37288278341293335,
+      "frames_passed": 16,
+      "frames_total": 20,
+      "negative_false_accepts": 1,
+      "negative_total": 100,
+      "frame_pass_rate": 0.8,
+      "false_positive_rate": 0.01,
+      "objective": 0.79
+    },
+    {
+      "threshold": 0.38147690892219543,
+      "frames_passed": 15,
+      "frames_total": 20,
+      "negative_false_accepts": 1,
+      "negative_total": 100,
+      "frame_pass_rate": 0.75,
+      "false_positive_rate": 0.01,
+      "objective": 0.74
+    },
+    {
+      "threshold": 0.38758376240730286,
+      "frames_passed": 14,
+      "frames_total": 20,
+      "negative_false_accepts": 1,
+      "negative_total": 100,
+      "frame_pass_rate": 0.7,
+      "false_positive_rate": 0.01,
+      "objective": 0.69
+    },
+    {
+      "threshold": 0.3907688707113266,
+      "frames_passed": 14,
+      "frames_total": 20,
+      "negative_false_accepts": 0,
+      "negative_total": 100,
+      "frame_pass_rate": 0.7,
+      "false_positive_rate": 0.0,
+      "objective": 0.7
+    },
+    {
+      "threshold": 0.39558742940425873,
+      "frames_passed": 13,
+      "frames_total": 20,
+      "negative_false_accepts": 0,
+      "negative_total": 100,
+      "frame_pass_rate": 0.65,
+      "false_positive_rate": 0.0,
+      "objective": 0.65
+    },
+    {
+      "threshold": 0.40224261581897736,
+      "frames_passed": 12,
+      "frames_total": 20,
+      "negative_false_accepts": 0,
+      "negative_total": 100,
+      "frame_pass_rate": 0.6,
+      "false_positive_rate": 0.0,
+      "objective": 0.6
+    },
+    {
+      "threshold": 0.40565918385982513,
+      "frames_passed": 11,
+      "frames_total": 20,
+      "negative_false_accepts": 0,
+      "negative_total": 100,
+      "frame_pass_rate": 0.55,
+      "false_positive_rate": 0.0,
+      "objective": 0.55
+    },
+    {
+      "threshold": 0.4064778983592987,
+      "frames_passed": 10,
+      "frames_total": 20,
+      "negative_false_accepts": 0,
+      "negative_total": 100,
+      "frame_pass_rate": 0.5,
+      "false_positive_rate": 0.0,
+      "objective": 0.5
+    },
+    {
+      "threshold": 0.40998610854148865,
+      "frames_passed": 9,
+      "frames_total": 20,
+      "negative_false_accepts": 0,
+      "negative_total": 100,
+      "frame_pass_rate": 0.45,
+      "false_positive_rate": 0.0,
+      "objective": 0.45
+    },
+    {
+      "threshold": 0.4154415428638458,
+      "frames_passed": 8,
+      "frames_total": 20,
+      "negative_false_accepts": 0,
+      "negative_total": 100,
+      "frame_pass_rate": 0.4,
+      "false_positive_rate": 0.0,
+      "objective": 0.4
+    },
+    {
+      "threshold": 0.4185713827610016,
+      "frames_passed": 7,
+      "frames_total": 20,
+      "negative_false_accepts": 0,
+      "negative_total": 100,
+      "frame_pass_rate": 0.35,
+      "false_positive_rate": 0.0,
+      "objective": 0.35
+    },
+    {
+      "threshold": 0.4214736521244049,
+      "frames_passed": 6,
+      "frames_total": 20,
+      "negative_false_accepts": 0,
+      "negative_total": 100,
+      "frame_pass_rate": 0.3,
+      "false_positive_rate": 0.0,
+      "objective": 0.3
+    },
+    {
+      "threshold": 0.43239839375019073,
+      "frames_passed": 5,
+      "frames_total": 20,
+      "negative_false_accepts": 0,
+      "negative_total": 100,
+      "frame_pass_rate": 0.25,
+      "false_positive_rate": 0.0,
+      "objective": 0.25
+    },
+    {
+      "threshold": 0.4484035521745682,
+      "frames_passed": 4,
+      "frames_total": 20,
+      "negative_false_accepts": 0,
+      "negative_total": 100,
+      "frame_pass_rate": 0.2,
+      "false_positive_rate": 0.0,
+      "objective": 0.2
+    },
+    {
+      "threshold": 0.4587964713573456,
+      "frames_passed": 3,
+      "frames_total": 20,
+      "negative_false_accepts": 0,
+      "negative_total": 100,
+      "frame_pass_rate": 0.15,
+      "false_positive_rate": 0.0,
+      "objective": 0.15
+    },
+    {
+      "threshold": 0.4626077115535736,
+      "frames_passed": 2,
+      "frames_total": 20,
+      "negative_false_accepts": 0,
+      "negative_total": 100,
+      "frame_pass_rate": 0.1,
+      "false_positive_rate": 0.0,
+      "objective": 0.1
+    },
+    {
+      "threshold": 0.46366560459136963,
+      "frames_passed": 1,
+      "frames_total": 20,
+      "negative_false_accepts": 0,
+      "negative_total": 100,
+      "frame_pass_rate": 0.05,
+      "false_positive_rate": 0.0,
+      "objective": 0.05
+    },
+    {
+      "threshold": 0.7319479286670685,
+      "frames_passed": 0,
+      "frames_total": 20,
+      "negative_false_accepts": 0,
+      "negative_total": 100,
+      "frame_pass_rate": 0.0,
+      "false_positive_rate": 0.0,
+      "objective": 0.0
+    },
+    {
+      "threshold": 1.0,
+      "frames_passed": 0,
+      "frames_total": 20,
+      "negative_false_accepts": 0,
+      "negative_total": 100,
+      "frame_pass_rate": 0.0,
+      "false_positive_rate": 0.0,
+      "objective": 0.0
+    }
+  ],
+  "model_sha256": "7ab9d990006bf3f1fd03c82c97a433f12fc91272ac4de4cde055e289cb842c6b"
+}

@@ -3,7 +3,7 @@
   "available_images": 595,
   "selected": 20,
   "seed": 629399051,
-  "threshold": 0.01,
+  "threshold": 0.34591996669769287,
   "with_detections": 18,
   "display_policy": "Largest-area post-NMS boat only if its DINOv3 similarity meets threshold; no fallback to smaller boxes.",
   "detection_count": 18,

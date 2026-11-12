@@ -31,12 +31,12 @@
   "training_sources": [
     "training_images\\S__191913989.jpg"
   ],
-  "threshold_selected": 0.01,
-  "threshold_source": "user-selected",
+  "threshold_selected": 0.34591996669769287,
+  "threshold_source": "development-set calibration",
   "accuracy": null,
-  "false_accept_count": 100,
-  "false_accept_rate": 1.0,
-  "note": "Exploratory negative-only test. Thresholds below are hypothetical, not calibrated; no independent labeled positives.",
+  "false_accept_count": 4,
+  "false_accept_rate": 0.04,
+  "note": "Threshold tuned on these development images. Reported rates are in-sample; an independent held-out test is required.",
   "hypothetical_false_accepts": {
     "0.6": {
       "count": 0,
