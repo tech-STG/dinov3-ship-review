@@ -1,10 +1,10 @@
 {
   "count": 100,
   "min_similarity": 0.0,
-  "max_similarity": 0.3250885605812073,
+  "max_similarity": 0.38939839601516724,
   "classification_head_enabled": false,
   "reference_version": "yolo-color-transparent-augmentation-v6",
-  "mean_similarity": 0.028516795337200165,
+  "mean_similarity": 0.07236213952302933,
   "model_modified": false,
   "pipeline": "Same YOLO11s tiled boat detections and DINOv3 cropped ship reference as validation",
   "detector": {
@@ -36,9 +36,9 @@
   "accuracy": null,
   "ratio_filter": {
     "reference_ratio": 4.762931034482759,
-    "relative_tolerance": 0.2,
-    "minimum": 3.8103448275862073,
-    "maximum": 5.7155172413793105,
+    "relative_tolerance": 0.3,
+    "minimum": 3.334051724137931,
+    "maximum": 6.191810344827587,
     "rejected_scores": 0.0,
     "foreground_bounds": [
       0,
@@ -49,8 +49,8 @@
     "mask": "augmented_training_images_transparent\\masks\\ship.png",
     "definition": "width / height of nonzero unaugmented foreground mask bounds"
   },
-  "false_accept_count": 0,
-  "false_accept_rate": 0.0,
+  "false_accept_count": 1,
+  "false_accept_rate": 0.01,
   "note": "Threshold tuned on these development images. Reported rates are in-sample; an independent held-out test is required.",
   "hypothetical_false_accepts": {
     "0.6": {

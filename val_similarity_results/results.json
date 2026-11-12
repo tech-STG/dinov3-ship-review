@@ -4,10 +4,10 @@
   "selected": 20,
   "seed": 629399051,
   "threshold": 0.34591996669769287,
-  "with_detections": 14,
-  "display_policy": "Largest-area post-NMS boat only if its width/height is within [R * 0.8, R * 1.2] AND its DINOv3 similarity meets threshold; no fallback to smaller boxes.",
-  "detection_count": 14,
-  "target_candidate_count": 14,
+  "with_detections": 16,
+  "display_policy": "Largest-area post-NMS boat only if its width/height is within [R * 0.7, R * 1.3] AND its DINOv3 similarity meets threshold; no fallback to smaller boxes.",
+  "detection_count": 16,
+  "target_candidate_count": 16,
   "localization": "YOLO11s boat detections on whole image plus overlapping tiles; merged with NMS",
   "detector": {
     "name": "YOLO11s COCO boat",
@@ -153,19 +153,35 @@
             741,
             517
           ],
-          "confidence": 0.0,
+          "confidence": 0.626953125,
           "detector_class": "boat",
           "detector_view": "whole",
           "contrast_enhanced": true,
           "detector_input_size": 640,
-          "similarity": 0.0,
+          "similarity": 0.41914474964141846,
           "bbox_ratio": 3.727272727272727,
-          "ratio_pass": false,
-          "raw_confidence": 0.626953125,
-          "raw_similarity": 0.41914474964141846
+          "ratio_pass": true
         }
       ],
-      "detections": [],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            577,
+            473,
+            741,
+            517
+          ],
+          "confidence": 0.626953125,
+          "detector_class": "boat",
+          "detector_view": "whole",
+          "contrast_enhanced": true,
+          "detector_input_size": 640,
+          "similarity": 0.41914474964141846,
+          "bbox_ratio": 3.727272727272727,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
+        }
+      ],
       "nms_candidate_count": 1
     },
     {
@@ -680,19 +696,35 @@
             94,
             540
           ],
-          "confidence": 0.0,
+          "confidence": 0.53466796875,
           "detector_class": "boat",
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.0,
+          "similarity": 0.354342520236969,
           "bbox_ratio": 3.4285714285714284,
-          "ratio_pass": false,
-          "raw_confidence": 0.53466796875,
-          "raw_similarity": 0.354342520236969
+          "ratio_pass": true
         }
       ],
-      "detections": [],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            70,
+            533,
+            94,
+            540
+          ],
+          "confidence": 0.53466796875,
+          "detector_class": "boat",
+          "detector_view": "tile",
+          "contrast_enhanced": false,
+          "detector_input_size": 640,
+          "similarity": 0.354342520236969,
+          "bbox_ratio": 3.4285714285714284,
+          "ratio_pass": true,
+          "class": "target_ship_candidate"
+        }
+      ],
       "nms_candidate_count": 1
     },
     {
@@ -850,9 +882,9 @@
   ],
   "ratio_filter": {
     "reference_ratio": 4.762931034482759,
-    "relative_tolerance": 0.2,
-    "minimum": 3.8103448275862073,
-    "maximum": 5.7155172413793105,
+    "relative_tolerance": 0.3,
+    "minimum": 3.334051724137931,
+    "maximum": 6.191810344827587,
     "rejected_scores": 0.0,
     "foreground_bounds": [
       0,

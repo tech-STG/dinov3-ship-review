@@ -2,16 +2,16 @@
   "threshold": 0.34591996669769287,
   "summary": {
     "original_color": {
-      "validation_accepted": 14,
-      "negative_false_accepts": 10
+      "validation_accepted": 15,
+      "negative_false_accepts": 25
     },
     "masked_no_augmentation": {
-      "validation_accepted": 12,
-      "negative_false_accepts": 3
+      "validation_accepted": 13,
+      "negative_false_accepts": 12
     },
     "masked_augmented": {
-      "validation_accepted": 14,
-      "negative_false_accepts": 0
+      "validation_accepted": 16,
+      "negative_false_accepts": 1
     }
   },
   "images": [
@@ -49,16 +49,16 @@
       "kind": "validation",
       "file": "frame_000280.png",
       "raw_original_color": 0.44635435938835144,
-      "original_color": 0.0,
-      "original_color_accepted": false,
+      "original_color": 0.44635435938835144,
+      "original_color_accepted": true,
       "raw_masked_no_augmentation": 0.38064825534820557,
-      "masked_no_augmentation": 0.0,
-      "masked_no_augmentation_accepted": false,
+      "masked_no_augmentation": 0.38064825534820557,
+      "masked_no_augmentation_accepted": true,
       "raw_masked_augmented": 0.41914474964141846,
-      "masked_augmented": 0.0,
-      "masked_augmented_accepted": false,
+      "masked_augmented": 0.41914474964141846,
+      "masked_augmented_accepted": true,
       "bbox_ratio": 3.727272727272727,
-      "ratio_pass": false
+      "ratio_pass": true
     },
     {
       "kind": "validation",
@@ -244,16 +244,16 @@
       "kind": "validation",
       "file": "frame_000073.png",
       "raw_original_color": 0.18228253722190857,
-      "original_color": 0.0,
+      "original_color": 0.18228253722190857,
       "original_color_accepted": false,
       "raw_masked_no_augmentation": 0.3047402501106262,
-      "masked_no_augmentation": 0.0,
+      "masked_no_augmentation": 0.3047402501106262,
       "masked_no_augmentation_accepted": false,
       "raw_masked_augmented": 0.354342520236969,
-      "masked_augmented": 0.0,
-      "masked_augmented_accepted": false,
+      "masked_augmented": 0.354342520236969,
+      "masked_augmented_accepted": true,
       "bbox_ratio": 3.4285714285714284,
-      "ratio_pass": false
+      "ratio_pass": true
     },
     {
       "kind": "validation",
@@ -379,16 +379,16 @@
       "kind": "negative",
       "file": "Ship COSCO Portugal (1).jpg",
       "raw_original_color": 0.7007153034210205,
-      "original_color": 0.0,
-      "original_color_accepted": false,
+      "original_color": 0.7007153034210205,
+      "original_color_accepted": true,
       "raw_masked_no_augmentation": 0.36076271533966064,
-      "masked_no_augmentation": 0.0,
-      "masked_no_augmentation_accepted": false,
+      "masked_no_augmentation": 0.36076271533966064,
+      "masked_no_augmentation_accepted": true,
       "raw_masked_augmented": 0.31622856855392456,
-      "masked_augmented": 0.0,
+      "masked_augmented": 0.31622856855392456,
       "masked_augmented_accepted": false,
       "bbox_ratio": 3.592057761732852,
-      "ratio_pass": false
+      "ratio_pass": true
     },
     {
       "kind": "negative",
@@ -409,16 +409,16 @@
       "kind": "negative",
       "file": "commons_63580180_MAERSK_NEWHAVEN_JPO_VULPECULA_MAJESTIC_MAERSK_SVEN_D_24133691965_.jpg",
       "raw_original_color": 0.692734956741333,
-      "original_color": 0.0,
-      "original_color_accepted": false,
+      "original_color": 0.692734956741333,
+      "original_color_accepted": true,
       "raw_masked_no_augmentation": 0.3846903443336487,
-      "masked_no_augmentation": 0.0,
-      "masked_no_augmentation_accepted": false,
+      "masked_no_augmentation": 0.3846903443336487,
+      "masked_no_augmentation_accepted": true,
       "raw_masked_augmented": 0.31841132044792175,
-      "masked_augmented": 0.0,
+      "masked_augmented": 0.31841132044792175,
       "masked_augmented_accepted": false,
       "bbox_ratio": 3.425,
-      "ratio_pass": false
+      "ratio_pass": true
     },
     {
       "kind": "negative",
@@ -439,31 +439,31 @@
       "kind": "negative",
       "file": "commons_25695147_COSCO_Ningbo_03.jpg",
       "raw_original_color": 0.6708980798721313,
-      "original_color": 0.0,
-      "original_color_accepted": false,
+      "original_color": 0.6708980798721313,
+      "original_color_accepted": true,
       "raw_masked_no_augmentation": 0.3648603558540344,
-      "masked_no_augmentation": 0.0,
-      "masked_no_augmentation_accepted": false,
+      "masked_no_augmentation": 0.3648603558540344,
+      "masked_no_augmentation_accepted": true,
       "raw_masked_augmented": 0.3211196959018707,
-      "masked_augmented": 0.0,
+      "masked_augmented": 0.3211196959018707,
       "masked_augmented_accepted": false,
       "bbox_ratio": 3.484732824427481,
-      "ratio_pass": false
+      "ratio_pass": true
     },
     {
       "kind": "negative",
       "file": "commons_92806755_MSC_AJACCIO_MSC_NELA_cropped_.jpg",
       "raw_original_color": 0.6749247312545776,
-      "original_color": 0.0,
-      "original_color_accepted": false,
+      "original_color": 0.6749247312545776,
+      "original_color_accepted": true,
       "raw_masked_no_augmentation": 0.31814292073249817,
-      "masked_no_augmentation": 0.0,
+      "masked_no_augmentation": 0.31814292073249817,
       "masked_no_augmentation_accepted": false,
       "raw_masked_augmented": 0.27828729152679443,
-      "masked_augmented": 0.0,
+      "masked_augmented": 0.27828729152679443,
       "masked_augmented_accepted": false,
       "bbox_ratio": 3.4328358208955225,
-      "ratio_pass": false
+      "ratio_pass": true
     },
     {
       "kind": "negative",
@@ -514,16 +514,16 @@
       "kind": "negative",
       "file": "commons_63577975_MSC_GENEVA_CMA_CGM_BLUE_WHALE_MSC_FABIENNE_MSC_PREZIOSA_37501865206_.jpg",
       "raw_original_color": 0.6658748388290405,
-      "original_color": 0.0,
-      "original_color_accepted": false,
+      "original_color": 0.6658748388290405,
+      "original_color_accepted": true,
       "raw_masked_no_augmentation": 0.43770459294319153,
-      "masked_no_augmentation": 0.0,
-      "masked_no_augmentation_accepted": false,
+      "masked_no_augmentation": 0.43770459294319153,
+      "masked_no_augmentation_accepted": true,
       "raw_masked_augmented": 0.38939839601516724,
-      "masked_augmented": 0.0,
-      "masked_augmented_accepted": false,
+      "masked_augmented": 0.38939839601516724,
+      "masked_augmented_accepted": true,
       "bbox_ratio": 3.5384615384615383,
-      "ratio_pass": false
+      "ratio_pass": true
     },
     {
       "kind": "negative",
@@ -559,16 +559,16 @@
       "kind": "negative",
       "file": "Maersk kalamata seattle 20101127.jpg",
       "raw_original_color": 0.5984755754470825,
-      "original_color": 0.0,
-      "original_color_accepted": false,
+      "original_color": 0.5984755754470825,
+      "original_color_accepted": true,
       "raw_masked_no_augmentation": 0.346186101436615,
-      "masked_no_augmentation": 0.0,
-      "masked_no_augmentation_accepted": false,
+      "masked_no_augmentation": 0.346186101436615,
+      "masked_no_augmentation_accepted": true,
       "raw_masked_augmented": 0.3048288822174072,
-      "masked_augmented": 0.0,
+      "masked_augmented": 0.3048288822174072,
       "masked_augmented_accepted": false,
       "bbox_ratio": 6.134328358208955,
-      "ratio_pass": false
+      "ratio_pass": true
     },
     {
       "kind": "negative",
@@ -679,16 +679,16 @@
       "kind": "negative",
       "file": "commons_37867353_COSCO_Vancouver_ship_2004_002.jpg",
       "raw_original_color": 0.6462283730506897,
-      "original_color": 0.0,
-      "original_color_accepted": false,
+      "original_color": 0.6462283730506897,
+      "original_color_accepted": true,
       "raw_masked_no_augmentation": 0.3908909261226654,
-      "masked_no_augmentation": 0.0,
-      "masked_no_augmentation_accepted": false,
+      "masked_no_augmentation": 0.3908909261226654,
+      "masked_no_augmentation_accepted": true,
       "raw_masked_augmented": 0.3282701373100281,
-      "masked_augmented": 0.0,
+      "masked_augmented": 0.3282701373100281,
       "masked_augmented_accepted": false,
       "bbox_ratio": 3.409090909090909,
-      "ratio_pass": false
+      "ratio_pass": true
     },
     {
       "kind": "negative",
@@ -709,16 +709,16 @@
       "kind": "negative",
       "file": "commons_66361082_COSCO_Shanghai_Fremantle_2018_06_.jpg",
       "raw_original_color": 0.6427299976348877,
-      "original_color": 0.0,
-      "original_color_accepted": false,
+      "original_color": 0.6427299976348877,
+      "original_color_accepted": true,
       "raw_masked_no_augmentation": 0.2888314127922058,
-      "masked_no_augmentation": 0.0,
+      "masked_no_augmentation": 0.2888314127922058,
       "masked_no_augmentation_accepted": false,
       "raw_masked_augmented": 0.24369773268699646,
-      "masked_augmented": 0.0,
+      "masked_augmented": 0.24369773268699646,
       "masked_augmented_accepted": false,
       "bbox_ratio": 3.6296296296296298,
-      "ratio_pass": false
+      "ratio_pass": true
     },
     {
       "kind": "negative",
@@ -814,31 +814,31 @@
       "kind": "negative",
       "file": "commons_111473604_COSCO_Indonesia_IMO_9448786_C_Hamburg_26-08-2021_2_.jpg",
       "raw_original_color": 0.6351600885391235,
-      "original_color": 0.0,
-      "original_color_accepted": false,
+      "original_color": 0.6351600885391235,
+      "original_color_accepted": true,
       "raw_masked_no_augmentation": 0.34648406505584717,
-      "masked_no_augmentation": 0.0,
-      "masked_no_augmentation_accepted": false,
+      "masked_no_augmentation": 0.34648406505584717,
+      "masked_no_augmentation_accepted": true,
       "raw_masked_augmented": 0.2785416841506958,
-      "masked_augmented": 0.0,
+      "masked_augmented": 0.2785416841506958,
       "masked_augmented_accepted": false,
       "bbox_ratio": 3.339483394833948,
-      "ratio_pass": false
+      "ratio_pass": true
     },
     {
       "kind": "negative",
       "file": "commons_103832373_COSCO_ARIES_COSCO_UNIVERSE_50305732612_.jpg",
       "raw_original_color": 0.6204172968864441,
-      "original_color": 0.0,
-      "original_color_accepted": false,
+      "original_color": 0.6204172968864441,
+      "original_color_accepted": true,
       "raw_masked_no_augmentation": 0.35545024275779724,
-      "masked_no_augmentation": 0.0,
-      "masked_no_augmentation_accepted": false,
+      "masked_no_augmentation": 0.35545024275779724,
+      "masked_no_augmentation_accepted": true,
       "raw_masked_augmented": 0.3072381615638733,
-      "masked_augmented": 0.0,
+      "masked_augmented": 0.3072381615638733,
       "masked_augmented_accepted": false,
       "bbox_ratio": 3.5872093023255816,
-      "ratio_pass": false
+      "ratio_pass": true
     },
     {
       "kind": "negative",
@@ -979,16 +979,16 @@
       "kind": "negative",
       "file": "commons_63604225_FAIRPLAY_XI_MAERSK_NORTHWOOD_MAERSK_NIENBURG_29279265506_.jpg",
       "raw_original_color": 0.5898696184158325,
-      "original_color": 0.0,
-      "original_color_accepted": false,
+      "original_color": 0.5898696184158325,
+      "original_color_accepted": true,
       "raw_masked_no_augmentation": 0.34648412466049194,
-      "masked_no_augmentation": 0.0,
-      "masked_no_augmentation_accepted": false,
+      "masked_no_augmentation": 0.34648412466049194,
+      "masked_no_augmentation_accepted": true,
       "raw_masked_augmented": 0.2743382155895233,
-      "masked_augmented": 0.0,
+      "masked_augmented": 0.2743382155895233,
       "masked_augmented_accepted": false,
       "bbox_ratio": 3.485294117647059,
-      "ratio_pass": false
+      "ratio_pass": true
     },
     {
       "kind": "negative",
@@ -1009,16 +1009,16 @@
       "kind": "negative",
       "file": "commons_63580446_MARSTAL_MAERSK_MORTEN_MAERSK_MAERSK_ROSYTH_18263325183_.jpg",
       "raw_original_color": 0.5633425116539001,
-      "original_color": 0.0,
-      "original_color_accepted": false,
+      "original_color": 0.5633425116539001,
+      "original_color_accepted": true,
       "raw_masked_no_augmentation": 0.330145001411438,
-      "masked_no_augmentation": 0.0,
+      "masked_no_augmentation": 0.330145001411438,
       "masked_no_augmentation_accepted": false,
       "raw_masked_augmented": 0.2980099320411682,
-      "masked_augmented": 0.0,
+      "masked_augmented": 0.2980099320411682,
       "masked_augmented_accepted": false,
       "bbox_ratio": 3.4378109452736316,
-      "ratio_pass": false
+      "ratio_pass": true
     },
     {
       "kind": "negative",
@@ -1264,16 +1264,16 @@
       "kind": "negative",
       "file": "commons_122754061_COSCO_Shipping_Solar_IMO_9795646_C_Hamburg_24-08-2022_1_.jpg",
       "raw_original_color": 0.49352651834487915,
-      "original_color": 0.0,
-      "original_color_accepted": false,
+      "original_color": 0.49352651834487915,
+      "original_color_accepted": true,
       "raw_masked_no_augmentation": 0.2561776638031006,
-      "masked_no_augmentation": 0.0,
+      "masked_no_augmentation": 0.2561776638031006,
       "masked_no_augmentation_accepted": false,
       "raw_masked_augmented": 0.23055800795555115,
-      "masked_augmented": 0.0,
+      "masked_augmented": 0.23055800795555115,
       "masked_augmented_accepted": false,
       "bbox_ratio": 3.594142259414226,
-      "ratio_pass": false
+      "ratio_pass": true
     },
     {
       "kind": "negative",
@@ -1414,16 +1414,16 @@
       "kind": "negative",
       "file": "commons_178905418_COSCO_Shipping_Galaxy_IMO_9795634_C_Hamburg_31-07-2025_4_.jpg",
       "raw_original_color": 0.5180363655090332,
-      "original_color": 0.0,
-      "original_color_accepted": false,
+      "original_color": 0.5180363655090332,
+      "original_color_accepted": true,
       "raw_masked_no_augmentation": 0.2566349506378174,
-      "masked_no_augmentation": 0.0,
+      "masked_no_augmentation": 0.2566349506378174,
       "masked_no_augmentation_accepted": false,
       "raw_masked_augmented": 0.2247263789176941,
-      "masked_augmented": 0.0,
+      "masked_augmented": 0.2247263789176941,
       "masked_augmented_accepted": false,
       "bbox_ratio": 5.913333333333333,
-      "ratio_pass": false
+      "ratio_pass": true
     },
     {
       "kind": "negative",
@@ -1774,16 +1774,16 @@
       "kind": "negative",
       "file": "commons_118778405_MSC_Grandiosa_leaving_Kiel_XV.jpg",
       "raw_original_color": 0.37833869457244873,
-      "original_color": 0.0,
-      "original_color_accepted": false,
+      "original_color": 0.37833869457244873,
+      "original_color_accepted": true,
       "raw_masked_no_augmentation": 0.26501452922821045,
-      "masked_no_augmentation": 0.0,
+      "masked_no_augmentation": 0.26501452922821045,
       "masked_no_augmentation_accepted": false,
       "raw_masked_augmented": 0.2708800137042999,
-      "masked_augmented": 0.0,
+      "masked_augmented": 0.2708800137042999,
       "masked_augmented_accepted": false,
       "bbox_ratio": 3.6741573033707864,
-      "ratio_pass": false
+      "ratio_pass": true
     },
     {
       "kind": "negative",
@@ -1826,127 +1826,307 @@
     "limitation": "Threshold tuned on these development images. Reported rates are in-sample; an independent held-out test is required.",
     "before": {
       "threshold": 0.34591996669769287,
-      "frames_passed": 14,
+      "frames_passed": 16,
       "frames_total": 20,
-      "negative_false_accepts": 0,
+      "negative_false_accepts": 1,
       "negative_total": 100,
-      "frame_pass_rate": 0.7,
-      "false_positive_rate": 0.0,
-      "objective": 0.7
+      "frame_pass_rate": 0.8,
+      "false_positive_rate": 0.01,
+      "objective": 0.79
     },
     "selected": {
       "threshold": 0.34591996669769287,
-      "frames_passed": 14,
+      "frames_passed": 16,
       "frames_total": 20,
-      "negative_false_accepts": 0,
+      "negative_false_accepts": 1,
       "negative_total": 100,
-      "frame_pass_rate": 0.7,
-      "false_positive_rate": 0.0,
-      "objective": 0.7
+      "frame_pass_rate": 0.8,
+      "false_positive_rate": 0.01,
+      "objective": 0.79
     },
     "sweep": [
       {
         "threshold": 0.0,
-        "frames_passed": 14,
+        "frames_passed": 16,
         "frames_total": 20,
-        "negative_false_accepts": 10,
+        "negative_false_accepts": 25,
         "negative_total": 100,
-        "frame_pass_rate": 0.7,
-        "false_positive_rate": 0.1,
-        "objective": 0.6
+        "frame_pass_rate": 0.8,
+        "false_positive_rate": 0.25,
+        "objective": 0.55
       },
       {
-        "threshold": 0.1123870313167572,
-        "frames_passed": 14,
+        "threshold": 0.11236318945884705,
+        "frames_passed": 16,
         "frames_total": 20,
-        "negative_false_accepts": 10,
+        "negative_false_accepts": 25,
         "negative_total": 100,
-        "frame_pass_rate": 0.7,
-        "false_positive_rate": 0.1,
-        "objective": 0.6
+        "frame_pass_rate": 0.8,
+        "false_positive_rate": 0.25,
+        "objective": 0.55
       },
       {
-        "threshold": 0.23657536506652832,
-        "frames_passed": 14,
+        "threshold": 0.22475022077560425,
+        "frames_passed": 16,
         "frames_total": 20,
-        "negative_false_accepts": 9,
+        "negative_false_accepts": 24,
         "negative_total": 100,
-        "frame_pass_rate": 0.7,
-        "false_positive_rate": 0.09,
-        "objective": 0.61
+        "frame_pass_rate": 0.8,
+        "false_positive_rate": 0.24,
+        "objective": 0.56
+      },
+      {
+        "threshold": 0.22766603529453278,
+        "frames_passed": 16,
+        "frames_total": 20,
+        "negative_false_accepts": 23,
+        "negative_total": 100,
+        "frame_pass_rate": 0.8,
+        "false_positive_rate": 0.23,
+        "objective": 0.5700000000000001
+      },
+      {
+        "threshold": 0.2371278703212738,
+        "frames_passed": 16,
+        "frames_total": 20,
+        "negative_false_accepts": 22,
+        "negative_total": 100,
+        "frame_pass_rate": 0.8,
+        "false_positive_rate": 0.22,
+        "objective": 0.5800000000000001
+      },
+      {
+        "threshold": 0.24603720009326935,
+        "frames_passed": 16,
+        "frames_total": 20,
+        "negative_false_accepts": 21,
+        "negative_total": 100,
+        "frame_pass_rate": 0.8,
+        "false_positive_rate": 0.21,
+        "objective": 0.5900000000000001
       },
       {
         "threshold": 0.25657613575458527,
-        "frames_passed": 14,
+        "frames_passed": 16,
         "frames_total": 20,
-        "negative_false_accepts": 8,
+        "negative_false_accepts": 20,
         "negative_total": 100,
-        "frame_pass_rate": 0.7,
-        "false_positive_rate": 0.08,
-        "objective": 0.62
+        "frame_pass_rate": 0.8,
+        "false_positive_rate": 0.2,
+        "objective": 0.6000000000000001
       },
       {
         "threshold": 0.2672540694475174,
-        "frames_passed": 14,
+        "frames_passed": 16,
         "frames_total": 20,
-        "negative_false_accepts": 7,
+        "negative_false_accepts": 19,
         "negative_total": 100,
-        "frame_pass_rate": 0.7,
-        "false_positive_rate": 0.07,
-        "objective": 0.6299999999999999
+        "frame_pass_rate": 0.8,
+        "false_positive_rate": 0.19,
+        "objective": 0.6100000000000001
       },
       {
-        "threshold": 0.27635276317596436,
-        "frames_passed": 14,
+        "threshold": 0.2703062742948532,
+        "frames_passed": 16,
         "frames_total": 20,
-        "negative_false_accepts": 6,
+        "negative_false_accepts": 18,
         "negative_total": 100,
-        "frame_pass_rate": 0.7,
-        "false_positive_rate": 0.06,
-        "objective": 0.6399999999999999
+        "frame_pass_rate": 0.8,
+        "false_positive_rate": 0.18,
+        "objective": 0.6200000000000001
+      },
+      {
+        "threshold": 0.2726091146469116,
+        "frames_passed": 16,
+        "frames_total": 20,
+        "negative_false_accepts": 17,
+        "negative_total": 100,
+        "frame_pass_rate": 0.8,
+        "false_positive_rate": 0.17,
+        "objective": 0.63
+      },
+      {
+        "threshold": 0.2763127535581589,
+        "frames_passed": 16,
+        "frames_total": 20,
+        "negative_false_accepts": 16,
+        "negative_total": 100,
+        "frame_pass_rate": 0.8,
+        "false_positive_rate": 0.16,
+        "objective": 0.64
+      },
+      {
+        "threshold": 0.2784144878387451,
+        "frames_passed": 16,
+        "frames_total": 20,
+        "negative_false_accepts": 15,
+        "negative_total": 100,
+        "frame_pass_rate": 0.8,
+        "false_positive_rate": 0.15,
+        "objective": 0.65
+      },
+      {
+        "threshold": 0.280757337808609,
+        "frames_passed": 16,
+        "frames_total": 20,
+        "negative_false_accepts": 14,
+        "negative_total": 100,
+        "frame_pass_rate": 0.8,
+        "false_positive_rate": 0.14,
+        "objective": 0.66
       },
       {
         "threshold": 0.28690004348754883,
-        "frames_passed": 14,
+        "frames_passed": 16,
+        "frames_total": 20,
+        "negative_false_accepts": 13,
+        "negative_total": 100,
+        "frame_pass_rate": 0.8,
+        "false_positive_rate": 0.13,
+        "objective": 0.67
+      },
+      {
+        "threshold": 0.2944185137748718,
+        "frames_passed": 16,
+        "frames_total": 20,
+        "negative_false_accepts": 12,
+        "negative_total": 100,
+        "frame_pass_rate": 0.8,
+        "false_positive_rate": 0.12,
+        "objective": 0.68
+      },
+      {
+        "threshold": 0.3014194071292877,
+        "frames_passed": 16,
+        "frames_total": 20,
+        "negative_false_accepts": 11,
+        "negative_total": 100,
+        "frame_pass_rate": 0.8,
+        "false_positive_rate": 0.11,
+        "objective": 0.6900000000000001
+      },
+      {
+        "threshold": 0.3050895184278488,
+        "frames_passed": 16,
+        "frames_total": 20,
+        "negative_false_accepts": 10,
+        "negative_total": 100,
+        "frame_pass_rate": 0.8,
+        "false_positive_rate": 0.1,
+        "objective": 0.7000000000000001
+      },
+      {
+        "threshold": 0.30629415810108185,
+        "frames_passed": 16,
+        "frames_total": 20,
+        "negative_false_accepts": 9,
+        "negative_total": 100,
+        "frame_pass_rate": 0.8,
+        "false_positive_rate": 0.09,
+        "objective": 0.7100000000000001
+      },
+      {
+        "threshold": 0.3117333650588989,
+        "frames_passed": 16,
+        "frames_total": 20,
+        "negative_false_accepts": 8,
+        "negative_total": 100,
+        "frame_pass_rate": 0.8,
+        "false_positive_rate": 0.08,
+        "objective": 0.7200000000000001
+      },
+      {
+        "threshold": 0.3169134110212326,
+        "frames_passed": 16,
+        "frames_total": 20,
+        "negative_false_accepts": 7,
+        "negative_total": 100,
+        "frame_pass_rate": 0.8,
+        "false_positive_rate": 0.07,
+        "objective": 0.73
+      },
+      {
+        "threshold": 0.3180047869682312,
+        "frames_passed": 16,
+        "frames_total": 20,
+        "negative_false_accepts": 6,
+        "negative_total": 100,
+        "frame_pass_rate": 0.8,
+        "false_positive_rate": 0.06,
+        "objective": 0.74
+      },
+      {
+        "threshold": 0.31976550817489624,
+        "frames_passed": 16,
         "frames_total": 20,
         "negative_false_accepts": 5,
         "negative_total": 100,
-        "frame_pass_rate": 0.7,
+        "frame_pass_rate": 0.8,
         "false_positive_rate": 0.05,
-        "objective": 0.6499999999999999
+        "objective": 0.75
       },
       {
-        "threshold": 0.2980886250734329,
-        "frames_passed": 14,
+        "threshold": 0.3216516524553299,
+        "frames_passed": 16,
         "frames_total": 20,
         "negative_false_accepts": 4,
         "negative_total": 100,
-        "frame_pass_rate": 0.7,
+        "frame_pass_rate": 0.8,
         "false_positive_rate": 0.04,
-        "objective": 0.6599999999999999
-      },
-      {
-        "threshold": 0.3114742040634155,
-        "frames_passed": 14,
-        "frames_total": 20,
-        "negative_false_accepts": 3,
-        "negative_total": 100,
-        "frame_pass_rate": 0.7,
-        "false_positive_rate": 0.03,
-        "objective": 0.6699999999999999
-      },
-      {
-        "threshold": 0.31989093124866486,
-        "frames_passed": 14,
-        "frames_total": 20,
-        "negative_false_accepts": 2,
-        "negative_total": 100,
-        "frame_pass_rate": 0.7,
-        "false_positive_rate": 0.02,
-        "objective": 0.6799999999999999
+        "objective": 0.76
       },
       {
         "threshold": 0.32363608479499817,
+        "frames_passed": 16,
+        "frames_total": 20,
+        "negative_false_accepts": 3,
+        "negative_total": 100,
+        "frame_pass_rate": 0.8,
+        "false_positive_rate": 0.03,
+        "objective": 0.77
+      },
+      {
+        "threshold": 0.3266793489456177,
+        "frames_passed": 16,
+        "frames_total": 20,
+        "negative_false_accepts": 2,
+        "negative_total": 100,
+        "frame_pass_rate": 0.8,
+        "false_positive_rate": 0.02,
+        "objective": 0.78
+      },
+      {
+        "threshold": 0.34130632877349854,
+        "frames_passed": 16,
+        "frames_total": 20,
+        "negative_false_accepts": 1,
+        "negative_total": 100,
+        "frame_pass_rate": 0.8,
+        "false_positive_rate": 0.01,
+        "objective": 0.79
+      },
+      {
+        "threshold": 0.34591996669769287,
+        "frames_passed": 16,
+        "frames_total": 20,
+        "negative_false_accepts": 1,
+        "negative_total": 100,
+        "frame_pass_rate": 0.8,
+        "false_positive_rate": 0.01,
+        "objective": 0.79
+      },
+      {
+        "threshold": 0.35864295065402985,
+        "frames_passed": 15,
+        "frames_total": 20,
+        "negative_false_accepts": 1,
+        "negative_total": 100,
+        "frame_pass_rate": 0.75,
+        "false_positive_rate": 0.01,
+        "objective": 0.74
+      },
+      {
+        "threshold": 0.37006403505802155,
         "frames_passed": 14,
         "frames_total": 20,
         "negative_false_accepts": 1,
@@ -1956,37 +2136,27 @@
         "objective": 0.69
       },
       {
-        "threshold": 0.344015970826149,
-        "frames_passed": 14,
-        "frames_total": 20,
-        "negative_false_accepts": 0,
-        "negative_total": 100,
-        "frame_pass_rate": 0.7,
-        "false_positive_rate": 0.0,
-        "objective": 0.7
-      },
-      {
-        "threshold": 0.34591996669769287,
-        "frames_passed": 14,
-        "frames_total": 20,
-        "negative_false_accepts": 0,
-        "negative_total": 100,
-        "frame_pass_rate": 0.7,
-        "false_positive_rate": 0.0,
-        "objective": 0.7
-      },
-      {
-        "threshold": 0.37006403505802155,
+        "threshold": 0.38147690892219543,
         "frames_passed": 13,
         "frames_total": 20,
-        "negative_false_accepts": 0,
+        "negative_false_accepts": 1,
         "negative_total": 100,
         "frame_pass_rate": 0.65,
-        "false_positive_rate": 0.0,
-        "objective": 0.65
+        "false_positive_rate": 0.01,
+        "objective": 0.64
       },
       {
-        "threshold": 0.38147690892219543,
+        "threshold": 0.38758376240730286,
+        "frames_passed": 12,
+        "frames_total": 20,
+        "negative_false_accepts": 1,
+        "negative_total": 100,
+        "frame_pass_rate": 0.6,
+        "false_positive_rate": 0.01,
+        "objective": 0.59
+      },
+      {
+        "threshold": 0.3907688707113266,
         "frames_passed": 12,
         "frames_total": 20,
         "negative_false_accepts": 0,
@@ -1996,7 +2166,7 @@
         "objective": 0.6
       },
       {
-        "threshold": 0.3889542371034622,
+        "threshold": 0.39558742940425873,
         "frames_passed": 11,
         "frames_total": 20,
         "negative_false_accepts": 0,
@@ -2006,7 +2176,7 @@
         "objective": 0.55
       },
       {
-        "threshold": 0.39558742940425873,
+        "threshold": 0.40224261581897736,
         "frames_passed": 10,
         "frames_total": 20,
         "negative_false_accepts": 0,
@@ -2016,7 +2186,7 @@
         "objective": 0.5
       },
       {
-        "threshold": 0.40224261581897736,
+        "threshold": 0.40565918385982513,
         "frames_passed": 9,
         "frames_total": 20,
         "negative_false_accepts": 0,
@@ -2026,7 +2196,7 @@
         "objective": 0.45
       },
       {
-        "threshold": 0.40565918385982513,
+        "threshold": 0.4064778983592987,
         "frames_passed": 8,
         "frames_total": 20,
         "negative_false_accepts": 0,
@@ -2036,7 +2206,7 @@
         "objective": 0.4
       },
       {
-        "threshold": 0.4064778983592987,
+        "threshold": 0.40998610854148865,
         "frames_passed": 7,
         "frames_total": 20,
         "negative_false_accepts": 0,
@@ -2046,7 +2216,7 @@
         "objective": 0.35
       },
       {
-        "threshold": 0.40998610854148865,
+        "threshold": 0.4154415428638458,
         "frames_passed": 6,
         "frames_total": 20,
         "negative_false_accepts": 0,
@@ -2056,7 +2226,7 @@
         "objective": 0.3
       },
       {
-        "threshold": 0.4154415428638458,
+        "threshold": 0.4185713827610016,
         "frames_passed": 5,
         "frames_total": 20,
         "negative_false_accepts": 0,
@@ -2066,7 +2236,7 @@
         "objective": 0.25
       },
       {
-        "threshold": 0.42090028524398804,
+        "threshold": 0.4214736521244049,
         "frames_passed": 4,
         "frames_total": 20,
         "negative_false_accepts": 0,
@@ -2129,9 +2299,9 @@
     "model_sha256": "7ab9d990006bf3f1fd03c82c97a433f12fc91272ac4de4cde055e289cb842c6b",
     "ratio_filter": {
       "reference_ratio": 4.762931034482759,
-      "relative_tolerance": 0.2,
-      "minimum": 3.8103448275862073,
-      "maximum": 5.7155172413793105,
+      "relative_tolerance": 0.3,
+      "minimum": 3.334051724137931,
+      "maximum": 6.191810344827587,
       "rejected_scores": 0.0,
       "foreground_bounds": [
         0,
