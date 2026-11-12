@@ -102,7 +102,7 @@
     2.0
   ],
   "variants_per_scale": 10,
-  "decision_threshold": 0.25895166397094727,
+  "decision_threshold": 0.34591996669769287,
   "classification_head_enabled": false,
   "note": "Alpha is explicitly composited on gray before DINOv3. Test images stay original RGB. Small scales may have only a few pixels after 224x224 resize.",
   "images": [

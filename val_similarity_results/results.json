@@ -3,7 +3,7 @@
   "available_images": 595,
   "selected": 20,
   "seed": 629399051,
-  "threshold": 0.25895166397094727,
+  "threshold": 0.34591996669769287,
   "with_detections": 16,
   "display_policy": "Largest-area post-NMS boat only if its width/height is within [R * 0.7, R * 1.3] AND its DINOv3 similarity meets threshold; no fallback to smaller boxes.",
   "detection_count": 16,
@@ -38,7 +38,7 @@
   ],
   "score": "100 * max cosine similarity of crop CLS+mean patch feature to ship-crop reference prototypes",
   "limitations": "YOLO confidence measures boat detection, not vessel identity. DINOv3 similarity threshold is uncalibrated. Development samples, not independent accuracy test.",
-  "model_sha256": "dbb8685d7a8fffcb0f2a3fc7eb6688820287b94110c67179e412d451adea5038",
+  "model_sha256": "7ab9d990006bf3f1fd03c82c97a433f12fc91272ac4de4cde055e289cb842c6b",
   "training_sources": [
     "training_images\\S__191913989.jpg"
   ],
@@ -64,7 +64,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3118891716003418,
+          "similarity": 0.40586864948272705,
           "bbox_ratio": 4.835051546391752,
           "ratio_pass": true
         }
@@ -82,7 +82,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3118891716003418,
+          "similarity": 0.40586864948272705,
           "bbox_ratio": 4.835051546391752,
           "ratio_pass": true,
           "class": "target_ship_candidate"
@@ -111,7 +111,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.30143529176712036,
+          "similarity": 0.3990355134010315,
           "bbox_ratio": 4.71,
           "ratio_pass": true
         }
@@ -129,7 +129,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.30143529176712036,
+          "similarity": 0.3990355134010315,
           "bbox_ratio": 4.71,
           "ratio_pass": true,
           "class": "target_ship_candidate"
@@ -158,7 +158,7 @@
           "detector_view": "whole",
           "contrast_enhanced": true,
           "detector_input_size": 640,
-          "similarity": 0.3305944800376892,
+          "similarity": 0.41914474964141846,
           "bbox_ratio": 3.727272727272727,
           "ratio_pass": true
         }
@@ -176,7 +176,7 @@
           "detector_view": "whole",
           "contrast_enhanced": true,
           "detector_input_size": 640,
-          "similarity": 0.3305944800376892,
+          "similarity": 0.41914474964141846,
           "bbox_ratio": 3.727272727272727,
           "ratio_pass": true,
           "class": "target_ship_candidate"
@@ -216,7 +216,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.32849425077438354,
+          "similarity": 0.42380255460739136,
           "bbox_ratio": 4.462264150943396,
           "ratio_pass": true
         }
@@ -234,7 +234,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.32849425077438354,
+          "similarity": 0.42380255460739136,
           "bbox_ratio": 4.462264150943396,
           "ratio_pass": true,
           "class": "target_ship_candidate"
@@ -263,7 +263,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.30796557664871216,
+          "similarity": 0.4179980158805847,
           "bbox_ratio": 4.823529411764706,
           "ratio_pass": true
         }
@@ -281,7 +281,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.30796557664871216,
+          "similarity": 0.4179980158805847,
           "bbox_ratio": 4.823529411764706,
           "ratio_pass": true,
           "class": "target_ship_candidate"
@@ -314,7 +314,7 @@
           "bbox_ratio": 1.263157894736842,
           "ratio_pass": false,
           "raw_confidence": 0.72607421875,
-          "raw_similarity": 0.32078081369400024
+          "raw_similarity": 0.45581287145614624
         }
       ],
       "detections": [],
@@ -345,7 +345,7 @@
           "bbox_ratio": 1.25,
           "ratio_pass": false,
           "raw_confidence": 0.79443359375,
-          "raw_similarity": 0.34782522916793823
+          "raw_similarity": 0.4634353518486023
         }
       ],
       "detections": [],
@@ -372,7 +372,7 @@
           "detector_view": "whole",
           "contrast_enhanced": true,
           "detector_input_size": 640,
-          "similarity": 0.3001450002193451,
+          "similarity": 0.41288506984710693,
           "bbox_ratio": 4.7105263157894735,
           "ratio_pass": true
         }
@@ -390,7 +390,7 @@
           "detector_view": "whole",
           "contrast_enhanced": true,
           "detector_input_size": 640,
-          "similarity": 0.3001450002193451,
+          "similarity": 0.41288506984710693,
           "bbox_ratio": 4.7105263157894735,
           "ratio_pass": true,
           "class": "target_ship_candidate"
@@ -419,7 +419,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.3522801995277405,
+          "similarity": 0.4409942328929901,
           "bbox_ratio": 4.342105263157895,
           "ratio_pass": true
         }
@@ -437,7 +437,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.3522801995277405,
+          "similarity": 0.4409942328929901,
           "bbox_ratio": 4.342105263157895,
           "ratio_pass": true,
           "class": "target_ship_candidate"
@@ -466,7 +466,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.28449833393096924,
+          "similarity": 0.3771846890449524,
           "bbox_ratio": 5.125,
           "ratio_pass": true
         }
@@ -484,7 +484,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.28449833393096924,
+          "similarity": 0.3771846890449524,
           "bbox_ratio": 5.125,
           "ratio_pass": true,
           "class": "target_ship_candidate"
@@ -513,7 +513,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.30435582995414734,
+          "similarity": 0.4054497182369232,
           "bbox_ratio": 4.485714285714286,
           "ratio_pass": true
         }
@@ -531,7 +531,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.30435582995414734,
+          "similarity": 0.4054497182369232,
           "bbox_ratio": 4.485714285714286,
           "ratio_pass": true,
           "class": "target_ship_candidate"
@@ -560,7 +560,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.32389384508132935,
+          "similarity": 0.3629433810710907,
           "bbox_ratio": 4.4423076923076925,
           "ratio_pass": true
         }
@@ -578,7 +578,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.32389384508132935,
+          "similarity": 0.3629433810710907,
           "bbox_ratio": 4.4423076923076925,
           "ratio_pass": true,
           "class": "target_ship_candidate"
@@ -607,7 +607,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.26775187253952026,
+          "similarity": 0.40708714723587036,
           "bbox_ratio": 4.401869158878505,
           "ratio_pass": true
         }
@@ -625,7 +625,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.26775187253952026,
+          "similarity": 0.40708714723587036,
           "bbox_ratio": 4.401869158878505,
           "ratio_pass": true,
           "class": "target_ship_candidate"
@@ -654,7 +654,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.35066843032836914,
+          "similarity": 0.46389585733413696,
           "bbox_ratio": 4.342105263157895,
           "ratio_pass": true
         }
@@ -672,7 +672,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.35066843032836914,
+          "similarity": 0.46389585733413696,
           "bbox_ratio": 4.342105263157895,
           "ratio_pass": true,
           "class": "target_ship_candidate"
@@ -701,7 +701,7 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.30476826429367065,
+          "similarity": 0.354342520236969,
           "bbox_ratio": 3.4285714285714284,
           "ratio_pass": true
         }
@@ -719,7 +719,7 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.30476826429367065,
+          "similarity": 0.354342520236969,
           "bbox_ratio": 3.4285714285714284,
           "ratio_pass": true,
           "class": "target_ship_candidate"
@@ -748,7 +748,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.31433355808258057,
+          "similarity": 0.3857691287994385,
           "bbox_ratio": 4.366666666666666,
           "ratio_pass": true
         }
@@ -766,7 +766,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.31433355808258057,
+          "similarity": 0.3857691287994385,
           "bbox_ratio": 4.366666666666666,
           "ratio_pass": true,
           "class": "target_ship_candidate"
@@ -795,7 +795,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.3152201771736145,
+          "similarity": 0.4617800712585449,
           "bbox_ratio": 4.4324324324324325,
           "ratio_pass": true
         }
@@ -813,7 +813,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.3152201771736145,
+          "similarity": 0.4617800712585449,
           "bbox_ratio": 4.4324324324324325,
           "ratio_pass": true,
           "class": "target_ship_candidate"
@@ -853,7 +853,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.301055908203125,
+          "similarity": 0.39213934540748596,
           "bbox_ratio": 4.3125,
           "ratio_pass": true
         }
@@ -871,7 +871,7 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.301055908203125,
+          "similarity": 0.39213934540748596,
           "bbox_ratio": 4.3125,
           "ratio_pass": true,
           "class": "target_ship_candidate"
@@ -896,8 +896,8 @@
     "definition": "width / height of nonzero unaugmented foreground mask bounds"
   },
   "selection_policy": "largest-area boat after merged NMS; confidence breaks equal-area ties",
-  "reference_version": "yolo-color-transparent-augmentation-vitb-v7",
+  "reference_version": "yolo-color-transparent-augmentation-v6",
   "classification_head_enabled": false,
   "feature_reuse": "Verified unchanged input hashes and same YOLO boxes; cached frozen DINOv3 features",
-  "backbone_label": "DINOv3 ViT-B/16"
+  "backbone_label": "DINOv3 ViT-S/16"
 }

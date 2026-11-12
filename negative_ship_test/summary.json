@@ -1,10 +1,10 @@
 {
   "count": 100,
   "min_similarity": 0.0,
-  "max_similarity": 0.4088279604911804,
+  "max_similarity": 0.38939839601516724,
   "classification_head_enabled": false,
-  "reference_version": "yolo-color-transparent-augmentation-vitb-v7",
-  "mean_similarity": 0.07993161380290985,
+  "reference_version": "yolo-color-transparent-augmentation-v6",
+  "mean_similarity": 0.07236213952302933,
   "model_modified": false,
   "pipeline": "Same YOLO11s tiled boat detections and DINOv3 cropped ship reference as validation",
   "detector": {
@@ -27,11 +27,11 @@
     "selection_policy": "largest-area boat after merged NMS; confidence breaks equal-area ties",
     "fallback": "CLAHE luminance contrast, only if raw whole-image and tile passes find no boats"
   },
-  "model_sha256": "dbb8685d7a8fffcb0f2a3fc7eb6688820287b94110c67179e412d451adea5038",
+  "model_sha256": "7ab9d990006bf3f1fd03c82c97a433f12fc91272ac4de4cde055e289cb842c6b",
   "training_sources": [
     "training_images\\S__191913989.jpg"
   ],
-  "threshold_selected": 0.25895166397094727,
+  "threshold_selected": 0.34591996669769287,
   "threshold_source": "development-set calibration",
   "accuracy": null,
   "ratio_filter": {
@@ -49,8 +49,8 @@
     "mask": "augmented_training_images_transparent\\masks\\ship.png",
     "definition": "width / height of nonzero unaugmented foreground mask bounds"
   },
-  "false_accept_count": 22,
-  "false_accept_rate": 0.22,
+  "false_accept_count": 1,
+  "false_accept_rate": 0.01,
   "note": "Threshold tuned on these development images. Reported rates are in-sample; an independent held-out test is required.",
   "hypothetical_false_accepts": {
     "0.6": {
