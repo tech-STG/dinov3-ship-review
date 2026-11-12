@@ -1,26 +1,27 @@
 {
   "count": 7,
-  "min_similarity": 0.31276774406433105,
-  "max_similarity": 0.6345876455307007,
-  "mean_similarity": 0.4791073203086853,
+  "min_similarity": 0.35035240650177,
+  "max_similarity": 0.7269632816314697,
+  "mean_similarity": 0.5568455372537885,
   "model_modified": false,
-  "model_sha256": "4211669766e4f1a22039e3af5118b71f96e3653c1ba1e4a446775330a2889425",
+  "pipeline": "Same tiled foreground/background matching and cropped ship reference as validation",
+  "model_sha256": "441dd2ed879889751411d0218606c0130544158c2880b71206a8b8aea054ff7b",
   "training_sources": [
     "training_images\\S__191913989.jpg"
   ],
   "threshold_selected": 0.39,
   "threshold_source": "user-selected",
   "accuracy": null,
-  "false_accept_count": 5,
-  "false_accept_rate": 0.7142857142857143,
+  "false_accept_count": 6,
+  "false_accept_rate": 0.8571428571428571,
   "note": "Exploratory negative-only test. Thresholds below are hypothetical, not calibrated; no independent labeled positives.",
   "hypothetical_false_accepts": {
     "0.6": {
-      "count": 2,
+      "count": 3,
       "total": 7
     },
     "0.7": {
-      "count": 0,
+      "count": 1,
       "total": 7
     },
     "0.75": {

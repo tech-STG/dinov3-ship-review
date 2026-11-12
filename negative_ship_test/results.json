@@ -1,0 +1,7574 @@
+{
+  "summary": {
+    "count": 7,
+    "min_similarity": 0.35035240650177,
+    "max_similarity": 0.7269632816314697,
+    "mean_similarity": 0.5568455372537885,
+    "model_modified": false,
+    "pipeline": "Same tiled foreground/background matching and cropped ship reference as validation",
+    "model_sha256": "441dd2ed879889751411d0218606c0130544158c2880b71206a8b8aea054ff7b",
+    "training_sources": [
+      "training_images\\S__191913989.jpg"
+    ],
+    "threshold_selected": 0.39,
+    "threshold_source": "user-selected",
+    "accuracy": null,
+    "false_accept_count": 6,
+    "false_accept_rate": 0.8571428571428571,
+    "note": "Exploratory negative-only test. Thresholds below are hypothetical, not calibrated; no independent labeled positives.",
+    "hypothetical_false_accepts": {
+      "0.6": {
+        "count": 3,
+        "total": 7
+      },
+      "0.7": {
+        "count": 1,
+        "total": 7
+      },
+      "0.75": {
+        "count": 0,
+        "total": 7
+      },
+      "0.8": {
+        "count": 0,
+        "total": 7
+      },
+      "0.85": {
+        "count": 0,
+        "total": 7
+      },
+      "0.9": {
+        "count": 0,
+        "total": 7
+      }
+    }
+  },
+  "images": [
+    {
+      "file": "images/Ship COSCO Portugal (1).jpg",
+      "title": "File:Ship COSCO Portugal (1).jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ship_COSCO_Portugal_(1).jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Ship_COSCO_Portugal_%281%29.jpg/1280px-Ship_COSCO_Portugal_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "author": "Tvabutzku1234",
+      "description": "The container ship COSCO Portugal outbound on the Elbe river near Cuxhaven",
+      "sha256": "9067bec11b60cef62b1fe896b065e71821c5eecbd337e3460620c9d7dc7431b2",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "downloaded_utc": "2026-11-12T03:39:42.059558+00:00",
+      "label_basis": "Commons identifies a non-Evergreen vessel; target IMO not supplied",
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            0,
+            142,
+            1280,
+            553
+          ],
+          "similarity": 0.6919803023338318
+        },
+        {
+          "bbox_xyxy": [
+            0,
+            211,
+            512,
+            512
+          ],
+          "similarity": 0.7042410969734192
+        },
+        {
+          "bbox_xyxy": [
+            0,
+            476,
+            57,
+            488
+          ],
+          "similarity": 0.21155978739261627
+        },
+        {
+          "bbox_xyxy": [
+            51,
+            226,
+            512,
+            505
+          ],
+          "similarity": 0.7047684192657471
+        },
+        {
+          "bbox_xyxy": [
+            102,
+            477,
+            121,
+            487
+          ],
+          "similarity": 0.15859383344650269
+        },
+        {
+          "bbox_xyxy": [
+            115,
+            465,
+            216,
+            488
+          ],
+          "similarity": 0.282936155796051
+        },
+        {
+          "bbox_xyxy": [
+            221,
+            458,
+            233,
+            467
+          ],
+          "similarity": 0.2256295084953308
+        },
+        {
+          "bbox_xyxy": [
+            223,
+            481,
+            237,
+            489
+          ],
+          "similarity": 0.2705543041229248
+        },
+        {
+          "bbox_xyxy": [
+            256,
+            142,
+            768,
+            512
+          ],
+          "similarity": 0.7118391990661621
+        },
+        {
+          "bbox_xyxy": [
+            256,
+            208,
+            768,
+            531
+          ],
+          "similarity": 0.7269632816314697
+        },
+        {
+          "bbox_xyxy": [
+            263,
+            478,
+            359,
+            489
+          ],
+          "similarity": 0.2940633296966553
+        },
+        {
+          "bbox_xyxy": [
+            267,
+            457,
+            282,
+            467
+          ],
+          "similarity": 0.22459295392036438
+        },
+        {
+          "bbox_xyxy": [
+            267,
+            458,
+            280,
+            467
+          ],
+          "similarity": 0.19270887970924377
+        },
+        {
+          "bbox_xyxy": [
+            269,
+            478,
+            304,
+            489
+          ],
+          "similarity": 0.3465917706489563
+        },
+        {
+          "bbox_xyxy": [
+            284,
+            446,
+            297,
+            460
+          ],
+          "similarity": 0.16061756014823914
+        },
+        {
+          "bbox_xyxy": [
+            284,
+            446,
+            297,
+            461
+          ],
+          "similarity": 0.15473946928977966
+        },
+        {
+          "bbox_xyxy": [
+            288,
+            494,
+            306,
+            505
+          ],
+          "similarity": 0.13174530863761902
+        },
+        {
+          "bbox_xyxy": [
+            314,
+            479,
+            353,
+            488
+          ],
+          "similarity": 0.27724260091781616
+        },
+        {
+          "bbox_xyxy": [
+            335,
+            478,
+            512,
+            490
+          ],
+          "similarity": 0.24553045630455017
+        },
+        {
+          "bbox_xyxy": [
+            338,
+            479,
+            537,
+            490
+          ],
+          "similarity": 0.23264655470848083
+        },
+        {
+          "bbox_xyxy": [
+            340,
+            459,
+            389,
+            472
+          ],
+          "similarity": 0.203120619058609
+        },
+        {
+          "bbox_xyxy": [
+            382,
+            465,
+            402,
+            473
+          ],
+          "similarity": 0.1378307044506073
+        },
+        {
+          "bbox_xyxy": [
+            400,
+            462,
+            425,
+            474
+          ],
+          "similarity": 0.23047226667404175
+        },
+        {
+          "bbox_xyxy": [
+            411,
+            263,
+            462,
+            291
+          ],
+          "similarity": 0.41331130266189575
+        },
+        {
+          "bbox_xyxy": [
+            411,
+            263,
+            463,
+            292
+          ],
+          "similarity": 0.4454159736633301
+        },
+        {
+          "bbox_xyxy": [
+            453,
+            224,
+            512,
+            394
+          ],
+          "similarity": 0.5106993317604065
+        },
+        {
+          "bbox_xyxy": [
+            493,
+            469,
+            509,
+            479
+          ],
+          "similarity": 0.13557690382003784
+        },
+        {
+          "bbox_xyxy": [
+            498,
+            443,
+            512,
+            452
+          ],
+          "similarity": 0.1797846406698227
+        },
+        {
+          "bbox_xyxy": [
+            512,
+            160,
+            1024,
+            441
+          ],
+          "similarity": 0.6712892651557922
+        },
+        {
+          "bbox_xyxy": [
+            512,
+            208,
+            1024,
+            437
+          ],
+          "similarity": 0.6905819177627563
+        },
+        {
+          "bbox_xyxy": [
+            512,
+            307,
+            526,
+            321
+          ],
+          "similarity": 0.3660111725330353
+        },
+        {
+          "bbox_xyxy": [
+            512,
+            434,
+            585,
+            496
+          ],
+          "similarity": 0.35024839639663696
+        },
+        {
+          "bbox_xyxy": [
+            512,
+            435,
+            571,
+            496
+          ],
+          "similarity": 0.393096387386322
+        },
+        {
+          "bbox_xyxy": [
+            519,
+            446,
+            544,
+            464
+          ],
+          "similarity": 0.14570525288581848
+        },
+        {
+          "bbox_xyxy": [
+            522,
+            446,
+            544,
+            464
+          ],
+          "similarity": 0.16291579604148865
+        },
+        {
+          "bbox_xyxy": [
+            522,
+            459,
+            536,
+            467
+          ],
+          "similarity": 0.21477946639060974
+        },
+        {
+          "bbox_xyxy": [
+            546,
+            325,
+            565,
+            337
+          ],
+          "similarity": 0.27618688344955444
+        },
+        {
+          "bbox_xyxy": [
+            547,
+            477,
+            575,
+            489
+          ],
+          "similarity": 0.24284055829048157
+        },
+        {
+          "bbox_xyxy": [
+            557,
+            457,
+            571,
+            473
+          ],
+          "similarity": 0.2578781545162201
+        },
+        {
+          "bbox_xyxy": [
+            567,
+            475,
+            668,
+            494
+          ],
+          "similarity": 0.30871304869651794
+        },
+        {
+          "bbox_xyxy": [
+            572,
+            480,
+            625,
+            492
+          ],
+          "similarity": 0.28999221324920654
+        },
+        {
+          "bbox_xyxy": [
+            572,
+            481,
+            622,
+            492
+          ],
+          "similarity": 0.24878226220607758
+        },
+        {
+          "bbox_xyxy": [
+            599,
+            245,
+            619,
+            258
+          ],
+          "similarity": 0.20053336024284363
+        },
+        {
+          "bbox_xyxy": [
+            602,
+            246,
+            618,
+            257
+          ],
+          "similarity": 0.16491273045539856
+        },
+        {
+          "bbox_xyxy": [
+            620,
+            233,
+            647,
+            241
+          ],
+          "similarity": 0.23621201515197754
+        },
+        {
+          "bbox_xyxy": [
+            622,
+            482,
+            638,
+            490
+          ],
+          "similarity": 0.1959379017353058
+        },
+        {
+          "bbox_xyxy": [
+            622,
+            482,
+            639,
+            491
+          ],
+          "similarity": 0.2084328830242157
+        },
+        {
+          "bbox_xyxy": [
+            634,
+            453,
+            714,
+            471
+          ],
+          "similarity": 0.32090795040130615
+        },
+        {
+          "bbox_xyxy": [
+            636,
+            482,
+            660,
+            493
+          ],
+          "similarity": 0.20898489654064178
+        },
+        {
+          "bbox_xyxy": [
+            639,
+            482,
+            659,
+            493
+          ],
+          "similarity": 0.19347155094146729
+        },
+        {
+          "bbox_xyxy": [
+            640,
+            453,
+            655,
+            467
+          ],
+          "similarity": 0.2718183696269989
+        },
+        {
+          "bbox_xyxy": [
+            647,
+            389,
+            678,
+            450
+          ],
+          "similarity": 0.1518184095621109
+        },
+        {
+          "bbox_xyxy": [
+            647,
+            389,
+            679,
+            450
+          ],
+          "similarity": 0.1482272893190384
+        },
+        {
+          "bbox_xyxy": [
+            648,
+            410,
+            660,
+            432
+          ],
+          "similarity": 0.15244662761688232
+        },
+        {
+          "bbox_xyxy": [
+            649,
+            422,
+            663,
+            436
+          ],
+          "similarity": 0.13244235515594482
+        },
+        {
+          "bbox_xyxy": [
+            650,
+            400,
+            678,
+            415
+          ],
+          "similarity": 0.12166278064250946
+        },
+        {
+          "bbox_xyxy": [
+            651,
+            478,
+            804,
+            495
+          ],
+          "similarity": 0.32239770889282227
+        },
+        {
+          "bbox_xyxy": [
+            659,
+            422,
+            678,
+            437
+          ],
+          "similarity": 0.21453309059143066
+        },
+        {
+          "bbox_xyxy": [
+            659,
+            480,
+            739,
+            491
+          ],
+          "similarity": 0.27389419078826904
+        },
+        {
+          "bbox_xyxy": [
+            674,
+            313,
+            686,
+            330
+          ],
+          "similarity": 0.27208411693573
+        },
+        {
+          "bbox_xyxy": [
+            674,
+            332,
+            687,
+            346
+          ],
+          "similarity": 0.17854338884353638
+        },
+        {
+          "bbox_xyxy": [
+            678,
+            481,
+            733,
+            492
+          ],
+          "similarity": 0.28078722953796387
+        },
+        {
+          "bbox_xyxy": [
+            679,
+            482,
+            723,
+            491
+          ],
+          "similarity": 0.276149719953537
+        },
+        {
+          "bbox_xyxy": [
+            680,
+            442,
+            692,
+            464
+          ],
+          "similarity": 0.263031005859375
+        },
+        {
+          "bbox_xyxy": [
+            680,
+            442,
+            699,
+            464
+          ],
+          "similarity": 0.3393884599208832
+        },
+        {
+          "bbox_xyxy": [
+            680,
+            482,
+            719,
+            490
+          ],
+          "similarity": 0.2439335286617279
+        },
+        {
+          "bbox_xyxy": [
+            688,
+            458,
+            705,
+            468
+          ],
+          "similarity": 0.18593405187129974
+        },
+        {
+          "bbox_xyxy": [
+            688,
+            458,
+            707,
+            468
+          ],
+          "similarity": 0.18780624866485596
+        },
+        {
+          "bbox_xyxy": [
+            710,
+            455,
+            751,
+            468
+          ],
+          "similarity": 0.340678870677948
+        },
+        {
+          "bbox_xyxy": [
+            717,
+            392,
+            748,
+            449
+          ],
+          "similarity": 0.14147478342056274
+        },
+        {
+          "bbox_xyxy": [
+            717,
+            392,
+            748,
+            450
+          ],
+          "similarity": 0.1417776644229889
+        },
+        {
+          "bbox_xyxy": [
+            718,
+            392,
+            748,
+            449
+          ],
+          "similarity": 0.1303926259279251
+        },
+        {
+          "bbox_xyxy": [
+            718,
+            394,
+            748,
+            445
+          ],
+          "similarity": 0.12720850110054016
+        },
+        {
+          "bbox_xyxy": [
+            721,
+            481,
+            748,
+            493
+          ],
+          "similarity": 0.214070126414299
+        },
+        {
+          "bbox_xyxy": [
+            727,
+            480,
+            792,
+            493
+          ],
+          "similarity": 0.3128471374511719
+        },
+        {
+          "bbox_xyxy": [
+            730,
+            480,
+            757,
+            493
+          ],
+          "similarity": 0.23330911993980408
+        },
+        {
+          "bbox_xyxy": [
+            754,
+            483,
+            768,
+            492
+          ],
+          "similarity": 0.16932719945907593
+        },
+        {
+          "bbox_xyxy": [
+            755,
+            275,
+            771,
+            286
+          ],
+          "similarity": 0.2945121228694916
+        },
+        {
+          "bbox_xyxy": [
+            755,
+            480,
+            786,
+            493
+          ],
+          "similarity": 0.2348451167345047
+        },
+        {
+          "bbox_xyxy": [
+            768,
+            214,
+            1280,
+            512
+          ],
+          "similarity": 0.714799702167511
+        },
+        {
+          "bbox_xyxy": [
+            768,
+            228,
+            1280,
+            506
+          ],
+          "similarity": 0.7105452418327332
+        },
+        {
+          "bbox_xyxy": [
+            768,
+            454,
+            882,
+            498
+          ],
+          "similarity": 0.5057918429374695
+        },
+        {
+          "bbox_xyxy": [
+            768,
+            458,
+            841,
+            469
+          ],
+          "similarity": 0.29743894934654236
+        },
+        {
+          "bbox_xyxy": [
+            768,
+            480,
+            815,
+            491
+          ],
+          "similarity": 0.34083691239356995
+        },
+        {
+          "bbox_xyxy": [
+            769,
+            278,
+            824,
+            296
+          ],
+          "similarity": 0.41345280408859253
+        },
+        {
+          "bbox_xyxy": [
+            770,
+            458,
+            789,
+            474
+          ],
+          "similarity": 0.2455976903438568
+        },
+        {
+          "bbox_xyxy": [
+            772,
+            278,
+            796,
+            295
+          ],
+          "similarity": 0.22866685688495636
+        },
+        {
+          "bbox_xyxy": [
+            785,
+            393,
+            813,
+            450
+          ],
+          "similarity": 0.15243366360664368
+        },
+        {
+          "bbox_xyxy": [
+            786,
+            395,
+            812,
+            443
+          ],
+          "similarity": 0.12301432341337204
+        },
+        {
+          "bbox_xyxy": [
+            786,
+            457,
+            857,
+            469
+          ],
+          "similarity": 0.32027098536491394
+        },
+        {
+          "bbox_xyxy": [
+            791,
+            458,
+            811,
+            468
+          ],
+          "similarity": 0.27649998664855957
+        },
+        {
+          "bbox_xyxy": [
+            792,
+            434,
+            809,
+            445
+          ],
+          "similarity": 0.12144911289215088
+        },
+        {
+          "bbox_xyxy": [
+            793,
+            468,
+            805,
+            479
+          ],
+          "similarity": 0.12307783961296082
+        },
+        {
+          "bbox_xyxy": [
+            798,
+            281,
+            822,
+            293
+          ],
+          "similarity": 0.2805740237236023
+        },
+        {
+          "bbox_xyxy": [
+            800,
+            477,
+            865,
+            494
+          ],
+          "similarity": 0.3632470667362213
+        },
+        {
+          "bbox_xyxy": [
+            814,
+            478,
+            849,
+            491
+          ],
+          "similarity": 0.31306445598602295
+        },
+        {
+          "bbox_xyxy": [
+            814,
+            480,
+            843,
+            491
+          ],
+          "similarity": 0.2699364423751831
+        },
+        {
+          "bbox_xyxy": [
+            840,
+            481,
+            874,
+            493
+          ],
+          "similarity": 0.23654428124427795
+        },
+        {
+          "bbox_xyxy": [
+            848,
+            390,
+            876,
+            479
+          ],
+          "similarity": 0.3421455919742584
+        },
+        {
+          "bbox_xyxy": [
+            848,
+            395,
+            876,
+            451
+          ],
+          "similarity": 0.15543413162231445
+        },
+        {
+          "bbox_xyxy": [
+            848,
+            396,
+            876,
+            450
+          ],
+          "similarity": 0.1545487344264984
+        },
+        {
+          "bbox_xyxy": [
+            853,
+            481,
+            869,
+            491
+          ],
+          "similarity": 0.21016806364059448
+        },
+        {
+          "bbox_xyxy": [
+            856,
+            442,
+            874,
+            470
+          ],
+          "similarity": 0.2721756100654602
+        },
+        {
+          "bbox_xyxy": [
+            860,
+            444,
+            873,
+            465
+          ],
+          "similarity": 0.28365904092788696
+        },
+        {
+          "bbox_xyxy": [
+            865,
+            478,
+            910,
+            492
+          ],
+          "similarity": 0.36015722155570984
+        },
+        {
+          "bbox_xyxy": [
+            867,
+            476,
+            889,
+            487
+          ],
+          "similarity": 0.2051340639591217
+        },
+        {
+          "bbox_xyxy": [
+            868,
+            479,
+            888,
+            487
+          ],
+          "similarity": 0.19165757298469543
+        },
+        {
+          "bbox_xyxy": [
+            875,
+            224,
+            891,
+            237
+          ],
+          "similarity": 0.1597936749458313
+        },
+        {
+          "bbox_xyxy": [
+            885,
+            225,
+            902,
+            236
+          ],
+          "similarity": 0.16083596646785736
+        },
+        {
+          "bbox_xyxy": [
+            886,
+            461,
+            907,
+            469
+          ],
+          "similarity": 0.21506625413894653
+        },
+        {
+          "bbox_xyxy": [
+            891,
+            480,
+            909,
+            492
+          ],
+          "similarity": 0.2649388611316681
+        },
+        {
+          "bbox_xyxy": [
+            903,
+            453,
+            916,
+            468
+          ],
+          "similarity": 0.2562706470489502
+        },
+        {
+          "bbox_xyxy": [
+            903,
+            455,
+            915,
+            468
+          ],
+          "similarity": 0.25120875239372253
+        },
+        {
+          "bbox_xyxy": [
+            909,
+            396,
+            936,
+            452
+          ],
+          "similarity": 0.14369842410087585
+        },
+        {
+          "bbox_xyxy": [
+            909,
+            397,
+            936,
+            451
+          ],
+          "similarity": 0.13766877353191376
+        },
+        {
+          "bbox_xyxy": [
+            914,
+            481,
+            935,
+            490
+          ],
+          "similarity": 0.21471351385116577
+        },
+        {
+          "bbox_xyxy": [
+            914,
+            481,
+            936,
+            490
+          ],
+          "similarity": 0.2242637574672699
+        },
+        {
+          "bbox_xyxy": [
+            918,
+            457,
+            932,
+            467
+          ],
+          "similarity": 0.27135515213012695
+        },
+        {
+          "bbox_xyxy": [
+            919,
+            458,
+            939,
+            469
+          ],
+          "similarity": 0.3402746319770813
+        },
+        {
+          "bbox_xyxy": [
+            928,
+            458,
+            944,
+            469
+          ],
+          "similarity": 0.23899109661579132
+        },
+        {
+          "bbox_xyxy": [
+            932,
+            440,
+            1024,
+            498
+          ],
+          "similarity": 0.5328309535980225
+        },
+        {
+          "bbox_xyxy": [
+            936,
+            458,
+            1006,
+            472
+          ],
+          "similarity": 0.3402678966522217
+        },
+        {
+          "bbox_xyxy": [
+            936,
+            482,
+            948,
+            492
+          ],
+          "similarity": 0.1903042495250702
+        },
+        {
+          "bbox_xyxy": [
+            948,
+            444,
+            1006,
+            473
+          ],
+          "similarity": 0.45030584931373596
+        },
+        {
+          "bbox_xyxy": [
+            951,
+            459,
+            975,
+            469
+          ],
+          "similarity": 0.25846239924430847
+        },
+        {
+          "bbox_xyxy": [
+            959,
+            490,
+            975,
+            499
+          ],
+          "similarity": 0.14892703294754028
+        },
+        {
+          "bbox_xyxy": [
+            970,
+            478,
+            1008,
+            489
+          ],
+          "similarity": 0.23958039283752441
+        },
+        {
+          "bbox_xyxy": [
+            971,
+            478,
+            1006,
+            487
+          ],
+          "similarity": 0.25314244627952576
+        },
+        {
+          "bbox_xyxy": [
+            971,
+            478,
+            1012,
+            490
+          ],
+          "similarity": 0.28412917256355286
+        },
+        {
+          "bbox_xyxy": [
+            971,
+            483,
+            993,
+            492
+          ],
+          "similarity": 0.2040148824453354
+        },
+        {
+          "bbox_xyxy": [
+            983,
+            458,
+            1002,
+            470
+          ],
+          "similarity": 0.2805647552013397
+        },
+        {
+          "bbox_xyxy": [
+            998,
+            462,
+            1098,
+            489
+          ],
+          "similarity": 0.4115558862686157
+        },
+        {
+          "bbox_xyxy": [
+            1003,
+            456,
+            1017,
+            470
+          ],
+          "similarity": 0.24095088243484497
+        },
+        {
+          "bbox_xyxy": [
+            1005,
+            475,
+            1024,
+            485
+          ],
+          "similarity": 0.2009582817554474
+        },
+        {
+          "bbox_xyxy": [
+            1076,
+            483,
+            1100,
+            492
+          ],
+          "similarity": 0.21137851476669312
+        },
+        {
+          "bbox_xyxy": [
+            1076,
+            483,
+            1101,
+            492
+          ],
+          "similarity": 0.21480020880699158
+        },
+        {
+          "bbox_xyxy": [
+            1084,
+            471,
+            1104,
+            479
+          ],
+          "similarity": 0.16719867289066315
+        },
+        {
+          "bbox_xyxy": [
+            1094,
+            407,
+            1124,
+            424
+          ],
+          "similarity": 0.25454917550086975
+        },
+        {
+          "bbox_xyxy": [
+            1095,
+            481,
+            1117,
+            490
+          ],
+          "similarity": 0.1616092473268509
+        },
+        {
+          "bbox_xyxy": [
+            1099,
+            481,
+            1117,
+            490
+          ],
+          "similarity": 0.17659898102283478
+        },
+        {
+          "bbox_xyxy": [
+            1102,
+            475,
+            1280,
+            490
+          ],
+          "similarity": 0.22399993240833282
+        },
+        {
+          "bbox_xyxy": [
+            1103,
+            472,
+            1280,
+            493
+          ],
+          "similarity": 0.23090054094791412
+        },
+        {
+          "bbox_xyxy": [
+            1126,
+            479,
+            1159,
+            489
+          ],
+          "similarity": 0.14058226346969604
+        },
+        {
+          "bbox_xyxy": [
+            1167,
+            481,
+            1191,
+            489
+          ],
+          "similarity": 0.15432953834533691
+        }
+      ],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            256,
+            208,
+            768,
+            531
+          ],
+          "similarity": 0.7269632816314697,
+          "class": "target_ship_candidate"
+        }
+      ],
+      "cosine_similarity": 0.7269632816314697,
+      "target_candidate": true,
+      "annotated_file": "annotated/Ship COSCO Portugal (1).jpg"
+    },
+    {
+      "file": "images/Maersk kalamata seattle 20101127.jpg",
+      "title": "File:Maersk kalamata seattle 20101127.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Maersk_kalamata_seattle_20101127.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Maersk_kalamata_seattle_20101127.jpg/1280px-Maersk_kalamata_seattle_20101127.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Ozymandias42",
+      "description": "Photograph of the MAERSK KALAMATA, a container ship of the Maersk Line.  The marking on the ship reads \"Maersk Line\" in large letters, and \"Maersk Kalamata\" near the bow.",
+      "sha256": "e0a40d9c75722317099d9d84abc551bd467c500cdfe26fd1525adbbb9eedc9a7",
+      "dimensions": [
+        1280,
+        417
+      ],
+      "downloaded_utc": "2026-11-12T03:39:40.943556+00:00",
+      "label_basis": "Commons identifies a non-Evergreen vessel; target IMO not supplied",
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            0,
+            166,
+            506,
+            304
+          ],
+          "similarity": 0.6464453339576721
+        },
+        {
+          "bbox_xyxy": [
+            39,
+            293,
+            58,
+            316
+          ],
+          "similarity": 0.20033881068229675
+        },
+        {
+          "bbox_xyxy": [
+            47,
+            274,
+            68,
+            297
+          ],
+          "similarity": 0.20235559344291687
+        },
+        {
+          "bbox_xyxy": [
+            56,
+            280,
+            210,
+            415
+          ],
+          "similarity": 0.4371849298477173
+        },
+        {
+          "bbox_xyxy": [
+            114,
+            285,
+            146,
+            296
+          ],
+          "similarity": 0.25479856133461
+        },
+        {
+          "bbox_xyxy": [
+            144,
+            286,
+            185,
+            296
+          ],
+          "similarity": 0.25828731060028076
+        },
+        {
+          "bbox_xyxy": [
+            208,
+            281,
+            236,
+            294
+          ],
+          "similarity": 0.24926334619522095
+        },
+        {
+          "bbox_xyxy": [
+            228,
+            333,
+            242,
+            354
+          ],
+          "similarity": 0.1704416126012802
+        },
+        {
+          "bbox_xyxy": [
+            234,
+            289,
+            419,
+            303
+          ],
+          "similarity": 0.25165247917175293
+        },
+        {
+          "bbox_xyxy": [
+            236,
+            280,
+            253,
+            293
+          ],
+          "similarity": 0.248978391289711
+        },
+        {
+          "bbox_xyxy": [
+            236,
+            325,
+            250,
+            339
+          ],
+          "similarity": 0.1525299996137619
+        },
+        {
+          "bbox_xyxy": [
+            249,
+            242,
+            265,
+            269
+          ],
+          "similarity": 0.2035037875175476
+        },
+        {
+          "bbox_xyxy": [
+            256,
+            208,
+            321,
+            252
+          ],
+          "similarity": 0.37613213062286377
+        },
+        {
+          "bbox_xyxy": [
+            256,
+            247,
+            274,
+            255
+          ],
+          "similarity": 0.1949172019958496
+        },
+        {
+          "bbox_xyxy": [
+            256,
+            278,
+            745,
+            304
+          ],
+          "similarity": 0.2698831558227539
+        },
+        {
+          "bbox_xyxy": [
+            277,
+            176,
+            493,
+            246
+          ],
+          "similarity": 0.500173807144165
+        },
+        {
+          "bbox_xyxy": [
+            296,
+            191,
+            326,
+            207
+          ],
+          "similarity": 0.21670052409172058
+        },
+        {
+          "bbox_xyxy": [
+            320,
+            232,
+            334,
+            243
+          ],
+          "similarity": 0.17885835468769073
+        },
+        {
+          "bbox_xyxy": [
+            320,
+            244,
+            333,
+            253
+          ],
+          "similarity": 0.20096787810325623
+        },
+        {
+          "bbox_xyxy": [
+            340,
+            253,
+            353,
+            264
+          ],
+          "similarity": 0.1683618426322937
+        },
+        {
+          "bbox_xyxy": [
+            384,
+            243,
+            406,
+            252
+          ],
+          "similarity": 0.22116658091545105
+        },
+        {
+          "bbox_xyxy": [
+            391,
+            213,
+            431,
+            222
+          ],
+          "similarity": 0.2328023761510849
+        },
+        {
+          "bbox_xyxy": [
+            415,
+            183,
+            438,
+            193
+          ],
+          "similarity": 0.22080108523368835
+        },
+        {
+          "bbox_xyxy": [
+            424,
+            183,
+            438,
+            193
+          ],
+          "similarity": 0.1795313060283661
+        },
+        {
+          "bbox_xyxy": [
+            442,
+            198,
+            557,
+            287
+          ],
+          "similarity": 0.4758872985839844
+        },
+        {
+          "bbox_xyxy": [
+            446,
+            177,
+            537,
+            207
+          ],
+          "similarity": 0.41802680492401123
+        },
+        {
+          "bbox_xyxy": [
+            451,
+            175,
+            512,
+            208
+          ],
+          "similarity": 0.47275346517562866
+        },
+        {
+          "bbox_xyxy": [
+            459,
+            211,
+            490,
+            225
+          ],
+          "similarity": 0.27055227756500244
+        },
+        {
+          "bbox_xyxy": [
+            460,
+            231,
+            473,
+            249
+          ],
+          "similarity": 0.20648276805877686
+        },
+        {
+          "bbox_xyxy": [
+            460,
+            247,
+            472,
+            256
+          ],
+          "similarity": 0.17635494470596313
+        },
+        {
+          "bbox_xyxy": [
+            461,
+            202,
+            475,
+            210
+          ],
+          "similarity": 0.2695295810699463
+        },
+        {
+          "bbox_xyxy": [
+            487,
+            205,
+            548,
+            228
+          ],
+          "similarity": 0.36018747091293335
+        },
+        {
+          "bbox_xyxy": [
+            511,
+            240,
+            531,
+            249
+          ],
+          "similarity": 0.22517254948616028
+        },
+        {
+          "bbox_xyxy": [
+            512,
+            178,
+            531,
+            201
+          ],
+          "similarity": 0.2918708026409149
+        },
+        {
+          "bbox_xyxy": [
+            512,
+            208,
+            528,
+            228
+          ],
+          "similarity": 0.27190881967544556
+        },
+        {
+          "bbox_xyxy": [
+            512,
+            247,
+            567,
+            277
+          ],
+          "similarity": 0.3262465000152588
+        },
+        {
+          "bbox_xyxy": [
+            512,
+            269,
+            964,
+            296
+          ],
+          "similarity": 0.3771103620529175
+        },
+        {
+          "bbox_xyxy": [
+            532,
+            196,
+            576,
+            211
+          ],
+          "similarity": 0.30592748522758484
+        },
+        {
+          "bbox_xyxy": [
+            532,
+            196,
+            577,
+            211
+          ],
+          "similarity": 0.338968962430954
+        },
+        {
+          "bbox_xyxy": [
+            534,
+            179,
+            560,
+            194
+          ],
+          "similarity": 0.3175663352012634
+        },
+        {
+          "bbox_xyxy": [
+            534,
+            179,
+            561,
+            194
+          ],
+          "similarity": 0.31652772426605225
+        },
+        {
+          "bbox_xyxy": [
+            550,
+            131,
+            996,
+            292
+          ],
+          "similarity": 0.6406441926956177
+        },
+        {
+          "bbox_xyxy": [
+            550,
+            220,
+            592,
+            278
+          ],
+          "similarity": 0.43756645917892456
+        },
+        {
+          "bbox_xyxy": [
+            552,
+            242,
+            573,
+            253
+          ],
+          "similarity": 0.2776055335998535
+        },
+        {
+          "bbox_xyxy": [
+            552,
+            243,
+            576,
+            253
+          ],
+          "similarity": 0.2860378324985504
+        },
+        {
+          "bbox_xyxy": [
+            558,
+            220,
+            593,
+            278
+          ],
+          "similarity": 0.4505380392074585
+        },
+        {
+          "bbox_xyxy": [
+            562,
+            181,
+            583,
+            189
+          ],
+          "similarity": 0.21527519822120667
+        },
+        {
+          "bbox_xyxy": [
+            562,
+            181,
+            585,
+            190
+          ],
+          "similarity": 0.18077144026756287
+        },
+        {
+          "bbox_xyxy": [
+            567,
+            206,
+            621,
+            228
+          ],
+          "similarity": 0.3254513442516327
+        },
+        {
+          "bbox_xyxy": [
+            568,
+            205,
+            621,
+            214
+          ],
+          "similarity": 0.25211238861083984
+        },
+        {
+          "bbox_xyxy": [
+            569,
+            211,
+            592,
+            228
+          ],
+          "similarity": 0.29474639892578125
+        },
+        {
+          "bbox_xyxy": [
+            571,
+            136,
+            768,
+            291
+          ],
+          "similarity": 0.5811551809310913
+        },
+        {
+          "bbox_xyxy": [
+            577,
+            176,
+            610,
+            185
+          ],
+          "similarity": 0.18464034795761108
+        },
+        {
+          "bbox_xyxy": [
+            578,
+            176,
+            609,
+            185
+          ],
+          "similarity": 0.1880168914794922
+        },
+        {
+          "bbox_xyxy": [
+            593,
+            338,
+            672,
+            347
+          ],
+          "similarity": 0.24662861227989197
+        },
+        {
+          "bbox_xyxy": [
+            593,
+            338,
+            672,
+            348
+          ],
+          "similarity": 0.2637346088886261
+        },
+        {
+          "bbox_xyxy": [
+            621,
+            319,
+            1024,
+            345
+          ],
+          "similarity": 0.3096551299095154
+        },
+        {
+          "bbox_xyxy": [
+            629,
+            291,
+            742,
+            326
+          ],
+          "similarity": 0.26357805728912354
+        },
+        {
+          "bbox_xyxy": [
+            652,
+            332,
+            768,
+            344
+          ],
+          "similarity": 0.24061980843544006
+        },
+        {
+          "bbox_xyxy": [
+            716,
+            240,
+            754,
+            275
+          ],
+          "similarity": 0.4551507830619812
+        },
+        {
+          "bbox_xyxy": [
+            732,
+            291,
+            752,
+            321
+          ],
+          "similarity": 0.23084641993045807
+        },
+        {
+          "bbox_xyxy": [
+            732,
+            291,
+            753,
+            321
+          ],
+          "similarity": 0.2276816964149475
+        },
+        {
+          "bbox_xyxy": [
+            753,
+            287,
+            824,
+            321
+          ],
+          "similarity": 0.25409531593322754
+        },
+        {
+          "bbox_xyxy": [
+            768,
+            131,
+            1271,
+            307
+          ],
+          "similarity": 0.65947425365448
+        },
+        {
+          "bbox_xyxy": [
+            768,
+            148,
+            851,
+            191
+          ],
+          "similarity": 0.5059005618095398
+        },
+        {
+          "bbox_xyxy": [
+            768,
+            175,
+            971,
+            282
+          ],
+          "similarity": 0.5571943521499634
+        },
+        {
+          "bbox_xyxy": [
+            768,
+            253,
+            791,
+            262
+          ],
+          "similarity": 0.20853659510612488
+        },
+        {
+          "bbox_xyxy": [
+            768,
+            287,
+            823,
+            321
+          ],
+          "similarity": 0.24240505695343018
+        },
+        {
+          "bbox_xyxy": [
+            783,
+            188,
+            824,
+            199
+          ],
+          "similarity": 0.28083449602127075
+        },
+        {
+          "bbox_xyxy": [
+            803,
+            284,
+            1280,
+            347
+          ],
+          "similarity": 0.4603009819984436
+        },
+        {
+          "bbox_xyxy": [
+            841,
+            93,
+            956,
+            199
+          ],
+          "similarity": 0.5284215211868286
+        },
+        {
+          "bbox_xyxy": [
+            842,
+            97,
+            956,
+            174
+          ],
+          "similarity": 0.4597588777542114
+        },
+        {
+          "bbox_xyxy": [
+            858,
+            178,
+            883,
+            200
+          ],
+          "similarity": 0.29987651109695435
+        },
+        {
+          "bbox_xyxy": [
+            861,
+            157,
+            886,
+            186
+          ],
+          "similarity": 0.32978004217147827
+        },
+        {
+          "bbox_xyxy": [
+            864,
+            109,
+            877,
+            127
+          ],
+          "similarity": 0.1233624517917633
+        },
+        {
+          "bbox_xyxy": [
+            878,
+            260,
+            901,
+            270
+          ],
+          "similarity": 0.18341583013534546
+        },
+        {
+          "bbox_xyxy": [
+            883,
+            160,
+            955,
+            177
+          ],
+          "similarity": 0.3272971510887146
+        },
+        {
+          "bbox_xyxy": [
+            884,
+            160,
+            955,
+            176
+          ],
+          "similarity": 0.3277980089187622
+        },
+        {
+          "bbox_xyxy": [
+            886,
+            362,
+            915,
+            371
+          ],
+          "similarity": 0.20346584916114807
+        },
+        {
+          "bbox_xyxy": [
+            913,
+            269,
+            945,
+            278
+          ],
+          "similarity": 0.3123907148838043
+        },
+        {
+          "bbox_xyxy": [
+            917,
+            248,
+            945,
+            259
+          ],
+          "similarity": 0.22726652026176453
+        },
+        {
+          "bbox_xyxy": [
+            920,
+            361,
+            948,
+            371
+          ],
+          "similarity": 0.17296823859214783
+        },
+        {
+          "bbox_xyxy": [
+            945,
+            247,
+            988,
+            267
+          ],
+          "similarity": 0.2604459524154663
+        },
+        {
+          "bbox_xyxy": [
+            946,
+            169,
+            959,
+            186
+          ],
+          "similarity": 0.10515803843736649
+        },
+        {
+          "bbox_xyxy": [
+            947,
+            150,
+            1024,
+            197
+          ],
+          "similarity": 0.3920356333255768
+        },
+        {
+          "bbox_xyxy": [
+            947,
+            231,
+            959,
+            266
+          ],
+          "similarity": 0.30986887216567993
+        },
+        {
+          "bbox_xyxy": [
+            949,
+            268,
+            974,
+            277
+          ],
+          "similarity": 0.291413813829422
+        },
+        {
+          "bbox_xyxy": [
+            955,
+            152,
+            967,
+            160
+          ],
+          "similarity": 0.16884933412075043
+        },
+        {
+          "bbox_xyxy": [
+            955,
+            257,
+            987,
+            267
+          ],
+          "similarity": 0.24986982345581055
+        },
+        {
+          "bbox_xyxy": [
+            957,
+            236,
+            978,
+            252
+          ],
+          "similarity": 0.0813986212015152
+        },
+        {
+          "bbox_xyxy": [
+            957,
+            238,
+            978,
+            252
+          ],
+          "similarity": 0.06605613976716995
+        },
+        {
+          "bbox_xyxy": [
+            969,
+            215,
+            1024,
+            271
+          ],
+          "similarity": 0.3494131565093994
+        },
+        {
+          "bbox_xyxy": [
+            980,
+            246,
+            995,
+            259
+          ],
+          "similarity": 0.20621514320373535
+        },
+        {
+          "bbox_xyxy": [
+            983,
+            199,
+            1024,
+            212
+          ],
+          "similarity": 0.20823092758655548
+        },
+        {
+          "bbox_xyxy": [
+            994,
+            208,
+            1011,
+            221
+          ],
+          "similarity": 0.16263723373413086
+        },
+        {
+          "bbox_xyxy": [
+            1008,
+            187,
+            1024,
+            196
+          ],
+          "similarity": 0.20176422595977783
+        },
+        {
+          "bbox_xyxy": [
+            1036,
+            213,
+            1060,
+            227
+          ],
+          "similarity": 0.2314336895942688
+        },
+        {
+          "bbox_xyxy": [
+            1036,
+            352,
+            1139,
+            367
+          ],
+          "similarity": 0.1867789477109909
+        },
+        {
+          "bbox_xyxy": [
+            1127,
+            347,
+            1221,
+            366
+          ],
+          "similarity": 0.17140987515449524
+        },
+        {
+          "bbox_xyxy": [
+            1176,
+            195,
+            1204,
+            207
+          ],
+          "similarity": 0.20586973428726196
+        },
+        {
+          "bbox_xyxy": [
+            1199,
+            337,
+            1230,
+            354
+          ],
+          "similarity": 0.18228019773960114
+        },
+        {
+          "bbox_xyxy": [
+            1205,
+            260,
+            1253,
+            293
+          ],
+          "similarity": 0.360416054725647
+        },
+        {
+          "bbox_xyxy": [
+            1221,
+            209,
+            1247,
+            220
+          ],
+          "similarity": 0.2370712161064148
+        }
+      ],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            768,
+            131,
+            1271,
+            307
+          ],
+          "similarity": 0.65947425365448,
+          "class": "target_ship_candidate"
+        }
+      ],
+      "cosine_similarity": 0.65947425365448,
+      "target_candidate": true,
+      "annotated_file": "annotated/Maersk kalamata seattle 20101127.jpg"
+    },
+    {
+      "file": "images/Container ship MV Maersk Alabama.jpg",
+      "title": "File:Container ship MV Maersk Alabama.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Container_ship_MV_Maersk_Alabama.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Container_ship_MV_Maersk_Alabama.jpg/1280px-Container_ship_MV_Maersk_Alabama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Public domain",
+      "license_url": "",
+      "author": "Laura A. Moore, U.S. Navy",
+      "description": "Container ship MV Maersk Alabama leaves Mombasa, Kenya, April 21, 2009, after spending time in port after a pirate attack that took her captain hostage.",
+      "sha256": "c35a89a420b25eee12df8db042fdb5474154ac36dcb28764676563408e4acf5d",
+      "dimensions": [
+        1280,
+        629
+      ],
+      "downloaded_utc": "2026-11-12T03:39:37.069190+00:00",
+      "label_basis": "Commons identifies a non-Evergreen vessel; target IMO not supplied",
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            0,
+            166,
+            512,
+            473
+          ],
+          "similarity": 0.6104961633682251
+        },
+        {
+          "bbox_xyxy": [
+            0,
+            166,
+            512,
+            475
+          ],
+          "similarity": 0.6094178557395935
+        },
+        {
+          "bbox_xyxy": [
+            0,
+            215,
+            19,
+            229
+          ],
+          "similarity": 0.1584276258945465
+        },
+        {
+          "bbox_xyxy": [
+            0,
+            244,
+            22,
+            255
+          ],
+          "similarity": 0.0829462930560112
+        },
+        {
+          "bbox_xyxy": [
+            12,
+            234,
+            31,
+            251
+          ],
+          "similarity": 0.08812667429447174
+        },
+        {
+          "bbox_xyxy": [
+            20,
+            193,
+            42,
+            203
+          ],
+          "similarity": 0.14180178940296173
+        },
+        {
+          "bbox_xyxy": [
+            25,
+            239,
+            46,
+            256
+          ],
+          "similarity": 0.12522822618484497
+        },
+        {
+          "bbox_xyxy": [
+            26,
+            146,
+            191,
+            223
+          ],
+          "similarity": 0.3281342387199402
+        },
+        {
+          "bbox_xyxy": [
+            27,
+            146,
+            185,
+            223
+          ],
+          "similarity": 0.31905364990234375
+        },
+        {
+          "bbox_xyxy": [
+            67,
+            238,
+            80,
+            249
+          ],
+          "similarity": 0.10477875173091888
+        },
+        {
+          "bbox_xyxy": [
+            84,
+            229,
+            107,
+            246
+          ],
+          "similarity": 0.12089250981807709
+        },
+        {
+          "bbox_xyxy": [
+            93,
+            231,
+            122,
+            250
+          ],
+          "similarity": 0.129595547914505
+        },
+        {
+          "bbox_xyxy": [
+            116,
+            416,
+            134,
+            425
+          ],
+          "similarity": 0.12963663041591644
+        },
+        {
+          "bbox_xyxy": [
+            135,
+            213,
+            147,
+            230
+          ],
+          "similarity": 0.23476830124855042
+        },
+        {
+          "bbox_xyxy": [
+            146,
+            250,
+            196,
+            266
+          ],
+          "similarity": 0.35049670934677124
+        },
+        {
+          "bbox_xyxy": [
+            162,
+            219,
+            185,
+            231
+          ],
+          "similarity": 0.19286736845970154
+        },
+        {
+          "bbox_xyxy": [
+            169,
+            191,
+            193,
+            208
+          ],
+          "similarity": 0.21697932481765747
+        },
+        {
+          "bbox_xyxy": [
+            184,
+            158,
+            198,
+            170
+          ],
+          "similarity": 0.25857236981391907
+        },
+        {
+          "bbox_xyxy": [
+            193,
+            289,
+            209,
+            306
+          ],
+          "similarity": 0.2815884053707123
+        },
+        {
+          "bbox_xyxy": [
+            194,
+            265,
+            209,
+            279
+          ],
+          "similarity": 0.2762369215488434
+        },
+        {
+          "bbox_xyxy": [
+            194,
+            430,
+            210,
+            441
+          ],
+          "similarity": 0.0998985543847084
+        },
+        {
+          "bbox_xyxy": [
+            197,
+            157,
+            217,
+            172
+          ],
+          "similarity": 0.22630679607391357
+        },
+        {
+          "bbox_xyxy": [
+            205,
+            377,
+            220,
+            388
+          ],
+          "similarity": 0.15335136651992798
+        },
+        {
+          "bbox_xyxy": [
+            211,
+            240,
+            231,
+            248
+          ],
+          "similarity": 0.1256299912929535
+        },
+        {
+          "bbox_xyxy": [
+            214,
+            183,
+            253,
+            204
+          ],
+          "similarity": 0.22232100367546082
+        },
+        {
+          "bbox_xyxy": [
+            220,
+            427,
+            270,
+            445
+          ],
+          "similarity": 0.10837860405445099
+        },
+        {
+          "bbox_xyxy": [
+            226,
+            159,
+            244,
+            172
+          ],
+          "similarity": 0.24165081977844238
+        },
+        {
+          "bbox_xyxy": [
+            237,
+            230,
+            253,
+            248
+          ],
+          "similarity": 0.07439422607421875
+        },
+        {
+          "bbox_xyxy": [
+            245,
+            155,
+            360,
+            210
+          ],
+          "similarity": 0.27326950430870056
+        },
+        {
+          "bbox_xyxy": [
+            245,
+            155,
+            360,
+            212
+          ],
+          "similarity": 0.2482544183731079
+        },
+        {
+          "bbox_xyxy": [
+            254,
+            241,
+            274,
+            254
+          ],
+          "similarity": 0.10224379599094391
+        },
+        {
+          "bbox_xyxy": [
+            256,
+            155,
+            360,
+            210
+          ],
+          "similarity": 0.2803560793399811
+        },
+        {
+          "bbox_xyxy": [
+            256,
+            155,
+            360,
+            211
+          ],
+          "similarity": 0.2635536193847656
+        },
+        {
+          "bbox_xyxy": [
+            256,
+            186,
+            738,
+            354
+          ],
+          "similarity": 0.5215542316436768
+        },
+        {
+          "bbox_xyxy": [
+            256,
+            241,
+            274,
+            254
+          ],
+          "similarity": 0.09520809352397919
+        },
+        {
+          "bbox_xyxy": [
+            256,
+            329,
+            345,
+            377
+          ],
+          "similarity": 0.25064361095428467
+        },
+        {
+          "bbox_xyxy": [
+            256,
+            329,
+            430,
+            377
+          ],
+          "similarity": 0.27445855736732483
+        },
+        {
+          "bbox_xyxy": [
+            267,
+            411,
+            291,
+            421
+          ],
+          "similarity": 0.1663375198841095
+        },
+        {
+          "bbox_xyxy": [
+            270,
+            158,
+            310,
+            177
+          ],
+          "similarity": 0.3136240541934967
+        },
+        {
+          "bbox_xyxy": [
+            272,
+            434,
+            310,
+            451
+          ],
+          "similarity": 0.16636241972446442
+        },
+        {
+          "bbox_xyxy": [
+            280,
+            159,
+            302,
+            177
+          ],
+          "similarity": 0.22983711957931519
+        },
+        {
+          "bbox_xyxy": [
+            281,
+            283,
+            352,
+            292
+          ],
+          "similarity": 0.1963707059621811
+        },
+        {
+          "bbox_xyxy": [
+            281,
+            283,
+            356,
+            292
+          ],
+          "similarity": 0.18466418981552124
+        },
+        {
+          "bbox_xyxy": [
+            287,
+            207,
+            328,
+            237
+          ],
+          "similarity": 0.235460102558136
+        },
+        {
+          "bbox_xyxy": [
+            298,
+            264,
+            349,
+            287
+          ],
+          "similarity": 0.2671736180782318
+        },
+        {
+          "bbox_xyxy": [
+            298,
+            265,
+            348,
+            285
+          ],
+          "similarity": 0.1916084885597229
+        },
+        {
+          "bbox_xyxy": [
+            298,
+            290,
+            348,
+            313
+          ],
+          "similarity": 0.18943357467651367
+        },
+        {
+          "bbox_xyxy": [
+            298,
+            291,
+            348,
+            313
+          ],
+          "similarity": 0.19336941838264465
+        },
+        {
+          "bbox_xyxy": [
+            298,
+            440,
+            319,
+            451
+          ],
+          "similarity": 0.11357155442237854
+        },
+        {
+          "bbox_xyxy": [
+            301,
+            329,
+            313,
+            341
+          ],
+          "similarity": 0.1831904947757721
+        },
+        {
+          "bbox_xyxy": [
+            320,
+            333,
+            422,
+            356
+          ],
+          "similarity": 0.2540796101093292
+        },
+        {
+          "bbox_xyxy": [
+            322,
+            205,
+            352,
+            213
+          ],
+          "similarity": 0.23565205931663513
+        },
+        {
+          "bbox_xyxy": [
+            324,
+            275,
+            347,
+            287
+          ],
+          "similarity": 0.17351585626602173
+        },
+        {
+          "bbox_xyxy": [
+            337,
+            344,
+            410,
+            381
+          ],
+          "similarity": 0.24310386180877686
+        },
+        {
+          "bbox_xyxy": [
+            343,
+            162,
+            409,
+            217
+          ],
+          "similarity": 0.30325159430503845
+        },
+        {
+          "bbox_xyxy": [
+            343,
+            344,
+            409,
+            380
+          ],
+          "similarity": 0.24356308579444885
+        },
+        {
+          "bbox_xyxy": [
+            347,
+            210,
+            361,
+            219
+          ],
+          "similarity": 0.134286031126976
+        },
+        {
+          "bbox_xyxy": [
+            357,
+            236,
+            512,
+            332
+          ],
+          "similarity": 0.500771164894104
+        },
+        {
+          "bbox_xyxy": [
+            367,
+            209,
+            408,
+            238
+          ],
+          "similarity": 0.20000196993350983
+        },
+        {
+          "bbox_xyxy": [
+            378,
+            251,
+            393,
+            264
+          ],
+          "similarity": 0.292344868183136
+        },
+        {
+          "bbox_xyxy": [
+            393,
+            290,
+            413,
+            298
+          ],
+          "similarity": 0.23995502293109894
+        },
+        {
+          "bbox_xyxy": [
+            403,
+            327,
+            531,
+            390
+          ],
+          "similarity": 0.3908197581768036
+        },
+        {
+          "bbox_xyxy": [
+            403,
+            328,
+            531,
+            390
+          ],
+          "similarity": 0.37873196601867676
+        },
+        {
+          "bbox_xyxy": [
+            404,
+            329,
+            512,
+            387
+          ],
+          "similarity": 0.3658985495567322
+        },
+        {
+          "bbox_xyxy": [
+            417,
+            205,
+            429,
+            218
+          ],
+          "similarity": 0.12581735849380493
+        },
+        {
+          "bbox_xyxy": [
+            419,
+            191,
+            434,
+            202
+          ],
+          "similarity": 0.2290128767490387
+        },
+        {
+          "bbox_xyxy": [
+            419,
+            192,
+            434,
+            202
+          ],
+          "similarity": 0.2078259289264679
+        },
+        {
+          "bbox_xyxy": [
+            425,
+            277,
+            440,
+            290
+          ],
+          "similarity": 0.3094484806060791
+        },
+        {
+          "bbox_xyxy": [
+            425,
+            277,
+            459,
+            290
+          ],
+          "similarity": 0.28893589973449707
+        },
+        {
+          "bbox_xyxy": [
+            425,
+            301,
+            440,
+            314
+          ],
+          "similarity": 0.2997429370880127
+        },
+        {
+          "bbox_xyxy": [
+            425,
+            303,
+            439,
+            314
+          ],
+          "similarity": 0.27902138233184814
+        },
+        {
+          "bbox_xyxy": [
+            426,
+            301,
+            440,
+            312
+          ],
+          "similarity": 0.28944915533065796
+        },
+        {
+          "bbox_xyxy": [
+            433,
+            146,
+            482,
+            221
+          ],
+          "similarity": 0.28480100631713867
+        },
+        {
+          "bbox_xyxy": [
+            433,
+            147,
+            482,
+            218
+          ],
+          "similarity": 0.2820960283279419
+        },
+        {
+          "bbox_xyxy": [
+            434,
+            373,
+            454,
+            383
+          ],
+          "similarity": 0.3130000829696655
+        },
+        {
+          "bbox_xyxy": [
+            435,
+            373,
+            454,
+            383
+          ],
+          "similarity": 0.29911568760871887
+        },
+        {
+          "bbox_xyxy": [
+            440,
+            166,
+            473,
+            210
+          ],
+          "similarity": 0.22632688283920288
+        },
+        {
+          "bbox_xyxy": [
+            472,
+            191,
+            491,
+            204
+          ],
+          "similarity": 0.17224852740764618
+        },
+        {
+          "bbox_xyxy": [
+            476,
+            191,
+            491,
+            201
+          ],
+          "similarity": 0.1598278433084488
+        },
+        {
+          "bbox_xyxy": [
+            476,
+            378,
+            496,
+            389
+          ],
+          "similarity": 0.2940340042114258
+        },
+        {
+          "bbox_xyxy": [
+            476,
+            378,
+            497,
+            389
+          ],
+          "similarity": 0.28668904304504395
+        },
+        {
+          "bbox_xyxy": [
+            485,
+            270,
+            512,
+            279
+          ],
+          "similarity": 0.2810220718383789
+        },
+        {
+          "bbox_xyxy": [
+            485,
+            450,
+            501,
+            458
+          ],
+          "similarity": 0.12592719495296478
+        },
+        {
+          "bbox_xyxy": [
+            486,
+            194,
+            509,
+            205
+          ],
+          "similarity": 0.2238217443227768
+        },
+        {
+          "bbox_xyxy": [
+            486,
+            279,
+            512,
+            292
+          ],
+          "similarity": 0.19138330221176147
+        },
+        {
+          "bbox_xyxy": [
+            486,
+            279,
+            513,
+            294
+          ],
+          "similarity": 0.22747664153575897
+        },
+        {
+          "bbox_xyxy": [
+            489,
+            194,
+            509,
+            202
+          ],
+          "similarity": 0.23208671808242798
+        },
+        {
+          "bbox_xyxy": [
+            493,
+            379,
+            515,
+            392
+          ],
+          "similarity": 0.26009583473205566
+        },
+        {
+          "bbox_xyxy": [
+            495,
+            225,
+            512,
+            242
+          ],
+          "similarity": 0.22675514221191406
+        },
+        {
+          "bbox_xyxy": [
+            495,
+            225,
+            540,
+            242
+          ],
+          "similarity": 0.2414473444223404
+        },
+        {
+          "bbox_xyxy": [
+            495,
+            379,
+            515,
+            390
+          ],
+          "similarity": 0.2806873023509979
+        },
+        {
+          "bbox_xyxy": [
+            497,
+            329,
+            768,
+            411
+          ],
+          "similarity": 0.506056547164917
+        },
+        {
+          "bbox_xyxy": [
+            497,
+            330,
+            768,
+            408
+          ],
+          "similarity": 0.4884353280067444
+        },
+        {
+          "bbox_xyxy": [
+            512,
+            235,
+            616,
+            347
+          ],
+          "similarity": 0.4631127417087555
+        },
+        {
+          "bbox_xyxy": [
+            512,
+            329,
+            1024,
+            411
+          ],
+          "similarity": 0.48843279480934143
+        },
+        {
+          "bbox_xyxy": [
+            525,
+            205,
+            768,
+            354
+          ],
+          "similarity": 0.520749568939209
+        },
+        {
+          "bbox_xyxy": [
+            526,
+            218,
+            785,
+            303
+          ],
+          "similarity": 0.440238893032074
+        },
+        {
+          "bbox_xyxy": [
+            529,
+            377,
+            544,
+            388
+          ],
+          "similarity": 0.27703559398651123
+        },
+        {
+          "bbox_xyxy": [
+            531,
+            257,
+            546,
+            270
+          ],
+          "similarity": 0.26930391788482666
+        },
+        {
+          "bbox_xyxy": [
+            535,
+            306,
+            563,
+            321
+          ],
+          "similarity": 0.20885440707206726
+        },
+        {
+          "bbox_xyxy": [
+            541,
+            155,
+            668,
+            216
+          ],
+          "similarity": 0.3242987394332886
+        },
+        {
+          "bbox_xyxy": [
+            546,
+            178,
+            663,
+            215
+          ],
+          "similarity": 0.2685104012489319
+        },
+        {
+          "bbox_xyxy": [
+            547,
+            346,
+            563,
+            357
+          ],
+          "similarity": 0.24487049877643585
+        },
+        {
+          "bbox_xyxy": [
+            550,
+            158,
+            568,
+            199
+          ],
+          "similarity": 0.38938963413238525
+        },
+        {
+          "bbox_xyxy": [
+            550,
+            298,
+            567,
+            306
+          ],
+          "similarity": 0.17212161421775818
+        },
+        {
+          "bbox_xyxy": [
+            555,
+            199,
+            567,
+            214
+          ],
+          "similarity": 0.10509198158979416
+        },
+        {
+          "bbox_xyxy": [
+            569,
+            448,
+            581,
+            460
+          ],
+          "similarity": 0.11685170978307724
+        },
+        {
+          "bbox_xyxy": [
+            578,
+            326,
+            637,
+            336
+          ],
+          "similarity": 0.22803135216236115
+        },
+        {
+          "bbox_xyxy": [
+            581,
+            326,
+            596,
+            334
+          ],
+          "similarity": 0.20919287204742432
+        },
+        {
+          "bbox_xyxy": [
+            590,
+            327,
+            635,
+            335
+          ],
+          "similarity": 0.21158838272094727
+        },
+        {
+          "bbox_xyxy": [
+            590,
+            327,
+            635,
+            336
+          ],
+          "similarity": 0.19221249222755432
+        },
+        {
+          "bbox_xyxy": [
+            599,
+            215,
+            626,
+            228
+          ],
+          "similarity": 0.10423842817544937
+        },
+        {
+          "bbox_xyxy": [
+            600,
+            274,
+            696,
+            292
+          ],
+          "similarity": 0.2976803183555603
+        },
+        {
+          "bbox_xyxy": [
+            605,
+            306,
+            664,
+            328
+          ],
+          "similarity": 0.21396438777446747
+        },
+        {
+          "bbox_xyxy": [
+            606,
+            306,
+            664,
+            328
+          ],
+          "similarity": 0.21620967984199524
+        },
+        {
+          "bbox_xyxy": [
+            607,
+            253,
+            666,
+            279
+          ],
+          "similarity": 0.2657470107078552
+        },
+        {
+          "bbox_xyxy": [
+            608,
+            205,
+            622,
+            215
+          ],
+          "similarity": 0.0960812196135521
+        },
+        {
+          "bbox_xyxy": [
+            608,
+            205,
+            622,
+            216
+          ],
+          "similarity": 0.08888230472803116
+        },
+        {
+          "bbox_xyxy": [
+            608,
+            215,
+            626,
+            226
+          ],
+          "similarity": 0.10936538875102997
+        },
+        {
+          "bbox_xyxy": [
+            611,
+            282,
+            631,
+            297
+          ],
+          "similarity": 0.3088773488998413
+        },
+        {
+          "bbox_xyxy": [
+            611,
+            282,
+            632,
+            297
+          ],
+          "similarity": 0.310677170753479
+        },
+        {
+          "bbox_xyxy": [
+            626,
+            223,
+            640,
+            233
+          ],
+          "similarity": 0.10457337647676468
+        },
+        {
+          "bbox_xyxy": [
+            635,
+            275,
+            814,
+            350
+          ],
+          "similarity": 0.4654088318347931
+        },
+        {
+          "bbox_xyxy": [
+            639,
+            318,
+            660,
+            329
+          ],
+          "similarity": 0.17714254558086395
+        },
+        {
+          "bbox_xyxy": [
+            640,
+            318,
+            660,
+            329
+          ],
+          "similarity": 0.1658961921930313
+        },
+        {
+          "bbox_xyxy": [
+            645,
+            209,
+            659,
+            223
+          ],
+          "similarity": 0.12361213564872742
+        },
+        {
+          "bbox_xyxy": [
+            646,
+            209,
+            659,
+            223
+          ],
+          "similarity": 0.12098100781440735
+        },
+        {
+          "bbox_xyxy": [
+            656,
+            216,
+            671,
+            230
+          ],
+          "similarity": 0.09558037668466568
+        },
+        {
+          "bbox_xyxy": [
+            657,
+            216,
+            671,
+            228
+          ],
+          "similarity": 0.08866728097200394
+        },
+        {
+          "bbox_xyxy": [
+            658,
+            179,
+            697,
+            206
+          ],
+          "similarity": 0.24391022324562073
+        },
+        {
+          "bbox_xyxy": [
+            660,
+            275,
+            812,
+            350
+          ],
+          "similarity": 0.4687827527523041
+        },
+        {
+          "bbox_xyxy": [
+            665,
+            390,
+            704,
+            402
+          ],
+          "similarity": 0.3403986096382141
+        },
+        {
+          "bbox_xyxy": [
+            666,
+            331,
+            684,
+            339
+          ],
+          "similarity": 0.1943364143371582
+        },
+        {
+          "bbox_xyxy": [
+            667,
+            223,
+            680,
+            236
+          ],
+          "similarity": 0.11107385903596878
+        },
+        {
+          "bbox_xyxy": [
+            694,
+            191,
+            714,
+            209
+          ],
+          "similarity": 0.16767556965351105
+        },
+        {
+          "bbox_xyxy": [
+            695,
+            191,
+            714,
+            203
+          ],
+          "similarity": 0.18349924683570862
+        },
+        {
+          "bbox_xyxy": [
+            700,
+            215,
+            720,
+            233
+          ],
+          "similarity": 0.1343299150466919
+        },
+        {
+          "bbox_xyxy": [
+            705,
+            228,
+            718,
+            241
+          ],
+          "similarity": 0.13632147014141083
+        },
+        {
+          "bbox_xyxy": [
+            706,
+            228,
+            718,
+            241
+          ],
+          "similarity": 0.12357397377490997
+        },
+        {
+          "bbox_xyxy": [
+            709,
+            332,
+            757,
+            342
+          ],
+          "similarity": 0.23569205403327942
+        },
+        {
+          "bbox_xyxy": [
+            709,
+            332,
+            759,
+            342
+          ],
+          "similarity": 0.21626535058021545
+        },
+        {
+          "bbox_xyxy": [
+            712,
+            393,
+            771,
+            408
+          ],
+          "similarity": 0.34417515993118286
+        },
+        {
+          "bbox_xyxy": [
+            714,
+            188,
+            768,
+            223
+          ],
+          "similarity": 0.2601853609085083
+        },
+        {
+          "bbox_xyxy": [
+            715,
+            225,
+            738,
+            241
+          ],
+          "similarity": 0.19754530489444733
+        },
+        {
+          "bbox_xyxy": [
+            715,
+            227,
+            731,
+            240
+          ],
+          "similarity": 0.1616462767124176
+        },
+        {
+          "bbox_xyxy": [
+            716,
+            116,
+            1024,
+            235
+          ],
+          "similarity": 0.35886484384536743
+        },
+        {
+          "bbox_xyxy": [
+            716,
+            117,
+            1024,
+            235
+          ],
+          "similarity": 0.36100563406944275
+        },
+        {
+          "bbox_xyxy": [
+            716,
+            290,
+            732,
+            304
+          ],
+          "similarity": 0.2728739380836487
+        },
+        {
+          "bbox_xyxy": [
+            716,
+            291,
+            731,
+            304
+          ],
+          "similarity": 0.29236525297164917
+        },
+        {
+          "bbox_xyxy": [
+            718,
+            195,
+            745,
+            212
+          ],
+          "similarity": 0.14280828833580017
+        },
+        {
+          "bbox_xyxy": [
+            736,
+            189,
+            754,
+            216
+          ],
+          "similarity": 0.2434191107749939
+        },
+        {
+          "bbox_xyxy": [
+            746,
+            161,
+            768,
+            196
+          ],
+          "similarity": 0.24141734838485718
+        },
+        {
+          "bbox_xyxy": [
+            765,
+            398,
+            798,
+            410
+          ],
+          "similarity": 0.28436049818992615
+        },
+        {
+          "bbox_xyxy": [
+            768,
+            157,
+            830,
+            205
+          ],
+          "similarity": 0.22593726217746735
+        },
+        {
+          "bbox_xyxy": [
+            768,
+            200,
+            857,
+            298
+          ],
+          "similarity": 0.4519366919994354
+        },
+        {
+          "bbox_xyxy": [
+            768,
+            203,
+            784,
+            215
+          ],
+          "similarity": 0.08606082201004028
+        },
+        {
+          "bbox_xyxy": [
+            768,
+            398,
+            786,
+            406
+          ],
+          "similarity": 0.2731119394302368
+        },
+        {
+          "bbox_xyxy": [
+            768,
+            398,
+            798,
+            410
+          ],
+          "similarity": 0.26678287982940674
+        },
+        {
+          "bbox_xyxy": [
+            771,
+            319,
+            787,
+            331
+          ],
+          "similarity": 0.27510297298431396
+        },
+        {
+          "bbox_xyxy": [
+            771,
+            319,
+            787,
+            332
+          ],
+          "similarity": 0.2782469391822815
+        },
+        {
+          "bbox_xyxy": [
+            772,
+            198,
+            1017,
+            372
+          ],
+          "similarity": 0.5075699687004089
+        },
+        {
+          "bbox_xyxy": [
+            793,
+            400,
+            810,
+            408
+          ],
+          "similarity": 0.22033441066741943
+        },
+        {
+          "bbox_xyxy": [
+            806,
+            158,
+            821,
+            172
+          ],
+          "similarity": 0.17936880886554718
+        },
+        {
+          "bbox_xyxy": [
+            810,
+            188,
+            853,
+            203
+          ],
+          "similarity": 0.20148766040802002
+        },
+        {
+          "bbox_xyxy": [
+            814,
+            258,
+            826,
+            270
+          ],
+          "similarity": 0.10254447162151337
+        },
+        {
+          "bbox_xyxy": [
+            816,
+            321,
+            840,
+            342
+          ],
+          "similarity": 0.2710518538951874
+        },
+        {
+          "bbox_xyxy": [
+            819,
+            153,
+            835,
+            166
+          ],
+          "similarity": 0.25180721282958984
+        },
+        {
+          "bbox_xyxy": [
+            824,
+            292,
+            841,
+            310
+          ],
+          "similarity": 0.29414212703704834
+        },
+        {
+          "bbox_xyxy": [
+            825,
+            271,
+            844,
+            291
+          ],
+          "similarity": 0.2562710642814636
+        },
+        {
+          "bbox_xyxy": [
+            829,
+            342,
+            991,
+            383
+          ],
+          "similarity": 0.40310096740722656
+        },
+        {
+          "bbox_xyxy": [
+            848,
+            190,
+            880,
+            205
+          ],
+          "similarity": 0.1982058733701706
+        },
+        {
+          "bbox_xyxy": [
+            862,
+            212,
+            874,
+            225
+          ],
+          "similarity": 0.2116391807794571
+        },
+        {
+          "bbox_xyxy": [
+            862,
+            259,
+            941,
+            277
+          ],
+          "similarity": 0.24001023173332214
+        },
+        {
+          "bbox_xyxy": [
+            863,
+            259,
+            939,
+            277
+          ],
+          "similarity": 0.2472696453332901
+        },
+        {
+          "bbox_xyxy": [
+            866,
+            200,
+            1007,
+            366
+          ],
+          "similarity": 0.47607678174972534
+        },
+        {
+          "bbox_xyxy": [
+            870,
+            289,
+            889,
+            304
+          ],
+          "similarity": 0.3129807710647583
+        },
+        {
+          "bbox_xyxy": [
+            870,
+            319,
+            888,
+            334
+          ],
+          "similarity": 0.27773335576057434
+        },
+        {
+          "bbox_xyxy": [
+            871,
+            289,
+            889,
+            304
+          ],
+          "similarity": 0.29614493250846863
+        },
+        {
+          "bbox_xyxy": [
+            873,
+            347,
+            949,
+            358
+          ],
+          "similarity": 0.17683210968971252
+        },
+        {
+          "bbox_xyxy": [
+            874,
+            145,
+            895,
+            163
+          ],
+          "similarity": 0.26291021704673767
+        },
+        {
+          "bbox_xyxy": [
+            887,
+            178,
+            910,
+            201
+          ],
+          "similarity": 0.1669437140226364
+        },
+        {
+          "bbox_xyxy": [
+            891,
+            145,
+            915,
+            155
+          ],
+          "similarity": 0.2249746322631836
+        },
+        {
+          "bbox_xyxy": [
+            924,
+            217,
+            954,
+            227
+          ],
+          "similarity": 0.2541908621788025
+        },
+        {
+          "bbox_xyxy": [
+            928,
+            139,
+            950,
+            153
+          ],
+          "similarity": 0.2650667428970337
+        },
+        {
+          "bbox_xyxy": [
+            931,
+            410,
+            948,
+            418
+          ],
+          "similarity": 0.20807114243507385
+        },
+        {
+          "bbox_xyxy": [
+            954,
+            138,
+            973,
+            146
+          ],
+          "similarity": 0.1904851794242859
+        },
+        {
+          "bbox_xyxy": [
+            965,
+            178,
+            995,
+            218
+          ],
+          "similarity": 0.34750837087631226
+        },
+        {
+          "bbox_xyxy": [
+            968,
+            145,
+            984,
+            153
+          ],
+          "similarity": 0.191463440656662
+        },
+        {
+          "bbox_xyxy": [
+            975,
+            216,
+            996,
+            226
+          ],
+          "similarity": 0.2102442979812622
+        },
+        {
+          "bbox_xyxy": [
+            975,
+            217,
+            996,
+            226
+          ],
+          "similarity": 0.20504111051559448
+        },
+        {
+          "bbox_xyxy": [
+            977,
+            134,
+            998,
+            147
+          ],
+          "similarity": 0.1916835606098175
+        },
+        {
+          "bbox_xyxy": [
+            978,
+            224,
+            996,
+            237
+          ],
+          "similarity": 0.2782527804374695
+        },
+        {
+          "bbox_xyxy": [
+            978,
+            357,
+            1024,
+            384
+          ],
+          "similarity": 0.3381554186344147
+        },
+        {
+          "bbox_xyxy": [
+            980,
+            342,
+            992,
+            369
+          ],
+          "similarity": 0.1404777318239212
+        },
+        {
+          "bbox_xyxy": [
+            980,
+            343,
+            992,
+            360
+          ],
+          "similarity": 0.17535382509231567
+        },
+        {
+          "bbox_xyxy": [
+            982,
+            370,
+            999,
+            381
+          ],
+          "similarity": 0.30232465267181396
+        },
+        {
+          "bbox_xyxy": [
+            983,
+            206,
+            1023,
+            215
+          ],
+          "similarity": 0.20746135711669922
+        },
+        {
+          "bbox_xyxy": [
+            985,
+            206,
+            1008,
+            214
+          ],
+          "similarity": 0.10322237014770508
+        },
+        {
+          "bbox_xyxy": [
+            993,
+            291,
+            1022,
+            318
+          ],
+          "similarity": 0.234344482421875
+        },
+        {
+          "bbox_xyxy": [
+            993,
+            292,
+            1021,
+            312
+          ],
+          "similarity": 0.202948197722435
+        },
+        {
+          "bbox_xyxy": [
+            995,
+            405,
+            1009,
+            416
+          ],
+          "similarity": 0.19992345571517944
+        },
+        {
+          "bbox_xyxy": [
+            998,
+            130,
+            1038,
+            156
+          ],
+          "similarity": 0.24560542404651642
+        },
+        {
+          "bbox_xyxy": [
+            999,
+            177,
+            1088,
+            210
+          ],
+          "similarity": 0.35461199283599854
+        },
+        {
+          "bbox_xyxy": [
+            999,
+            357,
+            1033,
+            384
+          ],
+          "similarity": 0.3566674292087555
+        },
+        {
+          "bbox_xyxy": [
+            1001,
+            169,
+            1024,
+            211
+          ],
+          "similarity": 0.25582045316696167
+        },
+        {
+          "bbox_xyxy": [
+            1003,
+            267,
+            1020,
+            281
+          ],
+          "similarity": 0.1889978051185608
+        },
+        {
+          "bbox_xyxy": [
+            1004,
+            240,
+            1021,
+            254
+          ],
+          "similarity": 0.20666426420211792
+        },
+        {
+          "bbox_xyxy": [
+            1005,
+            211,
+            1022,
+            226
+          ],
+          "similarity": 0.13175372779369354
+        },
+        {
+          "bbox_xyxy": [
+            1007,
+            399,
+            1023,
+            412
+          ],
+          "similarity": 0.18119072914123535
+        },
+        {
+          "bbox_xyxy": [
+            1014,
+            320,
+            1046,
+            329
+          ],
+          "similarity": 0.16949686408042908
+        },
+        {
+          "bbox_xyxy": [
+            1016,
+            348,
+            1041,
+            356
+          ],
+          "similarity": 0.14015066623687744
+        },
+        {
+          "bbox_xyxy": [
+            1020,
+            330,
+            1033,
+            344
+          ],
+          "similarity": 0.17233014106750488
+        },
+        {
+          "bbox_xyxy": [
+            1030,
+            268,
+            1046,
+            282
+          ],
+          "similarity": 0.18330839276313782
+        },
+        {
+          "bbox_xyxy": [
+            1038,
+            365,
+            1113,
+            388
+          ],
+          "similarity": 0.37644973397254944
+        },
+        {
+          "bbox_xyxy": [
+            1062,
+            242,
+            1079,
+            256
+          ],
+          "similarity": 0.21125876903533936
+        },
+        {
+          "bbox_xyxy": [
+            1062,
+            351,
+            1110,
+            363
+          ],
+          "similarity": 0.15478143095970154
+        },
+        {
+          "bbox_xyxy": [
+            1063,
+            213,
+            1080,
+            227
+          ],
+          "similarity": 0.18812289834022522
+        },
+        {
+          "bbox_xyxy": [
+            1064,
+            117,
+            1177,
+            227
+          ],
+          "similarity": 0.4594419300556183
+        },
+        {
+          "bbox_xyxy": [
+            1069,
+            336,
+            1104,
+            354
+          ],
+          "similarity": 0.23742416501045227
+        },
+        {
+          "bbox_xyxy": [
+            1079,
+            308,
+            1122,
+            326
+          ],
+          "similarity": 0.32837992906570435
+        },
+        {
+          "bbox_xyxy": [
+            1102,
+            302,
+            1212,
+            402
+          ],
+          "similarity": 0.3883325159549713
+        },
+        {
+          "bbox_xyxy": [
+            1109,
+            403,
+            1125,
+            416
+          ],
+          "similarity": 0.14913171529769897
+        },
+        {
+          "bbox_xyxy": [
+            1139,
+            438,
+            1215,
+            457
+          ],
+          "similarity": 0.14311082661151886
+        },
+        {
+          "bbox_xyxy": [
+            1158,
+            241,
+            1264,
+            296
+          ],
+          "similarity": 0.27815118432044983
+        },
+        {
+          "bbox_xyxy": [
+            1167,
+            208,
+            1280,
+            257
+          ],
+          "similarity": 0.3481828570365906
+        },
+        {
+          "bbox_xyxy": [
+            1169,
+            295,
+            1197,
+            324
+          ],
+          "similarity": 0.2303188145160675
+        },
+        {
+          "bbox_xyxy": [
+            1175,
+            166,
+            1195,
+            181
+          ],
+          "similarity": 0.08037623763084412
+        },
+        {
+          "bbox_xyxy": [
+            1176,
+            205,
+            1205,
+            218
+          ],
+          "similarity": 0.21377550065517426
+        },
+        {
+          "bbox_xyxy": [
+            1178,
+            369,
+            1195,
+            391
+          ],
+          "similarity": 0.2150508165359497
+        },
+        {
+          "bbox_xyxy": [
+            1182,
+            431,
+            1203,
+            446
+          ],
+          "similarity": 0.1631188988685608
+        },
+        {
+          "bbox_xyxy": [
+            1185,
+            156,
+            1215,
+            199
+          ],
+          "similarity": 0.14286048710346222
+        },
+        {
+          "bbox_xyxy": [
+            1193,
+            299,
+            1208,
+            310
+          ],
+          "similarity": 0.18463389575481415
+        },
+        {
+          "bbox_xyxy": [
+            1209,
+            363,
+            1261,
+            386
+          ],
+          "similarity": 0.4274483323097229
+        },
+        {
+          "bbox_xyxy": [
+            1231,
+            280,
+            1269,
+            300
+          ],
+          "similarity": 0.1329202651977539
+        },
+        {
+          "bbox_xyxy": [
+            1231,
+            316,
+            1245,
+            325
+          ],
+          "similarity": 0.15188276767730713
+        },
+        {
+          "bbox_xyxy": [
+            1234,
+            331,
+            1259,
+            345
+          ],
+          "similarity": 0.34212255477905273
+        },
+        {
+          "bbox_xyxy": [
+            1244,
+            306,
+            1280,
+            327
+          ],
+          "similarity": 0.2619449198246002
+        },
+        {
+          "bbox_xyxy": [
+            1246,
+            285,
+            1280,
+            314
+          ],
+          "similarity": 0.16986098885536194
+        },
+        {
+          "bbox_xyxy": [
+            1255,
+            246,
+            1274,
+            255
+          ],
+          "similarity": 0.19535061717033386
+        }
+      ],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            0,
+            166,
+            512,
+            473
+          ],
+          "similarity": 0.6104961633682251,
+          "class": "target_ship_candidate"
+        }
+      ],
+      "cosine_similarity": 0.6104961633682251,
+      "target_candidate": true,
+      "annotated_file": "annotated/Container ship MV Maersk Alabama.jpg"
+    },
+    {
+      "file": "images/Cosco Taicang container ship.jpg",
+      "title": "File:Cosco Taicang container ship.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cosco_Taicang_container_ship.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Cosco_Taicang_container_ship.jpg/1280px-Cosco_Taicang_container_ship.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Ron Clausen",
+      "description": "Cosco Taicang container ship at Port of Seattle",
+      "sha256": "043ff62f2c563eae9e0aa1028cd7c986c2a581938c9e69de4a421cc6649c8a34",
+      "dimensions": [
+        1280,
+        790
+      ],
+      "downloaded_utc": "2026-11-12T03:39:38.627549+00:00",
+      "label_basis": "Commons identifies a non-Evergreen vessel; target IMO not supplied",
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            25,
+            488,
+            70,
+            512
+          ],
+          "similarity": 0.12861239910125732
+        },
+        {
+          "bbox_xyxy": [
+            66,
+            498,
+            89,
+            512
+          ],
+          "similarity": 0.1022275760769844
+        },
+        {
+          "bbox_xyxy": [
+            73,
+            475,
+            96,
+            490
+          ],
+          "similarity": 0.11270208656787872
+        },
+        {
+          "bbox_xyxy": [
+            74,
+            503,
+            92,
+            512
+          ],
+          "similarity": 0.0891852080821991
+        },
+        {
+          "bbox_xyxy": [
+            93,
+            486,
+            114,
+            499
+          ],
+          "similarity": 0.10920219123363495
+        },
+        {
+          "bbox_xyxy": [
+            99,
+            143,
+            512,
+            512
+          ],
+          "similarity": 0.49175047874450684
+        },
+        {
+          "bbox_xyxy": [
+            104,
+            457,
+            139,
+            512
+          ],
+          "similarity": 0.19751586019992828
+        },
+        {
+          "bbox_xyxy": [
+            493,
+            301,
+            508,
+            316
+          ],
+          "similarity": 0.19005179405212402
+        },
+        {
+          "bbox_xyxy": [
+            768,
+            0,
+            994,
+            363
+          ],
+          "similarity": 0.312810480594635
+        },
+        {
+          "bbox_xyxy": [
+            768,
+            145,
+            787,
+            156
+          ],
+          "similarity": 0.07529960572719574
+        },
+        {
+          "bbox_xyxy": [
+            768,
+            156,
+            791,
+            168
+          ],
+          "similarity": 0.09400564432144165
+        },
+        {
+          "bbox_xyxy": [
+            768,
+            256,
+            827,
+            316
+          ],
+          "similarity": 0.2611285448074341
+        },
+        {
+          "bbox_xyxy": [
+            768,
+            278,
+            801,
+            311
+          ],
+          "similarity": 0.20681683719158173
+        },
+        {
+          "bbox_xyxy": [
+            768,
+            319,
+            1271,
+            653
+          ],
+          "similarity": 0.5823242664337158
+        },
+        {
+          "bbox_xyxy": [
+            768,
+            321,
+            1271,
+            651
+          ],
+          "similarity": 0.5855897068977356
+        },
+        {
+          "bbox_xyxy": [
+            768,
+            338,
+            1121,
+            512
+          ],
+          "similarity": 0.5301229953765869
+        },
+        {
+          "bbox_xyxy": [
+            768,
+            603,
+            779,
+            624
+          ],
+          "similarity": 0.09413797408342361
+        },
+        {
+          "bbox_xyxy": [
+            768,
+            618,
+            886,
+            636
+          ],
+          "similarity": 0.16567203402519226
+        },
+        {
+          "bbox_xyxy": [
+            768,
+            622,
+            839,
+            636
+          ],
+          "similarity": 0.166576087474823
+        },
+        {
+          "bbox_xyxy": [
+            787,
+            515,
+            814,
+            587
+          ],
+          "similarity": 0.16158461570739746
+        },
+        {
+          "bbox_xyxy": [
+            787,
+            515,
+            815,
+            587
+          ],
+          "similarity": 0.16625052690505981
+        },
+        {
+          "bbox_xyxy": [
+            842,
+            520,
+            866,
+            585
+          ],
+          "similarity": 0.19085317850112915
+        },
+        {
+          "bbox_xyxy": [
+            843,
+            618,
+            876,
+            627
+          ],
+          "similarity": 0.155417799949646
+        },
+        {
+          "bbox_xyxy": [
+            853,
+            589,
+            871,
+            601
+          ],
+          "similarity": 0.2974301278591156
+        },
+        {
+          "bbox_xyxy": [
+            890,
+            523,
+            910,
+            585
+          ],
+          "similarity": 0.15181246399879456
+        },
+        {
+          "bbox_xyxy": [
+            896,
+            589,
+            920,
+            599
+          ],
+          "similarity": 0.28863897919654846
+        },
+        {
+          "bbox_xyxy": [
+            897,
+            589,
+            915,
+            599
+          ],
+          "similarity": 0.30049338936805725
+        },
+        {
+          "bbox_xyxy": [
+            919,
+            591,
+            947,
+            600
+          ],
+          "similarity": 0.19176796078681946
+        },
+        {
+          "bbox_xyxy": [
+            924,
+            611,
+            950,
+            619
+          ],
+          "similarity": 0.16352829337120056
+        },
+        {
+          "bbox_xyxy": [
+            929,
+            527,
+            948,
+            583
+          ],
+          "similarity": 0.158159077167511
+        },
+        {
+          "bbox_xyxy": [
+            938,
+            627,
+            961,
+            638
+          ],
+          "similarity": 0.1636500358581543
+        },
+        {
+          "bbox_xyxy": [
+            963,
+            531,
+            980,
+            582
+          ],
+          "similarity": 0.160685732960701
+        },
+        {
+          "bbox_xyxy": [
+            983,
+            605,
+            1002,
+            613
+          ],
+          "similarity": 0.1969139724969864
+        },
+        {
+          "bbox_xyxy": [
+            1082,
+            409,
+            1153,
+            512
+          ],
+          "similarity": 0.41525599360466003
+        },
+        {
+          "bbox_xyxy": [
+            1161,
+            535,
+            1177,
+            547
+          ],
+          "similarity": 0.19678907096385956
+        },
+        {
+          "bbox_xyxy": [
+            1181,
+            434,
+            1221,
+            512
+          ],
+          "similarity": 0.30658257007598877
+        },
+        {
+          "bbox_xyxy": [
+            1193,
+            569,
+            1225,
+            577
+          ],
+          "similarity": 0.18222159147262573
+        },
+        {
+          "bbox_xyxy": [
+            1204,
+            526,
+            1280,
+            555
+          ],
+          "similarity": 0.4340018332004547
+        },
+        {
+          "bbox_xyxy": [
+            1204,
+            526,
+            1280,
+            556
+          ],
+          "similarity": 0.4268438518047333
+        },
+        {
+          "bbox_xyxy": [
+            1214,
+            548,
+            1280,
+            583
+          ],
+          "similarity": 0.47411292791366577
+        }
+      ],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            768,
+            321,
+            1271,
+            651
+          ],
+          "similarity": 0.5855897068977356,
+          "class": "target_ship_candidate"
+        }
+      ],
+      "cosine_similarity": 0.5855897068977356,
+      "target_candidate": true,
+      "annotated_file": "annotated/Cosco Taicang container ship.jpg"
+    },
+    {
+      "file": "images/Calnexship.jpg",
+      "title": "File:Calnexship.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Calnexship.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Calnexship.jpg/1280px-Calnexship.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "Public domain",
+      "license_url": "",
+      "author": "NOAA-image (Credit: NOAA)",
+      "description": "The container ship Margrethe Maersk, operated by the Maersk Line, steams toward California in May 2010. NOAA researchers and collaborators studied the ship's emissions in detail from a research aircraft (from which this photo was taken) and a research ship. The team found that as the container ship shifted to low-sulfur fuels and slowed down near the coast, air pollution emissions plummeted, with some pollutants dropping by as much as 90 percent.",
+      "sha256": "7980a3814f8007eb727fabdceae78316192b49b79d22b222773685b0572387f5",
+      "dimensions": [
+        1280,
+        1094
+      ],
+      "downloaded_utc": "2026-11-12T03:39:35.867685+00:00",
+      "label_basis": "Commons identifies a non-Evergreen vessel; target IMO not supplied",
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            214,
+            226,
+            236,
+            248
+          ],
+          "similarity": 0.19716040790081024
+        },
+        {
+          "bbox_xyxy": [
+            311,
+            392,
+            401,
+            427
+          ],
+          "similarity": 0.24109959602355957
+        },
+        {
+          "bbox_xyxy": [
+            317,
+            670,
+            332,
+            685
+          ],
+          "similarity": 0.1342851221561432
+        },
+        {
+          "bbox_xyxy": [
+            326,
+            348,
+            482,
+            512
+          ],
+          "similarity": 0.47253280878067017
+        },
+        {
+          "bbox_xyxy": [
+            327,
+            653,
+            352,
+            664
+          ],
+          "similarity": 0.08319447934627533
+        },
+        {
+          "bbox_xyxy": [
+            332,
+            362,
+            429,
+            497
+          ],
+          "similarity": 0.47658368945121765
+        },
+        {
+          "bbox_xyxy": [
+            337,
+            663,
+            361,
+            672
+          ],
+          "similarity": 0.10513906180858612
+        },
+        {
+          "bbox_xyxy": [
+            338,
+            292,
+            354,
+            307
+          ],
+          "similarity": 0.12895803153514862
+        },
+        {
+          "bbox_xyxy": [
+            338,
+            294,
+            351,
+            305
+          ],
+          "similarity": 0.13047976791858673
+        },
+        {
+          "bbox_xyxy": [
+            338,
+            663,
+            361,
+            672
+          ],
+          "similarity": 0.11221469193696976
+        },
+        {
+          "bbox_xyxy": [
+            349,
+            399,
+            397,
+            412
+          ],
+          "similarity": 0.18732766807079315
+        },
+        {
+          "bbox_xyxy": [
+            350,
+            674,
+            375,
+            687
+          ],
+          "similarity": 0.12263733148574829
+        },
+        {
+          "bbox_xyxy": [
+            351,
+            674,
+            374,
+            684
+          ],
+          "similarity": 0.12566885352134705
+        },
+        {
+          "bbox_xyxy": [
+            351,
+            674,
+            374,
+            687
+          ],
+          "similarity": 0.12061136960983276
+        },
+        {
+          "bbox_xyxy": [
+            351,
+            675,
+            372,
+            683
+          ],
+          "similarity": 0.12372346222400665
+        },
+        {
+          "bbox_xyxy": [
+            354,
+            511,
+            370,
+            529
+          ],
+          "similarity": 0.10383211076259613
+        },
+        {
+          "bbox_xyxy": [
+            355,
+            515,
+            369,
+            526
+          ],
+          "similarity": 0.09561116993427277
+        },
+        {
+          "bbox_xyxy": [
+            356,
+            501,
+            369,
+            515
+          ],
+          "similarity": 0.11462711542844772
+        },
+        {
+          "bbox_xyxy": [
+            359,
+            522,
+            390,
+            557
+          ],
+          "similarity": 0.2347170114517212
+        },
+        {
+          "bbox_xyxy": [
+            359,
+            522,
+            390,
+            558
+          ],
+          "similarity": 0.22904136776924133
+        },
+        {
+          "bbox_xyxy": [
+            360,
+            524,
+            389,
+            552
+          ],
+          "similarity": 0.20054826140403748
+        },
+        {
+          "bbox_xyxy": [
+            365,
+            443,
+            381,
+            455
+          ],
+          "similarity": 0.10220824927091599
+        },
+        {
+          "bbox_xyxy": [
+            365,
+            476,
+            388,
+            492
+          ],
+          "similarity": 0.09193173050880432
+        },
+        {
+          "bbox_xyxy": [
+            368,
+            478,
+            382,
+            490
+          ],
+          "similarity": 0.08430449664592743
+        },
+        {
+          "bbox_xyxy": [
+            375,
+            451,
+            394,
+            478
+          ],
+          "similarity": 0.08688949048519135
+        },
+        {
+          "bbox_xyxy": [
+            376,
+            383,
+            401,
+            393
+          ],
+          "similarity": 0.17140647768974304
+        },
+        {
+          "bbox_xyxy": [
+            378,
+            516,
+            511,
+            633
+          ],
+          "similarity": 0.3922216296195984
+        },
+        {
+          "bbox_xyxy": [
+            380,
+            536,
+            484,
+            629
+          ],
+          "similarity": 0.376705527305603
+        },
+        {
+          "bbox_xyxy": [
+            384,
+            536,
+            484,
+            629
+          ],
+          "similarity": 0.3866444528102875
+        },
+        {
+          "bbox_xyxy": [
+            385,
+            536,
+            482,
+            629
+          ],
+          "similarity": 0.3801702857017517
+        },
+        {
+          "bbox_xyxy": [
+            388,
+            539,
+            482,
+            623
+          ],
+          "similarity": 0.3912532329559326
+        },
+        {
+          "bbox_xyxy": [
+            390,
+            525,
+            409,
+            543
+          ],
+          "similarity": 0.10896705836057663
+        },
+        {
+          "bbox_xyxy": [
+            391,
+            402,
+            425,
+            431
+          ],
+          "similarity": 0.229220449924469
+        },
+        {
+          "bbox_xyxy": [
+            391,
+            526,
+            409,
+            543
+          ],
+          "similarity": 0.12016172707080841
+        },
+        {
+          "bbox_xyxy": [
+            393,
+            434,
+            462,
+            576
+          ],
+          "similarity": 0.4012050926685333
+        },
+        {
+          "bbox_xyxy": [
+            393,
+            438,
+            417,
+            465
+          ],
+          "similarity": 0.196499764919281
+        },
+        {
+          "bbox_xyxy": [
+            395,
+            511,
+            414,
+            531
+          ],
+          "similarity": 0.08475179225206375
+        },
+        {
+          "bbox_xyxy": [
+            395,
+            512,
+            410,
+            529
+          ],
+          "similarity": 0.10482357442378998
+        },
+        {
+          "bbox_xyxy": [
+            395,
+            512,
+            410,
+            531
+          ],
+          "similarity": 0.10732657462358475
+        },
+        {
+          "bbox_xyxy": [
+            396,
+            404,
+            415,
+            423
+          ],
+          "similarity": 0.18996186554431915
+        },
+        {
+          "bbox_xyxy": [
+            397,
+            478,
+            411,
+            490
+          ],
+          "similarity": 0.11587612330913544
+        },
+        {
+          "bbox_xyxy": [
+            397,
+            513,
+            410,
+            525
+          ],
+          "similarity": 0.08478035032749176
+        },
+        {
+          "bbox_xyxy": [
+            400,
+            499,
+            419,
+            513
+          ],
+          "similarity": 0.09975350648164749
+        },
+        {
+          "bbox_xyxy": [
+            401,
+            441,
+            417,
+            450
+          ],
+          "similarity": 0.10212577879428864
+        },
+        {
+          "bbox_xyxy": [
+            401,
+            500,
+            416,
+            513
+          ],
+          "similarity": 0.0806768462061882
+        },
+        {
+          "bbox_xyxy": [
+            403,
+            452,
+            423,
+            479
+          ],
+          "similarity": 0.14079038798809052
+        },
+        {
+          "bbox_xyxy": [
+            408,
+            485,
+            421,
+            497
+          ],
+          "similarity": 0.09010345488786697
+        },
+        {
+          "bbox_xyxy": [
+            409,
+            526,
+            431,
+            556
+          ],
+          "similarity": 0.13015730679035187
+        },
+        {
+          "bbox_xyxy": [
+            409,
+            535,
+            427,
+            556
+          ],
+          "similarity": 0.11222627758979797
+        },
+        {
+          "bbox_xyxy": [
+            409,
+            538,
+            426,
+            554
+          ],
+          "similarity": 0.09025049954652786
+        },
+        {
+          "bbox_xyxy": [
+            409,
+            741,
+            430,
+            751
+          ],
+          "similarity": 0.1372959315776825
+        },
+        {
+          "bbox_xyxy": [
+            414,
+            582,
+            505,
+            623
+          ],
+          "similarity": 0.25739946961402893
+        },
+        {
+          "bbox_xyxy": [
+            416,
+            337,
+            768,
+            512
+          ],
+          "similarity": 0.498686283826828
+        },
+        {
+          "bbox_xyxy": [
+            416,
+            527,
+            431,
+            541
+          ],
+          "similarity": 0.10496434569358826
+        },
+        {
+          "bbox_xyxy": [
+            417,
+            527,
+            430,
+            541
+          ],
+          "similarity": 0.09293442964553833
+        },
+        {
+          "bbox_xyxy": [
+            418,
+            512,
+            434,
+            524
+          ],
+          "similarity": 0.12799778580665588
+        },
+        {
+          "bbox_xyxy": [
+            418,
+            512,
+            439,
+            527
+          ],
+          "similarity": 0.10111939907073975
+        },
+        {
+          "bbox_xyxy": [
+            419,
+            477,
+            435,
+            488
+          ],
+          "similarity": 0.0923909842967987
+        },
+        {
+          "bbox_xyxy": [
+            419,
+            582,
+            479,
+            623
+          ],
+          "similarity": 0.202492356300354
+        },
+        {
+          "bbox_xyxy": [
+            425,
+            521,
+            449,
+            548
+          ],
+          "similarity": 0.154621884226799
+        },
+        {
+          "bbox_xyxy": [
+            427,
+            582,
+            768,
+            732
+          ],
+          "similarity": 0.497606098651886
+        },
+        {
+          "bbox_xyxy": [
+            428,
+            410,
+            455,
+            458
+          ],
+          "similarity": 0.30855780839920044
+        },
+        {
+          "bbox_xyxy": [
+            428,
+            426,
+            454,
+            455
+          ],
+          "similarity": 0.24901369214057922
+        },
+        {
+          "bbox_xyxy": [
+            430,
+            428,
+            446,
+            455
+          ],
+          "similarity": 0.22059017419815063
+        },
+        {
+          "bbox_xyxy": [
+            430,
+            521,
+            444,
+            548
+          ],
+          "similarity": 0.14132095873355865
+        },
+        {
+          "bbox_xyxy": [
+            433,
+            583,
+            724,
+            729
+          ],
+          "similarity": 0.47616398334503174
+        },
+        {
+          "bbox_xyxy": [
+            437,
+            506,
+            452,
+            518
+          ],
+          "similarity": 0.10682164132595062
+        },
+        {
+          "bbox_xyxy": [
+            438,
+            523,
+            493,
+            591
+          ],
+          "similarity": 0.38196510076522827
+        },
+        {
+          "bbox_xyxy": [
+            440,
+            528,
+            460,
+            565
+          ],
+          "similarity": 0.14588519930839539
+        },
+        {
+          "bbox_xyxy": [
+            440,
+            541,
+            468,
+            567
+          ],
+          "similarity": 0.12881934642791748
+        },
+        {
+          "bbox_xyxy": [
+            441,
+            584,
+            656,
+            725
+          ],
+          "similarity": 0.45732933282852173
+        },
+        {
+          "bbox_xyxy": [
+            443,
+            561,
+            460,
+            577
+          ],
+          "similarity": 0.09109076857566833
+        },
+        {
+          "bbox_xyxy": [
+            443,
+            561,
+            461,
+            579
+          ],
+          "similarity": 0.09804171323776245
+        },
+        {
+          "bbox_xyxy": [
+            443,
+            562,
+            459,
+            575
+          ],
+          "similarity": 0.09895990788936615
+        },
+        {
+          "bbox_xyxy": [
+            445,
+            459,
+            460,
+            469
+          ],
+          "similarity": 0.07986624538898468
+        },
+        {
+          "bbox_xyxy": [
+            445,
+            548,
+            460,
+            562
+          ],
+          "similarity": 0.11625073105096817
+        },
+        {
+          "bbox_xyxy": [
+            445,
+            587,
+            512,
+            705
+          ],
+          "similarity": 0.26268547773361206
+        },
+        {
+          "bbox_xyxy": [
+            446,
+            269,
+            512,
+            326
+          ],
+          "similarity": 0.11642105877399445
+        },
+        {
+          "bbox_xyxy": [
+            446,
+            530,
+            460,
+            546
+          ],
+          "similarity": 0.11261103302240372
+        },
+        {
+          "bbox_xyxy": [
+            446,
+            592,
+            512,
+            704
+          ],
+          "similarity": 0.24231857061386108
+        },
+        {
+          "bbox_xyxy": [
+            447,
+            663,
+            462,
+            672
+          ],
+          "similarity": 0.0910995602607727
+        },
+        {
+          "bbox_xyxy": [
+            448,
+            352,
+            470,
+            364
+          ],
+          "similarity": 0.17066690325737
+        },
+        {
+          "bbox_xyxy": [
+            448,
+            391,
+            469,
+            400
+          ],
+          "similarity": 0.20382648706436157
+        },
+        {
+          "bbox_xyxy": [
+            453,
+            689,
+            473,
+            709
+          ],
+          "similarity": 0.10828089714050293
+        },
+        {
+          "bbox_xyxy": [
+            455,
+            573,
+            467,
+            584
+          ],
+          "similarity": 0.08813747763633728
+        },
+        {
+          "bbox_xyxy": [
+            456,
+            533,
+            480,
+            566
+          ],
+          "similarity": 0.13879609107971191
+        },
+        {
+          "bbox_xyxy": [
+            456,
+            534,
+            480,
+            564
+          ],
+          "similarity": 0.11391468346118927
+        },
+        {
+          "bbox_xyxy": [
+            456,
+            663,
+            577,
+            693
+          ],
+          "similarity": 0.15939682722091675
+        },
+        {
+          "bbox_xyxy": [
+            457,
+            537,
+            480,
+            564
+          ],
+          "similarity": 0.10692252218723297
+        },
+        {
+          "bbox_xyxy": [
+            460,
+            538,
+            480,
+            564
+          ],
+          "similarity": 0.10166656225919724
+        },
+        {
+          "bbox_xyxy": [
+            460,
+            563,
+            490,
+            583
+          ],
+          "similarity": 0.15294036269187927
+        },
+        {
+          "bbox_xyxy": [
+            461,
+            371,
+            502,
+            386
+          ],
+          "similarity": 0.2303224802017212
+        },
+        {
+          "bbox_xyxy": [
+            462,
+            580,
+            475,
+            591
+          ],
+          "similarity": 0.11984947323799133
+        },
+        {
+          "bbox_xyxy": [
+            462,
+            580,
+            478,
+            594
+          ],
+          "similarity": 0.12382672727108002
+        },
+        {
+          "bbox_xyxy": [
+            462,
+            582,
+            478,
+            594
+          ],
+          "similarity": 0.1271859109401703
+        },
+        {
+          "bbox_xyxy": [
+            463,
+            436,
+            487,
+            469
+          ],
+          "similarity": 0.24457436800003052
+        },
+        {
+          "bbox_xyxy": [
+            463,
+            687,
+            544,
+            713
+          ],
+          "similarity": 0.17951667308807373
+        },
+        {
+          "bbox_xyxy": [
+            465,
+            535,
+            480,
+            546
+          ],
+          "similarity": 0.08152235299348831
+        },
+        {
+          "bbox_xyxy": [
+            466,
+            368,
+            485,
+            385
+          ],
+          "similarity": 0.1601754128932953
+        },
+        {
+          "bbox_xyxy": [
+            466,
+            442,
+            486,
+            463
+          ],
+          "similarity": 0.17213766276836395
+        },
+        {
+          "bbox_xyxy": [
+            467,
+            391,
+            512,
+            403
+          ],
+          "similarity": 0.20492836833000183
+        },
+        {
+          "bbox_xyxy": [
+            467,
+            446,
+            486,
+            461
+          ],
+          "similarity": 0.15394000709056854
+        },
+        {
+          "bbox_xyxy": [
+            468,
+            344,
+            485,
+            366
+          ],
+          "similarity": 0.17819100618362427
+        },
+        {
+          "bbox_xyxy": [
+            469,
+            569,
+            490,
+            584
+          ],
+          "similarity": 0.13807514309883118
+        },
+        {
+          "bbox_xyxy": [
+            470,
+            345,
+            483,
+            365
+          ],
+          "similarity": 0.16454896330833435
+        },
+        {
+          "bbox_xyxy": [
+            471,
+            280,
+            484,
+            296
+          ],
+          "similarity": 0.15565228462219238
+        },
+        {
+          "bbox_xyxy": [
+            473,
+            593,
+            490,
+            605
+          ],
+          "similarity": 0.1131744384765625
+        },
+        {
+          "bbox_xyxy": [
+            475,
+            391,
+            512,
+            403
+          ],
+          "similarity": 0.19094017148017883
+        },
+        {
+          "bbox_xyxy": [
+            476,
+            392,
+            492,
+            401
+          ],
+          "similarity": 0.15795083343982697
+        },
+        {
+          "bbox_xyxy": [
+            476,
+            393,
+            492,
+            401
+          ],
+          "similarity": 0.15954305231571198
+        },
+        {
+          "bbox_xyxy": [
+            477,
+            692,
+            497,
+            703
+          ],
+          "similarity": 0.11234278231859207
+        },
+        {
+          "bbox_xyxy": [
+            478,
+            292,
+            522,
+            314
+          ],
+          "similarity": 0.14706335961818695
+        },
+        {
+          "bbox_xyxy": [
+            478,
+            431,
+            498,
+            444
+          ],
+          "similarity": 0.08390910178422928
+        },
+        {
+          "bbox_xyxy": [
+            479,
+            432,
+            498,
+            444
+          ],
+          "similarity": 0.08205334097146988
+        },
+        {
+          "bbox_xyxy": [
+            479,
+            433,
+            498,
+            444
+          ],
+          "similarity": 0.08716540038585663
+        },
+        {
+          "bbox_xyxy": [
+            480,
+            506,
+            512,
+            533
+          ],
+          "similarity": 0.20048773288726807
+        },
+        {
+          "bbox_xyxy": [
+            480,
+            512,
+            512,
+            531
+          ],
+          "similarity": 0.20543625950813293
+        },
+        {
+          "bbox_xyxy": [
+            480,
+            512,
+            514,
+            532
+          ],
+          "similarity": 0.19697697460651398
+        },
+        {
+          "bbox_xyxy": [
+            484,
+            377,
+            501,
+            386
+          ],
+          "similarity": 0.15797480940818787
+        },
+        {
+          "bbox_xyxy": [
+            487,
+            486,
+            516,
+            512
+          ],
+          "similarity": 0.17834769189357758
+        },
+        {
+          "bbox_xyxy": [
+            490,
+            539,
+            518,
+            553
+          ],
+          "similarity": 0.1939111053943634
+        },
+        {
+          "bbox_xyxy": [
+            491,
+            687,
+            565,
+            715
+          ],
+          "similarity": 0.15628422796726227
+        },
+        {
+          "bbox_xyxy": [
+            492,
+            540,
+            510,
+            552
+          ],
+          "similarity": 0.14473436772823334
+        },
+        {
+          "bbox_xyxy": [
+            492,
+            540,
+            512,
+            552
+          ],
+          "similarity": 0.1510569155216217
+        },
+        {
+          "bbox_xyxy": [
+            492,
+            541,
+            510,
+            552
+          ],
+          "similarity": 0.1431337594985962
+        },
+        {
+          "bbox_xyxy": [
+            493,
+            279,
+            510,
+            294
+          ],
+          "similarity": 0.17737340927124023
+        },
+        {
+          "bbox_xyxy": [
+            493,
+            528,
+            507,
+            542
+          ],
+          "similarity": 0.15139904618263245
+        },
+        {
+          "bbox_xyxy": [
+            493,
+            528,
+            512,
+            542
+          ],
+          "similarity": 0.1282309591770172
+        },
+        {
+          "bbox_xyxy": [
+            494,
+            495,
+            512,
+            512
+          ],
+          "similarity": 0.14238235354423523
+        },
+        {
+          "bbox_xyxy": [
+            494,
+            528,
+            506,
+            540
+          ],
+          "similarity": 0.1171218752861023
+        },
+        {
+          "bbox_xyxy": [
+            495,
+            439,
+            519,
+            448
+          ],
+          "similarity": 0.1520654559135437
+        },
+        {
+          "bbox_xyxy": [
+            495,
+            688,
+            512,
+            700
+          ],
+          "similarity": 0.11986742913722992
+        },
+        {
+          "bbox_xyxy": [
+            497,
+            440,
+            512,
+            448
+          ],
+          "similarity": 0.10679709911346436
+        },
+        {
+          "bbox_xyxy": [
+            498,
+            339,
+            564,
+            381
+          ],
+          "similarity": 0.3543996810913086
+        },
+        {
+          "bbox_xyxy": [
+            500,
+            359,
+            512,
+            372
+          ],
+          "similarity": 0.16186422109603882
+        },
+        {
+          "bbox_xyxy": [
+            505,
+            426,
+            525,
+            442
+          ],
+          "similarity": 0.12027473747730255
+        },
+        {
+          "bbox_xyxy": [
+            507,
+            690,
+            538,
+            711
+          ],
+          "similarity": 0.16779522597789764
+        },
+        {
+          "bbox_xyxy": [
+            508,
+            468,
+            529,
+            487
+          ],
+          "similarity": 0.18836481869220734
+        },
+        {
+          "bbox_xyxy": [
+            510,
+            576,
+            536,
+            588
+          ],
+          "similarity": 0.2046862542629242
+        },
+        {
+          "bbox_xyxy": [
+            511,
+            562,
+            537,
+            572
+          ],
+          "similarity": 0.16227522492408752
+        },
+        {
+          "bbox_xyxy": [
+            512,
+            316,
+            763,
+            512
+          ],
+          "similarity": 0.5156468152999878
+        },
+        {
+          "bbox_xyxy": [
+            512,
+            349,
+            534,
+            364
+          ],
+          "similarity": 0.11055773496627808
+        },
+        {
+          "bbox_xyxy": [
+            512,
+            393,
+            596,
+            407
+          ],
+          "similarity": 0.15155836939811707
+        },
+        {
+          "bbox_xyxy": [
+            512,
+            462,
+            529,
+            488
+          ],
+          "similarity": 0.18626922369003296
+        },
+        {
+          "bbox_xyxy": [
+            512,
+            489,
+            527,
+            501
+          ],
+          "similarity": 0.12369560450315475
+        },
+        {
+          "bbox_xyxy": [
+            512,
+            526,
+            573,
+            580
+          ],
+          "similarity": 0.3353503942489624
+        },
+        {
+          "bbox_xyxy": [
+            512,
+            539,
+            528,
+            556
+          ],
+          "similarity": 0.23913262784481049
+        },
+        {
+          "bbox_xyxy": [
+            512,
+            559,
+            537,
+            575
+          ],
+          "similarity": 0.20136837661266327
+        },
+        {
+          "bbox_xyxy": [
+            512,
+            569,
+            537,
+            589
+          ],
+          "similarity": 0.2066073715686798
+        },
+        {
+          "bbox_xyxy": [
+            512,
+            603,
+            546,
+            636
+          ],
+          "similarity": 0.21495497226715088
+        },
+        {
+          "bbox_xyxy": [
+            512,
+            606,
+            530,
+            623
+          ],
+          "similarity": 0.19478441774845123
+        },
+        {
+          "bbox_xyxy": [
+            512,
+            632,
+            716,
+            722
+          ],
+          "similarity": 0.25656530261039734
+        },
+        {
+          "bbox_xyxy": [
+            512,
+            672,
+            574,
+            692
+          ],
+          "similarity": 0.1869114637374878
+        },
+        {
+          "bbox_xyxy": [
+            512,
+            688,
+            567,
+            716
+          ],
+          "similarity": 0.12468867748975754
+        },
+        {
+          "bbox_xyxy": [
+            512,
+            689,
+            564,
+            716
+          ],
+          "similarity": 0.1608818769454956
+        },
+        {
+          "bbox_xyxy": [
+            514,
+            349,
+            534,
+            364
+          ],
+          "similarity": 0.10284070670604706
+        },
+        {
+          "bbox_xyxy": [
+            516,
+            619,
+            541,
+            638
+          ],
+          "similarity": 0.17672336101531982
+        },
+        {
+          "bbox_xyxy": [
+            517,
+            297,
+            543,
+            317
+          ],
+          "similarity": 0.18900248408317566
+        },
+        {
+          "bbox_xyxy": [
+            517,
+            619,
+            532,
+            633
+          ],
+          "similarity": 0.13998281955718994
+        },
+        {
+          "bbox_xyxy": [
+            520,
+            526,
+            572,
+            580
+          ],
+          "similarity": 0.3483838140964508
+        },
+        {
+          "bbox_xyxy": [
+            524,
+            440,
+            597,
+            512
+          ],
+          "similarity": 0.3560059368610382
+        },
+        {
+          "bbox_xyxy": [
+            524,
+            582,
+            537,
+            589
+          ],
+          "similarity": 0.11421290040016174
+        },
+        {
+          "bbox_xyxy": [
+            526,
+            360,
+            544,
+            373
+          ],
+          "similarity": 0.18217292428016663
+        },
+        {
+          "bbox_xyxy": [
+            526,
+            535,
+            571,
+            578
+          ],
+          "similarity": 0.3069934844970703
+        },
+        {
+          "bbox_xyxy": [
+            528,
+            546,
+            548,
+            554
+          ],
+          "similarity": 0.14479821920394897
+        },
+        {
+          "bbox_xyxy": [
+            534,
+            489,
+            548,
+            499
+          ],
+          "similarity": 0.12934336066246033
+        },
+        {
+          "bbox_xyxy": [
+            536,
+            422,
+            564,
+            433
+          ],
+          "similarity": 0.11334468424320221
+        },
+        {
+          "bbox_xyxy": [
+            539,
+            397,
+            565,
+            405
+          ],
+          "similarity": 0.16640359163284302
+        },
+        {
+          "bbox_xyxy": [
+            540,
+            701,
+            561,
+            714
+          ],
+          "similarity": 0.15455983579158783
+        },
+        {
+          "bbox_xyxy": [
+            542,
+            701,
+            561,
+            714
+          ],
+          "similarity": 0.15240350365638733
+        },
+        {
+          "bbox_xyxy": [
+            544,
+            582,
+            561,
+            591
+          ],
+          "similarity": 0.10146573930978775
+        },
+        {
+          "bbox_xyxy": [
+            548,
+            484,
+            593,
+            518
+          ],
+          "similarity": 0.22009171545505524
+        },
+        {
+          "bbox_xyxy": [
+            550,
+            489,
+            585,
+            516
+          ],
+          "similarity": 0.20536869764328003
+        },
+        {
+          "bbox_xyxy": [
+            552,
+            633,
+            709,
+            718
+          ],
+          "similarity": 0.20645245909690857
+        },
+        {
+          "bbox_xyxy": [
+            553,
+            494,
+            565,
+            509
+          ],
+          "similarity": 0.15721960365772247
+        },
+        {
+          "bbox_xyxy": [
+            558,
+            347,
+            580,
+            366
+          ],
+          "similarity": 0.10409574955701828
+        },
+        {
+          "bbox_xyxy": [
+            560,
+            640,
+            626,
+            708
+          ],
+          "similarity": 0.19292983412742615
+        },
+        {
+          "bbox_xyxy": [
+            576,
+            740,
+            638,
+            751
+          ],
+          "similarity": 0.15473335981369019
+        },
+        {
+          "bbox_xyxy": [
+            582,
+            533,
+            624,
+            546
+          ],
+          "similarity": 0.24229860305786133
+        },
+        {
+          "bbox_xyxy": [
+            583,
+            533,
+            618,
+            545
+          ],
+          "similarity": 0.28165411949157715
+        },
+        {
+          "bbox_xyxy": [
+            585,
+            632,
+            602,
+            646
+          ],
+          "similarity": 0.13676637411117554
+        },
+        {
+          "bbox_xyxy": [
+            589,
+            438,
+            603,
+            448
+          ],
+          "similarity": 0.1237032487988472
+        },
+        {
+          "bbox_xyxy": [
+            589,
+            524,
+            604,
+            537
+          ],
+          "similarity": 0.1732732057571411
+        },
+        {
+          "bbox_xyxy": [
+            590,
+            438,
+            603,
+            448
+          ],
+          "similarity": 0.1115083247423172
+        },
+        {
+          "bbox_xyxy": [
+            590,
+            537,
+            617,
+            545
+          ],
+          "similarity": 0.21989983320236206
+        },
+        {
+          "bbox_xyxy": [
+            597,
+            601,
+            613,
+            610
+          ],
+          "similarity": 0.08988824486732483
+        },
+        {
+          "bbox_xyxy": [
+            598,
+            352,
+            620,
+            363
+          ],
+          "similarity": 0.10202262550592422
+        },
+        {
+          "bbox_xyxy": [
+            598,
+            384,
+            613,
+            392
+          ],
+          "similarity": 0.16183480620384216
+        },
+        {
+          "bbox_xyxy": [
+            599,
+            390,
+            642,
+            399
+          ],
+          "similarity": 0.1600087732076645
+        },
+        {
+          "bbox_xyxy": [
+            599,
+            601,
+            612,
+            610
+          ],
+          "similarity": 0.10920855402946472
+        },
+        {
+          "bbox_xyxy": [
+            600,
+            352,
+            620,
+            363
+          ],
+          "similarity": 0.10543722659349442
+        },
+        {
+          "bbox_xyxy": [
+            603,
+            463,
+            637,
+            510
+          ],
+          "similarity": 0.27967336773872375
+        },
+        {
+          "bbox_xyxy": [
+            603,
+            464,
+            637,
+            508
+          ],
+          "similarity": 0.2723052501678467
+        },
+        {
+          "bbox_xyxy": [
+            604,
+            368,
+            629,
+            380
+          ],
+          "similarity": 0.14128485321998596
+        },
+        {
+          "bbox_xyxy": [
+            606,
+            473,
+            619,
+            493
+          ],
+          "similarity": 0.1601180136203766
+        },
+        {
+          "bbox_xyxy": [
+            606,
+            478,
+            619,
+            492
+          ],
+          "similarity": 0.13437645137310028
+        },
+        {
+          "bbox_xyxy": [
+            607,
+            518,
+            626,
+            536
+          ],
+          "similarity": 0.12854811549186707
+        },
+        {
+          "bbox_xyxy": [
+            610,
+            437,
+            631,
+            454
+          ],
+          "similarity": 0.10606332868337631
+        },
+        {
+          "bbox_xyxy": [
+            611,
+            416,
+            625,
+            428
+          ],
+          "similarity": 0.12057747691869736
+        },
+        {
+          "bbox_xyxy": [
+            611,
+            506,
+            628,
+            512
+          ],
+          "similarity": 0.11183689534664154
+        },
+        {
+          "bbox_xyxy": [
+            611,
+            564,
+            623,
+            578
+          ],
+          "similarity": 0.11117798089981079
+        },
+        {
+          "bbox_xyxy": [
+            612,
+            546,
+            624,
+            558
+          ],
+          "similarity": 0.16851159930229187
+        },
+        {
+          "bbox_xyxy": [
+            612,
+            546,
+            625,
+            558
+          ],
+          "similarity": 0.14751894772052765
+        },
+        {
+          "bbox_xyxy": [
+            615,
+            591,
+            757,
+            698
+          ],
+          "similarity": 0.39625176787376404
+        },
+        {
+          "bbox_xyxy": [
+            621,
+            466,
+            644,
+            477
+          ],
+          "similarity": 0.12556450068950653
+        },
+        {
+          "bbox_xyxy": [
+            621,
+            553,
+            690,
+            601
+          ],
+          "similarity": 0.30787381529808044
+        },
+        {
+          "bbox_xyxy": [
+            622,
+            466,
+            644,
+            477
+          ],
+          "similarity": 0.12064841389656067
+        },
+        {
+          "bbox_xyxy": [
+            623,
+            556,
+            674,
+            589
+          ],
+          "similarity": 0.2848668396472931
+        },
+        {
+          "bbox_xyxy": [
+            624,
+            555,
+            664,
+            591
+          ],
+          "similarity": 0.29281044006347656
+        },
+        {
+          "bbox_xyxy": [
+            625,
+            400,
+            758,
+            426
+          ],
+          "similarity": 0.1766442358493805
+        },
+        {
+          "bbox_xyxy": [
+            625,
+            641,
+            694,
+            689
+          ],
+          "similarity": 0.11308170109987259
+        },
+        {
+          "bbox_xyxy": [
+            626,
+            523,
+            644,
+            537
+          ],
+          "similarity": 0.14024053514003754
+        },
+        {
+          "bbox_xyxy": [
+            626,
+            567,
+            642,
+            579
+          ],
+          "similarity": 0.14168459177017212
+        },
+        {
+          "bbox_xyxy": [
+            628,
+            400,
+            729,
+            426
+          ],
+          "similarity": 0.31364327669143677
+        },
+        {
+          "bbox_xyxy": [
+            631,
+            533,
+            647,
+            546
+          ],
+          "similarity": 0.16270843148231506
+        },
+        {
+          "bbox_xyxy": [
+            632,
+            391,
+            789,
+            431
+          ],
+          "similarity": 0.2907920777797699
+        },
+        {
+          "bbox_xyxy": [
+            634,
+            602,
+            649,
+            612
+          ],
+          "similarity": 0.137745201587677
+        },
+        {
+          "bbox_xyxy": [
+            634,
+            681,
+            683,
+            700
+          ],
+          "similarity": 0.10624293982982635
+        },
+        {
+          "bbox_xyxy": [
+            634,
+            694,
+            650,
+            708
+          ],
+          "similarity": 0.10576000064611435
+        },
+        {
+          "bbox_xyxy": [
+            635,
+            602,
+            648,
+            612
+          ],
+          "similarity": 0.13125964999198914
+        },
+        {
+          "bbox_xyxy": [
+            635,
+            602,
+            649,
+            612
+          ],
+          "similarity": 0.1380387246608734
+        },
+        {
+          "bbox_xyxy": [
+            635,
+            603,
+            648,
+            612
+          ],
+          "similarity": 0.1315024048089981
+        },
+        {
+          "bbox_xyxy": [
+            638,
+            694,
+            650,
+            706
+          ],
+          "similarity": 0.09768383949995041
+        },
+        {
+          "bbox_xyxy": [
+            641,
+            582,
+            661,
+            597
+          ],
+          "similarity": 0.23825299739837646
+        },
+        {
+          "bbox_xyxy": [
+            641,
+            582,
+            675,
+            597
+          ],
+          "similarity": 0.2487768828868866
+        },
+        {
+          "bbox_xyxy": [
+            641,
+            586,
+            661,
+            597
+          ],
+          "similarity": 0.2366499900817871
+        },
+        {
+          "bbox_xyxy": [
+            642,
+            586,
+            661,
+            596
+          ],
+          "similarity": 0.21386006474494934
+        },
+        {
+          "bbox_xyxy": [
+            642,
+            671,
+            693,
+            699
+          ],
+          "similarity": 0.1032356321811676
+        },
+        {
+          "bbox_xyxy": [
+            646,
+            391,
+            673,
+            402
+          ],
+          "similarity": 0.22059109807014465
+        },
+        {
+          "bbox_xyxy": [
+            646,
+            589,
+            753,
+            651
+          ],
+          "similarity": 0.36799392104148865
+        },
+        {
+          "bbox_xyxy": [
+            646,
+            598,
+            753,
+            649
+          ],
+          "similarity": 0.296059250831604
+        },
+        {
+          "bbox_xyxy": [
+            647,
+            598,
+            753,
+            648
+          ],
+          "similarity": 0.30483072996139526
+        },
+        {
+          "bbox_xyxy": [
+            650,
+            447,
+            768,
+            470
+          ],
+          "similarity": 0.17921875417232513
+        },
+        {
+          "bbox_xyxy": [
+            656,
+            445,
+            720,
+            465
+          ],
+          "similarity": 0.19652894139289856
+        },
+        {
+          "bbox_xyxy": [
+            659,
+            383,
+            733,
+            399
+          ],
+          "similarity": 0.19879266619682312
+        },
+        {
+          "bbox_xyxy": [
+            659,
+            539,
+            688,
+            566
+          ],
+          "similarity": 0.21343839168548584
+        },
+        {
+          "bbox_xyxy": [
+            659,
+            540,
+            680,
+            558
+          ],
+          "similarity": 0.19785313308238983
+        },
+        {
+          "bbox_xyxy": [
+            659,
+            542,
+            680,
+            558
+          ],
+          "similarity": 0.20631274580955505
+        },
+        {
+          "bbox_xyxy": [
+            660,
+            337,
+            744,
+            367
+          ],
+          "similarity": 0.17164799571037292
+        },
+        {
+          "bbox_xyxy": [
+            668,
+            391,
+            688,
+            402
+          ],
+          "similarity": 0.15744787454605103
+        },
+        {
+          "bbox_xyxy": [
+            671,
+            591,
+            692,
+            606
+          ],
+          "similarity": 0.28488409519195557
+        },
+        {
+          "bbox_xyxy": [
+            672,
+            592,
+            688,
+            602
+          ],
+          "similarity": 0.13948634266853333
+        },
+        {
+          "bbox_xyxy": [
+            672,
+            592,
+            689,
+            603
+          ],
+          "similarity": 0.17949800193309784
+        },
+        {
+          "bbox_xyxy": [
+            675,
+            693,
+            720,
+            716
+          ],
+          "similarity": 0.1910751461982727
+        },
+        {
+          "bbox_xyxy": [
+            676,
+            488,
+            697,
+            500
+          ],
+          "similarity": 0.10268691927194595
+        },
+        {
+          "bbox_xyxy": [
+            676,
+            695,
+            710,
+            717
+          ],
+          "similarity": 0.15753936767578125
+        },
+        {
+          "bbox_xyxy": [
+            681,
+            693,
+            719,
+            716
+          ],
+          "similarity": 0.18319830298423767
+        },
+        {
+          "bbox_xyxy": [
+            681,
+            694,
+            719,
+            716
+          ],
+          "similarity": 0.18337872624397278
+        },
+        {
+          "bbox_xyxy": [
+            683,
+            693,
+            710,
+            715
+          ],
+          "similarity": 0.14117589592933655
+        },
+        {
+          "bbox_xyxy": [
+            683,
+            695,
+            709,
+            714
+          ],
+          "similarity": 0.1295916885137558
+        },
+        {
+          "bbox_xyxy": [
+            684,
+            624,
+            710,
+            637
+          ],
+          "similarity": 0.1626220941543579
+        },
+        {
+          "bbox_xyxy": [
+            692,
+            454,
+            717,
+            465
+          ],
+          "similarity": 0.11987464129924774
+        },
+        {
+          "bbox_xyxy": [
+            692,
+            489,
+            741,
+            512
+          ],
+          "similarity": 0.1950288563966751
+        },
+        {
+          "bbox_xyxy": [
+            695,
+            512,
+            724,
+            526
+          ],
+          "similarity": 0.1917749047279358
+        },
+        {
+          "bbox_xyxy": [
+            698,
+            526,
+            764,
+            602
+          ],
+          "similarity": 0.41233325004577637
+        },
+        {
+          "bbox_xyxy": [
+            701,
+            435,
+            782,
+            476
+          ],
+          "similarity": 0.1876693069934845
+        },
+        {
+          "bbox_xyxy": [
+            709,
+            362,
+            729,
+            373
+          ],
+          "similarity": 0.12507417798042297
+        },
+        {
+          "bbox_xyxy": [
+            711,
+            483,
+            739,
+            492
+          ],
+          "similarity": 0.13212361931800842
+        },
+        {
+          "bbox_xyxy": [
+            715,
+            493,
+            763,
+            520
+          ],
+          "similarity": 0.19359174370765686
+        },
+        {
+          "bbox_xyxy": [
+            715,
+            512,
+            763,
+            533
+          ],
+          "similarity": 0.1952226608991623
+        },
+        {
+          "bbox_xyxy": [
+            716,
+            495,
+            780,
+            521
+          ],
+          "similarity": 0.19857381284236908
+        },
+        {
+          "bbox_xyxy": [
+            717,
+            497,
+            762,
+            517
+          ],
+          "similarity": 0.1679714471101761
+        },
+        {
+          "bbox_xyxy": [
+            724,
+            536,
+            762,
+            566
+          ],
+          "similarity": 0.21444101631641388
+        },
+        {
+          "bbox_xyxy": [
+            727,
+            582,
+            761,
+            594
+          ],
+          "similarity": 0.1746673882007599
+        },
+        {
+          "bbox_xyxy": [
+            728,
+            538,
+            742,
+            557
+          ],
+          "similarity": 0.2229449301958084
+        },
+        {
+          "bbox_xyxy": [
+            728,
+            555,
+            761,
+            596
+          ],
+          "similarity": 0.16956858336925507
+        },
+        {
+          "bbox_xyxy": [
+            729,
+            607,
+            746,
+            622
+          ],
+          "similarity": 0.18852494657039642
+        },
+        {
+          "bbox_xyxy": [
+            734,
+            591,
+            761,
+            601
+          ],
+          "similarity": 0.12997126579284668
+        },
+        {
+          "bbox_xyxy": [
+            740,
+            389,
+            767,
+            407
+          ],
+          "similarity": 0.18987473845481873
+        },
+        {
+          "bbox_xyxy": [
+            758,
+            479,
+            777,
+            492
+          ],
+          "similarity": 0.10825098305940628
+        },
+        {
+          "bbox_xyxy": [
+            760,
+            471,
+            776,
+            483
+          ],
+          "similarity": 0.10617820173501968
+        }
+      ],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            512,
+            316,
+            763,
+            512
+          ],
+          "similarity": 0.5156468152999878,
+          "class": "target_ship_candidate"
+        }
+      ],
+      "cosine_similarity": 0.5156468152999878,
+      "target_candidate": true,
+      "annotated_file": "annotated/Calnexship.jpg"
+    },
+    {
+      "file": "images/COSCO Glory (ship, 2011) 001.jpg",
+      "title": "File:COSCO Glory (ship, 2011) 001.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:COSCO_Glory_(ship,_2011)_001.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/COSCO_Glory_%28ship%2C_2011%29_001.jpg/1280px-COSCO_Glory_%28ship%2C_2011%29_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "author": "Fabian Horst from Flensburg, Germany",
+      "description": "Container ship COSCO Glory, Container Terminal Burchardkai, Port of Hamburg",
+      "sha256": "87c3cbf0a4f9613236ea3f73f2fd3dc0436d2a128d43970300d3fb2cc2c39b43",
+      "dimensions": [
+        1280,
+        955
+      ],
+      "downloaded_utc": "2026-11-12T03:39:34.394889+00:00",
+      "label_basis": "Commons identifies a non-Evergreen vessel; target IMO not supplied",
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            176,
+            217,
+            512,
+            512
+          ],
+          "similarity": 0.41050583124160767
+        },
+        {
+          "bbox_xyxy": [
+            256,
+            492,
+            274,
+            553
+          ],
+          "similarity": 0.13115006685256958
+        },
+        {
+          "bbox_xyxy": [
+            405,
+            253,
+            425,
+            269
+          ],
+          "similarity": 0.17587393522262573
+        },
+        {
+          "bbox_xyxy": [
+            414,
+            409,
+            512,
+            512
+          ],
+          "similarity": 0.44939613342285156
+        },
+        {
+          "bbox_xyxy": [
+            489,
+            423,
+            512,
+            433
+          ],
+          "similarity": 0.2466457188129425
+        }
+      ],
+      "detections": [
+        {
+          "bbox_xyxy": [
+            414,
+            409,
+            512,
+            512
+          ],
+          "similarity": 0.44939613342285156,
+          "class": "target_ship_candidate"
+        }
+      ],
+      "cosine_similarity": 0.44939613342285156,
+      "target_candidate": true,
+      "annotated_file": "annotated/COSCO Glory (ship, 2011) 001.jpg"
+    },
+    {
+      "file": "images/Cosco Yantian.jpg",
+      "title": "File:Cosco Yantian.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cosco_Yantian.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Cosco_Yantian.jpg/1280px-Cosco_Yantian.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "author": "Joaqu\u00edn Guardado",
+      "description": "Cosco Yantian cargando en el Puerto de Ensenada, M\u00e9xico.",
+      "sha256": "8b3868e56d1db4adb1be3edc9b46349c3914cc15dcf75dc55f9bd70f1d7e72ea",
+      "dimensions": [
+        1280,
+        960
+      ],
+      "downloaded_utc": "2026-11-12T03:39:39.756581+00:00",
+      "label_basis": "Commons identifies a non-Evergreen vessel; target IMO not supplied",
+      "proposals": [
+        {
+          "bbox_xyxy": [
+            512,
+            155,
+            1024,
+            512
+          ],
+          "similarity": 0.35035240650177
+        },
+        {
+          "bbox_xyxy": [
+            661,
+            272,
+            768,
+            323
+          ],
+          "similarity": 0.19007569551467896
+        },
+        {
+          "bbox_xyxy": [
+            661,
+            287,
+            768,
+            331
+          ],
+          "similarity": 0.18759766221046448
+        },
+        {
+          "bbox_xyxy": [
+            768,
+            264,
+            1164,
+            512
+          ],
+          "similarity": 0.2790144979953766
+        },
+        {
+          "bbox_xyxy": [
+            821,
+            315,
+            1153,
+            408
+          ],
+          "similarity": 0.28861385583877563
+        },
+        {
+          "bbox_xyxy": [
+            1017,
+            448,
+            1088,
+            471
+          ],
+          "similarity": 0.3237968385219574
+        },
+        {
+          "bbox_xyxy": [
+            1170,
+            948,
+            1185,
+            956
+          ],
+          "similarity": 0.14753271639347076
+        },
+        {
+          "bbox_xyxy": [
+            1245,
+            235,
+            1259,
+            245
+          ],
+          "similarity": 0.19952592253684998
+        },
+        {
+          "bbox_xyxy": [
+            1260,
+            253,
+            1275,
+            265
+          ],
+          "similarity": 0.22784742712974548
+        }
+      ],
+      "detections": [],
+      "cosine_similarity": 0.35035240650177,
+      "target_candidate": false,
+      "annotated_file": "annotated/Cosco Yantian.jpg"
+    }
+  ]
+}
