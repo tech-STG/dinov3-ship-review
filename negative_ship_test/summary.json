@@ -1,8 +1,10 @@
 {
   "count": 100,
-  "min_similarity": 0.2247263789176941,
-  "max_similarity": 0.5067638158798218,
-  "mean_similarity": 0.33820000901818276,
+  "min_similarity": 0.2019246518611908,
+  "max_similarity": 0.38939839601516724,
+  "classification_head_enabled": false,
+  "reference_version": "yolo-color-transparent-augmentation-v6",
+  "mean_similarity": 0.29232764184474946,
   "model_modified": false,
   "pipeline": "Same YOLO11s tiled boat detections and DINOv3 cropped ship reference as validation",
   "detector": {
@@ -22,6 +24,7 @@
       1024
     ],
     "merge_iou": 0.5,
+    "selection_policy": "largest-area boat after merged NMS; confidence breaks equal-area ties",
     "fallback": "CLAHE luminance contrast, only if raw whole-image and tile passes find no boats"
   },
   "model_sha256": "7ab9d990006bf3f1fd03c82c97a433f12fc91272ac4de4cde055e289cb842c6b",
@@ -59,7 +62,5 @@
       "count": 0,
       "total": 100
     }
-  },
-  "classification_head_enabled": false,
-  "reference_version": "yolo-color-transparent-augmentation-v6"
+  }
 }

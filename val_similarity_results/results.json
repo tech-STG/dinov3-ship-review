@@ -5,7 +5,7 @@
   "seed": 629399051,
   "threshold": 0.01,
   "with_detections": 18,
-  "display_policy": "Highest-similarity region only if score >= threshold; otherwise No Matching Object without a box.",
+  "display_policy": "Largest-area post-NMS boat only if its DINOv3 similarity meets threshold; no fallback to smaller boxes.",
   "detection_count": 18,
   "target_candidate_count": 18,
   "localization": "YOLO11s boat detections on whole image plus overlapping tiles; merged with NMS",
@@ -26,7 +26,8 @@
       1024
     ],
     "merge_iou": 0.5,
-    "fallback": "CLAHE luminance contrast, only if raw whole-image and tile passes find no boats"
+    "fallback": "CLAHE luminance contrast, only if raw whole-image and tile passes find no boats",
+    "selection_policy": "largest-area boat after merged NMS; confidence breaks equal-area ties"
   },
   "frames_with_yolo_boats": 18,
   "reference_roi_xyxy": [
@@ -64,95 +65,26 @@
           "contrast_enhanced": false,
           "detector_input_size": 640,
           "similarity": 0.40586864948272705
-        },
-        {
-          "bbox_xyxy": [
-            496,
-            405,
-            628,
-            449
-          ],
-          "confidence": 0.52392578125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.42052143812179565
-        },
-        {
-          "bbox_xyxy": [
-            817,
-            366,
-            965,
-            458
-          ],
-          "confidence": 0.466552734375,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.42159804701805115
-        },
-        {
-          "bbox_xyxy": [
-            738,
-            409,
-            818,
-            435
-          ],
-          "confidence": 0.38330078125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.41997745633125305
-        },
-        {
-          "bbox_xyxy": [
-            706,
-            406,
-            740,
-            428
-          ],
-          "confidence": 0.18505859375,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.4033675789833069
-        },
-        {
-          "bbox_xyxy": [
-            623,
-            408,
-            708,
-            433
-          ],
-          "confidence": 0.18212890625,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.38360536098480225
         }
       ],
       "detections": [
         {
           "bbox_xyxy": [
-            817,
+            497,
             366,
-            965,
-            458
+            966,
+            463
           ],
-          "confidence": 0.466552734375,
+          "confidence": 0.59912109375,
           "detector_class": "boat",
           "detector_view": "whole",
           "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.42159804701805115,
+          "detector_input_size": 640,
+          "similarity": 0.40586864948272705,
           "class": "target_ship_candidate"
         }
-      ]
+      ],
+      "nms_candidate_count": 6
     },
     {
       "input": "val_images/frame_000578.png",
@@ -176,67 +108,26 @@
           "contrast_enhanced": false,
           "detector_input_size": 640,
           "similarity": 0.3990355134010315
-        },
-        {
-          "bbox_xyxy": [
-            274,
-            453,
-            404,
-            500
-          ],
-          "confidence": 0.5244140625,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.4285089373588562
-        },
-        {
-          "bbox_xyxy": [
-            483,
-            454,
-            520,
-            476
-          ],
-          "confidence": 0.24169921875,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.44516146183013916
-        },
-        {
-          "bbox_xyxy": [
-            516,
-            457,
-            600,
-            483
-          ],
-          "confidence": 0.2232666015625,
-          "detector_class": "boat",
-          "detector_view": "tile",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.3859711289405823
         }
       ],
       "detections": [
         {
           "bbox_xyxy": [
-            483,
-            454,
-            520,
-            476
+            274,
+            408,
+            745,
+            508
           ],
-          "confidence": 0.24169921875,
+          "confidence": 0.599609375,
           "detector_class": "boat",
           "detector_view": "whole",
           "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.44516146183013916,
+          "detector_input_size": 640,
+          "similarity": 0.3990355134010315,
           "class": "target_ship_candidate"
         }
-      ]
+      ],
+      "nms_candidate_count": 4
     },
     {
       "input": "val_images/frame_000280.png",
@@ -278,7 +169,8 @@
           "similarity": 0.41914474964141846,
           "class": "target_ship_candidate"
         }
-      ]
+      ],
+      "nms_candidate_count": 1
     },
     {
       "input": "val_images/frame_000362.png",
@@ -313,95 +205,26 @@
           "contrast_enhanced": false,
           "detector_input_size": 640,
           "similarity": 0.42380255460739136
-        },
-        {
-          "bbox_xyxy": [
-            714,
-            409,
-            796,
-            433
-          ],
-          "confidence": 0.483642578125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.39410609006881714
-        },
-        {
-          "bbox_xyxy": [
-            471,
-            404,
-            583,
-            452
-          ],
-          "confidence": 0.359130859375,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.39676421880722046
-        },
-        {
-          "bbox_xyxy": [
-            471,
-            402,
-            685,
-            451
-          ],
-          "confidence": 0.317626953125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.3640373945236206
-        },
-        {
-          "bbox_xyxy": [
-            680,
-            404,
-            717,
-            427
-          ],
-          "confidence": 0.1993408203125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.42268675565719604
-        },
-        {
-          "bbox_xyxy": [
-            712,
-            361,
-            941,
-            458
-          ],
-          "confidence": 0.1644287109375,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.44381868839263916
         }
       ],
       "detections": [
         {
           "bbox_xyxy": [
-            712,
-            361,
-            941,
-            458
+            471,
+            357,
+            944,
+            463
           ],
-          "confidence": 0.1644287109375,
+          "confidence": 0.6142578125,
           "detector_class": "boat",
           "detector_view": "whole",
           "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.44381868839263916,
+          "detector_input_size": 640,
+          "similarity": 0.42380255460739136,
           "class": "target_ship_candidate"
         }
-      ]
+      ],
+      "nms_candidate_count": 6
     },
     {
       "input": "val_images/frame_000193.png",
@@ -425,39 +248,26 @@
           "contrast_enhanced": false,
           "detector_input_size": 1280,
           "similarity": 0.4179980158805847
-        },
-        {
-          "bbox_xyxy": [
-            586,
-            534,
-            671,
-            566
-          ],
-          "confidence": 0.26806640625,
-          "detector_class": "boat",
-          "detector_view": "tile",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.4300661087036133
         }
       ],
       "detections": [
         {
           "bbox_xyxy": [
-            586,
-            534,
+            507,
+            535,
             671,
-            566
+            569
           ],
-          "confidence": 0.26806640625,
+          "confidence": 0.5087890625,
           "detector_class": "boat",
-          "detector_view": "tile",
+          "detector_view": "whole",
           "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.4300661087036133,
+          "detector_input_size": 1280,
+          "similarity": 0.4179980158805847,
           "class": "target_ship_candidate"
         }
-      ]
+      ],
+      "nms_candidate_count": 2
     },
     {
       "input": "val_images/frame_000014.png",
@@ -481,20 +291,6 @@
           "contrast_enhanced": false,
           "detector_input_size": 640,
           "similarity": 0.45581287145614624
-        },
-        {
-          "bbox_xyxy": [
-            396,
-            433,
-            407,
-            438
-          ],
-          "confidence": 0.357177734375,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.4400728940963745
         }
       ],
       "detections": [
@@ -513,7 +309,8 @@
           "similarity": 0.45581287145614624,
           "class": "target_ship_candidate"
         }
-      ]
+      ],
+      "nms_candidate_count": 2
     },
     {
       "input": "val_images/frame_000044.png",
@@ -537,34 +334,6 @@
           "contrast_enhanced": false,
           "detector_input_size": 1024,
           "similarity": 0.4634353518486023
-        },
-        {
-          "bbox_xyxy": [
-            400,
-            435,
-            412,
-            441
-          ],
-          "confidence": 0.2218017578125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.41994044184684753
-        },
-        {
-          "bbox_xyxy": [
-            401,
-            437,
-            412,
-            440
-          ],
-          "confidence": 0.194580078125,
-          "detector_class": "boat",
-          "detector_view": "tile",
-          "contrast_enhanced": false,
-          "detector_input_size": 1024,
-          "similarity": 0.42558470368385315
         }
       ],
       "detections": [
@@ -583,7 +352,8 @@
           "similarity": 0.4634353518486023,
           "class": "target_ship_candidate"
         }
-      ]
+      ],
+      "nms_candidate_count": 3
     },
     {
       "input": "val_images/frame_000290.png",
@@ -625,7 +395,8 @@
           "similarity": 0.41288506984710693,
           "class": "target_ship_candidate"
         }
-      ]
+      ],
+      "nms_candidate_count": 1
     },
     {
       "input": "val_images/frame_000231.png",
@@ -649,39 +420,26 @@
           "contrast_enhanced": false,
           "detector_input_size": 1280,
           "similarity": 0.4409942328929901
-        },
-        {
-          "bbox_xyxy": [
-            598,
-            505,
-            651,
-            539
-          ],
-          "confidence": 0.281982421875,
-          "detector_class": "boat",
-          "detector_view": "tile",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.46907055377960205
         }
       ],
       "detections": [
         {
           "bbox_xyxy": [
-            598,
-            505,
-            651,
-            539
+            487,
+            506,
+            652,
+            544
           ],
-          "confidence": 0.281982421875,
+          "confidence": 0.5927734375,
           "detector_class": "boat",
-          "detector_view": "tile",
+          "detector_view": "whole",
           "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.46907055377960205,
+          "detector_input_size": 1280,
+          "similarity": 0.4409942328929901,
           "class": "target_ship_candidate"
         }
-      ]
+      ],
+      "nms_candidate_count": 2
     },
     {
       "input": "val_images/frame_000266.png",
@@ -723,7 +481,8 @@
           "similarity": 0.3771846890449524,
           "class": "target_ship_candidate"
         }
-      ]
+      ],
+      "nms_candidate_count": 1
     },
     {
       "input": "val_images/frame_000353.png",
@@ -747,53 +506,26 @@
           "contrast_enhanced": false,
           "detector_input_size": 640,
           "similarity": 0.4054497182369232
-        },
-        {
-          "bbox_xyxy": [
-            671,
-            476,
-            820,
-            564
-          ],
-          "confidence": 0.457275390625,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.42541325092315674
-        },
-        {
-          "bbox_xyxy": [
-            351,
-            516,
-            463,
-            558
-          ],
-          "confidence": 0.3837890625,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.4174486994743347
         }
       ],
       "detections": [
         {
           "bbox_xyxy": [
-            671,
-            476,
+            349,
+            470,
             820,
-            564
+            575
           ],
-          "confidence": 0.457275390625,
+          "confidence": 0.54345703125,
           "detector_class": "boat",
           "detector_view": "whole",
           "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.42541325092315674,
+          "detector_input_size": 640,
+          "similarity": 0.4054497182369232,
           "class": "target_ship_candidate"
         }
-      ]
+      ],
+      "nms_candidate_count": 3
     },
     {
       "input": "val_images/frame_000347.png",
@@ -804,20 +536,6 @@
         720
       ],
       "proposals": [
-        {
-          "bbox_xyxy": [
-            691,
-            493,
-            839,
-            584
-          ],
-          "confidence": 0.26904296875,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.39298173785209656
-        },
         {
           "bbox_xyxy": [
             378,
@@ -836,20 +554,21 @@
       "detections": [
         {
           "bbox_xyxy": [
-            691,
-            493,
-            839,
-            584
+            378,
+            487,
+            840,
+            591
           ],
-          "confidence": 0.26904296875,
+          "confidence": 0.24560546875,
           "detector_class": "boat",
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.39298173785209656,
+          "similarity": 0.3629433810710907,
           "class": "target_ship_candidate"
         }
-      ]
+      ],
+      "nms_candidate_count": 2
     },
     {
       "input": "val_images/frame_000431.png",
@@ -873,39 +592,26 @@
           "contrast_enhanced": false,
           "detector_input_size": 640,
           "similarity": 0.40708714723587036
-        },
-        {
-          "bbox_xyxy": [
-            440,
-            414,
-            572,
-            462
-          ],
-          "confidence": 0.178466796875,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.413869172334671
         }
       ],
       "detections": [
         {
           "bbox_xyxy": [
             440,
-            414,
-            572,
-            462
+            369,
+            911,
+            476
           ],
-          "confidence": 0.178466796875,
+          "confidence": 0.66455078125,
           "detector_class": "boat",
           "detector_view": "whole",
           "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.413869172334671,
+          "detector_input_size": 640,
+          "similarity": 0.40708714723587036,
           "class": "target_ship_candidate"
         }
-      ]
+      ],
+      "nms_candidate_count": 2
     },
     {
       "input": "val_images/frame_000256.png",
@@ -929,20 +635,6 @@
           "contrast_enhanced": false,
           "detector_input_size": 1280,
           "similarity": 0.46389585733413696
-        },
-        {
-          "bbox_xyxy": [
-            621,
-            486,
-            676,
-            517
-          ],
-          "confidence": 0.263671875,
-          "detector_class": "boat",
-          "detector_view": "tile",
-          "contrast_enhanced": false,
-          "detector_input_size": 1024,
-          "similarity": 0.435981810092926
         }
       ],
       "detections": [
@@ -961,7 +653,8 @@
           "similarity": 0.46389585733413696,
           "class": "target_ship_candidate"
         }
-      ]
+      ],
+      "nms_candidate_count": 2
     },
     {
       "input": "val_images/frame_000073.png",
@@ -1003,7 +696,8 @@
           "similarity": 0.354342520236969,
           "class": "target_ship_candidate"
         }
-      ]
+      ],
+      "nms_candidate_count": 1
     },
     {
       "input": "val_images/frame_000307.png",
@@ -1045,7 +739,8 @@
           "similarity": 0.3857691287994385,
           "class": "target_ship_candidate"
         }
-      ]
+      ],
+      "nms_candidate_count": 1
     },
     {
       "input": "val_images/frame_000260.png",
@@ -1069,20 +764,6 @@
           "contrast_enhanced": false,
           "detector_input_size": 1280,
           "similarity": 0.4617800712585449
-        },
-        {
-          "bbox_xyxy": [
-            631,
-            485,
-            685,
-            515
-          ],
-          "confidence": 0.18994140625,
-          "detector_class": "boat",
-          "detector_view": "tile",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.4380495548248291
         }
       ],
       "detections": [
@@ -1101,7 +782,8 @@
           "similarity": 0.4617800712585449,
           "class": "target_ship_candidate"
         }
-      ]
+      ],
+      "nms_candidate_count": 2
     },
     {
       "input": "val_images/frame_000426.png",
@@ -1136,83 +818,29 @@
           "contrast_enhanced": false,
           "detector_input_size": 640,
           "similarity": 0.39213934540748596
-        },
-        {
-          "bbox_xyxy": [
-            533,
-            445,
-            616,
-            467
-          ],
-          "confidence": 0.303955078125,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.37272387742996216
-        },
-        {
-          "bbox_xyxy": [
-            530,
-            399,
-            762,
-            491
-          ],
-          "confidence": 0.2900390625,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.42829012870788574
-        },
-        {
-          "bbox_xyxy": [
-            291,
-            440,
-            424,
-            489
-          ],
-          "confidence": 0.272216796875,
-          "detector_class": "boat",
-          "detector_view": "tile",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
-          "similarity": 0.37674427032470703
-        },
-        {
-          "bbox_xyxy": [
-            420,
-            443,
-            501,
-            465
-          ],
-          "confidence": 0.246337890625,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.3698992133140564
         }
       ],
       "detections": [
         {
           "bbox_xyxy": [
-            530,
-            399,
-            762,
-            491
+            292,
+            400,
+            775,
+            512
           ],
-          "confidence": 0.2900390625,
+          "confidence": 0.72412109375,
           "detector_class": "boat",
           "detector_view": "whole",
           "contrast_enhanced": false,
-          "detector_input_size": 1280,
-          "similarity": 0.42829012870788574,
+          "detector_input_size": 640,
+          "similarity": 0.39213934540748596,
           "class": "target_ship_candidate"
         }
-      ]
+      ],
+      "nms_candidate_count": 5
     }
   ],
+  "selection_policy": "largest-area boat after merged NMS; confidence breaks equal-area ties",
   "reference_version": "yolo-color-transparent-augmentation-v6",
   "classification_head_enabled": false,
   "feature_reuse": "Verified unchanged input hashes and same YOLO boxes; cached frozen DINOv3 features"

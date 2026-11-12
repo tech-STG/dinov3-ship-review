@@ -2,7 +2,7 @@
   "seed": 20261112,
   "deterministic": true,
   "training_preprocessing": "color-remove-bg-transparent-canvas",
-  "reference_selection": "highest-confidence whole-image YOLO boat; no tiles",
+  "reference_selection": "largest-area whole-image YOLO boat after NMS; no tiles",
   "references": [
     {
       "source": "training_images\\S__191913989.jpg",
@@ -74,6 +74,7 @@
       1024
     ],
     "merge_iou": 0.5,
+    "selection_policy": "largest-area boat after merged NMS; confidence breaks equal-area ties",
     "fallback": "CLAHE luminance contrast, only if raw whole-image and tile passes find no boats"
   },
   "canvas_size": [
