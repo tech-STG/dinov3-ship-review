@@ -35,8 +35,22 @@
     "threshold_selected": 0.34591996669769287,
     "threshold_source": "development-set calibration",
     "accuracy": null,
-    "false_accept_count": 4,
-    "false_accept_rate": 0.04,
+    "ratio_filter": {
+      "reference_ratio": 4.762931034482759,
+      "tolerance": 0.1,
+      "minimum": 4.662931034482759,
+      "maximum": 4.8629310344827585,
+      "foreground_bounds": [
+        0,
+        4,
+        1105,
+        236
+      ],
+      "mask": "augmented_training_images_transparent\\masks\\ship.png",
+      "definition": "width / height of nonzero unaugmented foreground mask bounds"
+    },
+    "false_accept_count": 0,
+    "false_accept_rate": 0.0,
     "note": "Threshold tuned on these development images. Reported rates are in-sample; an independent held-out test is required.",
     "hypothetical_false_accepts": {
       "0.6": {
@@ -103,29 +117,15 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 1024,
-          "similarity": 0.38939839601516724
-        }
-      ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            53,
-            306,
-            237,
-            358
-          ],
-          "confidence": 0.92431640625,
-          "detector_class": "boat",
-          "detector_view": "tile",
-          "contrast_enhanced": false,
-          "detector_input_size": 1024,
           "similarity": 0.38939839601516724,
-          "class": "target_ship_candidate"
+          "bbox_ratio": 3.5384615384615383,
+          "ratio_pass": false
         }
       ],
+      "detections": [],
       "cosine_similarity": 0.38939839601516724,
       "confidence": 0.92431640625,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_63577975_MSC_GENEVA_CMA_CGM_BLUE_WHALE_MSC_FABIENNE_MSC_PREZIOSA_37501865206_.jpg"
     },
     {
@@ -163,29 +163,15 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3685808777809143
-        }
-      ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            14,
-            166,
-            447,
-            346
-          ],
-          "confidence": 0.81396484375,
-          "detector_class": "boat",
-          "detector_view": "tile",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
           "similarity": 0.3685808777809143,
-          "class": "target_ship_candidate"
+          "bbox_ratio": 2.4055555555555554,
+          "ratio_pass": false
         }
       ],
+      "detections": [],
       "cosine_similarity": 0.3685808777809143,
       "confidence": 0.81396484375,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_63512446_MAJESTIC_MAERSK_MAERSK_NEWHAVEN_SVEN_D_23758713629_.jpg"
     },
     {
@@ -222,29 +208,15 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.36277157068252563
-        }
-      ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            50,
-            124,
-            815,
-            370
-          ],
-          "confidence": 0.2333984375,
-          "detector_class": "boat",
-          "detector_view": "whole",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
           "similarity": 0.36277157068252563,
-          "class": "target_ship_candidate"
+          "bbox_ratio": 3.1097560975609757,
+          "ratio_pass": false
         }
       ],
+      "detections": [],
       "cosine_similarity": 0.36277157068252563,
       "confidence": 0.2333984375,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_71556173_COSCO_UNIVERSE_29770827768_.jpg"
     },
     {
@@ -283,29 +255,15 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3544692099094391
-        }
-      ],
-      "detections": [
-        {
-          "bbox_xyxy": [
-            570,
-            241,
-            701,
-            399
-          ],
-          "confidence": 0.83447265625,
-          "detector_class": "boat",
-          "detector_view": "tile",
-          "contrast_enhanced": false,
-          "detector_input_size": 640,
           "similarity": 0.3544692099094391,
-          "class": "target_ship_candidate"
+          "bbox_ratio": 0.8291139240506329,
+          "ratio_pass": false
         }
       ],
+      "detections": [],
       "cosine_similarity": 0.3544692099094391,
       "confidence": 0.83447265625,
-      "target_candidate": true,
+      "target_candidate": false,
       "annotated_file": "annotated/commons_33222822_MAERSK_TRANSPORTER_CASTORO_SEI_MAERSK_TRACER_13933238095_.jpg"
     },
     {
@@ -343,7 +301,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.33749741315841675
+          "similarity": 0.33749741315841675,
+          "bbox_ratio": 2.878787878787879,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -387,7 +347,9 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3339386284351349
+          "similarity": 0.3339386284351349,
+          "bbox_ratio": 1.4625,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -430,7 +392,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.3283436894416809
+          "similarity": 0.3283436894416809,
+          "bbox_ratio": 6.571428571428571,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -473,7 +437,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3282701373100281
+          "similarity": 0.3282701373100281,
+          "bbox_ratio": 3.409090909090909,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -517,7 +483,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.32823437452316284
+          "similarity": 0.32823437452316284,
+          "bbox_ratio": 3.0427807486631018,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -561,7 +529,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3277469277381897
+          "similarity": 0.3277469277381897,
+          "bbox_ratio": 1.3029411764705883,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -605,7 +575,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3267538845539093
+          "similarity": 0.3267538845539093,
+          "bbox_ratio": 1.799554565701559,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -651,7 +623,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.32607290148735046
+          "similarity": 0.32607290148735046,
+          "bbox_ratio": 1.8148148148148149,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -694,7 +668,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3250885605812073
+          "similarity": 0.3250885605812073,
+          "bbox_ratio": 3.893162393162393,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -737,7 +713,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3242078423500061
+          "similarity": 0.3242078423500061,
+          "bbox_ratio": 2.7867132867132867,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -781,7 +759,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.32218360900878906
+          "similarity": 0.32218360900878906,
+          "bbox_ratio": 5.053571428571429,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -824,7 +804,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3211196959018707
+          "similarity": 0.3211196959018707,
+          "bbox_ratio": 3.484732824427481,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -868,7 +850,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3205137252807617
+          "similarity": 0.3205137252807617,
+          "bbox_ratio": 2.7712418300653594,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -911,7 +895,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.32047390937805176
+          "similarity": 0.32047390937805176,
+          "bbox_ratio": 1.6284246575342465,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -955,7 +941,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.3184860944747925
+          "similarity": 0.3184860944747925,
+          "bbox_ratio": 2.6724137931034484,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -999,7 +987,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.31841132044792175
+          "similarity": 0.31841132044792175,
+          "bbox_ratio": 3.425,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -1042,7 +1032,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3182829022407532
+          "similarity": 0.3182829022407532,
+          "bbox_ratio": 1.0673854447439353,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -1086,7 +1078,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3179909586906433
+          "similarity": 0.3179909586906433,
+          "bbox_ratio": 1.746928746928747,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -1129,7 +1123,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.31759825348854065
+          "similarity": 0.31759825348854065,
+          "bbox_ratio": 4.3426573426573425,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -1173,7 +1169,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3169328570365906
+          "similarity": 0.3169328570365906,
+          "bbox_ratio": 2.86046511627907,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -1216,7 +1214,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.31622856855392456
+          "similarity": 0.31622856855392456,
+          "bbox_ratio": 3.592057761732852,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -1260,7 +1260,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3156551718711853
+          "similarity": 0.3156551718711853,
+          "bbox_ratio": 2.1019283746556474,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -1303,7 +1305,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.3151463568210602
+          "similarity": 0.3151463568210602,
+          "bbox_ratio": 1.110204081632653,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -1348,7 +1352,9 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3140019178390503
+          "similarity": 0.3140019178390503,
+          "bbox_ratio": 1.1818181818181819,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -1392,7 +1398,9 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 1024,
-          "similarity": 0.313596248626709
+          "similarity": 0.313596248626709,
+          "bbox_ratio": 1.0577617328519855,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -1435,7 +1443,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3135172724723816
+          "similarity": 0.3135172724723816,
+          "bbox_ratio": 1.9216152019002375,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -1478,7 +1488,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.31349942088127136
+          "similarity": 0.31349942088127136,
+          "bbox_ratio": 1.277456647398844,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -1522,7 +1534,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.31153619289398193
+          "similarity": 0.31153619289398193,
+          "bbox_ratio": 1.2958715596330275,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -1565,7 +1579,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3104258179664612
+          "similarity": 0.3104258179664612,
+          "bbox_ratio": 2.942084942084942,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -1610,7 +1626,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.3103315234184265
+          "similarity": 0.3103315234184265,
+          "bbox_ratio": 1.119533527696793,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -1653,7 +1671,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.31030145287513733
+          "similarity": 0.31030145287513733,
+          "bbox_ratio": 2.4553314121037464,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -1697,7 +1717,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3100360035896301
+          "similarity": 0.3100360035896301,
+          "bbox_ratio": 1.2526315789473683,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -1741,7 +1763,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3091299831867218
+          "similarity": 0.3091299831867218,
+          "bbox_ratio": 2.3944444444444444,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -1785,7 +1809,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3088145852088928
+          "similarity": 0.3088145852088928,
+          "bbox_ratio": 1.590990990990991,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -1829,7 +1855,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3072381615638733
+          "similarity": 0.3072381615638733,
+          "bbox_ratio": 3.5872093023255816,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -1873,7 +1901,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3059656023979187
+          "similarity": 0.3059656023979187,
+          "bbox_ratio": 2.0588235294117645,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -1917,7 +1947,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.3057118356227875
+          "similarity": 0.3057118356227875,
+          "bbox_ratio": 2.048780487804878,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -1960,7 +1992,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3053501546382904
+          "similarity": 0.3053501546382904,
+          "bbox_ratio": 4.236180904522613,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -2003,7 +2037,9 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 1024,
-          "similarity": 0.3053086996078491
+          "similarity": 0.3053086996078491,
+          "bbox_ratio": 1.0717299578059072,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -2046,7 +2082,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3048288822174072
+          "similarity": 0.3048288822174072,
+          "bbox_ratio": 6.134328358208955,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -2089,7 +2127,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.30449971556663513
+          "similarity": 0.30449971556663513,
+          "bbox_ratio": 3.2447916666666665,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -2132,7 +2172,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.30367332696914673
+          "similarity": 0.30367332696914673,
+          "bbox_ratio": 1.830316742081448,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -2175,7 +2217,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.30237865447998047
+          "similarity": 0.30237865447998047,
+          "bbox_ratio": 1.1531531531531531,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -2219,7 +2263,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3017119765281677
+          "similarity": 0.3017119765281677,
+          "bbox_ratio": 2.274193548387097,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -2263,7 +2309,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.3012838661670685
+          "similarity": 0.3012838661670685,
+          "bbox_ratio": 1.3936170212765957,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -2307,7 +2355,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.2997458577156067
+          "similarity": 0.2997458577156067,
+          "bbox_ratio": 1.7737843551797041,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -2351,7 +2401,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.29922163486480713
+          "similarity": 0.29922163486480713,
+          "bbox_ratio": 1.7743055555555556,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -2395,7 +2447,9 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.29818737506866455
+          "similarity": 0.29818737506866455,
+          "bbox_ratio": 1.9879032258064515,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -2440,7 +2494,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.2980099320411682
+          "similarity": 0.2980099320411682,
+          "bbox_ratio": 3.4378109452736316,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -2484,7 +2540,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.2964498996734619
+          "similarity": 0.2964498996734619,
+          "bbox_ratio": 1.6098360655737705,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -2527,7 +2585,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.29375773668289185
+          "similarity": 0.29375773668289185,
+          "bbox_ratio": 3.1578947368421053,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -2570,7 +2630,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.29087817668914795
+          "similarity": 0.29087817668914795,
+          "bbox_ratio": 1.75,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -2613,7 +2675,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.29082709550857544
+          "similarity": 0.29082709550857544,
+          "bbox_ratio": 4.029411764705882,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -2657,7 +2721,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.29069599509239197
+          "similarity": 0.29069599509239197,
+          "bbox_ratio": 1.51840490797546,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -2700,7 +2766,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.28902655839920044
+          "similarity": 0.28902655839920044,
+          "bbox_ratio": 0.8801261829652997,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -2746,7 +2814,9 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 1024,
-          "similarity": 0.28838545083999634
+          "similarity": 0.28838545083999634,
+          "bbox_ratio": 1.7730061349693251,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -2790,7 +2860,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.2882451117038727
+          "similarity": 0.2882451117038727,
+          "bbox_ratio": 1.7301587301587302,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -2834,7 +2906,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.28746601939201355
+          "similarity": 0.28746601939201355,
+          "bbox_ratio": 1.7560137457044673,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -2878,7 +2952,9 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 1024,
-          "similarity": 0.2869873344898224
+          "similarity": 0.2869873344898224,
+          "bbox_ratio": 1.0,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -2921,7 +2997,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.28618982434272766
+          "similarity": 0.28618982434272766,
+          "bbox_ratio": 2.0425531914893615,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -2964,7 +3042,9 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 1024,
-          "similarity": 0.28494757413864136
+          "similarity": 0.28494757413864136,
+          "bbox_ratio": 1.6540084388185654,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -3007,7 +3087,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.2829729914665222
+          "similarity": 0.2829729914665222,
+          "bbox_ratio": 4.601503759398496,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -3050,7 +3132,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.2811643183231354
+          "similarity": 0.2811643183231354,
+          "bbox_ratio": 1.2,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -3094,7 +3178,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.2785416841506958
+          "similarity": 0.2785416841506958,
+          "bbox_ratio": 3.339483394833948,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -3137,7 +3223,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.2783084809780121
+          "similarity": 0.2783084809780121,
+          "bbox_ratio": 2.188841201716738,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -3181,7 +3269,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.27828729152679443
+          "similarity": 0.27828729152679443,
+          "bbox_ratio": 3.4328358208955225,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -3225,7 +3315,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.27637502551078796
+          "similarity": 0.27637502551078796,
+          "bbox_ratio": 1.8893805309734513,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -3270,7 +3362,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.27519458532333374
+          "similarity": 0.27519458532333374,
+          "bbox_ratio": 1.7142857142857142,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -3314,7 +3408,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.2743382155895233
+          "similarity": 0.2743382155895233,
+          "bbox_ratio": 3.485294117647059,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -3357,7 +3453,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.2708800137042999
+          "similarity": 0.2708800137042999,
+          "bbox_ratio": 3.6741573033707864,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -3400,7 +3498,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.2697325348854065
+          "similarity": 0.2697325348854065,
+          "bbox_ratio": 3.86697247706422,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -3443,7 +3543,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.2690936028957367
+          "similarity": 0.2690936028957367,
+          "bbox_ratio": 6.91,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -3488,7 +3590,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.2670661211013794
+          "similarity": 0.2670661211013794,
+          "bbox_ratio": 0.8611713665943601,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -3531,7 +3635,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.2647756040096283
+          "similarity": 0.2647756040096283,
+          "bbox_ratio": 5.169354838709677,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -3574,7 +3680,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.26368582248687744
+          "similarity": 0.26368582248687744,
+          "bbox_ratio": 1.5220338983050847,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -3617,7 +3725,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.26122474670410156
+          "similarity": 0.26122474670410156,
+          "bbox_ratio": 0.948019801980198,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -3660,7 +3770,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.26119330525398254
+          "similarity": 0.26119330525398254,
+          "bbox_ratio": 1.2466666666666666,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -3704,7 +3816,9 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 1024,
-          "similarity": 0.26000988483428955
+          "similarity": 0.26000988483428955,
+          "bbox_ratio": 1.0495049504950495,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -3747,7 +3861,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.25492578744888306
+          "similarity": 0.25492578744888306,
+          "bbox_ratio": 2.4545454545454546,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -3791,7 +3907,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.2516922056674957
+          "similarity": 0.2516922056674957,
+          "bbox_ratio": 2.956810631229236,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -3835,7 +3953,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.24930962920188904
+          "similarity": 0.24930962920188904,
+          "bbox_ratio": 2.1384615384615384,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -3879,7 +3999,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.24837666749954224
+          "similarity": 0.24837666749954224,
+          "bbox_ratio": 5.255681818181818,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -3922,7 +4044,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.2473764717578888
+          "similarity": 0.2473764717578888,
+          "bbox_ratio": 2.8118279569892475,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -3965,7 +4089,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.24510127305984497
+          "similarity": 0.24510127305984497,
+          "bbox_ratio": 1.7985865724381624,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -4008,7 +4134,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.24397599697113037
+          "similarity": 0.24397599697113037,
+          "bbox_ratio": 1.7875288683602772,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -4051,7 +4179,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.24369773268699646
+          "similarity": 0.24369773268699646,
+          "bbox_ratio": 3.6296296296296298,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -4094,7 +4224,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 1280,
-          "similarity": 0.24274364113807678
+          "similarity": 0.24274364113807678,
+          "bbox_ratio": 1.283132530120482,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -4137,7 +4269,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.24159088730812073
+          "similarity": 0.24159088730812073,
+          "bbox_ratio": 9.744444444444444,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -4181,7 +4315,9 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.2397466003894806
+          "similarity": 0.2397466003894806,
+          "bbox_ratio": 1.2607594936708861,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -4225,7 +4361,9 @@
           "detector_view": "tile",
           "contrast_enhanced": false,
           "detector_input_size": 1024,
-          "similarity": 0.2395603060722351
+          "similarity": 0.2395603060722351,
+          "bbox_ratio": 1.0227272727272727,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -4268,7 +4406,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.2324216514825821
+          "similarity": 0.2324216514825821,
+          "bbox_ratio": 2.269767441860465,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -4312,7 +4452,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.23055800795555115
+          "similarity": 0.23055800795555115,
+          "bbox_ratio": 3.594142259414226,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -4356,7 +4498,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.2247740626335144
+          "similarity": 0.2247740626335144,
+          "bbox_ratio": 5.141104294478527,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -4400,7 +4544,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.2247263789176941
+          "similarity": 0.2247263789176941,
+          "bbox_ratio": 5.913333333333333,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -4443,7 +4589,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.2148572951555252
+          "similarity": 0.2148572951555252,
+          "bbox_ratio": 2.6182572614107884,
+          "ratio_pass": false
         }
       ],
       "detections": [],
@@ -4487,7 +4635,9 @@
           "detector_view": "whole",
           "contrast_enhanced": false,
           "detector_input_size": 640,
-          "similarity": 0.2019246518611908
+          "similarity": 0.2019246518611908,
+          "bbox_ratio": 6.492753623188406,
+          "ratio_pass": false
         }
       ],
       "detections": [],

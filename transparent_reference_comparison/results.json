@@ -2,16 +2,16 @@
   "threshold": 0.34591996669769287,
   "summary": {
     "original_color": {
-      "validation_accepted": 15,
-      "negative_false_accepts": 97
+      "validation_accepted": 4,
+      "negative_false_accepts": 0
     },
     "masked_no_augmentation": {
-      "validation_accepted": 15,
-      "negative_false_accepts": 41
+      "validation_accepted": 4,
+      "negative_false_accepts": 0
     },
     "masked_augmented": {
-      "validation_accepted": 18,
-      "negative_false_accepts": 4
+      "validation_accepted": 4,
+      "negative_false_accepts": 0
     }
   },
   "images": [
@@ -23,7 +23,9 @@
       "masked_no_augmentation": 0.3865855038166046,
       "masked_no_augmentation_accepted": true,
       "masked_augmented": 0.40586864948272705,
-      "masked_augmented_accepted": true
+      "masked_augmented_accepted": true,
+      "bbox_ratio": 4.835051546391752,
+      "ratio_pass": true
     },
     {
       "kind": "validation",
@@ -33,17 +35,21 @@
       "masked_no_augmentation": 0.3698497414588928,
       "masked_no_augmentation_accepted": true,
       "masked_augmented": 0.3990355134010315,
-      "masked_augmented_accepted": true
+      "masked_augmented_accepted": true,
+      "bbox_ratio": 4.71,
+      "ratio_pass": true
     },
     {
       "kind": "validation",
       "file": "frame_000280.png",
       "original_color": 0.44635435938835144,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.38064825534820557,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.41914474964141846,
-      "masked_augmented_accepted": true
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 3.727272727272727,
+      "ratio_pass": false
     },
     {
       "kind": "validation",
@@ -53,17 +59,21 @@
       "masked_no_augmentation": null,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": null,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": null,
+      "ratio_pass": false
     },
     {
       "kind": "validation",
       "file": "frame_000477.png",
       "original_color": 0.5470523238182068,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.40224048495292664,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.42380255460739136,
-      "masked_augmented_accepted": true
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 4.462264150943396,
+      "ratio_pass": false
     },
     {
       "kind": "validation",
@@ -73,7 +83,9 @@
       "masked_no_augmentation": 0.4000890254974365,
       "masked_no_augmentation_accepted": true,
       "masked_augmented": 0.4179980158805847,
-      "masked_augmented_accepted": true
+      "masked_augmented_accepted": true,
+      "bbox_ratio": 4.823529411764706,
+      "ratio_pass": true
     },
     {
       "kind": "validation",
@@ -81,9 +93,11 @@
       "original_color": 0.3270730674266815,
       "original_color_accepted": false,
       "masked_no_augmentation": 0.4402705132961273,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.45581287145614624,
-      "masked_augmented_accepted": true
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.263157894736842,
+      "ratio_pass": false
     },
     {
       "kind": "validation",
@@ -91,9 +105,11 @@
       "original_color": 0.3314206898212433,
       "original_color_accepted": false,
       "masked_no_augmentation": 0.459067165851593,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.4634353518486023,
-      "masked_augmented_accepted": true
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.25,
+      "ratio_pass": false
     },
     {
       "kind": "validation",
@@ -103,67 +119,81 @@
       "masked_no_augmentation": 0.39813289046287537,
       "masked_no_augmentation_accepted": true,
       "masked_augmented": 0.41288506984710693,
-      "masked_augmented_accepted": true
+      "masked_augmented_accepted": true,
+      "bbox_ratio": 4.7105263157894735,
+      "ratio_pass": true
     },
     {
       "kind": "validation",
       "file": "frame_000231.png",
       "original_color": 0.5418637990951538,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.426462858915329,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.4409942328929901,
-      "masked_augmented_accepted": true
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 4.342105263157895,
+      "ratio_pass": false
     },
     {
       "kind": "validation",
       "file": "frame_000266.png",
       "original_color": 0.4521239399909973,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3425689935684204,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3771846890449524,
-      "masked_augmented_accepted": true
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 5.125,
+      "ratio_pass": false
     },
     {
       "kind": "validation",
       "file": "frame_000353.png",
       "original_color": 0.590657114982605,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3979703485965729,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.4054497182369232,
-      "masked_augmented_accepted": true
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 4.485714285714286,
+      "ratio_pass": false
     },
     {
       "kind": "validation",
       "file": "frame_000347.png",
       "original_color": 0.3944830000400543,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3312496244907379,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3629433810710907,
-      "masked_augmented_accepted": true
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 4.4423076923076925,
+      "ratio_pass": false
     },
     {
       "kind": "validation",
       "file": "frame_000431.png",
       "original_color": 0.5686272382736206,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3857138454914093,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.40708714723587036,
-      "masked_augmented_accepted": true
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 4.401869158878505,
+      "ratio_pass": false
     },
     {
       "kind": "validation",
       "file": "frame_000256.png",
       "original_color": 0.5684444308280945,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.46330204606056213,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.46389585733413696,
-      "masked_augmented_accepted": true
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 4.342105263157895,
+      "ratio_pass": false
     },
     {
       "kind": "validation",
@@ -173,27 +203,33 @@
       "masked_no_augmentation": 0.3047402501106262,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.354342520236969,
-      "masked_augmented_accepted": true
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 3.4285714285714284,
+      "ratio_pass": false
     },
     {
       "kind": "validation",
       "file": "frame_000307.png",
       "original_color": 0.4566062390804291,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.35661494731903076,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3857691287994385,
-      "masked_augmented_accepted": true
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 4.366666666666666,
+      "ratio_pass": false
     },
     {
       "kind": "validation",
       "file": "frame_000260.png",
       "original_color": 0.5607731342315674,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.43791085481643677,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.4617800712585449,
-      "masked_augmented_accepted": true
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 4.4324324324324325,
+      "ratio_pass": false
     },
     {
       "kind": "validation",
@@ -203,967 +239,1161 @@
       "masked_no_augmentation": null,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": null,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": null,
+      "ratio_pass": false
     },
     {
       "kind": "validation",
       "file": "frame_000557.png",
       "original_color": 0.5915125012397766,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.37959203124046326,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.39213934540748596,
-      "masked_augmented_accepted": true
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 4.3125,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_63578099_MSC_INGRID_JEANINE_PARQUI_MSC_PREZIOSA_36739736343_.jpg",
       "original_color": 0.37574052810668945,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.32563018798828125,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3277469277381897,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.3029411764705883,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_63512446_MAJESTIC_MAERSK_MAERSK_NEWHAVEN_SVEN_D_23758713629_.jpg",
       "original_color": 0.7143524289131165,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.4078613519668579,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3685808777809143,
-      "masked_augmented_accepted": true
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 2.4055555555555554,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_71556173_COSCO_UNIVERSE_29770827768_.jpg",
       "original_color": 0.7140727639198303,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.41313105821609497,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.36277157068252563,
-      "masked_augmented_accepted": true
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 3.1097560975609757,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_37644176_MSC_Aurora_MSC_Fabienne.jpg",
       "original_color": 0.6952029466629028,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3941769599914551,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.32823437452316284,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 3.0427807486631018,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "Ship COSCO Portugal (1).jpg",
       "original_color": 0.7007153034210205,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.36076271533966064,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.31622856855392456,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 3.592057761732852,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_47373759_COSCO_Taicang_ship_2009_001.jpg",
       "original_color": 0.697999119758606,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3758911192417145,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3250885605812073,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 3.893162393162393,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_63580180_MAERSK_NEWHAVEN_JPO_VULPECULA_MAJESTIC_MAERSK_SVEN_D_24133691965_.jpg",
       "original_color": 0.692734956741333,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3846903443336487,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.31841132044792175,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 3.425,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_161039120_MAERSK_CAMDEN_MAJESTIC_MAERSK_52475473496_.jpg",
       "original_color": 0.6729949712753296,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.39891934394836426,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.33749741315841675,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 2.878787878787879,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_25695147_COSCO_Ningbo_03.jpg",
       "original_color": 0.6708980798721313,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3648603558540344,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3211196959018707,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 3.484732824427481,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_92806755_MSC_AJACCIO_MSC_NELA_cropped_.jpg",
       "original_color": 0.6749247312545776,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.31814292073249817,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.27828729152679443,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 3.4328358208955225,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_105673649_COSCO_Shipping_Universe_ship_2018_IMO_9795610_Yangtzehaven_Port_of_Rotterdam.jpg",
       "original_color": 0.5900055170059204,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3572844862937927,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3091299831867218,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 2.3944444444444444,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_93944875_COSCO_Singapore_Fremantle_2020_02_.jpg",
       "original_color": 0.6705849170684814,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3629254102706909,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3104258179664612,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 2.942084942084942,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_74879953_BEAGLE_COSCO_SAGITTARIUS_SD_REBEL_ROTTERDAM_46101578611_cropped_.jpg",
       "original_color": 0.6697400808334351,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3664400279521942,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3053501546382904,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 4.236180904522613,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_63577975_MSC_GENEVA_CMA_CGM_BLUE_WHALE_MSC_FABIENNE_MSC_PREZIOSA_37501865206_.jpg",
       "original_color": 0.6658748388290405,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.43770459294319153,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.38939839601516724,
-      "masked_augmented_accepted": true
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 3.5384615384615383,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_93944874_COSCO_Singapore_Fremantle_2020_03_.jpg",
       "original_color": 0.664397120475769,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3578243553638458,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.30449971556663513,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 3.2447916666666665,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_63580735_COSCO_TAICANG_PRIDE_OF_HULL_16731868362_.jpg",
       "original_color": 0.51422119140625,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.32951733469963074,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.31759825348854065,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 4.3426573426573425,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "Maersk kalamata seattle 20101127.jpg",
       "original_color": 0.5984755754470825,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.346186101436615,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3048288822174072,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 6.134328358208955,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_183474561_COSCO_Shipping_Seine_IMO_9731949_C_Hamburg_16-01-2026_2_.jpg",
       "original_color": 0.6535362601280212,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.30964475870132446,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.24837666749954224,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 5.255681818181818,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_111473587_COSCO_Indonesia_IMO_9448786_C_Hamburg_26-08-2021_1_.jpg",
       "original_color": 0.6532082557678223,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3378463685512543,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3057118356227875,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 2.048780487804878,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_35724523_Clase_Maersk_A-05.jpg",
       "original_color": 0.6509016156196594,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.31489187479019165,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.2647756040096283,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 5.169354838709677,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_103832415_MARSEILLE_MAERSK_OCEANIC_MAERSK_TRANSPORTER_Tog_Mor_SIRIUS_TYFOON_50301151337_.jpg",
       "original_color": 0.6501826047897339,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3676462471485138,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3205137252807617,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 2.7712418300653594,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_28892506_Container_ship_Cosco_Fortune_in_the_port_of_Hamburg_in_October_2013.png",
       "original_color": 0.6492358446121216,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3213649392127991,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.28494757413864136,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.6540084388185654,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_108239736_Maersk_Ahram_1998_.jpg",
       "original_color": 0.599158763885498,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3554655611515045,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3135172724723816,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.9216152019002375,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_103832376_COSCO_ARIES_50304896683_.jpg",
       "original_color": 0.5311375856399536,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.26748424768447876,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.24159088730812073,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 9.744444444444444,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_37867353_COSCO_Vancouver_ship_2004_002.jpg",
       "original_color": 0.6462283730506897,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3908909261226654,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3282701373100281,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 3.409090909090909,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_161037862_MSC_DRAGON_VB_BEAGLE_ROTTERDAM_MSC_TESSA_MSC_CASSANDRE_MSC_REGULUS_53239503107_.jpg",
       "original_color": 0.6443295478820801,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3339135944843292,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.28838545083999634,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.7730061349693251,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_66361082_COSCO_Shanghai_Fremantle_2018_06_.jpg",
       "original_color": 0.6427299976348877,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.2888314127922058,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.24369773268699646,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 3.6296296296296298,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_4236162_2008-04-14_COSCO_America_3.jpg",
       "original_color": 0.6413644552230835,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.38812941312789917,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3242078423500061,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 2.7867132867132867,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_82361529_COSCO_LIBRA_SMIT_SCHELDE_SMIT_PANTHER_Nieuwe_Maze_48758418007_.jpg",
       "original_color": 0.6013824939727783,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.35410377383232117,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.31030145287513733,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 2.4553314121037464,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_172984232_COSCO_Shipping_Gemini_IMO_9783526_C_Hamburg_04-06-2025_1_.jpg",
       "original_color": 0.638651967048645,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3313847482204437,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.28746601939201355,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.7560137457044673,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_183378378_COSCO_Japan_IMO_9448748_C_Hamburg_15-12-2025_1_.jpg",
       "original_color": 0.6308606266975403,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3393297791481018,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.29069599509239197,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.51840490797546,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_63578123_HOOGVLIET_MSC_PREZIOSA_MSC_INGRID_36739736113_.jpg",
       "original_color": 0.35541439056396484,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.29596376419067383,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.2869873344898224,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.0,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_63580984_MSC_ANTALYA_HYUNDAI_SMART_MSC_FLAVIA_15439755464_.jpg",
       "original_color": 0.6352932453155518,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3753739595413208,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3184860944747925,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 2.6724137931034484,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_111473604_COSCO_Indonesia_IMO_9448786_C_Hamburg_26-08-2021_2_.jpg",
       "original_color": 0.6351600885391235,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.34648406505584717,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.2785416841506958,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 3.339483394833948,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_103832373_COSCO_ARIES_COSCO_UNIVERSE_50305732612_.jpg",
       "original_color": 0.6204172968864441,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.35545024275779724,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3072381615638733,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 3.5872093023255816,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_125910098_Container_ships_MSC_Amalfi_and_MSC_Cordelia_III_at_Fremantle_Harbour_November_2022_02.jpg",
       "original_color": 0.5106068849563599,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3490442633628845,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3088145852088928,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.590990990990991,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_74524586_BOLGA_MAERSK_RESILIENT_MAERSK_HORSBURGH_VOLGA_MAERSK_31002161867_.jpg",
       "original_color": 0.5217288136482239,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3327644467353821,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.2670661211013794,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 0.8611713665943601,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_90988985_BORIS_VILKITSKY_PALU_LNG_SMIT_HUDSON_COSCO_CAPRICORN_ROTTERDAM_44193122401_.jpg",
       "original_color": 0.6096747517585754,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3759121298789978,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3283436894416809,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 6.571428571428571,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_63512347_COSCO_YANTAIN_COSCO_HOPE_KATHARINA_SCHEPERS_MERWEDIJK_16599340989_.jpg",
       "original_color": 0.4414226710796356,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.34049510955810547,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.29818737506866455,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.9879032258064515,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_63512854_FAIRPLAY_21_MSC_MIRJAM_SMIT_CHEETAH_MSC_SVEVA_AL_MASHRAB_MSC_BRIANNA_MSC_DOMITILLE_34891931843_.jpg",
       "original_color": 0.6005333662033081,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.37953752279281616,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.32607290148735046,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.8148148148148149,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_103832353_BEAGLE_COSCO_UNIVERSE_50304896713_.jpg",
       "original_color": 0.6037173271179199,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3351227343082428,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.2811643183231354,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.2,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_18741424_Laust_Maersk_p06_approaching_Port_of_Rotterdam_Holland_14-Jul-2007.jpg",
       "original_color": 0.6026977300643921,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.365945428609848,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.32047390937805176,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.6284246575342465,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_30598060_Container_ship_Cosco_Excellence_income_in_the_port_of_Hamburg_on_12_January_2014.jpg",
       "original_color": 0.5914280414581299,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.28728553652763367,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.25492578744888306,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 2.4545454545454546,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_178868472_COSCO_Shipping_Galaxy_IMO_9795634_C_Hamburg_31-07-2025_1_.jpg",
       "original_color": 0.6000781059265137,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.31504690647125244,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.27637502551078796,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.8893805309734513,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_63604225_FAIRPLAY_XI_MAERSK_NORTHWOOD_MAERSK_NIENBURG_29279265506_.jpg",
       "original_color": 0.5898696184158325,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.34648412466049194,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.2743382155895233,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 3.485294117647059,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_97708649_COSCO_SCORPIO_NEBULA_50563157757_.jpg",
       "original_color": 0.5865342617034912,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3409295082092285,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.2829729914665222,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 4.601503759398496,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_63580446_MARSTAL_MAERSK_MORTEN_MAERSK_MAERSK_ROSYTH_18263325183_.jpg",
       "original_color": 0.5633425116539001,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.330145001411438,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.2980099320411682,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 3.4378109452736316,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_157115523_COSCO_Japan_IMO_9448748_C_Hamburg_19-08-2024_2_.jpg",
       "original_color": 0.5393037796020508,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3551822900772095,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.2964498996734619,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.6098360655737705,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "Container ship MV Maersk Alabama.jpg",
       "original_color": 0.568316638469696,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.33634230494499207,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.2882451117038727,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.7301587301587302,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_63512925_MSC_AGRIGENTO_MSC_LUCIANA_35692882643_.jpg",
       "original_color": 0.4840998351573944,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3066123425960541,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.26000988483428955,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.0495049504950495,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_183474502_COSCO_Japan_IMO_9448748_C_Hamburg_15-12-2025_5_.jpg",
       "original_color": 0.4938073754310608,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.23769323527812958,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.2247740626335144,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 5.141104294478527,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "Cosco Taicang container ship.jpg",
       "original_color": 0.48347413539886475,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.27574068307876587,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.24274364113807678,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.283132530120482,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_69550511_COSCO_GEMINI_41414039484_.jpg",
       "original_color": 0.5662164688110352,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.29709285497665405,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.2690936028957367,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 6.91,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_35724522_Clase_Maersk_A-03.jpg",
       "original_color": 0.5660569667816162,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3360418677330017,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.29082709550857544,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 4.029411764705882,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_162871352_2024-09-11_01_MAERSK_TRADER_-_IMO_9388596_Ogden_Point_BC_CAN.jpg",
       "original_color": 0.46078917384147644,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3395689129829407,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3012838661670685,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.3936170212765957,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_35724521_Clase_Maersk_A-02.jpg",
       "original_color": 0.5641607046127319,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.33508652448654175,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.29375773668289185,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 3.1578947368421053,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_146961915_Cosco_Aquarius_ship_2019_in_the_port_of_Hamburg_-_b.jpg",
       "original_color": 0.56158846616745,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.35148000717163086,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3151463568210602,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.110204081632653,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_63512358_MSC_ALTAMIRA_MSC_MARIA_SAVERIA_MSC_VEGA_17285891315_.jpg",
       "original_color": 0.515717089176178,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3336382210254669,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3140019178390503,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.1818181818181819,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_63578104_HOOGVLIET_MSC_PREZIOSA_MSC_INGRID_36739735123_.jpg",
       "original_color": 0.47358638048171997,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.34682023525238037,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3339386284351349,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.4625,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_125910096_Container_ships_MSC_Amalfi_and_MSC_Cordelia_III_at_Fremantle_Harbour_November_2022_01.jpg",
       "original_color": 0.4973697066307068,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3410113751888275,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3059656023979187,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 2.0588235294117645,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_33222822_MAERSK_TRANSPORTER_CASTORO_SEI_MAERSK_TRACER_13933238095_.jpg",
       "original_color": 0.5271745324134827,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.38763949275016785,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3544692099094391,
-      "masked_augmented_accepted": true
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 0.8291139240506329,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_145293651_MSC_HARMONY_III_container_ship_2006_in_Port_Koper_SIKOP_2024_.jpg",
       "original_color": 0.5350867509841919,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.31668779253959656,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.2697325348854065,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 3.86697247706422,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_103171512_COSCO_Shipping_Leo_ship_2018_Yangtzehaven_pic1.jpg",
       "original_color": 0.5322529077529907,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.34100979566574097,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.29087817668914795,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.75,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_122754061_COSCO_Shipping_Solar_IMO_9795646_C_Hamburg_24-08-2022_1_.jpg",
       "original_color": 0.49352651834487915,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.2561776638031006,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.23055800795555115,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 3.594142259414226,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_102818157_COSCO_France_ship_2013_IMO_9516416_Yangtzehaven_Port_of_Rotterdam_pic2.jpg",
       "original_color": 0.5282232761383057,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.346960186958313,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.29922163486480713,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.7743055555555556,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_161037908_MSC_DRAGON_VB_BEAGLE_MSC_TESSA_53240743359_.jpg",
       "original_color": 0.37580037117004395,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.2426358014345169,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.2395603060722351,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.0227272727272727,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_63512990_MSC_JULIA_R_MSC_GISELLE_MSC_DITTA_37328308365_.jpg",
       "original_color": 0.4858039617538452,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.36824655532836914,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3103315234184265,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.119533527696793,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_144715351_MAERSK_HANOI_Container_Ship_Port_Koper_SIKOP_2023_.jpg",
       "original_color": 0.49812397360801697,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3331691026687622,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.30367332696914673,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.830316742081448,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_63512411_COSCO_HARMONY_YM_WITTNESS_22138245236_.jpg",
       "original_color": 0.4955587387084961,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3278309106826782,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.2783084809780121,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 2.188841201716738,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_74524583_MAERSK_HORSBURGH_VOLGA_MAERSK_MAERSK_RESILIENT_BOLGA_31006430917_.jpg",
       "original_color": 0.5241263508796692,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.31254637241363525,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.27519458532333374,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.7142857142857142,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_135605714_2017-10-07_03_MAERSK_DISPATCHER_-_IMO_9298909_in_St_John_s_NL_CAN.jpg",
       "original_color": 0.5224966406822205,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3543846905231476,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3169328570365906,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 2.86046511627907,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_68409484_COSCO_URANUS_COSCO_ASIA_AKERDIJK_26493482277_.jpg",
       "original_color": 0.4965502619743347,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3774030804634094,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.32218360900878906,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 5.053571428571429,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_108477590_MSC_Buffalo_at_Liverpool.jpg",
       "original_color": 0.48231422901153564,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.34614279866218567,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.31349942088127136,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.277456647398844,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_178905418_COSCO_Shipping_Galaxy_IMO_9795634_C_Hamburg_31-07-2025_4_.jpg",
       "original_color": 0.5180363655090332,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.2566349506378174,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.2247263789176941,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 5.913333333333333,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_102789949_Esbjerg_harbour_with_Maersk_Resolute.jpg",
       "original_color": 0.44836488366127014,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3232249319553375,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3053086996078491,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.0717299578059072,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_162871371_2024-09-11_02_MAERSK_TRADER_-_IMO_9388596_Ogden_Point_BC_CAN.jpg",
       "original_color": 0.5137761235237122,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.35022681951522827,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3267538845539093,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.799554565701559,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_82111380_COSCO_LEO_MATADOR_3_SCHELDE_48675118043_.jpg",
       "original_color": 0.48980164527893066,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3304890990257263,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.30237865447998047,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.1531531531531531,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_163261068_2024-10-31_01_MAERSK_TENDER_-_IMO_9388651_Ogden_Point_BC_CAN.jpg",
       "original_color": 0.5082060098648071,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.32044216990470886,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.2997458577156067,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.7737843551797041,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_103136859_COSCO_Philippines_ship_2010_IMO_9448762_Yangtzehaven_Port_of_Rotterdam_pic2.jpg",
       "original_color": 0.5007983446121216,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3622344136238098,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.313596248626709,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.0577617328519855,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_163261069_2024-10-31_02_MAERSK_TENDER_-_IMO_9388651_Ogden_Point_BC_CAN.jpg",
       "original_color": 0.4965912997722626,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3378249406814575,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3017119765281677,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 2.274193548387097,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "Cosco Yantian.jpg",
       "original_color": 0.4940391182899475,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.25908803939819336,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.24510127305984497,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.7985865724381624,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_162871367_2024-09-11_04_MAERSK_TRADER_-_IMO_9388596_Ogden_Point_BC_CAN.jpg",
       "original_color": 0.49327120184898376,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.352553129196167,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.31153619289398193,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.2958715596330275,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_69556357_COSCO_SHIPPING_LEO_2018_40642270240_.jpg",
       "original_color": 0.474938303232193,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3089331388473511,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.28618982434272766,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 2.0425531914893615,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_194574692_COSCO_Shipping_Alps_IMO_9757864_C_Hamburg_12-04-2026_4_.jpg",
       "original_color": 0.4904721975326538,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.2219703495502472,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.2019246518611908,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 6.492753623188406,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_74879353_INNOVATION_MSC_SANTHYA_-_KRVE_34_MSC_GAYAN_31236016617_.jpg",
       "original_color": 0.4665021300315857,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.31502291560173035,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.26122474670410156,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 0.948019801980198,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_63578481_COSCO_SHIPPING_HIMALAYAS_8-9-2017_36934806142_.jpg",
       "original_color": 0.4837745428085327,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.2896108031272888,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.2473764717578888,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 2.8118279569892475,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "Calnexship.jpg",
       "original_color": 0.48151394724845886,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.3133999705314636,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3182829022407532,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.0673854447439353,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_89914501_MSC_EMMA_MSC_AVNI_BEAGLE_49345392441_.jpg",
       "original_color": 0.4458472728729248,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.27151328325271606,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.2397466003894806,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.2607594936708861,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_106304772_COSCO_Shipping_Danube_ship_2016_IMO_9731913_Amazonehaven_Port_of_Rotterdam_pic12.jpg",
       "original_color": 0.471270889043808,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.29472196102142334,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.2516922056674957,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 2.956810631229236,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_135605715_2017-10-07_04_MAERSK_DISPATCHER_-_IMO_9298909_in_St_John_s_NL_CAN.jpg",
       "original_color": 0.4703030288219452,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.34646666049957275,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3179909586906433,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.746928746928747,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_114098989_COSCO_Indonesia_IMO_9448786_C_Hamburg_01-11-2021_4_.jpg",
       "original_color": 0.46917518973350525,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.2838612496852875,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.24930962920188904,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 2.1384615384615384,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_162871340_2024-09-11_03_MAERSK_TRADER_-_IMO_9388596_Ogden_Point_BC_CAN.jpg",
       "original_color": 0.46710583567619324,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.35062795877456665,
-      "masked_no_augmentation_accepted": true,
+      "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3156551718711853,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 2.1019283746556474,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_19235751_MSC_Asli_Port_of_Antwerp_19Dec2008_pic2.jpg",
       "original_color": 0.4561504125595093,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.29647815227508545,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.28902655839920044,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 0.8801261829652997,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "COSCO Glory (ship, 2011) 001.jpg",
       "original_color": 0.43553075194358826,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.23278680443763733,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.2148572951555252,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 2.6182572614107884,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_135538015_2017-10-07_01_MAERSK_DISPATCHER_-_IMO_9298909_in_St_John_s_NL_CAN.jpg",
       "original_color": 0.43430280685424805,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.32503217458724976,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.3100360035896301,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.2526315789473683,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
@@ -1173,27 +1403,33 @@
       "masked_no_augmentation": 0.264252245426178,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.26368582248687744,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.5220338983050847,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_129106992_0614_MSC_Virtuosa_at_Geiranger_Seawalk_V-P.jpg",
       "original_color": 0.37149664759635925,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.26604440808296204,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.26119330525398254,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.2466666666666666,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
       "file": "commons_118778405_MSC_Grandiosa_leaving_Kiel_XV.jpg",
       "original_color": 0.37833869457244873,
-      "original_color_accepted": true,
+      "original_color_accepted": false,
       "masked_no_augmentation": 0.26501452922821045,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.2708800137042999,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 3.6741573033707864,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
@@ -1203,7 +1439,9 @@
       "masked_no_augmentation": 0.2480282485485077,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.24397599697113037,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 1.7875288683602772,
+      "ratio_pass": false
     },
     {
       "kind": "negative",
@@ -1213,7 +1451,9 @@
       "masked_no_augmentation": 0.22740915417671204,
       "masked_no_augmentation_accepted": false,
       "masked_augmented": 0.2324216514825821,
-      "masked_augmented_accepted": false
+      "masked_augmented_accepted": false,
+      "bbox_ratio": 2.269767441860465,
+      "ratio_pass": false
     }
   ],
   "selection_policy": "largest-area boat after merged NMS; confidence breaks equal-area ties",
@@ -1225,1188 +1465,28 @@
     "method": "Maximize frame pass rate minus negative false-positive rate (Youden J); ties: fewer false positives, then higher threshold.",
     "limitation": "Threshold tuned on these development images. Reported rates are in-sample; an independent held-out test is required.",
     "before": {
-      "threshold": 0.36,
-      "frames_passed": 17,
+      "threshold": 0.34591996669769287,
+      "frames_passed": 4,
       "frames_total": 20,
-      "negative_false_accepts": 3,
+      "negative_false_accepts": 0,
       "negative_total": 100,
-      "frame_pass_rate": 0.85,
-      "false_positive_rate": 0.03,
-      "objective": 0.82
+      "frame_pass_rate": 0.2,
+      "false_positive_rate": 0.0,
+      "objective": 0.2
     },
     "selected": {
       "threshold": 0.34591996669769287,
-      "frames_passed": 18,
+      "frames_passed": 4,
       "frames_total": 20,
-      "negative_false_accepts": 4,
+      "negative_false_accepts": 0,
       "negative_total": 100,
-      "frame_pass_rate": 0.9,
-      "false_positive_rate": 0.04,
-      "objective": 0.86
+      "frame_pass_rate": 0.2,
+      "false_positive_rate": 0.0,
+      "objective": 0.2
     },
     "sweep": [
       {
         "threshold": 0.0,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 100,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 1.0,
-        "objective": -0.09999999999999998
-      },
-      {
-        "threshold": 0.1009623259305954,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 100,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 1.0,
-        "objective": -0.09999999999999998
-      },
-      {
-        "threshold": 0.208390973508358,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 99,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.99,
-        "objective": -0.08999999999999997
-      },
-      {
-        "threshold": 0.21979183703660965,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 98,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.98,
-        "objective": -0.07999999999999996
-      },
-      {
-        "threshold": 0.22475022077560425,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 97,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.97,
-        "objective": -0.06999999999999995
-      },
-      {
-        "threshold": 0.22766603529453278,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 96,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.96,
-        "objective": -0.05999999999999994
-      },
-      {
-        "threshold": 0.23148982971906662,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 95,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.95,
-        "objective": -0.04999999999999993
-      },
-      {
-        "threshold": 0.2359909787774086,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 94,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.94,
-        "objective": -0.039999999999999925
-      },
-      {
-        "threshold": 0.23965345323085785,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 93,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.93,
-        "objective": -0.030000000000000027
-      },
-      {
-        "threshold": 0.24066874384880066,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 92,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.92,
-        "objective": -0.020000000000000018
-      },
-      {
-        "threshold": 0.24216726422309875,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 91,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.91,
-        "objective": -0.010000000000000009
-      },
-      {
-        "threshold": 0.24322068691253662,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 90,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.9,
-        "objective": 0.0
-      },
-      {
-        "threshold": 0.24383686482906342,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 89,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.89,
-        "objective": 0.010000000000000009
-      },
-      {
-        "threshold": 0.24453863501548767,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 88,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.88,
-        "objective": 0.020000000000000018
-      },
-      {
-        "threshold": 0.24623887240886688,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 87,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.87,
-        "objective": 0.030000000000000027
-      },
-      {
-        "threshold": 0.24787656962871552,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 86,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.86,
-        "objective": 0.040000000000000036
-      },
-      {
-        "threshold": 0.24884314835071564,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 85,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.85,
-        "objective": 0.050000000000000044
-      },
-      {
-        "threshold": 0.2505009174346924,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 84,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.84,
-        "objective": 0.06000000000000005
-      },
-      {
-        "threshold": 0.2533089965581894,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 83,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.83,
-        "objective": 0.07000000000000006
-      },
-      {
-        "threshold": 0.2574678361415863,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 82,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.82,
-        "objective": 0.08000000000000007
-      },
-      {
-        "threshold": 0.26060159504413605,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 81,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.81,
-        "objective": 0.08999999999999997
-      },
-      {
-        "threshold": 0.26120902597904205,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 80,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.8,
-        "objective": 0.09999999999999998
-      },
-      {
-        "threshold": 0.2624552845954895,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 79,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.79,
-        "objective": 0.10999999999999999
-      },
-      {
-        "threshold": 0.26423071324825287,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 78,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.78,
-        "objective": 0.12
-      },
-      {
-        "threshold": 0.26592086255550385,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 77,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.77,
-        "objective": 0.13
-      },
-      {
-        "threshold": 0.26807986199855804,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 76,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.76,
-        "objective": 0.14
-      },
-      {
-        "threshold": 0.2694130688905716,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 75,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.75,
-        "objective": 0.15000000000000002
-      },
-      {
-        "threshold": 0.2703062742948532,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 74,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.74,
-        "objective": 0.16000000000000003
-      },
-      {
-        "threshold": 0.2726091146469116,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 73,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.73,
-        "objective": 0.17000000000000004
-      },
-      {
-        "threshold": 0.27476640045642853,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 72,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.72,
-        "objective": 0.18000000000000005
-      },
-      {
-        "threshold": 0.27578480541706085,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 71,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.71,
-        "objective": 0.19000000000000006
-      },
-      {
-        "threshold": 0.2773311585187912,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 70,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.7,
-        "objective": 0.20000000000000007
-      },
-      {
-        "threshold": 0.27829788625240326,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 69,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.69,
-        "objective": 0.21000000000000008
-      },
-      {
-        "threshold": 0.27842508256435394,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 68,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.68,
-        "objective": 0.21999999999999997
-      },
-      {
-        "threshold": 0.2798530012369156,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 67,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.67,
-        "objective": 0.22999999999999998
-      },
-      {
-        "threshold": 0.2820686548948288,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 66,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.66,
-        "objective": 0.24
-      },
-      {
-        "threshold": 0.2839602828025818,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 65,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.65,
-        "objective": 0.25
-      },
-      {
-        "threshold": 0.2855686992406845,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 64,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.64,
-        "objective": 0.26
-      },
-      {
-        "threshold": 0.286588579416275,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 63,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.63,
-        "objective": 0.27
-      },
-      {
-        "threshold": 0.28722667694091797,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 62,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.62,
-        "objective": 0.28
-      },
-      {
-        "threshold": 0.2878555655479431,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 61,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.61,
-        "objective": 0.29000000000000004
-      },
-      {
-        "threshold": 0.2883152812719345,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 60,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.6,
-        "objective": 0.30000000000000004
-      },
-      {
-        "threshold": 0.2887060046195984,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 59,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.59,
-        "objective": 0.31000000000000005
-      },
-      {
-        "threshold": 0.2898612767457962,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 58,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.58,
-        "objective": 0.32000000000000006
-      },
-      {
-        "threshold": 0.2907615453004837,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 57,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.57,
-        "objective": 0.33000000000000007
-      },
-      {
-        "threshold": 0.2908526360988617,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 56,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.56,
-        "objective": 0.33999999999999997
-      },
-      {
-        "threshold": 0.2923179566860199,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 55,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.55,
-        "objective": 0.35
-      },
-      {
-        "threshold": 0.2951038181781769,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 54,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.54,
-        "objective": 0.36
-      },
-      {
-        "threshold": 0.29722991585731506,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 53,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.53,
-        "objective": 0.37
-      },
-      {
-        "threshold": 0.2980986535549164,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 52,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.52,
-        "objective": 0.38
-      },
-      {
-        "threshold": 0.29870450496673584,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 51,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.51,
-        "objective": 0.39
-      },
-      {
-        "threshold": 0.2994837462902069,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 50,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.5,
-        "objective": 0.4
-      },
-      {
-        "threshold": 0.3005148619413376,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 49,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.49,
-        "objective": 0.41000000000000003
-      },
-      {
-        "threshold": 0.3014979213476181,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 48,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.48,
-        "objective": 0.42000000000000004
-      },
-      {
-        "threshold": 0.3020453155040741,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 47,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.47,
-        "objective": 0.43000000000000005
-      },
-      {
-        "threshold": 0.3030259907245636,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 46,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.46,
-        "objective": 0.44
-      },
-      {
-        "threshold": 0.30408652126789093,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 45,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.45,
-        "objective": 0.45
-      },
-      {
-        "threshold": 0.3046642988920212,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 44,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.44,
-        "objective": 0.46
-      },
-      {
-        "threshold": 0.3050687909126282,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 43,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.43,
-        "objective": 0.47000000000000003
-      },
-      {
-        "threshold": 0.30532942712306976,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 42,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.42,
-        "objective": 0.48000000000000004
-      },
-      {
-        "threshold": 0.30553099513053894,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 41,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.41,
-        "objective": 0.49000000000000005
-      },
-      {
-        "threshold": 0.3058387190103531,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 40,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.4,
-        "objective": 0.5
-      },
-      {
-        "threshold": 0.306601881980896,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 39,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.39,
-        "objective": 0.51
-      },
-      {
-        "threshold": 0.30802637338638306,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 38,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.38,
-        "objective": 0.52
-      },
-      {
-        "threshold": 0.3089722841978073,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 37,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.37,
-        "objective": 0.53
-      },
-      {
-        "threshold": 0.30958299338817596,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 36,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.36,
-        "objective": 0.54
-      },
-      {
-        "threshold": 0.31016872823238373,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 35,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.35,
-        "objective": 0.55
-      },
-      {
-        "threshold": 0.3103164881467819,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 34,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.34,
-        "objective": 0.56
-      },
-      {
-        "threshold": 0.31037867069244385,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 33,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.33,
-        "objective": 0.5700000000000001
-      },
-      {
-        "threshold": 0.31098100543022156,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 32,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.32,
-        "objective": 0.5800000000000001
-      },
-      {
-        "threshold": 0.31251780688762665,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 31,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.31,
-        "objective": 0.5900000000000001
-      },
-      {
-        "threshold": 0.3135083466768265,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 30,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.3,
-        "objective": 0.6000000000000001
-      },
-      {
-        "threshold": 0.3135567605495453,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 29,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.29,
-        "objective": 0.6100000000000001
-      },
-      {
-        "threshold": 0.31379908323287964,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 28,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.28,
-        "objective": 0.62
-      },
-      {
-        "threshold": 0.31457413733005524,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 27,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.27,
-        "objective": 0.63
-      },
-      {
-        "threshold": 0.31540076434612274,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 26,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.26,
-        "objective": 0.64
-      },
-      {
-        "threshold": 0.31594187021255493,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 25,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.25,
-        "objective": 0.65
-      },
-      {
-        "threshold": 0.31658071279525757,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 24,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.24,
-        "objective": 0.66
-      },
-      {
-        "threshold": 0.3172655552625656,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 23,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.23,
-        "objective": 0.67
-      },
-      {
-        "threshold": 0.317794606089592,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 22,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.22,
-        "objective": 0.68
-      },
-      {
-        "threshold": 0.31813693046569824,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 21,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.21,
-        "objective": 0.6900000000000001
-      },
-      {
-        "threshold": 0.31834711134433746,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 20,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.2,
-        "objective": 0.7
-      },
-      {
-        "threshold": 0.3184487074613571,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 19,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.19,
-        "objective": 0.71
-      },
-      {
-        "threshold": 0.3194800019264221,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 18,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.18,
-        "objective": 0.72
-      },
-      {
-        "threshold": 0.32049381732940674,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 17,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.17,
-        "objective": 0.73
-      },
-      {
-        "threshold": 0.3208167105913162,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 16,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.16,
-        "objective": 0.74
-      },
-      {
-        "threshold": 0.3216516524553299,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 15,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.15,
-        "objective": 0.75
-      },
-      {
-        "threshold": 0.3231957256793976,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 14,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.14,
-        "objective": 0.76
-      },
-      {
-        "threshold": 0.3246482014656067,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 13,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.13,
-        "objective": 0.77
-      },
-      {
-        "threshold": 0.32558073103427887,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 12,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.12,
-        "objective": 0.78
-      },
-      {
-        "threshold": 0.3264133930206299,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 11,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.11,
-        "objective": 0.79
-      },
-      {
-        "threshold": 0.3272504061460495,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 10,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.1,
-        "objective": 0.8
-      },
-      {
-        "threshold": 0.32799065113067627,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 9,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.09,
-        "objective": 0.81
-      },
-      {
-        "threshold": 0.32825225591659546,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 8,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.08,
-        "objective": 0.8200000000000001
-      },
-      {
-        "threshold": 0.3283069133758545,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 7,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.07,
-        "objective": 0.8300000000000001
-      },
-      {
-        "threshold": 0.3311411589384079,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 6,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.06,
-        "objective": 0.8400000000000001
-      },
-      {
-        "threshold": 0.3357180207967758,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 5,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.05,
-        "objective": 0.85
-      },
-      {
-        "threshold": 0.34591996669769287,
-        "frames_passed": 18,
-        "frames_total": 20,
-        "negative_false_accepts": 4,
-        "negative_total": 100,
-        "frame_pass_rate": 0.9,
-        "false_positive_rate": 0.04,
-        "objective": 0.86
-      },
-      {
-        "threshold": 0.35440586507320404,
-        "frames_passed": 17,
-        "frames_total": 20,
-        "negative_false_accepts": 4,
-        "negative_total": 100,
-        "frame_pass_rate": 0.85,
-        "false_positive_rate": 0.04,
-        "objective": 0.8099999999999999
-      },
-      {
-        "threshold": 0.35862039029598236,
-        "frames_passed": 17,
-        "frames_total": 20,
-        "negative_false_accepts": 3,
-        "negative_total": 100,
-        "frame_pass_rate": 0.85,
-        "false_positive_rate": 0.03,
-        "objective": 0.82
-      },
-      {
-        "threshold": 0.36,
-        "frames_passed": 17,
-        "frames_total": 20,
-        "negative_false_accepts": 3,
-        "negative_total": 100,
-        "frame_pass_rate": 0.85,
-        "false_positive_rate": 0.03,
-        "objective": 0.82
-      },
-      {
-        "threshold": 0.36285747587680817,
-        "frames_passed": 17,
-        "frames_total": 20,
-        "negative_false_accepts": 2,
-        "negative_total": 100,
-        "frame_pass_rate": 0.85,
-        "false_positive_rate": 0.02,
-        "objective": 0.83
-      },
-      {
-        "threshold": 0.3657621294260025,
-        "frames_passed": 16,
-        "frames_total": 20,
-        "negative_false_accepts": 2,
-        "negative_total": 100,
-        "frame_pass_rate": 0.8,
-        "false_positive_rate": 0.02,
-        "objective": 0.78
-      },
-      {
-        "threshold": 0.37288278341293335,
-        "frames_passed": 16,
-        "frames_total": 20,
-        "negative_false_accepts": 1,
-        "negative_total": 100,
-        "frame_pass_rate": 0.8,
-        "false_positive_rate": 0.01,
-        "objective": 0.79
-      },
-      {
-        "threshold": 0.38147690892219543,
-        "frames_passed": 15,
-        "frames_total": 20,
-        "negative_false_accepts": 1,
-        "negative_total": 100,
-        "frame_pass_rate": 0.75,
-        "false_positive_rate": 0.01,
-        "objective": 0.74
-      },
-      {
-        "threshold": 0.38758376240730286,
-        "frames_passed": 14,
-        "frames_total": 20,
-        "negative_false_accepts": 1,
-        "negative_total": 100,
-        "frame_pass_rate": 0.7,
-        "false_positive_rate": 0.01,
-        "objective": 0.69
-      },
-      {
-        "threshold": 0.3907688707113266,
-        "frames_passed": 14,
-        "frames_total": 20,
-        "negative_false_accepts": 0,
-        "negative_total": 100,
-        "frame_pass_rate": 0.7,
-        "false_positive_rate": 0.0,
-        "objective": 0.7
-      },
-      {
-        "threshold": 0.39558742940425873,
-        "frames_passed": 13,
-        "frames_total": 20,
-        "negative_false_accepts": 0,
-        "negative_total": 100,
-        "frame_pass_rate": 0.65,
-        "false_positive_rate": 0.0,
-        "objective": 0.65
-      },
-      {
-        "threshold": 0.40224261581897736,
-        "frames_passed": 12,
-        "frames_total": 20,
-        "negative_false_accepts": 0,
-        "negative_total": 100,
-        "frame_pass_rate": 0.6,
-        "false_positive_rate": 0.0,
-        "objective": 0.6
-      },
-      {
-        "threshold": 0.40565918385982513,
-        "frames_passed": 11,
-        "frames_total": 20,
-        "negative_false_accepts": 0,
-        "negative_total": 100,
-        "frame_pass_rate": 0.55,
-        "false_positive_rate": 0.0,
-        "objective": 0.55
-      },
-      {
-        "threshold": 0.4064778983592987,
-        "frames_passed": 10,
-        "frames_total": 20,
-        "negative_false_accepts": 0,
-        "negative_total": 100,
-        "frame_pass_rate": 0.5,
-        "false_positive_rate": 0.0,
-        "objective": 0.5
-      },
-      {
-        "threshold": 0.40998610854148865,
-        "frames_passed": 9,
-        "frames_total": 20,
-        "negative_false_accepts": 0,
-        "negative_total": 100,
-        "frame_pass_rate": 0.45,
-        "false_positive_rate": 0.0,
-        "objective": 0.45
-      },
-      {
-        "threshold": 0.4154415428638458,
-        "frames_passed": 8,
-        "frames_total": 20,
-        "negative_false_accepts": 0,
-        "negative_total": 100,
-        "frame_pass_rate": 0.4,
-        "false_positive_rate": 0.0,
-        "objective": 0.4
-      },
-      {
-        "threshold": 0.4185713827610016,
-        "frames_passed": 7,
-        "frames_total": 20,
-        "negative_false_accepts": 0,
-        "negative_total": 100,
-        "frame_pass_rate": 0.35,
-        "false_positive_rate": 0.0,
-        "objective": 0.35
-      },
-      {
-        "threshold": 0.4214736521244049,
-        "frames_passed": 6,
-        "frames_total": 20,
-        "negative_false_accepts": 0,
-        "negative_total": 100,
-        "frame_pass_rate": 0.3,
-        "false_positive_rate": 0.0,
-        "objective": 0.3
-      },
-      {
-        "threshold": 0.43239839375019073,
-        "frames_passed": 5,
-        "frames_total": 20,
-        "negative_false_accepts": 0,
-        "negative_total": 100,
-        "frame_pass_rate": 0.25,
-        "false_positive_rate": 0.0,
-        "objective": 0.25
-      },
-      {
-        "threshold": 0.4484035521745682,
         "frames_passed": 4,
         "frames_total": 20,
         "negative_false_accepts": 0,
@@ -2416,7 +1496,27 @@
         "objective": 0.2
       },
       {
-        "threshold": 0.4587964713573456,
+        "threshold": 0.19951775670051575,
+        "frames_passed": 4,
+        "frames_total": 20,
+        "negative_false_accepts": 0,
+        "negative_total": 100,
+        "frame_pass_rate": 0.2,
+        "false_positive_rate": 0.0,
+        "objective": 0.2
+      },
+      {
+        "threshold": 0.34591996669769287,
+        "frames_passed": 4,
+        "frames_total": 20,
+        "negative_false_accepts": 0,
+        "negative_total": 100,
+        "frame_pass_rate": 0.2,
+        "false_positive_rate": 0.0,
+        "objective": 0.2
+      },
+      {
+        "threshold": 0.4024520814418793,
         "frames_passed": 3,
         "frames_total": 20,
         "negative_false_accepts": 0,
@@ -2426,7 +1526,7 @@
         "objective": 0.15
       },
       {
-        "threshold": 0.4626077115535736,
+        "threshold": 0.409376859664917,
         "frames_passed": 2,
         "frames_total": 20,
         "negative_false_accepts": 0,
@@ -2436,7 +1536,7 @@
         "objective": 0.1
       },
       {
-        "threshold": 0.46366560459136963,
+        "threshold": 0.4154415428638458,
         "frames_passed": 1,
         "frames_total": 20,
         "negative_false_accepts": 0,
@@ -2446,7 +1546,7 @@
         "objective": 0.05
       },
       {
-        "threshold": 0.7319479286670685,
+        "threshold": 0.7089990079402924,
         "frames_passed": 0,
         "frames_total": 20,
         "negative_false_accepts": 0,
@@ -2466,7 +1566,31 @@
         "objective": 0.0
       }
     ],
-    "model_sha256": "7ab9d990006bf3f1fd03c82c97a433f12fc91272ac4de4cde055e289cb842c6b"
+    "model_sha256": "7ab9d990006bf3f1fd03c82c97a433f12fc91272ac4de4cde055e289cb842c6b",
+    "ratio_filter": {
+      "reference_ratio": 4.762931034482759,
+      "tolerance": 0.1,
+      "minimum": 4.662931034482759,
+      "maximum": 4.8629310344827585,
+      "foreground_bounds": [
+        0,
+        4,
+        1105,
+        236
+      ],
+      "mask": "augmented_training_images_transparent\\masks\\ship.png",
+      "definition": "width / height of nonzero unaugmented foreground mask bounds"
+    },
+    "before_ratio_filter": {
+      "threshold": 0.34591996669769287,
+      "frames_passed": 18,
+      "frames_total": 20,
+      "negative_false_accepts": 4,
+      "negative_total": 100,
+      "frame_pass_rate": 0.9,
+      "false_positive_rate": 0.04,
+      "objective": 0.86
+    }
   },
   "limitation": "Threshold tuned on these development images. Reported rates are in-sample; an independent held-out test is required."
 }

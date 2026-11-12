@@ -34,8 +34,22 @@
   "threshold_selected": 0.34591996669769287,
   "threshold_source": "development-set calibration",
   "accuracy": null,
-  "false_accept_count": 4,
-  "false_accept_rate": 0.04,
+  "ratio_filter": {
+    "reference_ratio": 4.762931034482759,
+    "tolerance": 0.1,
+    "minimum": 4.662931034482759,
+    "maximum": 4.8629310344827585,
+    "foreground_bounds": [
+      0,
+      4,
+      1105,
+      236
+    ],
+    "mask": "augmented_training_images_transparent\\masks\\ship.png",
+    "definition": "width / height of nonzero unaugmented foreground mask bounds"
+  },
+  "false_accept_count": 0,
+  "false_accept_rate": 0.0,
   "note": "Threshold tuned on these development images. Reported rates are in-sample; an independent held-out test is required.",
   "hypothetical_false_accepts": {
     "0.6": {
