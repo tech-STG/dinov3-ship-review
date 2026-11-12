@@ -1,0 +1,2884 @@
+{
+  "seed": 20261112,
+  "deterministic": true,
+  "training_preprocessing": "color-remove-bg-transparent-canvas",
+  "reference_selection": "highest-confidence whole-image YOLO boat; no tiles",
+  "references": [
+    {
+      "source": "training_images\\S__191913989.jpg",
+      "bbox_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "confidence": 0.57568359375,
+      "detector_class": "boat",
+      "detector_view": "whole",
+      "contrast_enhanced": false,
+      "detector_input_size": 640,
+      "mask": {
+        "source_sha256": "557fe724dab8d6d6ea3866a0c0466bdf275c01d330a319d55e0b02a15240e258",
+        "roi": [
+          64,
+          377,
+          1171,
+          613
+        ],
+        "segmentation": "MobileSAM with YOLO box and optional source-specific foreground points",
+        "weights_sha256": "6dbb90523a35330fedd7f1d3dfc66f995213d81b29a5ca8108dbcdd4e37d6c2f",
+        "foreground_points": [
+          [
+            100,
+            560
+          ],
+          [
+            340,
+            530
+          ],
+          [
+            400,
+            530
+          ],
+          [
+            600,
+            550
+          ],
+          [
+            930,
+            460
+          ],
+          [
+            1100,
+            550
+          ]
+        ],
+        "mask_fraction": 0.43978610690061704
+      }
+    }
+  ],
+  "detector": {
+    "name": "YOLO11s COCO boat",
+    "ultralytics_version": "8.4.211",
+    "weights_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+    "confidence_threshold": 0.15,
+    "class_id": 8,
+    "whole_image_sizes": [
+      640,
+      1280
+    ],
+    "tile_size": 512,
+    "tile_stride": 256,
+    "tile_inference_sizes": [
+      640,
+      1024
+    ],
+    "merge_iou": 0.5,
+    "fallback": "CLAHE luminance contrast, only if raw whole-image and tile passes find no boats"
+  },
+  "canvas_size": [
+    2304,
+    2304
+  ],
+  "inference_background_rgb": [
+    128,
+    128,
+    128
+  ],
+  "original_count": 1,
+  "output_count": 111,
+  "scales": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0,
+    2.0
+  ],
+  "variants_per_scale": 10,
+  "decision_threshold": 0.01,
+  "classification_head_enabled": false,
+  "note": "Alpha is explicitly composited on gray before DINOv3. Test images stay original RGB. Small scales may have only a few pixels after 224x224 resize.",
+  "images": [
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__original.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "original",
+      "parameters": {
+        "scale": 1.0,
+        "blur_px": 0.0,
+        "haze": 0.0,
+        "contrast": 1.0,
+        "horizontal_flip": false,
+        "rotation_deg": 0.0
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        598,
+        1038,
+        1703,
+        1270
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.1_01.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.1_01",
+      "parameters": {
+        "scale": 0.1,
+        "blur_px": 0.42140784546136856,
+        "haze": 0.15158456907896956,
+        "contrast": 0.9060036708055399,
+        "horizontal_flip": false,
+        "rotation_deg": -4.002944355342667
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        1095,
+        1142,
+        1207,
+        1167
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.1_02.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.1_02",
+      "parameters": {
+        "scale": 0.1,
+        "blur_px": 1.2081120606924314,
+        "haze": 0.034750071655539304,
+        "contrast": 1.2082696273534048,
+        "horizontal_flip": true,
+        "rotation_deg": -5.1855746753556495
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        1095,
+        1137,
+        1207,
+        1169
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.1_03.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.1_03",
+      "parameters": {
+        "scale": 0.1,
+        "blur_px": 0.9485599777537768,
+        "haze": 0.06225490264293456,
+        "contrast": 0.7851715474943349,
+        "horizontal_flip": true,
+        "rotation_deg": -7.59448438648384
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        1095,
+        1135,
+        1206,
+        1171
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.1_04.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.1_04",
+      "parameters": {
+        "scale": 0.1,
+        "blur_px": 0.609029054007409,
+        "haze": 0.027485669839619174,
+        "contrast": 1.150220250266678,
+        "horizontal_flip": false,
+        "rotation_deg": 2.726315393348827
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        1096,
+        1138,
+        1207,
+        1167
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.1_05.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.1_05",
+      "parameters": {
+        "scale": 0.1,
+        "blur_px": 0.6825132627716235,
+        "haze": 0.2518483353639508,
+        "contrast": 1.3524291309172822,
+        "horizontal_flip": true,
+        "rotation_deg": 1.9618865231207074
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        1096,
+        1141,
+        1207,
+        1166
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.1_06.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.1_06",
+      "parameters": {
+        "scale": 0.1,
+        "blur_px": 0.654439568014201,
+        "haze": 0.2546584707258858,
+        "contrast": 0.9302543900993534,
+        "horizontal_flip": true,
+        "rotation_deg": -7.127842019517951
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        1095,
+        1136,
+        1206,
+        1171
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.1_07.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.1_07",
+      "parameters": {
+        "scale": 0.1,
+        "blur_px": 1.4975806606373974,
+        "haze": 0.18882178804352245,
+        "contrast": 1.1261941687960133,
+        "horizontal_flip": true,
+        "rotation_deg": -6.92140386069449
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        1095,
+        1136,
+        1206,
+        1171
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.1_08.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.1_08",
+      "parameters": {
+        "scale": 0.1,
+        "blur_px": 1.3184053399785507,
+        "haze": 0.1679054972136085,
+        "contrast": 1.2265207712533763,
+        "horizontal_flip": true,
+        "rotation_deg": -1.3772746011248174
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        1096,
+        1139,
+        1207,
+        1165
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.1_09.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.1_09",
+      "parameters": {
+        "scale": 0.1,
+        "blur_px": 0.4598911446544083,
+        "haze": 0.0659913891195256,
+        "contrast": 1.3178027609025207,
+        "horizontal_flip": true,
+        "rotation_deg": 6.55565547989422
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        1096,
+        1143,
+        1208,
+        1170
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.1_10.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.1_10",
+      "parameters": {
+        "scale": 0.1,
+        "blur_px": 0.2491594784854536,
+        "haze": 0.1611332757221598,
+        "contrast": 1.084005716278412,
+        "horizontal_flip": true,
+        "rotation_deg": 6.418386894765977
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        1097,
+        1143,
+        1208,
+        1170
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.2_01.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.2_01",
+      "parameters": {
+        "scale": 0.2,
+        "blur_px": 0.08426701172283857,
+        "haze": 0.20836116603943644,
+        "contrast": 0.7143686643838706,
+        "horizontal_flip": false,
+        "rotation_deg": 2.3983674179380916
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        1041,
+        1125,
+        1263,
+        1179
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.2_02.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.2_02",
+      "parameters": {
+        "scale": 0.2,
+        "blur_px": 1.1206213394558875,
+        "haze": 0.1263026054115221,
+        "contrast": 0.9755489476304389,
+        "horizontal_flip": true,
+        "rotation_deg": 2.8503226832038138
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        1041,
+        1131,
+        1263,
+        1180
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.2_03.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.2_03",
+      "parameters": {
+        "scale": 0.2,
+        "blur_px": 0.9533776749019551,
+        "haze": 0.051836771259899536,
+        "contrast": 1.0234055527635002,
+        "horizontal_flip": false,
+        "rotation_deg": -6.7561460085188205
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        1040,
+        1135,
+        1261,
+        1188
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.2_04.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.2_04",
+      "parameters": {
+        "scale": 0.2,
+        "blur_px": 1.348147364634343,
+        "haze": 0.25834486713445537,
+        "contrast": 0.7989456196929691,
+        "horizontal_flip": false,
+        "rotation_deg": -0.7801681336303155
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        1041,
+        1129,
+        1262,
+        1177
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.2_05.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.2_05",
+      "parameters": {
+        "scale": 0.2,
+        "blur_px": 0.28612270087432834,
+        "haze": 0.009752808129412394,
+        "contrast": 0.7796603738192158,
+        "horizontal_flip": false,
+        "rotation_deg": 7.312696436855104
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        1043,
+        1120,
+        1264,
+        1188
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.2_06.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.2_06",
+      "parameters": {
+        "scale": 0.2,
+        "blur_px": 1.053412238375407,
+        "haze": 0.2537552365137553,
+        "contrast": 1.31382284240102,
+        "horizontal_flip": false,
+        "rotation_deg": 5.163581650585549
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        1042,
+        1122,
+        1264,
+        1185
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.2_07.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.2_07",
+      "parameters": {
+        "scale": 0.2,
+        "blur_px": 0.8413059181134439,
+        "haze": 0.17178768732855948,
+        "contrast": 0.8743345232775538,
+        "horizontal_flip": false,
+        "rotation_deg": -0.7938090629122136
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        1041,
+        1129,
+        1262,
+        1176
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.2_08.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.2_08",
+      "parameters": {
+        "scale": 0.2,
+        "blur_px": 0.09411227658016119,
+        "haze": 0.19415145538541054,
+        "contrast": 1.277484876385079,
+        "horizontal_flip": true,
+        "rotation_deg": 2.888647316672891
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        1041,
+        1131,
+        1263,
+        1179
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.2_09.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.2_09",
+      "parameters": {
+        "scale": 0.2,
+        "blur_px": 0.03877253748369758,
+        "haze": 0.06419570650577434,
+        "contrast": 0.8103360980327302,
+        "horizontal_flip": true,
+        "rotation_deg": -2.2758999293297837
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        1040,
+        1126,
+        1262,
+        1179
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.2_10.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.2_10",
+      "parameters": {
+        "scale": 0.2,
+        "blur_px": 1.9651561282502306,
+        "haze": 0.15704362368731364,
+        "contrast": 0.8565245994800351,
+        "horizontal_flip": false,
+        "rotation_deg": 1.147084925314397
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        1041,
+        1127,
+        1262,
+        1177
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.3_01.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.3_01",
+      "parameters": {
+        "scale": 0.3,
+        "blur_px": 1.8080063905970793,
+        "haze": 0.1432428210398898,
+        "contrast": 1.021694229845671,
+        "horizontal_flip": false,
+        "rotation_deg": -5.43360569531016
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        984,
+        1124,
+        1317,
+        1202
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.3_02.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.3_02",
+      "parameters": {
+        "scale": 0.3,
+        "blur_px": 1.2020073091822392,
+        "haze": 0.2026702950394091,
+        "contrast": 0.9905593324955995,
+        "horizontal_flip": true,
+        "rotation_deg": -0.68354279087783
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        986,
+        1115,
+        1318,
+        1189
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.3_03.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.3_03",
+      "parameters": {
+        "scale": 0.3,
+        "blur_px": 1.4654905560604554,
+        "haze": 0.12754238547915783,
+        "contrast": 1.2148695190872907,
+        "horizontal_flip": false,
+        "rotation_deg": -3.1059231060280403
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        985,
+        1121,
+        1318,
+        1196
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.3_04.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.3_04",
+      "parameters": {
+        "scale": 0.3,
+        "blur_px": 1.8657162189371024,
+        "haze": 0.20069772981929151,
+        "contrast": 1.0057670848348854,
+        "horizontal_flip": false,
+        "rotation_deg": -2.9340053480341037
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        985,
+        1120,
+        1318,
+        1195
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.3_05.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.3_05",
+      "parameters": {
+        "scale": 0.3,
+        "blur_px": 0.3294579482551958,
+        "haze": 0.2032424828818806,
+        "contrast": 0.6469349643207385,
+        "horizontal_flip": false,
+        "rotation_deg": 6.232418579745117
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        988,
+        1106,
+        1320,
+        1204
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.3_06.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.3_06",
+      "parameters": {
+        "scale": 0.3,
+        "blur_px": 0.5351254872481339,
+        "haze": 0.23641681112807592,
+        "contrast": 0.7937313861183379,
+        "horizontal_flip": false,
+        "rotation_deg": 1.4194747783448314
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        986,
+        1114,
+        1319,
+        1191
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.3_07.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.3_07",
+      "parameters": {
+        "scale": 0.3,
+        "blur_px": 0.8893640056960055,
+        "haze": 0.06070673563803294,
+        "contrast": 0.7853825986058343,
+        "horizontal_flip": false,
+        "rotation_deg": -1.3884155077459948
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        985,
+        1118,
+        1318,
+        1190
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.3_08.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.3_08",
+      "parameters": {
+        "scale": 0.3,
+        "blur_px": 0.9153020091934192,
+        "haze": 0.1463626153744127,
+        "contrast": 0.6479344794048735,
+        "horizontal_flip": false,
+        "rotation_deg": -5.890860657198285
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        984,
+        1125,
+        1317,
+        1202
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.3_09.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.3_09",
+      "parameters": {
+        "scale": 0.3,
+        "blur_px": 0.94456572725124,
+        "haze": 0.0022788080395908738,
+        "contrast": 1.3053291936943778,
+        "horizontal_flip": true,
+        "rotation_deg": 4.065141258652355
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        987,
+        1122,
+        1319,
+        1197
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.3_10.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.3_10",
+      "parameters": {
+        "scale": 0.3,
+        "blur_px": 0.02127832193773216,
+        "haze": 0.1961281717234112,
+        "contrast": 0.9534929024333001,
+        "horizontal_flip": false,
+        "rotation_deg": -6.652938307611141
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        984,
+        1127,
+        1316,
+        1203
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.4_01.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.4_01",
+      "parameters": {
+        "scale": 0.4,
+        "blur_px": 1.0359230593507744,
+        "haze": 0.15669378460720937,
+        "contrast": 0.6758872118576624,
+        "horizontal_flip": false,
+        "rotation_deg": -5.814471444296169
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        928,
+        1117,
+        1371,
+        1218
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.4_02.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.4_02",
+      "parameters": {
+        "scale": 0.4,
+        "blur_px": 1.3042316251593384,
+        "haze": 0.11202077278535992,
+        "contrast": 1.3819115150674817,
+        "horizontal_flip": false,
+        "rotation_deg": 6.618988754975545
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        933,
+        1090,
+        1376,
+        1223
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.4_03.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.4_03",
+      "parameters": {
+        "scale": 0.4,
+        "blur_px": 0.3532369023487285,
+        "haze": 0.03539519165213759,
+        "contrast": 1.0252926179929998,
+        "horizontal_flip": true,
+        "rotation_deg": 6.146623924740503
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        933,
+        1119,
+        1375,
+        1218
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.4_04.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.4_04",
+      "parameters": {
+        "scale": 0.4,
+        "blur_px": 0.4497216982226353,
+        "haze": 0.2032152784642791,
+        "contrast": 1.1687552505670133,
+        "horizontal_flip": false,
+        "rotation_deg": -2.0562888409259372
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        929,
+        1109,
+        1372,
+        1203
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.4_05.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.4_05",
+      "parameters": {
+        "scale": 0.4,
+        "blur_px": 1.3624649827073458,
+        "haze": 0.09605860058857964,
+        "contrast": 0.9011089183824592,
+        "horizontal_flip": false,
+        "rotation_deg": -4.765390793137495
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        928,
+        1115,
+        1372,
+        1217
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.4_06.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.4_06",
+      "parameters": {
+        "scale": 0.4,
+        "blur_px": 1.3580189121628508,
+        "haze": 0.052488317041404595,
+        "contrast": 1.2802205813805103,
+        "horizontal_flip": false,
+        "rotation_deg": 5.241329096351135
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        932,
+        1093,
+        1376,
+        1218
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.4_07.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.4_07",
+      "parameters": {
+        "scale": 0.4,
+        "blur_px": 1.8910170863896485,
+        "haze": 0.15530949732067645,
+        "contrast": 0.8782608415603627,
+        "horizontal_flip": false,
+        "rotation_deg": -1.7647152327405458
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        929,
+        1109,
+        1373,
+        1206
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.4_08.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.4_08",
+      "parameters": {
+        "scale": 0.4,
+        "blur_px": 1.8817594049341233,
+        "haze": 0.07847092551623804,
+        "contrast": 0.6438357768734414,
+        "horizontal_flip": false,
+        "rotation_deg": 2.8034447367216124
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        931,
+        1099,
+        1375,
+        1210
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.4_09.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.4_09",
+      "parameters": {
+        "scale": 0.4,
+        "blur_px": 0.06731115340741467,
+        "haze": 0.11849333534741402,
+        "contrast": 0.8086495940565195,
+        "horizontal_flip": false,
+        "rotation_deg": 6.260197376944179
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        933,
+        1092,
+        1375,
+        1222
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.4_10.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.4_10",
+      "parameters": {
+        "scale": 0.4,
+        "blur_px": 0.7053526298159114,
+        "haze": 0.24832641689490723,
+        "contrast": 0.6093149789071317,
+        "horizontal_flip": true,
+        "rotation_deg": 2.897824982938463
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        931,
+        1111,
+        1374,
+        1207
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.5_01.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.5_01",
+      "parameters": {
+        "scale": 0.5,
+        "blur_px": 0.08902748711300901,
+        "haze": 0.09573504707348808,
+        "contrast": 1.2954082127808635,
+        "horizontal_flip": true,
+        "rotation_deg": 1.8078389401878354
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        877,
+        1099,
+        1430,
+        1214
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.5_02.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.5_02",
+      "parameters": {
+        "scale": 0.5,
+        "blur_px": 0.7163886716908123,
+        "haze": 0.11659609474742033,
+        "contrast": 0.8057814784587023,
+        "horizontal_flip": true,
+        "rotation_deg": 3.8679526969726066
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        877,
+        1103,
+        1431,
+        1225
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.5_03.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.5_03",
+      "parameters": {
+        "scale": 0.5,
+        "blur_px": 0.08162065892905024,
+        "haze": 0.14413779366182247,
+        "contrast": 1.0733476174784395,
+        "horizontal_flip": true,
+        "rotation_deg": -4.8944832794730555
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        873,
+        1080,
+        1426,
+        1233
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.5_04.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.5_04",
+      "parameters": {
+        "scale": 0.5,
+        "blur_px": 0.0392932882427357,
+        "haze": 0.09710643912490294,
+        "contrast": 1.0757022345788652,
+        "horizontal_flip": true,
+        "rotation_deg": -7.903317303427661
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        872,
+        1072,
+        1424,
+        1247
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.5_05.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.5_05",
+      "parameters": {
+        "scale": 0.5,
+        "blur_px": 1.2651156455781885,
+        "haze": 0.2485510596209392,
+        "contrast": 1.134301840541604,
+        "horizontal_flip": true,
+        "rotation_deg": -7.873227776442816
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        871,
+        1071,
+        1424,
+        1247
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.5_06.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.5_06",
+      "parameters": {
+        "scale": 0.5,
+        "blur_px": 0.8772755508880159,
+        "haze": 0.21178703120508932,
+        "contrast": 1.1088918728377837,
+        "horizontal_flip": true,
+        "rotation_deg": -5.312839966738498
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        872,
+        1078,
+        1426,
+        1235
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.5_07.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.5_07",
+      "parameters": {
+        "scale": 0.5,
+        "blur_px": 0.7754349818712998,
+        "haze": 0.0887389669594181,
+        "contrast": 0.9112068950247727,
+        "horizontal_flip": true,
+        "rotation_deg": -2.9619097295071004
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        873,
+        1085,
+        1428,
+        1225
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.5_08.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.5_08",
+      "parameters": {
+        "scale": 0.5,
+        "blur_px": 1.3418382837627294,
+        "haze": 0.18861519626049175,
+        "contrast": 0.6589346700786649,
+        "horizontal_flip": false,
+        "rotation_deg": 5.457858882340027
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        878,
+        1078,
+        1432,
+        1236
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.5_09.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.5_09",
+      "parameters": {
+        "scale": 0.5,
+        "blur_px": 0.744728287845567,
+        "haze": 0.05737012266806804,
+        "contrast": 0.8597925071922954,
+        "horizontal_flip": false,
+        "rotation_deg": 2.4142067291212577
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        876,
+        1086,
+        1431,
+        1222
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.5_10.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.5_10",
+      "parameters": {
+        "scale": 0.5,
+        "blur_px": 0.9028472842026516,
+        "haze": 0.0027844512692378975,
+        "contrast": 0.6471007745403545,
+        "horizontal_flip": true,
+        "rotation_deg": 4.607679882395944
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        877,
+        1105,
+        1431,
+        1229
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.6_01.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.6_01",
+      "parameters": {
+        "scale": 0.6,
+        "blur_px": 0.4522656149456028,
+        "haze": 0.14697192264294762,
+        "contrast": 0.7266501474624844,
+        "horizontal_flip": true,
+        "rotation_deg": 7.1596129941107485
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        826,
+        1106,
+        1487,
+        1256
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.6_02.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.6_02",
+      "parameters": {
+        "scale": 0.6,
+        "blur_px": 0.03497432898605002,
+        "haze": 0.13539979645847663,
+        "contrast": 0.6701473613838119,
+        "horizontal_flip": false,
+        "rotation_deg": -1.8774694577272673
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        819,
+        1089,
+        1482,
+        1228
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.6_03.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.6_03",
+      "parameters": {
+        "scale": 0.6,
+        "blur_px": 1.5967106526309152,
+        "haze": 0.0726254579455657,
+        "contrast": 1.2511369495860203,
+        "horizontal_flip": true,
+        "rotation_deg": -0.6498498676566449
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        819,
+        1079,
+        1484,
+        1227
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.6_04.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.6_04",
+      "parameters": {
+        "scale": 0.6,
+        "blur_px": 0.026842419277834706,
+        "haze": 0.08042359656766936,
+        "contrast": 0.7844218374973725,
+        "horizontal_flip": true,
+        "rotation_deg": 0.7105532701778525
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        821,
+        1085,
+        1485,
+        1224
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.6_05.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.6_05",
+      "parameters": {
+        "scale": 0.6,
+        "blur_px": 0.528177328879575,
+        "haze": 0.01693492871304696,
+        "contrast": 0.6051506066436472,
+        "horizontal_flip": true,
+        "rotation_deg": -6.632722194074381
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        816,
+        1061,
+        1479,
+        1259
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.6_06.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.6_06",
+      "parameters": {
+        "scale": 0.6,
+        "blur_px": 1.6311242785389224,
+        "haze": 0.11983346179192628,
+        "contrast": 0.9672737333857799,
+        "horizontal_flip": false,
+        "rotation_deg": -2.7114944337353695
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        818,
+        1090,
+        1483,
+        1236
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.6_07.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.6_07",
+      "parameters": {
+        "scale": 0.6,
+        "blur_px": 1.5353474326356018,
+        "haze": 0.0035133280054989945,
+        "contrast": 1.2922031692856375,
+        "horizontal_flip": false,
+        "rotation_deg": -0.7040116992662835
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        819,
+        1083,
+        1484,
+        1226
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.6_08.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.6_08",
+      "parameters": {
+        "scale": 0.6,
+        "blur_px": 1.7527298453624824,
+        "haze": 0.14442442419814153,
+        "contrast": 1.0819652517619773,
+        "horizontal_flip": true,
+        "rotation_deg": 1.5351933665186532
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        820,
+        1086,
+        1485,
+        1229
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.6_09.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.6_09",
+      "parameters": {
+        "scale": 0.6,
+        "blur_px": 0.6367382500275403,
+        "haze": 0.2708417334217671,
+        "contrast": 0.9191345607076545,
+        "horizontal_flip": true,
+        "rotation_deg": -0.7711420547478092
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        819,
+        1080,
+        1484,
+        1227
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.6_10.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.6_10",
+      "parameters": {
+        "scale": 0.6,
+        "blur_px": 0.24814870139251033,
+        "haze": 0.11700101763272829,
+        "contrast": 0.794741782892897,
+        "horizontal_flip": true,
+        "rotation_deg": 0.21141964560702853
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        821,
+        1083,
+        1484,
+        1223
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.7_01.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.7_01",
+      "parameters": {
+        "scale": 0.7,
+        "blur_px": 1.4770438206954266,
+        "haze": 0.018709318189753042,
+        "contrast": 1.1093019942424587,
+        "horizontal_flip": true,
+        "rotation_deg": -2.0078876956151213
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        762,
+        1061,
+        1538,
+        1247
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.7_02.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.7_02",
+      "parameters": {
+        "scale": 0.7,
+        "blur_px": 1.4932278932764187,
+        "haze": 0.2583455233012179,
+        "contrast": 0.8692555113063942,
+        "horizontal_flip": false,
+        "rotation_deg": -4.557314329901965
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        761,
+        1086,
+        1537,
+        1259
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.7_03.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.7_03",
+      "parameters": {
+        "scale": 0.7,
+        "blur_px": 0.7956034919320327,
+        "haze": 0.2700166832056192,
+        "contrast": 1.0566922069306317,
+        "horizontal_flip": true,
+        "rotation_deg": 3.6854812895952964
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        767,
+        1083,
+        1542,
+        1251
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.7_04.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.7_04",
+      "parameters": {
+        "scale": 0.7,
+        "blur_px": 1.2663255089607048,
+        "haze": 0.17264538918529893,
+        "contrast": 0.797164516476994,
+        "horizontal_flip": true,
+        "rotation_deg": 1.7996622139750258
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        765,
+        1076,
+        1541,
+        1241
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.7_05.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.7_05",
+      "parameters": {
+        "scale": 0.7,
+        "blur_px": 1.6718334071390173,
+        "haze": 0.028113776286529644,
+        "contrast": 1.1376155574996767,
+        "horizontal_flip": true,
+        "rotation_deg": 2.956275168497573
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        765,
+        1080,
+        1541,
+        1250
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.7_06.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.7_06",
+      "parameters": {
+        "scale": 0.7,
+        "blur_px": 1.2508709680246846,
+        "haze": 0.08874720038760155,
+        "contrast": 1.2154248355102628,
+        "horizontal_flip": true,
+        "rotation_deg": -7.8322758281491485
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        759,
+        1039,
+        1532,
+        1284
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.7_07.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.7_07",
+      "parameters": {
+        "scale": 0.7,
+        "blur_px": 1.4510165731198812,
+        "haze": 0.23293877223623266,
+        "contrast": 0.9756615224396594,
+        "horizontal_flip": true,
+        "rotation_deg": 2.010365321457387
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        765,
+        1076,
+        1541,
+        1243
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.7_08.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.7_08",
+      "parameters": {
+        "scale": 0.7,
+        "blur_px": 1.7475673291928535,
+        "haze": 0.1457907201306878,
+        "contrast": 0.6122517415025494,
+        "horizontal_flip": false,
+        "rotation_deg": -3.6629707145293224
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        761,
+        1083,
+        1537,
+        1254
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.7_09.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.7_09",
+      "parameters": {
+        "scale": 0.7,
+        "blur_px": 0.10212127211587663,
+        "haze": 0.2951880835554963,
+        "contrast": 1.1150099038128518,
+        "horizontal_flip": false,
+        "rotation_deg": 2.5773866535306524
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        766,
+        1061,
+        1541,
+        1251
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.7_10.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.7_10",
+      "parameters": {
+        "scale": 0.7,
+        "blur_px": 1.0343748976324723,
+        "haze": 0.04590265241042883,
+        "contrast": 0.8767973330636779,
+        "horizontal_flip": true,
+        "rotation_deg": 1.654153590451605
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        765,
+        1075,
+        1540,
+        1239
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.8_01.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.8_01",
+      "parameters": {
+        "scale": 0.8,
+        "blur_px": 0.30760069688823544,
+        "haze": 0.1437859252915478,
+        "contrast": 0.7705715335965595,
+        "horizontal_flip": true,
+        "rotation_deg": 6.711228144680115
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        718,
+        1089,
+        1599,
+        1287
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.8_02.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.8_02",
+      "parameters": {
+        "scale": 0.8,
+        "blur_px": 0.2383252045925306,
+        "haze": 0.032935171387768546,
+        "contrast": 0.6215118101124025,
+        "horizontal_flip": true,
+        "rotation_deg": 5.382362569208208
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        715,
+        1083,
+        1598,
+        1277
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.8_03.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.8_03",
+      "parameters": {
+        "scale": 0.8,
+        "blur_px": 1.8741955641221935,
+        "haze": 0.2738771196977491,
+        "contrast": 0.877551490591004,
+        "horizontal_flip": false,
+        "rotation_deg": -4.481728545583319
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        705,
+        1076,
+        1593,
+        1275
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.8_04.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.8_04",
+      "parameters": {
+        "scale": 0.8,
+        "blur_px": 1.4395215655550604,
+        "haze": 0.07071109661402988,
+        "contrast": 1.120823186286192,
+        "horizontal_flip": true,
+        "rotation_deg": -5.866383577644642
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        704,
+        1031,
+        1590,
+        1289
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.8_05.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.8_05",
+      "parameters": {
+        "scale": 0.8,
+        "blur_px": 0.3537078726447409,
+        "haze": 0.16141240867865314,
+        "contrast": 0.9283128380454007,
+        "horizontal_flip": false,
+        "rotation_deg": 4.43349977641023
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        713,
+        1040,
+        1598,
+        1278
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.8_06.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.8_06",
+      "parameters": {
+        "scale": 0.8,
+        "blur_px": 1.2476362224492246,
+        "haze": 0.23622756286670832,
+        "contrast": 0.7693168107057021,
+        "horizontal_flip": false,
+        "rotation_deg": 4.730528628634573
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        713,
+        1036,
+        1599,
+        1281
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.8_07.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.8_07",
+      "parameters": {
+        "scale": 0.8,
+        "blur_px": 0.18613663744894127,
+        "haze": 0.1923395151874749,
+        "contrast": 0.6844165819694439,
+        "horizontal_flip": false,
+        "rotation_deg": -3.690826441451918
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        706,
+        1075,
+        1591,
+        1265
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.8_08.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.8_08",
+      "parameters": {
+        "scale": 0.8,
+        "blur_px": 1.5573952501716715,
+        "haze": 0.07868669013407452,
+        "contrast": 0.9233260298173306,
+        "horizontal_flip": true,
+        "rotation_deg": -1.4101263330733165
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        707,
+        1051,
+        1594,
+        1256
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.8_09.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.8_09",
+      "parameters": {
+        "scale": 0.8,
+        "blur_px": 1.26127673711897,
+        "haze": 0.20000125475410704,
+        "contrast": 0.6615516348791978,
+        "horizontal_flip": true,
+        "rotation_deg": 5.005790243575291
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        713,
+        1079,
+        1599,
+        1277
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.8_10.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.8_10",
+      "parameters": {
+        "scale": 0.8,
+        "blur_px": 1.368416242916454,
+        "haze": 0.1921647617834521,
+        "contrast": 0.821351828952944,
+        "horizontal_flip": false,
+        "rotation_deg": 5.074345862940955
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        713,
+        1035,
+        1600,
+        1283
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.9_01.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.9_01",
+      "parameters": {
+        "scale": 0.9,
+        "blur_px": 1.796376890382618,
+        "haze": 0.025666546534177992,
+        "contrast": 1.0765155773647623,
+        "horizontal_flip": true,
+        "rotation_deg": -2.1534759636822915
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        651,
+        1035,
+        1648,
+        1276
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.9_02.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.9_02",
+      "parameters": {
+        "scale": 0.9,
+        "blur_px": 1.1050232881372752,
+        "haze": 0.14568629256039456,
+        "contrast": 1.30178108497059,
+        "horizontal_flip": false,
+        "rotation_deg": 2.38832041989423
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        656,
+        1034,
+        1653,
+        1278
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.9_03.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.9_03",
+      "parameters": {
+        "scale": 0.9,
+        "blur_px": 0.4996714155987412,
+        "haze": 0.20720127707374225,
+        "contrast": 1.300190714715094,
+        "horizontal_flip": true,
+        "rotation_deg": -2.9529114352215284
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        651,
+        1034,
+        1647,
+        1282
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.9_04.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.9_04",
+      "parameters": {
+        "scale": 0.9,
+        "blur_px": 0.4310957646566167,
+        "haze": 0.045173059057045425,
+        "contrast": 1.1594792528813547,
+        "horizontal_flip": true,
+        "rotation_deg": 6.448050350723323
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        663,
+        1080,
+        1654,
+        1302
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.9_05.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.9_05",
+      "parameters": {
+        "scale": 0.9,
+        "blur_px": 1.906197837027173,
+        "haze": 0.09059556748110752,
+        "contrast": 1.2997055630237597,
+        "horizontal_flip": false,
+        "rotation_deg": 6.664665378589955
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        661,
+        1013,
+        1656,
+        1313
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.9_06.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.9_06",
+      "parameters": {
+        "scale": 0.9,
+        "blur_px": 1.8305676700751703,
+        "haze": 0.09880685206565161,
+        "contrast": 0.623962493272755,
+        "horizontal_flip": true,
+        "rotation_deg": 2.4446228333255657
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        655,
+        1058,
+        1653,
+        1273
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.9_07.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.9_07",
+      "parameters": {
+        "scale": 0.9,
+        "blur_px": 1.3581456543762607,
+        "haze": 0.07172746690739781,
+        "contrast": 0.8027379485735,
+        "horizontal_flip": true,
+        "rotation_deg": 4.555835031269467
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        658,
+        1068,
+        1654,
+        1289
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.9_08.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.9_08",
+      "parameters": {
+        "scale": 0.9,
+        "blur_px": 0.764332663246357,
+        "haze": 0.11787192938446955,
+        "contrast": 0.8348835184649058,
+        "horizontal_flip": true,
+        "rotation_deg": 4.177521179049361
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        659,
+        1068,
+        1653,
+        1284
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.9_09.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.9_09",
+      "parameters": {
+        "scale": 0.9,
+        "blur_px": 1.3811984599487164,
+        "haze": 0.13354693255666036,
+        "contrast": 0.7060630544537138,
+        "horizontal_flip": false,
+        "rotation_deg": 1.93313370552365
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        655,
+        1036,
+        1652,
+        1274
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_0.9_10.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_0.9_10",
+      "parameters": {
+        "scale": 0.9,
+        "blur_px": 0.584576118177538,
+        "haze": 0.022035653424238154,
+        "contrast": 1.1243804416303886,
+        "horizontal_flip": true,
+        "rotation_deg": -3.126065743606249
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        651,
+        1033,
+        1647,
+        1284
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_1.0_01.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_1.0_01",
+      "parameters": {
+        "scale": 1.0,
+        "blur_px": 0.7954782252111672,
+        "haze": 0.15262677356282553,
+        "contrast": 0.7227393118248401,
+        "horizontal_flip": false,
+        "rotation_deg": 1.2392474618953404
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        599,
+        1030,
+        1707,
+        1281
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_1.0_02.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_1.0_02",
+      "parameters": {
+        "scale": 1.0,
+        "blur_px": 0.6560396194307203,
+        "haze": 0.11100298758408246,
+        "contrast": 1.2988636151100643,
+        "horizontal_flip": true,
+        "rotation_deg": -4.45504013221572
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        594,
+        1012,
+        1700,
+        1311
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_1.0_03.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_1.0_03",
+      "parameters": {
+        "scale": 1.0,
+        "blur_px": 1.7991573896041266,
+        "haze": 0.29311777999848465,
+        "contrast": 1.3036505392076227,
+        "horizontal_flip": true,
+        "rotation_deg": 0.6545864361748599
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        598,
+        1037,
+        1706,
+        1273
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_1.0_04.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_1.0_04",
+      "parameters": {
+        "scale": 1.0,
+        "blur_px": 1.5464177191197193,
+        "haze": 0.048105435470528264,
+        "contrast": 1.2631667593234224,
+        "horizontal_flip": true,
+        "rotation_deg": -5.468109361226199
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        592,
+        1004,
+        1699,
+        1320
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_1.0_05.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_1.0_05",
+      "parameters": {
+        "scale": 1.0,
+        "blur_px": 1.2619929296733152,
+        "haze": 0.2357497985728808,
+        "contrast": 1.393768654507624,
+        "horizontal_flip": false,
+        "rotation_deg": 7.714826600112437
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        608,
+        993,
+        1711,
+        1340
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_1.0_06.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_1.0_06",
+      "parameters": {
+        "scale": 1.0,
+        "blur_px": 0.7179235173242631,
+        "haze": 0.01583705565790432,
+        "contrast": 1.2509973474819855,
+        "horizontal_flip": false,
+        "rotation_deg": -6.44881160643147
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        593,
+        1071,
+        1695,
+        1319
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_1.0_07.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_1.0_07",
+      "parameters": {
+        "scale": 1.0,
+        "blur_px": 1.9427682504017214,
+        "haze": 0.2759245375024821,
+        "contrast": 0.6186417175301094,
+        "horizontal_flip": false,
+        "rotation_deg": 4.44297311775661
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        603,
+        1009,
+        1711,
+        1311
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_1.0_08.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_1.0_08",
+      "parameters": {
+        "scale": 1.0,
+        "blur_px": 1.5050281856441479,
+        "haze": 0.24693278733103163,
+        "contrast": 1.2730136766067053,
+        "horizontal_flip": false,
+        "rotation_deg": -5.4417681449238895
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        593,
+        1063,
+        1700,
+        1312
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_1.0_09.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_1.0_09",
+      "parameters": {
+        "scale": 1.0,
+        "blur_px": 0.8915312103834321,
+        "haze": 0.15278095609712047,
+        "contrast": 1.2489695091183664,
+        "horizontal_flip": true,
+        "rotation_deg": 4.466381493204372
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        605,
+        1061,
+        1709,
+        1301
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_1.0_10.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_1.0_10",
+      "parameters": {
+        "scale": 1.0,
+        "blur_px": 1.8446219625657716,
+        "haze": 0.06100541504950993,
+        "contrast": 1.0396614755767821,
+        "horizontal_flip": true,
+        "rotation_deg": -2.7829164370258255
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        594,
+        1019,
+        1703,
+        1296
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_2.0_01.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_2.0_01",
+      "parameters": {
+        "scale": 2.0,
+        "blur_px": 0.5715144975313275,
+        "haze": 0.1782607495921839,
+        "contrast": 1.2414989704753066,
+        "horizontal_flip": true,
+        "rotation_deg": 7.643807944865733
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        69,
+        1006,
+        2268,
+        1506
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_2.0_02.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_2.0_02",
+      "parameters": {
+        "scale": 2.0,
+        "blur_px": 1.680134358898418,
+        "haze": 0.18038238355307964,
+        "contrast": 0.9727728428855749,
+        "horizontal_flip": false,
+        "rotation_deg": 4.8637937830444695
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        56,
+        866,
+        2269,
+        1477
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_2.0_03.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_2.0_03",
+      "parameters": {
+        "scale": 2.0,
+        "blur_px": 0.772350133496664,
+        "haze": 0.0767939381679194,
+        "contrast": 0.9777477549077142,
+        "horizontal_flip": true,
+        "rotation_deg": 2.870240164135602
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        55,
+        952,
+        2265,
+        1420
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_2.0_04.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_2.0_04",
+      "parameters": {
+        "scale": 2.0,
+        "blur_px": 1.4634558277100187,
+        "haze": 0.09343387852343651,
+        "contrast": 0.6881773826833643,
+        "horizontal_flip": true,
+        "rotation_deg": -4.031128056324437
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        36,
+        876,
+        2251,
+        1462
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_2.0_05.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_2.0_05",
+      "parameters": {
+        "scale": 2.0,
+        "blur_px": 1.0870389647705245,
+        "haze": 0.16013116099937125,
+        "contrast": 1.0964030083638479,
+        "horizontal_flip": false,
+        "rotation_deg": -5.2851093355660606
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        36,
+        978,
+        2243,
+        1465
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_2.0_06.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_2.0_06",
+      "parameters": {
+        "scale": 2.0,
+        "blur_px": 0.6466458072132502,
+        "haze": 0.19976974382649343,
+        "contrast": 1.0717848629608158,
+        "horizontal_flip": true,
+        "rotation_deg": 0.21692753789482744
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        48,
+        925,
+        2260,
+        1387
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_2.0_07.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_2.0_07",
+      "parameters": {
+        "scale": 2.0,
+        "blur_px": 0.4661172271468863,
+        "haze": 0.2848634207821798,
+        "contrast": 1.1583663010125769,
+        "horizontal_flip": true,
+        "rotation_deg": -4.9041377064828975
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        38,
+        869,
+        2248,
+        1477
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_2.0_08.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_2.0_08",
+      "parameters": {
+        "scale": 2.0,
+        "blur_px": 0.19101475652711608,
+        "haze": 0.2096952506084276,
+        "contrast": 1.1987297074406664,
+        "horizontal_flip": true,
+        "rotation_deg": 5.386318545852967
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        63,
+        981,
+        2267,
+        1465
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_2.0_09.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_2.0_09",
+      "parameters": {
+        "scale": 2.0,
+        "blur_px": 0.31766928199181943,
+        "haze": 0.26045161381787135,
+        "contrast": 0.7697359077714722,
+        "horizontal_flip": false,
+        "rotation_deg": 3.087683191948633
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        51,
+        889,
+        2263,
+        1444
+      ]
+    },
+    {
+      "image": "augmented_training_images_transparent\\S__191913989__scale_2.0_10.png",
+      "source": "training_images\\S__191913989.jpg",
+      "transform": "scale_2.0_10",
+      "parameters": {
+        "scale": 2.0,
+        "blur_px": 0.42343786743293266,
+        "haze": 0.20470157916931928,
+        "contrast": 1.1833725629355893,
+        "horizontal_flip": true,
+        "rotation_deg": 2.913384515072339
+      },
+      "reference_roi_xyxy": [
+        64,
+        377,
+        1171,
+        613
+      ],
+      "alpha_bbox": [
+        56,
+        954,
+        2265,
+        1420
+      ]
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "count": 100,
-  "min_similarity": 0.25497502088546753,
-  "max_similarity": 0.7396196126937866,
-  "mean_similarity": 0.5704019460082054,
+  "min_similarity": 0.2247263789176941,
+  "max_similarity": 0.5067638158798218,
+  "mean_similarity": 0.33820000901818276,
   "model_modified": false,
   "pipeline": "Same YOLO11s tiled boat detections and DINOv3 cropped ship reference as validation",
   "detector": {
@@ -24,23 +24,23 @@
     "merge_iou": 0.5,
     "fallback": "CLAHE luminance contrast, only if raw whole-image and tile passes find no boats"
   },
-  "model_sha256": "1fd28f91a7faa16c0f9c053d58fa7438aec2937620c279720e44b39d8b5e2554",
+  "model_sha256": "7ab9d990006bf3f1fd03c82c97a433f12fc91272ac4de4cde055e289cb842c6b",
   "training_sources": [
     "training_images\\S__191913989.jpg"
   ],
-  "threshold_selected": 0.39,
+  "threshold_selected": 0.01,
   "threshold_source": "user-selected",
   "accuracy": null,
-  "false_accept_count": 97,
-  "false_accept_rate": 0.97,
+  "false_accept_count": 100,
+  "false_accept_rate": 1.0,
   "note": "Exploratory negative-only test. Thresholds below are hypothetical, not calibrated; no independent labeled positives.",
   "hypothetical_false_accepts": {
     "0.6": {
-      "count": 44,
+      "count": 0,
       "total": 100
     },
     "0.7": {
-      "count": 5,
+      "count": 0,
       "total": 100
     },
     "0.75": {
@@ -59,5 +59,7 @@
       "count": 0,
       "total": 100
     }
-  }
+  },
+  "classification_head_enabled": false,
+  "reference_version": "yolo-color-transparent-augmentation-v6"
 }
